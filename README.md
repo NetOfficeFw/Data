@@ -46,3 +46,26 @@ These types should inherit from the `_IMsoDispObj` interface which has GUID
 +  <Ref Key="_x0031_94401bb-e393-488a-8bb6-d3e46cd91189">
 ...
 ```
+
+### Fix 04 - Publisher project references
+
+The **Publisher** project references two unknown projects:
+
+```xml
+<RefProjects>
+  <RefProject Key="_x0035_7c50640-df45-46ae-a8ca-e6d859bff906" />
+  <RefProject Key="_x0039_376fe6c-77be-407d-8fb3-6b102ae6a131" />
+</RefProjects>
+```
+
+The project with key `_x0039_376fe6c-77be-407d-8fb3-6b102ae6a131` (GUID `9376fe6c-77be-407d-8fb3-6b102ae6a131`)
+is used in the **PublisherApi.csproj** (release v1.7.4.3):
+
+```xml
+<ProjectReference Include="..\Office\OfficeApi.csproj">
+  <Project>{9376FE6C-77BE-407D-8FB3-6B102AE6A131}</Project>
+  <Name>OfficeApi</Name>
+</ProjectReference>
+```
+
+The correct project GUID for **OfficeApi** is `79B19A83-A79F-446C-9B7E-9B595E918E40`.
