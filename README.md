@@ -84,3 +84,14 @@ The project key `_x0036_ad5fb72-db04-4862-8acf-e1192ca1eba4` (GUID `6AD5FB72-DB0
 was changed to `f1a3eba7-5c09-4986-9821-244e8468fbae` to match the official project GUID.
 
 The correct project GUID for **MSForms** is `F1A3EBA7-5C09-4986-9821-244E8468FBAE`.
+
+### Fix 06 - Publisher project references
+
+Add the **stdole** project reference to **Publisher** project.
+
+```diff
+ <RefProjects>
+   <RefProject Key="_x0037_9b19a83-a79f-446c-9b7e-9b595e918e40" />
++  <RefProject Key="b95c0882-b85f-4f38-82c6-35472afe0170" />
+ </RefProjects>
+```
