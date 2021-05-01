@@ -31,3 +31,18 @@ Changed **Version** and **FileVersion** attributes to value `1.7.4.3`
 -  Version="1.7.3.0" FileVersion="1.7.3.0"
 +  Version="1.7.4.3" FileVersion="1.7.4.3"
 ```
+
+### Fix 03 - Reference _IMsoDispObj class from Publisher data types
+
+Several data types in **Publisher** project were referencing unknown type with
+GUID `47ba1a51-3158-48b1-a19d-a7e782faa707`.
+
+These types should inherit from the `_IMsoDispObj` interface which has GUID
+`194401bb-e393-488a-8bb6-d3e46cd91189`.
+
+```diff
+<Inherited>
+-  <Ref Key="_x0034_7ba1a51-3158-48b1-a19d-a7e782faa707">
++  <Ref Key="_x0031_94401bb-e393-488a-8bb6-d3e46cd91189">
+...
+```
