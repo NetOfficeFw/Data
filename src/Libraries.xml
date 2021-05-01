@@ -257,4 +257,30 @@
   <Library Name="MSForms" File="C:\WINDOWS\system32\FM20.DLL" Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" GUID="_x0030_D452EE1-E08F-101A-852E-02608C4D0BB4" HelpFile="C:\WINDOWS\system32\fm20.hlp" Major="2" Minor="0" LCID="0" Description="Microsoft Forms 2.0 Object Library" Version="2" SysKind="1">
     <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
   </Library>
+  <Library Name="Word" File="C:\Program Files (x86)\Microsoft Office\Root\Office16\MSWORD.OLB" Key="e28934f4-86db-4ce7-a327-2649d3a2ae7b" GUID="_x0030_0020905-0000-0000-C000-000000000046" HelpFile="C:\Program Files (x86)\Microsoft Office\Root\Office16\VBAWD10.CHM" Major="8" Minor="7" LCID="0" Description="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" Version="16" SysKind="1">
+    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
+    <DependLib Name="Office" GUID="_x0032_DF8D04C-5BFA-101B-BDE5-00AA0044DE52" Major="2" Minor="8" Description="Office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" />
+    <DependLib Name="VBIDE" GUID="_x0030_002E157-0000-0000-C000-000000000046" Major="5" Minor="3" Description="Microsoft.Vbe.Interop, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" />
+  </Library>
+  <Library Name="Office" File="C:\Program Files (x86)\Microsoft Office\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\OFFICE16\MSO.DLL" Key="_x0038_740cc35-b07b-4e71-8c95-bebe53410dec" GUID="_x0032_DF8D04C-5BFA-101B-BDE5-00AA0044DE52" HelpFile="C:\Program Files (x86)\Microsoft Office\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\OFFICE16\vbaof11.chm" Major="2" Minor="8" LCID="0" Description="Office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" Version="16" SysKind="1">
+    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
+  </Library>
+  <Library Name="VBIDE" File="C:\Program Files (x86)\Microsoft Office\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\VBA\VBA6\VBE6EXT.OLB" Key="de2cfe4c-ca7b-4d70-889f-284c0666c6eb" GUID="_x0030_002E157-0000-0000-C000-000000000046" HelpFile="C:\Program Files (x86)\Microsoft Office\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\VBA\VBA6\vbob6.chm" Major="5" Minor="3" LCID="0" Description="Microsoft.Vbe.Interop, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" Version="15" SysKind="1">
+    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
+    <DependLib Name="Office" GUID="_x0032_DF8D04C-5BFA-101B-BDE5-00AA0044DE52" Major="2" Minor="8" Description="Office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" />
+  </Library>
+  <Library Name="Excel" File="C:\Program Files (x86)\Microsoft Office\Root\Office16\EXCEL.EXE" Key="a608cdeb-1476-48a7-bcd5-43f73948947c" GUID="_x0030_0020813-0000-0000-C000-000000000046" HelpFile="C:\Program Files (x86)\Microsoft Office\Root\Office16\VBAXL10.CHM" Major="1" Minor="9" LCID="0" Description="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" Version="16" SysKind="1">
+    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
+    <DependLib Name="Office" GUID="_x0032_DF8D04C-5BFA-101B-BDE5-00AA0044DE52" Major="2" Minor="8" Description="Office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" />
+    <DependLib Name="VBIDE" GUID="_x0030_002E157-0000-0000-C000-000000000046" Major="5" Minor="3" Description="Microsoft.Vbe.Interop, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" />
+  </Library>
+  <Library Name="Outlook" File="C:\Program Files (x86)\Microsoft Office\Root\Office16\MSOUTL.OLB" Key="_x0031_7a2e11e-eabe-4229-8170-c0537d50de82" GUID="_x0030_0062FFF-0000-0000-C000-000000000046" HelpFile="C:\Program Files (x86)\Microsoft Office\Root\Office16\VBAOL11.CHM" Major="9" Minor="6" LCID="0" Description="Microsoft.Office.Interop.Outlook, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" Version="16" SysKind="1">
+    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
+    <DependLib Name="Office" GUID="_x0032_DF8D04C-5BFA-101B-BDE5-00AA0044DE52" Major="2" Minor="8" Description="Office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" />
+  </Library>
+  <Library Name="PowerPoint" File="C:\Program Files (x86)\Microsoft Office\Root\Office16\MSPPT.OLB" Key="_x0037_44b1268-47f7-4369-8e35-ab7671ba0732" GUID="_x0039_1493440-5A91-11CF-8700-00AA0060263B" HelpFile="C:\Program Files (x86)\Microsoft Office\Root\Office16\VBAPP10.CHM" Major="2" Minor="12" LCID="0" Description="&lt;NoDescription&gt;" Version="16" SysKind="1">
+    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
+    <DependLib Name="Office" GUID="_x0032_DF8D04C-5BFA-101B-BDE5-00AA0044DE52" Major="2" Minor="8" Description="Office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" />
+    <DependLib Name="VBIDE" GUID="_x0030_002E157-0000-0000-C000-000000000046" Major="5" Minor="3" Description="Microsoft.Vbe.Interop, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" />
+  </Library>
 </Libraries>
