@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CoClasses>
+  <CoClass Name="Global" AutomaticQuit="false" IsAppObject="true" Key="c6bbe36b-518e-4e72-a360-ca1b2a401f08">
+    <RefLibraries>
+      <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+      <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+      <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+      <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+      <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+      <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+    </RefLibraries>
+    <DefaultInterfaces>
+      <Ref Key="_x0036_ba04d35-f1e3-4e20-a840-f04d9463959d">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </Ref>
+    </DefaultInterfaces>
+    <EventInterfaces />
+    <Inherited>
+      <Ref Key="_x0036_ba04d35-f1e3-4e20-a840-f04d9463959d">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </Ref>
+    </Inherited>
+    <DispIds>
+      <DispId Id="_x0030_00209F0-0000-0000-C000-000000000046">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </CoClass>
+  <CoClass Name="Application" AutomaticQuit="true" IsAppObject="false" Key="_x0039_987a8d1-405b-42b2-9588-f4f4c87fb1fa">
+    <RefLibraries>
+      <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+      <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+      <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+      <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+      <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+      <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+    </RefLibraries>
+    <DefaultInterfaces>
+      <Ref Key="_x0037_3e770de-6c56-4922-871d-68a4bc8d7e94">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </Ref>
+    </DefaultInterfaces>
+    <EventInterfaces>
+      <Ref Key="ba8e0897-edb3-48dd-bdc7-b21825d4be3a">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+        </RefLibraries>
+      </Ref>
+      <Ref Key="_x0034_0356784-c8f3-47ce-8b92-acf49e97af83">
+        <RefLibraries>
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+        </RefLibraries>
+      </Ref>
+      <Ref Key="_x0033_ddc1c50-3942-4552-9a4a-15796dcd1133">
+        <RefLibraries>
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </Ref>
+    </EventInterfaces>
+    <Inherited>
+      <Ref Key="_x0037_3e770de-6c56-4922-871d-68a4bc8d7e94">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </Ref>
+      <Ref Key="_x0034_2595d72-7002-4bec-bd80-63f6bafbd544">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </Ref>
+    </Inherited>
+    <DispIds>
+      <DispId Id="_x0030_00209FF-0000-0000-C000-000000000046">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </CoClass>
+  <CoClass Name="Document" AutomaticQuit="false" IsAppObject="false" Key="fe12f793-1628-4da9-b90d-befd95e2f057">
+    <RefLibraries>
+      <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+      <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+      <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+      <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+      <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+      <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+    </RefLibraries>
+    <DefaultInterfaces>
+      <Ref Key="_x0039_cba5445-3575-4608-94ca-fe10e0572bf9">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </Ref>
+    </DefaultInterfaces>
+    <EventInterfaces>
+      <Ref Key="_x0037_1896e4c-80cd-44c0-aef6-6917ccf127c5">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+        </RefLibraries>
+      </Ref>
+      <Ref Key="_x0037_21d6bf8-2fad-4df7-891e-96ce6077db45">
+        <RefLibraries>
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </Ref>
+    </EventInterfaces>
+    <Inherited>
+      <Ref Key="_x0039_cba5445-3575-4608-94ca-fe10e0572bf9">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </Ref>
+    </Inherited>
+    <DispIds>
+      <DispId Id="_x0030_0020906-0000-0000-C000-000000000046">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </CoClass>
+  <CoClass Name="Font" AutomaticQuit="false" IsAppObject="false" Key="b117533e-2a41-4ff9-9081-c798edc1b74f">
+    <RefLibraries>
+      <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+      <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+      <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+      <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+      <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+      <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+    </RefLibraries>
+    <DefaultInterfaces>
+      <Ref Key="_x0033_b6b79f8-efc8-4f9f-b04f-6775e01c3d55">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </Ref>
+    </DefaultInterfaces>
+    <EventInterfaces />
+    <Inherited>
+      <Ref Key="_x0033_b6b79f8-efc8-4f9f-b04f-6775e01c3d55">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </Ref>
+    </Inherited>
+    <DispIds>
+      <DispId Id="_x0030_00209F5-0000-0000-C000-000000000046">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </CoClass>
+  <CoClass Name="ParagraphFormat" AutomaticQuit="false" IsAppObject="false" Key="ad9f020e-fe3a-4b5f-b62a-a21b5afe3e53">
+    <RefLibraries>
+      <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+      <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+      <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+      <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+      <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+      <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+    </RefLibraries>
+    <DefaultInterfaces>
+      <Ref Key="_x0039_49665a2-0d83-498f-be62-3f64eab2912a">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </Ref>
+    </DefaultInterfaces>
+    <EventInterfaces />
+    <Inherited>
+      <Ref Key="_x0039_49665a2-0d83-498f-be62-3f64eab2912a">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </Ref>
+    </Inherited>
+    <DispIds>
+      <DispId Id="_x0030_00209F4-0000-0000-C000-000000000046">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </CoClass>
+  <CoClass Name="OLEControl" AutomaticQuit="false" IsAppObject="false" Key="a2efa9cf-5fe3-4773-9b94-635898764273">
+    <RefLibraries>
+      <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+      <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+      <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+      <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+      <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+      <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+    </RefLibraries>
+    <DefaultInterfaces>
+      <Ref Key="aea07fcd-8a87-480a-bbaa-571ac950914d">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </Ref>
+    </DefaultInterfaces>
+    <EventInterfaces>
+      <Ref Key="fdc64c76-954c-484b-9be4-ae2b745d496c">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </Ref>
+    </EventInterfaces>
+    <Inherited>
+      <Ref Key="aea07fcd-8a87-480a-bbaa-571ac950914d">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </Ref>
+    </Inherited>
+    <DispIds>
+      <DispId Id="_x0030_00209F2-0000-0000-C000-000000000046">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </CoClass>
+  <CoClass Name="LetterContent" AutomaticQuit="false" IsAppObject="false" Key="_x0030_78dad57-9ce9-416f-900e-23c130ea549c">
+    <RefLibraries>
+      <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+      <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+      <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+      <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+      <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+      <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+    </RefLibraries>
+    <DefaultInterfaces>
+      <Ref Key="d1e6f97b-e195-47d2-870c-9ac56d200b28">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </Ref>
+    </DefaultInterfaces>
+    <EventInterfaces />
+    <Inherited>
+      <Ref Key="d1e6f97b-e195-47d2-870c-9ac56d200b28">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </Ref>
+    </Inherited>
+    <DispIds>
+      <DispId Id="_x0030_00209F1-0000-0000-C000-000000000046">
+        <RefLibraries>
+          <Ref Key="a867d7b3-f1b7-49b5-9c39-be9223f61f0e" />
+          <Ref Key="_x0032_6c47c69-ea15-4f05-8fed-fb4ea1538626" />
+          <Ref Key="a7768db8-79a7-4f3a-8488-aec582aaf790" />
+          <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />
+          <Ref Key="bd6464f1-a2e7-4c88-8876-34a6430cfaec" />
+          <Ref Key="_x0038_424b22a-ab9f-4ed7-b255-30da8b46417f" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </CoClass>
+</CoClasses>

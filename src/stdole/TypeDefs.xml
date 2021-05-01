@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TypeDefs>
+  <Alias Name="OLE_COLOR" Intrinsic="Int32" Key="e7caba34-8ac1-40fb-af8f-5d7c46fe51ae">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0036_6504301-BE0F-101A-8BBB-00AA00300CAB">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="OLE_XPOS_PIXELS" Intrinsic="Int32" Key="_x0035_c3ee06f-48c0-43c3-8ea2-b00922d880f1">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0036_6504302-BE0F-101A-8BBB-00AA00300CAB">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="OLE_YPOS_PIXELS" Intrinsic="Int32" Key="a839a014-1cc5-4326-b3e3-dc9cd9a76bcd">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0036_6504303-BE0F-101A-8BBB-00AA00300CAB">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="OLE_XSIZE_PIXELS" Intrinsic="Int32" Key="d39364d8-5796-4d0a-b3f4-9223dd62964e">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0036_6504304-BE0F-101A-8BBB-00AA00300CAB">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="OLE_YSIZE_PIXELS" Intrinsic="Int32" Key="_x0035_c5bfcbf-f2ec-4e4c-b83b-ea8159f2ccfb">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0036_6504305-BE0F-101A-8BBB-00AA00300CAB">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="OLE_XPOS_HIMETRIC" Intrinsic="Int32" Key="_x0033_dfafb4e-8ec1-4d06-9ac3-fdcedc4c1735">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0036_6504306-BE0F-101A-8BBB-00AA00300CAB">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="OLE_YPOS_HIMETRIC" Intrinsic="Int32" Key="_x0035_3a8f298-cb5a-48c2-9d93-015468f3b7f7">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0036_6504307-BE0F-101A-8BBB-00AA00300CAB">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="OLE_XSIZE_HIMETRIC" Intrinsic="Int32" Key="ed69e79f-207b-40e2-9247-72d086fd432d">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0036_6504308-BE0F-101A-8BBB-00AA00300CAB">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="OLE_YSIZE_HIMETRIC" Intrinsic="Int32" Key="bb1b2908-e5ff-4b36-8643-c08c447ebf02">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0036_6504309-BE0F-101A-8BBB-00AA00300CAB">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="OLE_XPOS_CONTAINER" Intrinsic="Single" Key="_x0035_cabf38a-1707-4bef-b0f9-5588dae61f8d">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="BF030640-9069-101B-AE2D-08002B2EC713">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="OLE_YPOS_CONTAINER" Intrinsic="Single" Key="a88fcd61-7f7b-4220-87a5-c8046afd25fe">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="BF030641-9069-101B-AE2D-08002B2EC713">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="OLE_XSIZE_CONTAINER" Intrinsic="Single" Key="d08ea514-aaf3-4c99-94d7-ec2665b5c333">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="BF030642-9069-101B-AE2D-08002B2EC713">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="OLE_YSIZE_CONTAINER" Intrinsic="Single" Key="bf8f8124-895a-4172-b7cd-9a9f269e3a68">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="BF030643-9069-101B-AE2D-08002B2EC713">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="OLE_HANDLE" Intrinsic="Int32" Key="_x0037_004b176-8a5f-4836-ae5f-0c7ac12d9d1d">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0036_6504313-BE0F-101A-8BBB-00AA00300CAB">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="OLE_OPTEXCLUSIVE" Intrinsic="bool" Key="ec80314d-da0b-4eae-b23f-72a91da558ab">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0036_650430B-BE0F-101A-8BBB-00AA00300CAB">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="OLE_CANCELBOOL" Intrinsic="bool" Key="da0dd79f-fc93-4167-9af5-2b33f89fa622">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="BF030644-9069-101B-AE2D-08002B2EC713">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="OLE_ENABLEDEFAULTBOOL" Intrinsic="bool" Key="_x0034_5cf8b4e-7c72-4f16-8392-0b76e99a4b0d">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="BF030645-9069-101B-AE2D-08002B2EC713">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="FONTNAME" Intrinsic="string" Key="cf51213b-9674-40d2-aefa-e4f53d7a8d15">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0036_650430D-BE0F-101A-8BBB-00AA00300CAB">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="FONTSIZE" Intrinsic="float" Key="_x0036_f9cab16-3045-404d-8cf1-128f1e934f69">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0036_650430E-BE0F-101A-8BBB-00AA00300CAB">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="FONTBOLD" Intrinsic="bool" Key="_x0036_ce6054a-ee97-470d-92ed-3bc61c8932d6">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0036_650430F-BE0F-101A-8BBB-00AA00300CAB">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="FONTITALIC" Intrinsic="bool" Key="_x0030_1f684c8-3732-4d75-ab5d-fc9b2f864e83">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0036_6504310-BE0F-101A-8BBB-00AA00300CAB">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="FONTUNDERSCORE" Intrinsic="bool" Key="c72d7aef-43fa-48a2-b0d9-38c6c29b3065">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0036_6504311-BE0F-101A-8BBB-00AA00300CAB">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="FONTSTRIKETHROUGH" Intrinsic="bool" Key="b31911ee-18d4-4dca-848c-c470572f1d3d">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0036_6504312-BE0F-101A-8BBB-00AA00300CAB">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+</TypeDefs>

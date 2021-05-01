@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Constants>
+  <Constant Name="LanguageConstants" Key="b6c20d18-ba08-4b01-96a8-bf7d97ddde53">
+    <Members>
+      <Member Name="dbLangArabic" Type="string" Value=";LANGID=0x0401;CP=1256;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangCzech" Type="string" Value=";LANGID=0x0405;CP=1250;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangDutch" Type="string" Value=";LANGID=0x0413;CP=1252;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangGeneral" Type="string" Value=";LANGID=0x0409;CP=1252;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangGreek" Type="string" Value=";LANGID=0x0408;CP=1253;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangHebrew" Type="string" Value=";LANGID=0x040D;CP=1255;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangHungarian" Type="string" Value=";LANGID=0x040E;CP=1250;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangIcelandic" Type="string" Value=";LANGID=0x040F;CP=1252;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangNordic" Type="string" Value=";LANGID=0x041D;CP=1252;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangNorwDan" Type="string" Value=";LANGID=0x0406;CP=1252;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangPolish" Type="string" Value=";LANGID=0x0415;CP=1250;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangCyrillic" Type="string" Value=";LANGID=0x0419;CP=1251;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangSpanish" Type="string" Value=";LANGID=0x040A;CP=1252;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangSwedFin" Type="string" Value=";LANGID=0x041D;CP=1252;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangTurkish" Type="string" Value=";LANGID=0x041F;CP=1254;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangJapanese" Type="string" Value=";LANGID=0x0411;CP=932;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangChineseSimplified" Type="string" Value=";LANGID=0x0804;CP=936;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangChineseTraditional" Type="string" Value=";LANGID=0x0404;CP=950;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangKorean" Type="string" Value=";LANGID=0x0412;CP=949;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangThai" Type="string" Value=";LANGID=0x041E;CP=874;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangSlovenian" Type="string" Value=";LANGID=0x0424;CP=1250;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangJapaneseRadicalStrokeCount" Type="string" Value=";LANGID=0x00040411;CP=65001;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLangHindi" Type="string" Value=";LANGID=0x00000439;CP=65001;COUNTRY=0">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Constant>
+</Constants>

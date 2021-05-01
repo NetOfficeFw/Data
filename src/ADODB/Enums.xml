@@ -1,0 +1,2796 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Enums>
+  <Enum Name="CursorTypeEnum" Key="_x0039_8591f2f-89f5-4762-a177-d54c95e41bb6">
+    <Members>
+      <Member Name="adOpenUnspecified" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adOpenForwardOnly" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adOpenKeyset" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adOpenDynamic" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adOpenStatic" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="CursorOptionEnum" Key="_x0030_7ed8ace-7b6f-4465-853c-6a1f36309034">
+    <Members>
+      <Member Name="adHoldRecords" Value="256">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adMovePrevious" Value="512">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adAddNew" Value="16778240">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adDelete" Value="16779264">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adUpdate" Value="16809984">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adBookmark" Value="8192">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adApproxPosition" Value="16384">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adUpdateBatch" Value="65536">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adResync" Value="131072">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adNotify" Value="262144">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFind" Value="524288">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSeek" Value="4194304">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adIndex" Value="8388608">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="LockTypeEnum" Key="_x0032_94098e9-d4d8-4cbf-befe-117f253a4b72">
+    <Members>
+      <Member Name="adLockUnspecified" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adLockReadOnly" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adLockPessimistic" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adLockOptimistic" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adLockBatchOptimistic" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ExecuteOptionEnum" Key="d5260404-7451-40e9-ba16-6758a264ee74">
+    <Members>
+      <Member Name="adOptionUnspecified" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adAsyncExecute" Value="16">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adAsyncFetch" Value="32">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adAsyncFetchNonBlocking" Value="64">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adExecuteNoRecords" Value="128">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ConnectOptionEnum" Key="_x0035_9ef3116-4432-4c68-9502-23d0955ae155">
+    <Members>
+      <Member Name="adConnectUnspecified" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adAsyncConnect" Value="16">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ObjectStateEnum" Key="e74c298e-2ed2-4dfa-bbab-6e734ff86bf8">
+    <Members>
+      <Member Name="adStateClosed" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adStateOpen" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adStateConnecting" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adStateExecuting" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adStateFetching" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="CursorLocationEnum" Key="c985b88e-da0b-46d8-86a2-631e5fa0b9f3">
+    <Members>
+      <Member Name="adUseNone" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adUseServer" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adUseClient" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adUseClientBatch" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="DataTypeEnum" Key="_x0032_eb663e2-808a-40ca-8c12-efc17bd740b5">
+    <Members>
+      <Member Name="adEmpty" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adTinyInt" Value="16">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSmallInt" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adInteger" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adBigInt" Value="20">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adUnsignedTinyInt" Value="17">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adUnsignedSmallInt" Value="18">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adUnsignedInt" Value="19">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adUnsignedBigInt" Value="21">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSingle" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adDouble" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCurrency" Value="6">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adDecimal" Value="14">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adNumeric" Value="131">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adBoolean" Value="11">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adError" Value="10">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adUserDefined" Value="132">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adVariant" Value="12">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adIDispatch" Value="9">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adIUnknown" Value="13">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adGUID" Value="72">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adDate" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adDBDate" Value="133">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adDBTime" Value="134">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adDBTimeStamp" Value="135">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adBSTR" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adChar" Value="129">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adVarChar" Value="200">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adLongVarChar" Value="201">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adWChar" Value="130">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adVarWChar" Value="202">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adLongVarWChar" Value="203">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adBinary" Value="128">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adVarBinary" Value="204">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adLongVarBinary" Value="205">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adChapter" Value="136">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFileTime" Value="64">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adDBFileTime" Value="137">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adPropVariant" Value="138">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adVarNumeric" Value="139">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adArray" Value="8192">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="FieldAttributeEnum" Key="_x0034_2fe2493-22fb-4d75-ba2a-b14bc6be4521">
+    <Members>
+      <Member Name="adFldUnspecified" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFldMayDefer" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFldUpdatable" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFldUnknownUpdatable" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFldFixed" Value="16">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFldIsNullable" Value="32">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFldMayBeNull" Value="64">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFldLong" Value="128">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFldRowID" Value="256">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFldRowVersion" Value="512">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFldCacheDeferred" Value="4096">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFldNegativeScale" Value="16384">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFldKeyColumn" Value="32768">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFldIsChapter" Value="8192">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFldIsRowURL" Value="65536">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFldIsDefaultStream" Value="131072">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFldIsCollection" Value="262144">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="EditModeEnum" Key="a6e4d4bf-a218-4e55-b9c0-1f6283ff9cac">
+    <Members>
+      <Member Name="adEditNone" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adEditInProgress" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adEditAdd" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adEditDelete" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="RecordStatusEnum" Key="_x0036_81601e3-3f23-4436-b9dc-27f38df2f393">
+    <Members>
+      <Member Name="adRecOK" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRecNew" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRecModified" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRecDeleted" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRecUnmodified" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRecInvalid" Value="16">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRecMultipleChanges" Value="64">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRecPendingChanges" Value="128">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRecCanceled" Value="256">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRecCantRelease" Value="1024">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRecConcurrencyViolation" Value="2048">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRecIntegrityViolation" Value="4096">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRecMaxChangesExceeded" Value="8192">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRecObjectOpen" Value="16384">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRecOutOfMemory" Value="32768">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRecPermissionDenied" Value="65536">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRecSchemaViolation" Value="131072">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRecDBDeleted" Value="262144">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="GetRowsOptionEnum" Key="f9b2e0aa-6e18-4555-89de-d3479237c30b">
+    <Members>
+      <Member Name="adGetRowsRest" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="PositionEnum" Key="_x0037_b55a6c2-128a-4168-b2bb-097297abe29d">
+    <Members>
+      <Member Name="adPosUnknown" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adPosBOF" Value="-2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adPosEOF" Value="-3">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="BookmarkEnum" Key="_x0033_949c471-9cee-42fd-85c6-833f7f5b50d7">
+    <Members>
+      <Member Name="adBookmarkCurrent" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adBookmarkFirst" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adBookmarkLast" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="MarshalOptionsEnum" Key="_x0030_50241fa-3ab8-4029-975d-5dde93008fe1">
+    <Members>
+      <Member Name="adMarshalAll" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adMarshalModifiedOnly" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="AffectEnum" Key="e2083f2d-42cb-49f9-b64b-13fc8ec24fbb">
+    <Members>
+      <Member Name="adAffectCurrent" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adAffectGroup" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adAffectAll" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adAffectAllChapters" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ResyncEnum" Key="_x0031_942f287-fda5-415d-aadf-2f05cf669772">
+    <Members>
+      <Member Name="adResyncUnderlyingValues" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adResyncAllValues" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="CompareEnum" Key="fbc507bd-1859-427d-9f3a-e7e6c5eba990">
+    <Members>
+      <Member Name="adCompareLessThan" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCompareEqual" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCompareGreaterThan" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCompareNotEqual" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCompareNotComparable" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="FilterGroupEnum" Key="_x0039_7f8ee2f-287a-4406-8c96-452750b192dd">
+    <Members>
+      <Member Name="adFilterNone" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFilterPendingRecords" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFilterAffectedRecords" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFilterFetchedRecords" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFilterPredicate" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFilterConflictingRecords" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="SearchDirectionEnum" Key="_x0034_e279380-f7fc-425a-8878-3464e146cf05">
+    <Members>
+      <Member Name="adSearchForward" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSearchBackward" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="PersistFormatEnum" Key="_x0038_b2f4e2c-03aa-4de8-bf43-979c189e0500">
+    <Members>
+      <Member Name="adPersistADTG" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adPersistXML" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="StringFormatEnum" Key="ab2df73e-b6d4-4279-a59c-e670e9fa01fd">
+    <Members>
+      <Member Name="adClipString" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ConnectPromptEnum" Key="ae607f75-6c41-4e7b-840e-aa721f63dca1">
+    <Members>
+      <Member Name="adPromptAlways" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adPromptComplete" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adPromptCompleteRequired" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adPromptNever" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ConnectModeEnum" Key="_x0038_a04cd1e-3d4a-4e60-af2b-cb04f6140cbb">
+    <Members>
+      <Member Name="adModeUnknown" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adModeRead" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adModeWrite" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adModeReadWrite" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adModeShareDenyRead" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adModeShareDenyWrite" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adModeShareExclusive" Value="12">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adModeShareDenyNone" Value="16">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adModeRecursive" Value="4194304">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="IsolationLevelEnum" Key="_x0035_7b5e734-6f12-48cd-9da3-cde7a5ac97f3">
+    <Members>
+      <Member Name="adXactUnspecified" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adXactChaos" Value="16">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adXactReadUncommitted" Value="256">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adXactBrowse" Value="256">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adXactCursorStability" Value="4096">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adXactReadCommitted" Value="4096">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adXactRepeatableRead" Value="65536">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adXactSerializable" Value="1048576">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adXactIsolated" Value="1048576">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="XactAttributeEnum" Key="_x0036_8f8931a-6bba-4530-b56b-d90091240b7d">
+    <Members>
+      <Member Name="adXactCommitRetaining" Value="131072">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adXactAbortRetaining" Value="262144">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adXactAsyncPhaseOne" Value="524288">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adXactSyncPhaseOne" Value="1048576">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="PropertyAttributesEnum" Key="_x0038_b3d10dc-e857-4315-8d50-2b760114ee79">
+    <Members>
+      <Member Name="adPropNotSupported" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adPropRequired" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adPropOptional" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adPropRead" Value="512">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adPropWrite" Value="1024">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ErrorValueEnum" Key="c9563f13-5a5d-4edc-81a1-5b9092ef5a6e">
+    <Members>
+      <Member Name="adErrInvalidArgument" Value="3001">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrNoCurrentRecord" Value="3021">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrIllegalOperation" Value="3219">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrInTransaction" Value="3246">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrFeatureNotAvailable" Value="3251">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrItemNotFound" Value="3265">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrObjectInCollection" Value="3367">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrObjectNotSet" Value="3420">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrDataConversion" Value="3421">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrObjectClosed" Value="3704">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrObjectOpen" Value="3705">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrProviderNotFound" Value="3706">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrBoundToCommand" Value="3707">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrInvalidParamInfo" Value="3708">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrInvalidConnection" Value="3709">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrNotReentrant" Value="3710">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrStillExecuting" Value="3711">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrOperationCancelled" Value="3712">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrStillConnecting" Value="3713">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrNotExecuting" Value="3715">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrUnsafeOperation" Value="3716">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrProviderFailed" Value="3000">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrOpeningFile" Value="3002">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrReadFile" Value="3003">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrWriteFile" Value="3004">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrCantChangeProvider" Value="3220">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrInvalidTransaction" Value="3714">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adwrnSecurityDialog" Value="3717">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adwrnSecurityDialogHeader" Value="3718">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrIntegrityViolation" Value="3719">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrPermissionDenied" Value="3720">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrDataOverflow" Value="3721">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrSchemaViolation" Value="3722">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrSignMismatch" Value="3723">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrCantConvertvalue" Value="3724">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrCantCreate" Value="3725">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrColumnNotOnThisRow" Value="3726">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrURLDoesNotExist" Value="3727">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrTreePermissionDenied" Value="3728">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrInvalidURL" Value="3729">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrResourceLocked" Value="3730">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrResourceExists" Value="3731">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrCannotComplete" Value="3732">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrVolumeNotFound" Value="3733">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrOutOfSpace" Value="3734">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrResourceOutOfScope" Value="3735">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrUnavailable" Value="3736">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrURLNamedRowDoesNotExist" Value="3737">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrDelResOutOfScope" Value="3738">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrPropInvalidColumn" Value="3739">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrPropInvalidOption" Value="3740">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrPropInvalidValue" Value="3741">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrPropConflicting" Value="3742">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrPropNotAllSettable" Value="3743">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrPropNotSet" Value="3744">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrPropNotSettable" Value="3745">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrPropNotSupported" Value="3746">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrCatalogNotSet" Value="3747">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrCantChangeConnection" Value="3748">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrFieldsUpdateFailed" Value="3749">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrDenyNotSupported" Value="3750">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adErrDenyTypeNotSupported" Value="3751">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ParameterAttributesEnum" Key="d5f99ac5-dec9-4ff9-80fd-ebe3b859d0b2">
+    <Members>
+      <Member Name="adParamSigned" Value="16">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adParamNullable" Value="64">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adParamLong" Value="128">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ParameterDirectionEnum" Key="d96b8f1f-6ee1-4474-8823-0f502499f180">
+    <Members>
+      <Member Name="adParamUnknown" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adParamInput" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adParamOutput" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adParamInputOutput" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adParamReturnValue" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="CommandTypeEnum" Key="_x0037_7945fdf-54fd-418b-9339-198dd3eb4dfd">
+    <Members>
+      <Member Name="adCmdUnspecified" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCmdUnknown" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCmdText" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCmdTable" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCmdStoredProc" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCmdFile" Value="256">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCmdTableDirect" Value="512">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="EventStatusEnum" Key="_x0030_e1b601f-36cc-41b5-a23a-0dc869a6310b">
+    <Members>
+      <Member Name="adStatusOK" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adStatusErrorsOccurred" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adStatusCantDeny" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adStatusCancel" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adStatusUnwantedEvent" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="EventReasonEnum" Key="_x0038_c0fd96b-7ab6-45e0-a6df-8671dcddb674">
+    <Members>
+      <Member Name="adRsnAddNew" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRsnDelete" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRsnUpdate" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRsnUndoUpdate" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRsnUndoAddNew" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRsnUndoDelete" Value="6">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRsnRequery" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRsnResynch" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRsnClose" Value="9">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRsnMove" Value="10">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRsnFirstChange" Value="11">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRsnMoveFirst" Value="12">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRsnMoveNext" Value="13">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRsnMovePrevious" Value="14">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRsnMoveLast" Value="15">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="SchemaEnum" Key="_x0033_1ff1960-ecc2-4b0d-8ce9-ae7b46309d82">
+    <Members>
+      <Member Name="adSchemaProviderSpecific" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaAsserts" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaCatalogs" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaCharacterSets" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaCollations" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaColumns" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaCheckConstraints" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaConstraintColumnUsage" Value="6">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaConstraintTableUsage" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaKeyColumnUsage" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaReferentialContraints" Value="9">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaReferentialConstraints" Value="9">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaTableConstraints" Value="10">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaColumnsDomainUsage" Value="11">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaIndexes" Value="12">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaColumnPrivileges" Value="13">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaTablePrivileges" Value="14">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaUsagePrivileges" Value="15">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaProcedures" Value="16">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaSchemata" Value="17">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaSQLLanguages" Value="18">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaStatistics" Value="19">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaTables" Value="20">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaTranslations" Value="21">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaProviderTypes" Value="22">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaViews" Value="23">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaViewColumnUsage" Value="24">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaViewTableUsage" Value="25">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaProcedureParameters" Value="26">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaForeignKeys" Value="27">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaPrimaryKeys" Value="28">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaProcedureColumns" Value="29">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaDBInfoKeywords" Value="30">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaDBInfoLiterals" Value="31">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaCubes" Value="32">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaDimensions" Value="33">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaHierarchies" Value="34">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaLevels" Value="35">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaMeasures" Value="36">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaProperties" Value="37">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaMembers" Value="38">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSchemaTrustees" Value="39">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="SeekEnum" Key="b66e16a4-37c3-4918-8922-31953c1dc93c">
+    <Members>
+      <Member Name="adSeekFirstEQ" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSeekLastEQ" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSeekAfterEQ" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSeekAfter" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSeekBeforeEQ" Value="16">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSeekBefore" Value="32">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ADCPROP_UPDATECRITERIA_ENUM" Key="_x0039_4bc5dd7-483d-4d11-9e46-d4b5ad70220b">
+    <Members>
+      <Member Name="adCriteriaKey" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCriteriaAllCols" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCriteriaUpdCols" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCriteriaTimeStamp" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ADCPROP_ASYNCTHREADPRIORITY_ENUM" Key="_x0035_66497ee-355f-4755-8a69-60e4839362ec">
+    <Members>
+      <Member Name="adPriorityLowest" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adPriorityBelowNormal" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adPriorityNormal" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adPriorityAboveNormal" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adPriorityHighest" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="CEResyncEnum" Key="_x0037_b7ecd9f-51aa-440f-b767-0c1d107fd38d">
+    <Members>
+      <Member Name="adResyncNone" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adResyncAutoIncrement" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adResyncConflicts" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adResyncUpdates" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adResyncInserts" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adResyncAll" Value="15">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ADCPROP_AUTORECALC_ENUM" Key="_x0030_f8125b7-58df-4105-b16c-04649f252906">
+    <Members>
+      <Member Name="adRecalcUpFront" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRecalcAlways" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_82e1cf0-009e-405b-a702-e36810d317f7" />
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="RecordCreateOptionsEnum" Key="e8622e4d-1011-4976-b681-42ab4e821e75">
+    <Members>
+      <Member Name="adCreateCollection" Value="8192">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCreateStructDoc" Value="-2147483648">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCreateNonCollection" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adOpenIfExists" Value="33554432">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCreateOverwrite" Value="67108864">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFailIfNotExists" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="RecordOpenOptionsEnum" Key="_x0034_ea8b470-83c9-4567-81db-c8b21c9bdb5e">
+    <Members>
+      <Member Name="adOpenRecordUnspecified" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adOpenSource" Value="8388608">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adOpenAsync" Value="4096">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adDelayFetchStream" Value="16384">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adDelayFetchFields" Value="32768">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="FieldStatusEnum" Key="_x0034_5a9fcb8-13a8-436b-80e1-499071471a31">
+    <Members>
+      <Member Name="adFieldOK" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldCantConvertValue" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldIsNull" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldTruncated" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldSignMismatch" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldDataOverflow" Value="6">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldCantCreate" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldUnavailable" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldPermissionDenied" Value="9">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldIntegrityViolation" Value="10">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldSchemaViolation" Value="11">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldBadStatus" Value="12">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldDefault" Value="13">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldIgnore" Value="15">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldDoesNotExist" Value="16">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldInvalidURL" Value="17">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldResourceLocked" Value="18">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldResourceExists" Value="19">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldCannotComplete" Value="20">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldVolumeNotFound" Value="21">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldOutOfSpace" Value="22">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldCannotDeleteSource" Value="23">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldReadOnly" Value="24">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldResourceOutOfScope" Value="25">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldAlreadyExists" Value="26">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldPendingInsert" Value="65536">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldPendingDelete" Value="131072">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldPendingChange" Value="262144">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldPendingUnknown" Value="524288">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adFieldPendingUnknownDelete" Value="1048576">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ADCPROP_UPDATERESYNC_ENUM" Key="eddada24-3597-47af-8135-1f3b44f768c9">
+    <Members>
+      <Member Name="adResyncNone" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adResyncAutoIncrement" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adResyncConflicts" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adResyncUpdates" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adResyncInserts" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adResyncAll" Value="15">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="MoveRecordOptionsEnum" Key="_x0033_00974dd-5a3f-4cff-8cd2-f4fc95e2b948">
+    <Members>
+      <Member Name="adMoveUnspecified" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adMoveOverWrite" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adMoveDontUpdateLinks" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adMoveAllowEmulation" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="CopyRecordOptionsEnum" Key="fec43479-1c06-419a-a142-fb438de4efb7">
+    <Members>
+      <Member Name="adCopyUnspecified" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCopyOverWrite" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCopyAllowEmulation" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCopyNonRecursive" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="StreamTypeEnum" Key="_x0032_84453b2-e1e0-4cdd-b8a4-86f1bc20c4e3">
+    <Members>
+      <Member Name="adTypeBinary" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adTypeText" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="LineSeparatorEnum" Key="_x0037_0bdfecd-3a17-4c6d-891f-7fd79079f450">
+    <Members>
+      <Member Name="adLF" Value="10">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCR" Value="13">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCRLF" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="StreamOpenOptionsEnum" Key="_x0033_1c2b8d3-19f8-4634-a3a2-53a10880e1ba">
+    <Members>
+      <Member Name="adOpenStreamUnspecified" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adOpenStreamAsync" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adOpenStreamFromRecord" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="StreamWriteEnum" Key="a868b71f-8c67-45e7-b34b-fb229a4d7bb3">
+    <Members>
+      <Member Name="adWriteChar" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adWriteLine" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="stWriteChar" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="stWriteLine" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="SaveOptionsEnum" Key="_x0038_b003a09-a175-4f2c-9d04-4a1f764691ae">
+    <Members>
+      <Member Name="adSaveCreateNotExist" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adSaveCreateOverWrite" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="FieldEnum" Key="f94adb21-2144-4788-b653-1a474b06de85">
+    <Members>
+      <Member Name="adDefaultStream" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adRecordURL" Value="-2">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="StreamReadEnum" Key="eb8cec9b-36dd-4b6d-a86f-6aa179965a6f">
+    <Members>
+      <Member Name="adReadAll" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adReadLine" Value="-2">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="RecordTypeEnum" Key="_x0030_3f8fe8d-65f0-41ce-8718-fcec059f60fc">
+    <Members>
+      <Member Name="adSimpleRecord" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adCollectionRecord" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+      <Member Name="adStructDoc" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0037_c817450-eb7d-466b-b4e3-abfa1c8b2efd" />
+    </RefLibraries>
+  </Enum>
+</Enums>

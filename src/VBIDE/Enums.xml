@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Enums>
+  <Enum Name="vbextFileTypes" Key="f77c5de9-ba06-44d8-beb5-3c107fd5ec3a">
+    <Members>
+      <Member Name="vbextFileTypeForm" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbextFileTypeModule" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbextFileTypeClass" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbextFileTypeProject" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbextFileTypeExe" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbextFileTypeFrx" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbextFileTypeRes" Value="6">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbextFileTypeUserControl" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbextFileTypePropertyPage" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbextFileTypeDocObject" Value="9">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbextFileTypeBinary" Value="10">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbextFileTypeGroupProject" Value="11">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbextFileTypeDesigners" Value="12">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+      <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+      <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="vbext_WindowType" Key="_x0032_e312dbe-bfac-4408-b8a8-3488334c3df9">
+    <Members>
+      <Member Name="vbext_wt_CodeWindow" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_wt_Designer" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_wt_Browser" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_wt_Watch" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_wt_Locals" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_wt_Immediate" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_wt_ProjectWindow" Value="6">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_wt_PropertyWindow" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_wt_Find" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_wt_FindReplace" Value="9">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_wt_Toolbox" Value="10">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_wt_LinkedWindowFrame" Value="11">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_wt_MainWindow" Value="12">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_wt_ToolWindow" Value="15">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+      <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+      <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="vbext_WindowState" Key="_x0036_eef9516-f6ff-412e-b397-d4e15d3649f2">
+    <Members>
+      <Member Name="vbext_ws_Normal" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_ws_Minimize" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_ws_Maximize" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+      <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+      <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="vbext_ProjectType" Key="ac43948a-2db6-4176-9587-d3710d06d342">
+    <Members>
+      <Member Name="vbext_pt_HostProject" Value="100">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_pt_StandAlone" Value="101">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+      <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+      <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="vbext_ProjectProtection" Key="_x0031_7d7d77b-1dd4-4c53-a2ef-23fe94844f9b">
+    <Members>
+      <Member Name="vbext_pp_none" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_pp_locked" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+      <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+      <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="vbext_VBAMode" Key="_x0037_0b111ea-0fc9-48bf-9c93-fb9e120c3675">
+    <Members>
+      <Member Name="vbext_vm_Run" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_vm_Break" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_vm_Design" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+      <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+      <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="vbext_ComponentType" Key="_x0036_c4b4e06-bbec-4aa7-9a3c-0a0a1c23e6ca">
+    <Members>
+      <Member Name="vbext_ct_StdModule" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_ct_ClassModule" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_ct_MSForm" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_ct_ActiveXDesigner" Value="11">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_ct_Document" Value="100">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+      <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+      <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="vbext_ProcKind" Key="_x0035_f1e95c2-0743-4934-bf1e-46ae637bcbdf">
+    <Members>
+      <Member Name="vbext_pk_Proc" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_pk_Let" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_pk_Set" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_pk_Get" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+      <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+      <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="vbext_CodePaneview" Key="df9a59f3-1993-425e-b069-bc17b0514306">
+    <Members>
+      <Member Name="vbext_cv_ProcedureView" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_cv_FullModuleView" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+      <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+      <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="vbext_RefKind" Key="_x0032_aa2b670-1049-46f5-8fa3-2f97839bdf72">
+    <Members>
+      <Member Name="vbext_rk_TypeLib" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vbext_rk_Project" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+          <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+          <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
+      <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
+      <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
+    </RefLibraries>
+  </Enum>
+</Enums>

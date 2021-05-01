@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TypeDefs>
+  <Alias Name="DataMember" Intrinsic="string" Key="_x0036_746f574-661f-4f9e-95a9-6c4ea4115ac0">
+    <RefLibraries>
+      <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0037_C0FFAB1-CD84-11D0-949A-00A0C91110ED">
+        <RefLibraries>
+          <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+</TypeDefs>

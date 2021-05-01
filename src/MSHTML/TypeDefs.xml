@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TypeDefs>
+  <Alias Name="LONG_PTR" Intrinsic="Int32" Key="_x0030_74fed37-4e84-4c2b-8c75-28242d39d52f">
+    <RefLibraries>
+      <Ref Key="b6b4cbb7-9049-4067-a5ba-ae375c87bdb8" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0030_0000000-0000-0000-0000-000000000000">
+        <RefLibraries>
+          <Ref Key="b6b4cbb7-9049-4067-a5ba-ae375c87bdb8" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+  <Alias Name="UINT_PTR" Intrinsic="Int32" Key="_x0037_2d19ea7-3fd9-4f0b-b5c4-119d7319cf0e">
+    <RefLibraries>
+      <Ref Key="b6b4cbb7-9049-4067-a5ba-ae375c87bdb8" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0030_0000000-0000-0000-0000-000000000000">
+        <RefLibraries>
+          <Ref Key="b6b4cbb7-9049-4067-a5ba-ae375c87bdb8" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Alias>
+</TypeDefs>

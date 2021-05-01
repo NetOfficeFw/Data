@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="Office" Namespace="NetOffice.OfficeApi" Key="_x0037_9b19a83-a79f-446c-9b7e-9b595e918e40" Description="NetOffice Office Api" Configuration="" Company="netoffice.codeplex.com" Product="NetOffice" Copyright="Sebastian Lange" Trademark="" Culture="" Version="1.7.2.0" FileVersion="1.7.2.0" Ignore="false" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="Constants.xml" />
+  <xi:include href="Enums.xml" />
+  <xi:include href="Modules.xml" />
+  <xi:include href="TypeDefs.xml" />
+  <xi:include href="Records.xml" />
+  <xi:include href="CoClasses.xml" />
+  <xi:include href="DispatchInterfaces.xml" />
+  <xi:include href="Interfaces.xml" />
+  <xi:include href="RefLibraries.xml" />
+  <xi:include href="RefProjects.xml" />
+</Project>

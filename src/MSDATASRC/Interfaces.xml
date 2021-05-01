@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Interfaces>
+  <Interface IsEventInterface="false" IsEarlyBind="false" IsHidden="false" TypeLibType="272" Name="DataSourceListener" Key="bfba116f-850f-47ef-97fb-1af6bb859b07">
+    <Methods>
+      <Method Name="dataMemberChanged" AnalyzeReturn="true" Hidden="true" Key="ea5b3244-660f-40b2-a47e-6cd1963c1666">
+        <DispIds>
+          <DispId Id="1610678272">
+            <RefLibraries>
+              <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+          </RefLibraries>
+          <Parameter Name="bstrDM" Type="string" TypeKind="" VarType="VT_BSTR" MarshalAs="UnmanagedType.BStr" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+        </Parameters>
+      </Method>
+      <Method Name="dataMemberAdded" AnalyzeReturn="true" Hidden="true" Key="_x0033_8ca7491-50ea-47f8-9cf2-785eb81c519d">
+        <DispIds>
+          <DispId Id="1610678273">
+            <RefLibraries>
+              <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+          </RefLibraries>
+          <Parameter Name="bstrDM" Type="string" TypeKind="" VarType="VT_BSTR" MarshalAs="UnmanagedType.BStr" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+        </Parameters>
+      </Method>
+      <Method Name="dataMemberRemoved" AnalyzeReturn="true" Hidden="true" Key="_x0039_64a6584-2e39-4707-a2a9-c7fc4e24489d">
+        <DispIds>
+          <DispId Id="1610678274">
+            <RefLibraries>
+              <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+          </RefLibraries>
+          <Parameter Name="bstrDM" Type="string" TypeKind="" VarType="VT_BSTR" MarshalAs="UnmanagedType.BStr" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+        </Parameters>
+      </Method>
+    </Methods>
+    <Properties />
+    <DispIds>
+      <DispId Id="_x0037_C0FFAB2-CD84-11D0-949A-00A0C91110ED">
+        <RefLibraries>
+          <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+    <Inherited />
+    <RefLibraries>
+      <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+    </RefLibraries>
+  </Interface>
+  <Interface IsEventInterface="false" IsEarlyBind="false" IsHidden="false" TypeLibType="256" Name="DataSource" Key="_x0032_85f0cbc-119c-45e7-b756-6b5b8ad56977">
+    <Methods>
+      <Method Name="getDataMember" AnalyzeReturn="true" Hidden="true" Key="_x0039_17f1269-29c1-4a92-afc6-8566d485e667">
+        <DispIds>
+          <DispId Id="1610678272">
+            <RefLibraries>
+              <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="COMObject" VarType="VT_UNKNOWN" MarshalAs="" TypeKind="" IsComProxy="true" IsExternal="false" IsEnum="false" IsArray="false" IsNative="false" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+          </RefLibraries>
+          <Parameter Name="bstrDM" Type="string" TypeKind="" VarType="VT_BSTR" MarshalAs="UnmanagedType.BStr" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <Parameter Name="riid" Type="Guid" TypeKind="TKIND_RECORD" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="true" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="_x0039_732150b-72c9-4bc8-81f1-6fa3b0883691" ProjectKey="b95c0882-b85f-4f38-82c6-35472afe0170" LibraryKey="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </Parameters>
+      </Method>
+      <Method Name="getDataMemberName" AnalyzeReturn="true" Hidden="true" Key="cf3d1d7f-696c-4d4b-93c1-ffcd2db89015">
+        <DispIds>
+          <DispId Id="1610678273">
+            <RefLibraries>
+              <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="string" VarType="VT_BSTR" MarshalAs="UnmanagedType.BStr" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+          </RefLibraries>
+          <Parameter Name="lIndex" Type="Int32" TypeKind="" VarType="VT_I4" MarshalAs="" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+        </Parameters>
+      </Method>
+      <Method Name="getDataMemberCount" AnalyzeReturn="true" Hidden="true" Key="f37eddad-52cb-469c-b31b-dc6107b416e8">
+        <DispIds>
+          <DispId Id="1610678274">
+            <RefLibraries>
+              <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_I4" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+          </RefLibraries>
+        </Parameters>
+      </Method>
+      <Method Name="addDataSourceListener" AnalyzeReturn="true" Hidden="true" Key="_x0039_9621aa5-c0de-4f22-8865-9f62e72d0d60">
+        <DispIds>
+          <DispId Id="1610678275">
+            <RefLibraries>
+              <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+          </RefLibraries>
+          <Parameter Name="pDSL" Type="DataSourceListener" TypeKind="TKIND_INTERFACE" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="bfba116f-850f-47ef-97fb-1af6bb859b07" ProjectKey="_x0039_d83e8f2-4efd-4a2e-88ce-9f5943620db6" LibraryKey="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+        </Parameters>
+      </Method>
+      <Method Name="removeDataSourceListener" AnalyzeReturn="true" Hidden="true" Key="_x0035_ce4f04d-9694-4400-9187-b91d10b07179">
+        <DispIds>
+          <DispId Id="1610678276">
+            <RefLibraries>
+              <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+          </RefLibraries>
+          <Parameter Name="pDSL" Type="DataSourceListener" TypeKind="TKIND_INTERFACE" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="bfba116f-850f-47ef-97fb-1af6bb859b07" ProjectKey="_x0039_d83e8f2-4efd-4a2e-88ce-9f5943620db6" LibraryKey="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+        </Parameters>
+      </Method>
+    </Methods>
+    <Properties />
+    <DispIds>
+      <DispId Id="_x0037_C0FFAB3-CD84-11D0-949A-00A0C91110ED">
+        <RefLibraries>
+          <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+    <Inherited />
+    <RefLibraries>
+      <Ref Key="a381c8c9-c938-424e-a3de-502b810fc2fb" />
+    </RefLibraries>
+  </Interface>
+</Interfaces>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Records>
+  <Record Name="GUID" GUID="_x0030_0000000-0000-0000-0000-000000000000" TypeLibType="16" Key="_x0039_732150b-72c9-4bc8-81f1-6fa3b0883691">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <Members>
+      <Member Name="Data1" Type="Int32" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+      <Member Name="Data2" Type="Int16" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+      <Member Name="Data3" Type="Int16" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+      <Member Name="Data4" Type="char" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="true" IsNative="false" MarshalAs="" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <DispIds>
+      <DispId Id="_x0030_0000000-0000-0000-0000-000000000000">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Record>
+  <Record Name="DISPPARAMS" GUID="_x0030_0000000-0000-0000-0000-000000000000" TypeLibType="512" Key="aad9da63-274d-428e-b955-057db466d541">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <Members>
+      <Member Name="rgvarg" Type="object" TypeKind="" IsComProxy="true" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="UnmanagedType.Struct" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+      <Member Name="rgdispidNamedArgs" Type="Int32" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+      <Member Name="cArgs" Type="UIntPtr" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="false" MarshalAs="" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+      <Member Name="cNamedArgs" Type="UIntPtr" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="false" MarshalAs="" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <DispIds>
+      <DispId Id="_x0030_0000000-0000-0000-0000-000000000000">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Record>
+  <Record Name="EXCEPINFO" GUID="_x0030_0000000-0000-0000-0000-000000000000" TypeLibType="512" Key="_x0039_c306a1b-e5b2-4076-af9e-895ff017b009">
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <Members>
+      <Member Name="wCode" Type="Int16" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+      <Member Name="wReserved" Type="Int16" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+      <Member Name="bstrSource" Type="string" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="UnmanagedType.BStr" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+      <Member Name="bstrDescription" Type="string" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="UnmanagedType.BStr" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+      <Member Name="bstrHelpFile" Type="string" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="UnmanagedType.BStr" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dwHelpContext" Type="Int32" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+      <Member Name="pvReserved" Type="object" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+      <Member Name="pfnDeferredFillIn" Type="object" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+      <Member Name="scode" Type="object" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="UnmanagedType.Error" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <DispIds>
+      <DispId Id="_x0030_0000000-0000-0000-0000-000000000000">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Record>
+</Records>

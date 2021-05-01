@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Modules>
+  <Module Name="StdFunctions" Key="_x0035_3ba387d-d179-45c9-9eec-4ad28afcbbaa">
+    <Methods>
+      <Method Name="LoadPicture" AnalyzeReturn="true" Hidden="false" Key="_x0034_023cbfe-5984-4b5b-8a68-04289635848b">
+        <DispIds>
+          <DispId Id="1610612736">
+            <RefLibraries>
+              <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Picture" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" TypeKind="TKIND_DISPATCH" IsComProxy="true" IsExternal="false" IsEnum="false" IsArray="false" IsNative="false" TypeKey="" ProjectKey="b95c0882-b85f-4f38-82c6-35472afe0170" LibraryKey="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+          <RefLibraries>
+            <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+          </RefLibraries>
+          <Parameter Name="filename" Type="object" TypeKind="" VarType="VT_VARIANT" MarshalAs="UnmanagedType.Struct" IsExternal="false" IsComProxy="true" IsOptional="true" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="17" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <Parameter Name="widthDesired" Type="Int32" TypeKind="" VarType="VT_INT" MarshalAs="" IsExternal="false" IsComProxy="false" IsOptional="true" HasDefaultValue="true" DefaultValue="0" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="49" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <Parameter Name="heightDesired" Type="Int32" TypeKind="" VarType="VT_INT" MarshalAs="" IsExternal="false" IsComProxy="false" IsOptional="true" HasDefaultValue="true" DefaultValue="0" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="49" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <Parameter Name="flags" Type="LoadPictureConstants" TypeKind="TKIND_ENUM" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="false" IsOptional="true" HasDefaultValue="true" DefaultValue="0" IsEnum="true" IsRef="false" IsOut="false" ParamFlags="49" IsArray="false" IsNative="false" TypeKey="_x0036_7f78878-7892-442d-8dcf-540ff2f5bff0" ProjectKey="b95c0882-b85f-4f38-82c6-35472afe0170" LibraryKey="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </Parameters>
+      </Method>
+      <Method Name="SavePicture" AnalyzeReturn="true" Hidden="false" Key="c15b0550-d1a8-4953-b6c6-c7524d47181b">
+        <DispIds>
+          <DispId Id="1610612737">
+            <RefLibraries>
+              <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+          </RefLibraries>
+          <Parameter Name="Picture" Type="Picture" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="b95c0882-b85f-4f38-82c6-35472afe0170" LibraryKey="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+          <Parameter Name="filename" Type="string" TypeKind="" VarType="VT_BSTR" MarshalAs="UnmanagedType.BStr" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+        </Parameters>
+      </Method>
+    </Methods>
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+    <DispIds>
+      <DispId Id="_x0039_1209AC0-60F6-11CF-9C5D-00AA00C1489E">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Module>
+</Modules>

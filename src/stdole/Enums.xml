@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Enums>
+  <Enum Name="OLE_TRISTATE" Key="_x0030_651242d-e363-4fc8-b221-86a9d5dd5cbe">
+    <Members>
+      <Member Name="Unchecked" Value="0">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+      <Member Name="Checked" Value="1">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+      <Member Name="Gray" Value="2">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="LoadPictureConstants" Key="_x0036_7f78878-7892-442d-8dcf-540ff2f5bff0">
+    <Members>
+      <Member Name="Default" Value="0">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+      <Member Name="Monochrome" Value="1">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+      <Member Name="VgaColor" Value="2">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+      <Member Name="Color" Value="4">
+        <RefLibraries>
+          <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="ef1d822c-72f0-4dad-8ba5-4c7e259d7039" />
+    </RefLibraries>
+  </Enum>
+</Enums>

@@ -1,0 +1,1325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Interfaces>
+  <Interface IsEventInterface="true" IsEarlyBind="false" IsHidden="false" TypeLibType="16" Name="PresEvents" Key="af81b889-7aab-4217-b0aa-7b77715b24f0">
+    <Methods />
+    <Properties />
+    <DispIds>
+      <DispId Id="_x0039_1493463-5A91-11CF-8700-00AA0060263B">
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+    <Inherited />
+    <RefLibraries>
+      <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+      <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+      <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+      <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+      <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+      <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+    </RefLibraries>
+  </Interface>
+  <Interface IsEventInterface="true" IsEarlyBind="false" IsHidden="false" TypeLibType="16" Name="SldEvents" Key="_x0038_636ccac-61ba-4635-8eba-22d3e7e19b7d">
+    <Methods />
+    <Properties />
+    <DispIds>
+      <DispId Id="_x0039_149346D-5A91-11CF-8700-00AA0060263B">
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+    <Inherited />
+    <RefLibraries>
+      <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+      <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+      <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+      <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+      <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+      <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+    </RefLibraries>
+  </Interface>
+  <Interface IsEventInterface="false" IsEarlyBind="false" IsHidden="false" TypeLibType="16" Name="MouseTracker" Key="_x0033_4551f76-3005-4e0c-9ce3-11e6adef3d5d">
+    <Methods>
+      <Method Name="OnTrack" AnalyzeReturn="true" Hidden="false" Key="ac791ff1-7e5c-4a20-b08c-9b1756bddea5">
+        <DispIds>
+          <DispId Id="2001">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="X" Type="Single" TypeKind="" VarType="VT_R4" MarshalAs="" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <Parameter Name="Y" Type="Single" TypeKind="" VarType="VT_R4" MarshalAs="" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+        </Parameters>
+      </Method>
+      <Method Name="EndTrack" AnalyzeReturn="true" Hidden="false" Key="ef0d6ec5-40b6-409d-a612-fb9003b6ed3b">
+        <DispIds>
+          <DispId Id="2002">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="X" Type="Single" TypeKind="" VarType="VT_R4" MarshalAs="" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <Parameter Name="Y" Type="Single" TypeKind="" VarType="VT_R4" MarshalAs="" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+        </Parameters>
+      </Method>
+    </Methods>
+    <Properties />
+    <DispIds>
+      <DispId Id="_x0039_14934BE-5A91-11CF-8700-00AA0060263B">
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+    <Inherited />
+    <RefLibraries>
+      <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+      <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+      <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+      <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+      <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+      <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+    </RefLibraries>
+  </Interface>
+  <Interface IsEventInterface="false" IsEarlyBind="false" IsHidden="false" TypeLibType="16" Name="MouseDownHandler" Key="d79bd745-eeaf-41db-8a3f-904ca82af83c">
+    <Methods>
+      <Method Name="OnMouseDown" AnalyzeReturn="true" Hidden="false" Key="fd12e7b3-11e3-4d2f-99c6-11979de850b1">
+        <DispIds>
+          <DispId Id="2001">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="activeWin" Type="object" TypeKind="" VarType="VT_UNKNOWN" MarshalAs="" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+        </Parameters>
+      </Method>
+    </Methods>
+    <Properties />
+    <DispIds>
+      <DispId Id="_x0039_14934BF-5A91-11CF-8700-00AA0060263B">
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+    <Inherited />
+    <RefLibraries>
+      <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+      <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+      <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+      <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+      <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+      <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+    </RefLibraries>
+  </Interface>
+  <Interface IsEventInterface="true" IsEarlyBind="false" IsHidden="false" TypeLibType="4112" Name="OCXExtenderEvents" Key="ee8988d3-46f5-4129-af91-3836f913a5f3">
+    <Methods>
+      <Method Name="GotFocus" AnalyzeReturn="true" Hidden="false" Key="_x0037_1d19f75-6a44-4f06-b431-25798d4d8e18">
+        <DispIds>
+          <DispId Id="-2147417888">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+        </Parameters>
+      </Method>
+      <Method Name="LostFocus" AnalyzeReturn="true" Hidden="false" Key="_x0035_569a367-d78d-4533-8574-657ebde1a699">
+        <DispIds>
+          <DispId Id="-2147417887">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+        </Parameters>
+      </Method>
+    </Methods>
+    <Properties />
+    <DispIds>
+      <DispId Id="_x0039_14934C1-5A91-11CF-8700-00AA0060263B">
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+    <Inherited />
+    <RefLibraries>
+      <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+      <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+      <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+      <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+      <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+      <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+    </RefLibraries>
+  </Interface>
+  <Interface IsEventInterface="true" IsEarlyBind="false" IsHidden="false" TypeLibType="4096" Name="EApplication" Key="_x0036_727c955-4389-44ff-be1d-84b46c89cab4">
+    <Methods>
+      <Method Name="WindowSelectionChange" AnalyzeReturn="true" Hidden="false" Key="_x0038_b2b51ec-e5d2-491e-9e82-f0ef7675ba8c">
+        <DispIds>
+          <DispId Id="2001">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Sel" Type="Selection" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+        </Parameters>
+      </Method>
+      <Method Name="WindowBeforeRightClick" AnalyzeReturn="true" Hidden="false" Key="_x0032_fb760b3-46ea-4f11-9571-7230b6f7033c">
+        <DispIds>
+          <DispId Id="2002">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Sel" Type="Selection" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Parameter Name="Cancel" Type="bool" TypeKind="" VarType="VT_BOOL" MarshalAs="" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="true" IsOut="false" ParamFlags="3" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+        </Parameters>
+      </Method>
+      <Method Name="WindowBeforeDoubleClick" AnalyzeReturn="true" Hidden="false" Key="af87cde4-6210-4ab9-837f-a3fe930e2a7c">
+        <DispIds>
+          <DispId Id="2003">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Sel" Type="Selection" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Parameter Name="Cancel" Type="bool" TypeKind="" VarType="VT_BOOL" MarshalAs="" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="true" IsOut="false" ParamFlags="3" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+        </Parameters>
+      </Method>
+      <Method Name="PresentationClose" AnalyzeReturn="true" Hidden="false" Key="_x0032_2a56ec4-f696-4823-9996-ed0f544a8d57">
+        <DispIds>
+          <DispId Id="2004">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Pres" Type="Presentation" TypeKind="TKIND_COCLASS" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+        </Parameters>
+      </Method>
+      <Method Name="PresentationSave" AnalyzeReturn="true" Hidden="false" Key="c602eaed-de29-4603-9ce7-a454265463e2">
+        <DispIds>
+          <DispId Id="2005">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Pres" Type="Presentation" TypeKind="TKIND_COCLASS" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+        </Parameters>
+      </Method>
+      <Method Name="PresentationOpen" AnalyzeReturn="true" Hidden="false" Key="_x0034_bd9037d-9d2b-4ea7-b765-e659436ae6e3">
+        <DispIds>
+          <DispId Id="2006">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Pres" Type="Presentation" TypeKind="TKIND_COCLASS" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+        </Parameters>
+      </Method>
+      <Method Name="NewPresentation" AnalyzeReturn="true" Hidden="false" Key="_x0031_311f44d-8ad4-49e4-abb9-5dfe58798198">
+        <DispIds>
+          <DispId Id="2007">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Pres" Type="Presentation" TypeKind="TKIND_COCLASS" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+        </Parameters>
+      </Method>
+      <Method Name="PresentationNewSlide" AnalyzeReturn="true" Hidden="false" Key="f7089c94-4699-49f3-9660-2c812750a761">
+        <DispIds>
+          <DispId Id="2008">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Sld" Type="Slide" TypeKind="TKIND_COCLASS" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+        </Parameters>
+      </Method>
+      <Method Name="WindowActivate" AnalyzeReturn="true" Hidden="false" Key="c6885726-b5d1-4987-b086-9a8bd9304d03">
+        <DispIds>
+          <DispId Id="2009">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Pres" Type="Presentation" TypeKind="TKIND_COCLASS" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Parameter Name="Wn" Type="DocumentWindow" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+        </Parameters>
+      </Method>
+      <Method Name="WindowDeactivate" AnalyzeReturn="true" Hidden="false" Key="d4ae1bc4-144d-4fd8-9d96-b01a17aef473">
+        <DispIds>
+          <DispId Id="2010">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Pres" Type="Presentation" TypeKind="TKIND_COCLASS" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Parameter Name="Wn" Type="DocumentWindow" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+        </Parameters>
+      </Method>
+      <Method Name="SlideShowBegin" AnalyzeReturn="true" Hidden="false" Key="_x0030_bc31717-6fd1-4d1a-8e58-ab00eb277748">
+        <DispIds>
+          <DispId Id="2011">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Wn" Type="SlideShowWindow" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+        </Parameters>
+      </Method>
+      <Method Name="SlideShowNextBuild" AnalyzeReturn="true" Hidden="false" Key="_x0033_9c2d499-7b15-4430-bcc4-0e6a9c457259">
+        <DispIds>
+          <DispId Id="2012">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Wn" Type="SlideShowWindow" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+        </Parameters>
+      </Method>
+      <Method Name="SlideShowNextSlide" AnalyzeReturn="true" Hidden="false" Key="_x0035_497469a-41e8-4e4a-b05f-cac0016bb98c">
+        <DispIds>
+          <DispId Id="2013">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Wn" Type="SlideShowWindow" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+        </Parameters>
+      </Method>
+      <Method Name="SlideShowEnd" AnalyzeReturn="true" Hidden="false" Key="_x0031_273c3c6-aa8d-48dc-819b-1005b2df6215">
+        <DispIds>
+          <DispId Id="2014">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Pres" Type="Presentation" TypeKind="TKIND_COCLASS" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+        </Parameters>
+      </Method>
+      <Method Name="PresentationPrint" AnalyzeReturn="true" Hidden="false" Key="faeb0a6c-c0d9-425c-b78f-2734eb62f072">
+        <DispIds>
+          <DispId Id="2015">
+            <RefLibraries>
+              <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Pres" Type="Presentation" TypeKind="TKIND_COCLASS" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+        </Parameters>
+      </Method>
+      <Method Name="SlideSelectionChanged" AnalyzeReturn="true" Hidden="false" Key="_x0036_9ea8d6d-b721-4c79-a4a0-5118e57e9967">
+        <DispIds>
+          <DispId Id="2016">
+            <RefLibraries>
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="SldRange" Type="SlideRange" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="_x0034_f685538-2a6d-4b74-866f-751670fca7f0" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+        </Parameters>
+      </Method>
+      <Method Name="ColorSchemeChanged" AnalyzeReturn="true" Hidden="false" Key="f4c57783-343b-4146-bb35-d6fb339a0dfe">
+        <DispIds>
+          <DispId Id="2017">
+            <RefLibraries>
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="SldRange" Type="SlideRange" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="_x0034_f685538-2a6d-4b74-866f-751670fca7f0" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+        </Parameters>
+      </Method>
+      <Method Name="PresentationBeforeSave" AnalyzeReturn="true" Hidden="false" Key="_x0033_f2a2082-2a79-4cb4-b42f-f6b8ab08a837">
+        <DispIds>
+          <DispId Id="2018">
+            <RefLibraries>
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Pres" Type="Presentation" TypeKind="TKIND_COCLASS" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="_x0038_743f153-4a7e-4517-91b0-28ff8604798d" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Parameter Name="Cancel" Type="bool" TypeKind="" VarType="VT_BOOL" MarshalAs="" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="true" IsOut="false" ParamFlags="3" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+        </Parameters>
+      </Method>
+      <Method Name="SlideShowNextClick" AnalyzeReturn="true" Hidden="false" Key="_x0030_0b264b4-17bd-40f6-ac13-bf2740d35aad">
+        <DispIds>
+          <DispId Id="2019">
+            <RefLibraries>
+              <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Wn" Type="SlideShowWindow" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="_x0038_ff7ed94-a195-417c-933f-2abac2028236" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Parameter Name="nEffect" Type="Effect" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+        </Parameters>
+      </Method>
+      <Method Name="AfterNewPresentation" AnalyzeReturn="true" Hidden="false" Key="_x0039_1438a3a-de6f-4c14-bb15-e75dd0988c9e">
+        <DispIds>
+          <DispId Id="2020">
+            <RefLibraries>
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Pres" Type="Presentation" TypeKind="TKIND_COCLASS" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="_x0038_743f153-4a7e-4517-91b0-28ff8604798d" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+        </Parameters>
+      </Method>
+      <Method Name="AfterPresentationOpen" AnalyzeReturn="true" Hidden="false" Key="_x0039_969ac40-e6af-4e58-8347-b208b57942e6">
+        <DispIds>
+          <DispId Id="2021">
+            <RefLibraries>
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Pres" Type="Presentation" TypeKind="TKIND_COCLASS" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="_x0038_743f153-4a7e-4517-91b0-28ff8604798d" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+        </Parameters>
+      </Method>
+      <Method Name="PresentationSync" AnalyzeReturn="true" Hidden="false" Key="cad01774-5d15-4362-8ab4-407d64fe5058">
+        <DispIds>
+          <DispId Id="2022">
+            <RefLibraries>
+              <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Pres" Type="Presentation" TypeKind="TKIND_COCLASS" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="_x0038_743f153-4a7e-4517-91b0-28ff8604798d" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Parameter Name="SyncEventType" Type="MsoSyncEventType" TypeKind="TKIND_ENUM" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="true" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="true" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="b7951da4-40c7-4d07-9c2c-8a93de40c374" ProjectKey="_x0037_9b19a83-a79f-446c-9b7e-9b595e918e40" LibraryKey="a44cda6a-9e0e-4428-bd06-5566931ea12c" />
+        </Parameters>
+      </Method>
+      <Method Name="SlideShowOnNext" AnalyzeReturn="true" Hidden="false" Key="f56f57d9-a4dd-4f51-a95c-498a583ff2fb">
+        <DispIds>
+          <DispId Id="2023">
+            <RefLibraries>
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Wn" Type="SlideShowWindow" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="_x0038_ff7ed94-a195-417c-933f-2abac2028236" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+        </Parameters>
+      </Method>
+      <Method Name="SlideShowOnPrevious" AnalyzeReturn="true" Hidden="false" Key="a0be4459-4d83-4b63-a667-0a782b928bdc">
+        <DispIds>
+          <DispId Id="2024">
+            <RefLibraries>
+              <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Wn" Type="SlideShowWindow" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="_x0038_ff7ed94-a195-417c-933f-2abac2028236" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+        </Parameters>
+      </Method>
+      <Method Name="PresentationBeforeClose" AnalyzeReturn="true" Hidden="false" Key="_x0039_f10b18d-7c65-40db-97c4-646717edbae9">
+        <DispIds>
+          <DispId Id="2025">
+            <RefLibraries>
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Pres" Type="Presentation" TypeKind="TKIND_COCLASS" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="_x0038_743f153-4a7e-4517-91b0-28ff8604798d" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Parameter Name="Cancel" Type="bool" TypeKind="" VarType="VT_BOOL" MarshalAs="" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="true" IsOut="false" ParamFlags="3" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+        </Parameters>
+      </Method>
+      <Method Name="ProtectedViewWindowOpen" AnalyzeReturn="true" Hidden="false" Key="_x0039_f1f2efa-17ec-4fe9-9b66-e0361e8024e9">
+        <DispIds>
+          <DispId Id="2026">
+            <RefLibraries>
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="ProtViewWindow" Type="ProtectedViewWindow" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+        </Parameters>
+      </Method>
+      <Method Name="ProtectedViewWindowBeforeEdit" AnalyzeReturn="true" Hidden="false" Key="_x0034_38002f1-4f74-4661-951f-0aff540e0f87">
+        <DispIds>
+          <DispId Id="2027">
+            <RefLibraries>
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="ProtViewWindow" Type="ProtectedViewWindow" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Parameter Name="Cancel" Type="bool" TypeKind="" VarType="VT_BOOL" MarshalAs="" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="true" IsOut="false" ParamFlags="3" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+        </Parameters>
+      </Method>
+      <Method Name="ProtectedViewWindowBeforeClose" AnalyzeReturn="true" Hidden="false" Key="c346a0f8-09e8-40e7-ae76-89f4abcad897">
+        <DispIds>
+          <DispId Id="2028">
+            <RefLibraries>
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="ProtViewWindow" Type="ProtectedViewWindow" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Parameter Name="ProtectedViewCloseReason" Type="PpProtectedViewCloseReason" TypeKind="TKIND_ENUM" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="true" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="_x0030_f003a7e-6831-42ab-a7e6-f275eaf54098" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Parameter Name="Cancel" Type="bool" TypeKind="" VarType="VT_BOOL" MarshalAs="" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="true" IsOut="false" ParamFlags="3" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+        </Parameters>
+      </Method>
+      <Method Name="ProtectedViewWindowActivate" AnalyzeReturn="true" Hidden="false" Key="aa199db4-6c6d-40b4-b3e4-e6dca38122ea">
+        <DispIds>
+          <DispId Id="2029">
+            <RefLibraries>
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="ProtViewWindow" Type="ProtectedViewWindow" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+        </Parameters>
+      </Method>
+      <Method Name="ProtectedViewWindowDeactivate" AnalyzeReturn="true" Hidden="false" Key="_x0034_bd3ebd5-4752-4e77-a1ba-5b2a858a3691">
+        <DispIds>
+          <DispId Id="2030">
+            <RefLibraries>
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="ProtViewWindow" Type="ProtectedViewWindow" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+        </Parameters>
+      </Method>
+      <Method Name="PresentationCloseFinal" AnalyzeReturn="true" Hidden="false" Key="_x0032_9060cfe-c27c-454b-91d1-60119ae0734d">
+        <DispIds>
+          <DispId Id="2031">
+            <RefLibraries>
+              <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Pres" Type="Presentation" TypeKind="TKIND_COCLASS" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="_x0038_743f153-4a7e-4517-91b0-28ff8604798d" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+        </Parameters>
+      </Method>
+      <Method Name="AfterDragDropOnSlide" AnalyzeReturn="true" Hidden="false" Key="_x0037_09e29d3-0ef2-4b72-afe1-7e038b76c36b">
+        <DispIds>
+          <DispId Id="2032">
+            <RefLibraries>
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="Sld" Type="Slide" TypeKind="TKIND_COCLASS" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="_x0033_6b3ff32-a2cc-48c7-b689-539f26492ed4" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          <Parameter Name="X" Type="Single" TypeKind="" VarType="VT_R4" MarshalAs="" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <Parameter Name="Y" Type="Single" TypeKind="" VarType="VT_R4" MarshalAs="" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+        </Parameters>
+      </Method>
+      <Method Name="AfterShapeSizeChange" AnalyzeReturn="true" Hidden="false" Key="_x0033_6637809-0959-4869-8627-4068068120ab">
+        <DispIds>
+          <DispId Id="2033">
+            <RefLibraries>
+              <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_HRESULT" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+          </RefLibraries>
+          <Parameter Name="shp" Type="Shape" TypeKind="TKIND_DISPATCH" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="_x0036_bb5d011-ae04-44bb-8980-2842d1f517ab" ProjectKey="d2df07d1-46ea-4578-9183-9abb368547e5" LibraryKey="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </Parameters>
+      </Method>
+    </Methods>
+    <Properties />
+    <DispIds>
+      <DispId Id="_x0039_14934C2-5A91-11CF-8700-00AA0060263B">
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+    <Inherited />
+    <RefLibraries>
+      <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+      <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+      <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+      <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+      <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+      <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+    </RefLibraries>
+  </Interface>
+  <Interface IsEventInterface="true" IsEarlyBind="false" IsHidden="false" TypeLibType="16" Name="MasterEvents" Key="ebfe6dde-7e9d-460f-a627-c3ed05919bb4">
+    <Methods />
+    <Properties />
+    <DispIds>
+      <DispId Id="_x0039_14934D2-5A91-11CF-8700-00AA0060263B">
+        <RefLibraries>
+          <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+          <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+          <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+          <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+          <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+          <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+    <Inherited />
+    <RefLibraries>
+      <Ref Key="f26d9c35-5cce-4f44-a394-591c4ff4ba6f" />
+      <Ref Key="_x0039_830488a-6d5e-4d34-bb6c-6fc1048cf697" />
+      <Ref Key="_x0039_603e070-c334-428d-8b76-9ae88555f53a" />
+      <Ref Key="e2d1adcc-cfb5-4306-95e1-195794e1a2d6" />
+      <Ref Key="_x0031_18c68fe-edb9-4628-ba27-593442b13398" />
+      <Ref Key="_x0034_aee122b-b26e-4d96-9356-c070a1918519" />
+    </RefLibraries>
+  </Interface>
+</Interfaces>

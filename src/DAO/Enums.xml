@@ -1,0 +1,1394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Enums>
+  <Enum Name="RecordsetTypeEnum" Key="c453ed64-2603-470a-a531-3d669061822f">
+    <Members>
+      <Member Name="dbOpenTable" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbOpenDynaset" Value="2">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbOpenSnapshot" Value="4">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbOpenForwardOnly" Value="8">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbOpenDynamic" Value="16">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="EditModeEnum" Key="c6a9f751-0a33-4591-ac06-eae2e6d5e92e">
+    <Members>
+      <Member Name="dbEditNone" Value="0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbEditInProgress" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbEditAdd" Value="2">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="RecordsetOptionEnum" Key="ccd61213-b2a1-433f-8ad0-dc0348c236bf">
+    <Members>
+      <Member Name="dbDenyWrite" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbDenyRead" Value="2">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbReadOnly" Value="4">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbAppendOnly" Value="8">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbInconsistent" Value="16">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbConsistent" Value="32">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSQLPassThrough" Value="64">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbFailOnError" Value="128">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbForwardOnly" Value="256">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSeeChanges" Value="512">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbRunAsync" Value="1024">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbExecDirect" Value="2048">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="LockTypeEnum" Key="_x0036_45fa1f1-d471-49f5-9382-c1b722d74436">
+    <Members>
+      <Member Name="dbPessimistic" Value="2">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbOptimistic" Value="3">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbOptimisticValue" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbOptimisticBatch" Value="5">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="UpdateCriteriaEnum" Key="eb43414a-cd24-432b-a183-a15a1da51b10">
+    <Members>
+      <Member Name="dbCriteriaKey" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbCriteriaModValues" Value="2">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbCriteriaAllCols" Value="4">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbCriteriaTimestamp" Value="8">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbCriteriaDeleteInsert" Value="16">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbCriteriaUpdate" Value="32">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="FieldAttributeEnum" Key="f9009c0d-59c4-4352-969a-596819227b6b">
+    <Members>
+      <Member Name="dbFixedField" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbVariableField" Value="2">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbAutoIncrField" Value="16">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbUpdatableField" Value="32">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSystemField" Value="8192">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbHyperlinkField" Value="32768">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbDescending" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="DataTypeEnum" Key="_x0032_c2ad477-94a2-4eba-b942-5eba50835488">
+    <Members>
+      <Member Name="dbBoolean" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbByte" Value="2">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbInteger" Value="3">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLong" Value="4">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbCurrency" Value="5">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSingle" Value="6">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbDouble" Value="7">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbDate" Value="8">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbBinary" Value="9">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbText" Value="10">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLongBinary" Value="11">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbMemo" Value="12">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbGUID" Value="15">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbBigInt" Value="16">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbVarBinary" Value="17">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbChar" Value="18">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbNumeric" Value="19">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbDecimal" Value="20">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbFloat" Value="21">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbTime" Value="22">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbTimeStamp" Value="23">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbAttachment" Value="101">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbComplexByte" Value="102">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbComplexInteger" Value="103">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbComplexLong" Value="104">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbComplexSingle" Value="105">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbComplexDouble" Value="106">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbComplexGUID" Value="107">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbComplexDecimal" Value="108">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbComplexText" Value="109">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="RelationAttributeEnum" Key="_x0039_529e8ed-7d9a-4c2a-9986-3726b47420d6">
+    <Members>
+      <Member Name="dbRelationUnique" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbRelationDontEnforce" Value="2">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbRelationInherited" Value="4">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbRelationUpdateCascade" Value="256">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbRelationDeleteCascade" Value="4096">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbRelationLeft" Value="16777216">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbRelationRight" Value="33554432">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="TableDefAttributeEnum" Key="_x0038_198bc21-73a6-4735-a0eb-0c1a59f527b4">
+    <Members>
+      <Member Name="dbAttachExclusive" Value="65536">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbAttachSavePWD" Value="131072">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSystemObject" Value="-2147483646">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbAttachedTable" Value="1073741824">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbAttachedODBC" Value="536870912">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbHiddenObject" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="QueryDefTypeEnum" Key="_x0031_5fa6de0-d9e7-46b1-ac78-71655c77830a">
+    <Members>
+      <Member Name="dbQSelect" Value="0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbQProcedure" Value="224">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbQAction" Value="240">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbQCrosstab" Value="16">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbQDelete" Value="32">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbQUpdate" Value="48">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbQAppend" Value="64">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbQMakeTable" Value="80">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbQDDL" Value="96">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbQSQLPassThrough" Value="112">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbQSetOperation" Value="128">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbQSPTBulk" Value="144">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbQCompound" Value="160">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="QueryDefStateEnum" Key="_x0034_68affa5-76e1-4f32-b6de-c909eecbd7f6">
+    <Members>
+      <Member Name="dbQPrepare" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbQUnprepare" Value="2">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="DatabaseTypeEnum" Key="_x0036_29a1695-46d3-4091-96a1-b9a86ec30eaf">
+    <Members>
+      <Member Name="dbVersion10" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbEncrypt" Value="2">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbDecrypt" Value="4">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbVersion11" Value="8">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbVersion20" Value="16">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbVersion30" Value="32">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbVersion40" Value="64">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbVersion120" Value="128">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbVersion140" Value="256">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbVersion150" Value="512">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="CollatingOrderEnum" Key="_x0034_44d2cc0-754b-4faf-a78b-c1aa57b04e89">
+    <Members>
+      <Member Name="dbSortNeutral" Value="1024">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortArabic" Value="1025">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortCyrillic" Value="1049">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortCzech" Value="1029">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortDutch" Value="1043">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortGeneral" Value="1033">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortGreek" Value="1032">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortHebrew" Value="1037">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortHungarian" Value="1038">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortIcelandic" Value="1039">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortNorwdan" Value="1030">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortPDXIntl" Value="1033">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortPDXNor" Value="1030">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortPDXSwe" Value="1053">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortPolish" Value="1045">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortSpanish" Value="1034">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortSwedFin" Value="1053">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortTurkish" Value="1055">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortJapanese" Value="1041">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortChineseSimplified" Value="2052">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortChineseTraditional" Value="1028">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortKorean" Value="1042">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortThai" Value="1054">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortSlovenian" Value="1060">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortUndefined" Value="-1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortJapaneseRadicalStrokeCount" Value="263185">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSortHindi" Value="1081">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="IdleEnum" Key="_x0030_6d203b7-6b90-4352-bd50-e09dce95f3ef">
+    <Members>
+      <Member Name="dbFreeLocks" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbRefreshCache" Value="8">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="PermissionEnum" Key="eba1e391-16cf-4dd7-8803-d3da7571f391">
+    <Members>
+      <Member Name="dbSecNoAccess" Value="0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSecFullAccess" Value="1048575">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSecDelete" Value="65536">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSecReadSec" Value="131072">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSecWriteSec" Value="262144">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSecWriteOwner" Value="524288">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSecDBCreate" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSecDBOpen" Value="2">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSecDBExclusive" Value="4">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSecDBAdmin" Value="8">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSecCreate" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSecReadDef" Value="4">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSecWriteDef" Value="65548">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSecRetrieveData" Value="20">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSecInsertData" Value="32">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSecReplaceData" Value="64">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSecDeleteData" Value="128">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="SynchronizeTypeEnum" Key="_x0031_83ddcc9-c6bf-4025-bf9f-76062dac599b">
+    <Members>
+      <Member Name="dbRepExportChanges" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbRepImportChanges" Value="2">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbRepImpExpChanges" Value="4">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbRepSyncInternet" Value="16">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ReplicaTypeEnum" Key="_x0032_81dfc36-fe52-4c01-9fab-3c01ac2e3e88">
+    <Members>
+      <Member Name="dbRepMakeReadOnly" Value="2">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbRepMakePartial" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="WorkspaceTypeEnum" Key="_x0031_184bdbb-4670-4126-b2f3-19468232ab0f">
+    <Members>
+      <Member Name="dbUseODBC" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbUseJet" Value="2">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="CursorDriverEnum" Key="_x0032_d9120d7-0dab-4694-82cd-9be97090c609">
+    <Members>
+      <Member Name="dbUseDefaultCursor" Value="-1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbUseODBCCursor" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbUseServerCursor" Value="2">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbUseClientBatchCursor" Value="3">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbUseNoCursor" Value="4">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="DriverPromptEnum" Key="de0774d9-2126-4af5-a503-2eb7cc45fbf3">
+    <Members>
+      <Member Name="dbDriverPrompt" Value="2">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbDriverNoPrompt" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbDriverComplete" Value="0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbDriverCompleteRequired" Value="3">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="SetOptionEnum" Key="_x0038_c4cd5e8-435b-4cfe-8aab-a38b57d3da06">
+    <Members>
+      <Member Name="dbPageTimeout" Value="6">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLockRetry" Value="57">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbMaxBufferSize" Value="8">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbUserCommitSync" Value="58">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbImplicitCommitSync" Value="59">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbExclusiveAsyncDelay" Value="60">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbSharedAsyncDelay" Value="61">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbMaxLocksPerFile" Value="62">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbLockDelay" Value="63">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbRecycleLVs" Value="65">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbFlushTransactionTimeout" Value="66">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbPasswordEncryptionProvider" Value="80">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbPasswordEncryptionAlgorithm" Value="81">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbPasswordEncryptionKeyLength" Value="82">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ParameterDirectionEnum" Key="_x0031_f397172-8eaa-4ad0-86a6-0a1221ef9867">
+    <Members>
+      <Member Name="dbParamInput" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbParamOutput" Value="2">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbParamInputOutput" Value="3">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbParamReturnValue" Value="4">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="UpdateTypeEnum" Key="ed6c636d-8580-4ff8-91ca-d4a6de846bb7">
+    <Members>
+      <Member Name="dbUpdateBatch" Value="4">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbUpdateRegular" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbUpdateCurrentRecord" Value="2">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="RecordStatusEnum" Key="_x0031_b7f01d2-ec2f-4782-b1c9-2a8667a3e1e6">
+    <Members>
+      <Member Name="dbRecordUnmodified" Value="0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbRecordModified" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbRecordNew" Value="2">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbRecordDeleted" Value="3">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="dbRecordDBDeleted" Value="4">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="CommitTransOptionsEnum" Key="ac1079d9-e44e-4f92-9792-dfa5018fdc85">
+    <Members>
+      <Member Name="dbForceOSFlush" Value="1">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="_DAOSuppHelp" Key="_x0038_497f134-086e-4bd5-b286-70caa19de843">
+    <Members>
+      <Member Name="LogMessages" Value="0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="KeepLocal" Value="0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="Replicable" Value="0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ReplicableBool" Value="0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="V1xNullBehavior" Value="0">
+        <RefLibraries>
+          <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="e7cd0dc1-c483-48cf-9f16-d8cb079ce5b5" />
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Enum>
+</Enums>

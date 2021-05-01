@@ -1,0 +1,1202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Enums>
+  <Enum Name="BorderStyleConstants" Key="_x0032_548d4a9-cdb7-4006-92bc-635e9b1f747d">
+    <Members>
+      <Member Name="ccNone" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccFixedSingle" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="MousePointerConstants" Key="b3f5327d-b53b-4c48-b578-75cb279b0c18">
+    <Members>
+      <Member Name="ccDefault" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccArrow" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccCross" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccIBeam" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccIcon" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccSize" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccSizeNESW" Value="6">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccSizeNS" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccSizeNWSE" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccSizeEW" Value="9">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccUpArrow" Value="10">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccHourglass" Value="11">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccNoDrop" Value="12">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccArrowHourglass" Value="13">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccArrowQuestion" Value="14">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccSizeAll" Value="15">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccCustom" Value="99">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="AppearanceConstants" Key="_x0038_f71e86e-a822-48c6-97e5-1fc84ce4f197">
+    <Members>
+      <Member Name="ccFlat" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="cc3D" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="VB4AppearanceConstants" Key="_x0031_f908c87-c782-448c-9df9-b4d7b4b20e1b">
+    <Members>
+      <Member Name="vbFlat" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="vb3D" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ScrollingConstants" Key="_x0035_c934269-1b2d-4531-9250-43eeedb66fce">
+    <Members>
+      <Member Name="ccScrollingStandard" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccScrollingSmooth" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="OrientationConstants" Key="a12fa0f8-f4f5-4386-9b1d-03bc1f630d40">
+    <Members>
+      <Member Name="ccOrientationHorizontal" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccOrientationVertical" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="OLEDragConstants" Key="_x0031_53be730-3262-4c71-aace-c8c048e24c31">
+    <Members>
+      <Member Name="ccOLEDragManual" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccOLEDragAutomatic" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="OLEDropConstants" Key="a5fc11ff-81e4-4d99-a79e-7f180f483e0a">
+    <Members>
+      <Member Name="ccOLEDropNone" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccOLEDropManual" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="DragOverConstants" Key="_x0031_41456c7-d501-46c9-b226-16163271b28e">
+    <Members>
+      <Member Name="ccEnter" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccLeave" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccOver" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ClipBoardConstants" Key="a20ad637-1842-4d8d-b35b-f274c4bcaf4b">
+    <Members>
+      <Member Name="ccCFText" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccCFBitmap" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccCFMetafile" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccCFDIB" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccCFPalette" Value="9">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccCFEMetafile" Value="14">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccCFFiles" Value="15">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccCFRTF" Value="-16639">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="OLEDropEffectConstants" Key="e93a84e7-b2f6-499a-858f-66ab38689f03">
+    <Members>
+      <Member Name="ccOLEDropEffectNone" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccOLEDropEffectCopy" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccOLEDropEffectMove" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccOLEDropEffectScroll" Value="-2147483648">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ErrorConstants" Key="_x0039_4a00043-0706-40d3-b342-215fc7692ddf">
+    <Members>
+      <Member Name="ccInvalidProcedureCall" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccOutOfMemory" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccTypeMismatch" Value="13">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccObjectVariableNotSet" Value="91">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccInvalidPropertyValue" Value="380">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccSetNotSupportedAtRuntime" Value="382">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccSetNotSupported" Value="383">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccSetNotPermitted" Value="387">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccGetNotSupported" Value="394">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccInvalidPicture" Value="481">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccInvalidObjectUse" Value="425">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccWrongClipboardFormat" Value="461">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccDataObjectLocked" Value="672">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccExpectedAnArgument" Value="673">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccRecursiveOleDrag" Value="674">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccFormatNotByteArray" Value="675">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccDataNotSetForFormat" Value="676">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccIndexOutOfBounds" Value="35600">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccElemNotFound" Value="35601">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccNonUniqueKey" Value="35602">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccInvalidKey" Value="35603">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccElemNotPartOfCollection" Value="35605">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccCollectionChangedDuringEnum" Value="35606">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccWouldIntroduceCycle" Value="35614">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccMissingRequiredArg" Value="35607">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccBadObjectReference" Value="35610">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccCircularReference" Value="35700">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccCol1MustBeLeftAligned" Value="35604">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccReadOnlyIfHasImages" Value="35611">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccImageListMustBeInitialized" Value="35613">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccNotSameSize" Value="35615">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccImageListLocked" Value="35617">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccMaxPanelsExceeded" Value="35616">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccMaxButtonsExceeded" Value="35619">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ccInvalidSafeModeProcCall" Value="680">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="TabWidthStyleConstants" Key="d81d50d7-d6d9-4ce0-8186-da7bf311d96f">
+    <Members>
+      <Member Name="tabJustified" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tabNonJustified" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tabFixed" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="TabStyleConstants" Key="_x0031_14cb70b-99e1-47a4-af8f-ada65d6cc2de">
+    <Members>
+      <Member Name="tabTabs" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tabButtons" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tabFlatButtons" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="PlacementConstants" Key="f4b9424b-ed37-45fb-92ef-8008520ac812">
+    <Members>
+      <Member Name="tabPlacementTop" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tabPlacementBottom" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tabPlacementLeft" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tabPlacementRight" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="TabSelStyleConstants" Key="_x0034_17a8997-ad9c-4045-ac03-d87d8e2917c1">
+    <Members>
+      <Member Name="tabTabStandard" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tabTabOpposite" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ButtonStyleConstants" Key="_x0036_aa1757b-b9ad-4296-bf4d-40dc958411ad">
+    <Members>
+      <Member Name="tbrDefault" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tbrCheck" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tbrButtonGroup" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tbrSeparator" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tbrPlaceholder" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tbrDropdown" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ValueConstants" Key="_x0035_21ae7fa-daf9-4cbe-a7b9-fc5f874d9b86">
+    <Members>
+      <Member Name="tbrUnpressed" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tbrPressed" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ToolbarStyleConstants" Key="daf58528-6faf-4a99-9af8-8fae60ffcbe4">
+    <Members>
+      <Member Name="tbrStandard" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tbrFlat" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ToolbarTextAlignConstants" Key="_x0039_377561a-ba87-43be-81b5-e34aed5f690d">
+    <Members>
+      <Member Name="tbrTextAlignBottom" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tbrTextAlignRight" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="SbarStyleConstants" Key="_x0036_3589701-3f7e-473a-a6f5-f546a1bae48b">
+    <Members>
+      <Member Name="sbrNormal" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="sbrSimple" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="PanelAlignmentConstants" Key="_x0039_f8725c0-9cd3-4933-bafd-ee5189d51b8e">
+    <Members>
+      <Member Name="sbrLeft" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="sbrCenter" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="sbrRight" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="PanelAutoSizeConstants" Key="c28dc821-422f-4e78-8439-c167d8ed4d5c">
+    <Members>
+      <Member Name="sbrNoAutoSize" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="sbrSpring" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="sbrContents" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="PanelBevelConstants" Key="ca7a3570-0a9c-4a42-bf48-04ed1b5e470f">
+    <Members>
+      <Member Name="sbrNoBevel" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="sbrInset" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="sbrRaised" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="PanelStyleConstants" Key="d3a9a398-2677-4b7e-b2af-18c11ac0e5f8">
+    <Members>
+      <Member Name="sbrText" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="sbrCaps" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="sbrNum" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="sbrIns" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="sbrScrl" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="sbrTime" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="sbrDate" Value="6">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="sbrKana" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="LabelEditConstants" Key="_x0038_0dbb04c-1b3f-4978-b8d3-4056b3cbe2e6">
+    <Members>
+      <Member Name="tvwAutomatic" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tvwManual" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="TreeLineStyleConstants" Key="bef5b0c6-787c-45eb-b15d-766711470057">
+    <Members>
+      <Member Name="tvwTreeLines" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tvwRootLines" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="TreeStyleConstants" Key="_x0035_9e633df-dfcb-49a4-be7f-ff8aeb6fdbbd">
+    <Members>
+      <Member Name="tvwTextOnly" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tvwPictureText" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tvwPlusMinusText" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tvwPlusPictureText" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tvwTreelinesText" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tvwTreelinesPictureText" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tvwTreelinesPlusMinusText" Value="6">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tvwTreelinesPlusMinusPictureText" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="TreeRelationshipConstants" Key="_x0039_98f0137-4268-4dbd-a6cf-371434ba6994">
+    <Members>
+      <Member Name="tvwFirst" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tvwLast" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tvwNext" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tvwPrevious" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="tvwChild" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ListTextBackgroundConstants" Key="cb4ac306-9ca1-4fab-90e1-15be692ff588">
+    <Members>
+      <Member Name="lvwTransparent" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="lvwOpaque" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ListArrangeConstants" Key="_x0033_a1bfe9f-f60c-4890-bbdb-bf455944850d">
+    <Members>
+      <Member Name="lvwNone" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="lvwAutoLeft" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="lvwAutoTop" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ListPictureAlignmentConstants" Key="_x0034_8c2e4dc-9a45-46fa-8031-9bff66232874">
+    <Members>
+      <Member Name="lvwTopLeft" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="lvwTopRight" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="lvwBottomLeft" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="lvwBottomRight" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="lvwCenter" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="lvwTile" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ListLabelEditConstants" Key="_x0030_ab0a595-c952-4a6f-91f0-ac53de1dd71b">
+    <Members>
+      <Member Name="lvwAutomatic" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="lvwManual" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ListSortOrderConstants" Key="b352f2f8-49d7-41d3-9884-04fd51af477f">
+    <Members>
+      <Member Name="lvwAscending" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="lvwDescending" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ListViewConstants" Key="_x0035_6d5d92a-c21b-4cee-84cc-7782622b94d2">
+    <Members>
+      <Member Name="lvwIcon" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="lvwSmallIcon" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="lvwList" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="lvwReport" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ListColumnAlignmentConstants" Key="_x0039_c8bccd4-e0e1-4116-bed1-f879d8682632">
+    <Members>
+      <Member Name="lvwColumnLeft" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="lvwColumnRight" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="lvwColumnCenter" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ListFindItemWhereConstants" Key="_x0031_0b20bf8-add3-4cf7-9733-9c6d1e8f630e">
+    <Members>
+      <Member Name="lvwText" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="lvwSubItem" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="lvwTag" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ListFindItemHowConstants" Key="_x0031_6d032c8-7054-44f1-8ab6-b6e5273584f6">
+    <Members>
+      <Member Name="lvwWhole" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="lvwPartial" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ImageDrawConstants" Key="_x0039_68aba39-cadd-4a35-9ef5-2f67b71a4236">
+    <Members>
+      <Member Name="imlNormal" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="imlTransparent" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="imlSelected" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="imlFocus" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="TickStyleConstants" Key="c302c47e-22db-4959-8781-e76673c72f35">
+    <Members>
+      <Member Name="sldBottomRight" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="sldTopLeft" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="sldBoth" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="sldNoTicks" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="TextPositionConstants" Key="_x0031_a88dcf5-f1d8-4739-b8eb-67bbe5f170ad">
+    <Members>
+      <Member Name="sldAboveLeft" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="sldBelowRight" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="ImageComboStyleConstants" Key="e82254e3-2f8a-4637-8f74-682ab2e9e975">
+    <Members>
+      <Member Name="ImgCboDropdownCombo" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ImgCboSimpleCombo" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+      <Member Name="ImgCboDropdownList" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_6f3dc12-c17d-448e-8e76-e68cd274797c" />
+    </RefLibraries>
+  </Enum>
+</Enums>
