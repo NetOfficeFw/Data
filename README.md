@@ -9,6 +9,26 @@ Source file: **NetOffice 1.7.4.3.xml**
 NetOffice version: **1.7.4.3**
 
 
+## Usage
+
+To use the NetOffice project data from the **src** directory, use the **LateBinding** code generator
+from [LateBindingApi.CodeGenerator](https://github.com/NetOfficeFw/LateBindingApi.CodeGenerator) repository.
+
+```cs
+var analyzer = new Analyzer();
+analyzer.LoadProjectFolder(@"C:\dev\NetOffice-Data\src");
+```
+
+
+## Data Structure
+
+The **src** directory contains several XML files with data used to generate the NetOffice source code.
+
+The root file is `src\Libraries.xml` with all data about type libraries. Definitions of data types
+of individual libraries are stored in respective subfolders.
+Each library has a `Project.xml` file which references all other data type definition files.
+
+
 ## Changes
 
 List of fixes done to the NetOffice type library XML files to convert them from
