@@ -22,3 +22,12 @@ Changed company name to `https://osdn.net/projects/netoffice`
 -  Company="netoffice.codeplex.com"
 +  Company="https://osdn.net/projects/netoffice"
 ```
+
+### Fix 02 - Version and FileVersion
+
+Changed **Version** and **FileVersion** attributes to value `1.7.4.3`
+
+```diff
+-  Version="1.7.3.0" FileVersion="1.7.3.0"
++  Version="1.7.4.3" FileVersion="1.7.4.3"
+```

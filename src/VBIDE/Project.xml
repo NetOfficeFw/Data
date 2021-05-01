@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project Name="VBIDE" Namespace="NetOffice.VBIDEApi" Key="acd7db2e-ddb2-4bbb-bdb9-c2fd953585c4" Description="NetOffice VBIDE Api" Configuration="" Company="https://osdn.net/projects/netoffice" Product="NetOffice" Copyright="Sebastian Lange" Trademark="" Culture="" Version="1.7.3.0" FileVersion="1.7.3.0" Ignore="false" xmlns:xi="http://www.w3.org/2001/XInclude">
+<Project Name="VBIDE" Namespace="NetOffice.VBIDEApi" Key="acd7db2e-ddb2-4bbb-bdb9-c2fd953585c4" Description="NetOffice VBIDE Api" Configuration="" Company="https://osdn.net/projects/netoffice" Product="NetOffice" Copyright="Sebastian Lange" Trademark="" Culture="" Version="1.7.4.3" FileVersion="1.7.4.3" Ignore="false" xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="Constants.xml" />
   <xi:include href="Enums.xml" />
   <xi:include href="Modules.xml" />

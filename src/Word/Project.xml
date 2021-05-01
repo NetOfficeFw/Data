@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project Name="Word" Namespace="NetOffice.WordApi" Key="_x0035_c457066-d488-4bc1-b7f8-1e90f2a80648" Description="NetOffice Word Api" Configuration="" Company="https://osdn.net/projects/netoffice" Product="NetOffice" Copyright="Sebastian Lange" Trademark="" Culture="" Version="1.7.3.0" FileVersion="1.7.3.0" Ignore="false" xmlns:xi="http://www.w3.org/2001/XInclude">
+<Project Name="Word" Namespace="NetOffice.WordApi" Key="_x0035_c457066-d488-4bc1-b7f8-1e90f2a80648" Description="NetOffice Word Api" Configuration="" Company="https://osdn.net/projects/netoffice" Product="NetOffice" Copyright="Sebastian Lange" Trademark="" Culture="" Version="1.7.4.3" FileVersion="1.7.4.3" Ignore="false" xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="Constants.xml" />
   <xi:include href="Enums.xml" />
   <xi:include href="Modules.xml" />
