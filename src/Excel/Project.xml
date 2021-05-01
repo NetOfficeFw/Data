@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project Name="Excel" Namespace="NetOffice.ExcelApi" Key="_x0034_3c2ffd2-1680-490a-b0cf-be425d6eec7c" Description="NetOffice Excel Api" Configuration="" Company="netoffice.codeplex.com" Product="NetOffice" Copyright="Sebastian Lange" Trademark="" Culture="" Version="1.7.3.0" FileVersion="1.7.3.0" Ignore="false" xmlns:xi="http://www.w3.org/2001/XInclude">
+<Project Name="Excel" Namespace="NetOffice.ExcelApi" Key="_x0034_3c2ffd2-1680-490a-b0cf-be425d6eec7c" Description="NetOffice Excel Api" Configuration="" Company="https://osdn.net/projects/netoffice" Product="NetOffice" Copyright="Sebastian Lange" Trademark="" Culture="" Version="1.7.3.0" FileVersion="1.7.3.0" Ignore="false" xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="Constants.xml" />
   <xi:include href="Enums.xml" />
   <xi:include href="Modules.xml" />
