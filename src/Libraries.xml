@@ -254,4 +254,7 @@
   <Library Name="Visio" File="C:\Program Files\Microsoft Office\Office15\VISLIB.DLL" Key="b59ef2ab-8a57-4e29-8946-e9eac3bb0fb5" GUID="_x0030_0021A98-0000-0000-C000-000000000046" HelpFile="C:\Program Files\Microsoft Office\Office15\Vis_SDR.CHM" Major="4" Minor="15" LCID="0" Description="&lt;NoDescription&gt;" Version="15" SysKind="1">
     <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
   </Library>
+  <Library Name="MSForms" File="C:\WINDOWS\system32\FM20.DLL" Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" GUID="_x0030_D452EE1-E08F-101A-852E-02608C4D0BB4" HelpFile="C:\WINDOWS\system32\fm20.hlp" Major="2" Minor="0" LCID="0" Description="Microsoft Forms 2.0 Object Library" Version="2" SysKind="1">
+    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
+  </Library>
 </Libraries>

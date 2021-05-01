@@ -5,5 +5,5 @@
 
 ## Information
 
-Source file: **NetOffice 1.7.2.xml**  
-NetOffice version: **1.7.2.0**
+Source file: **NetOffice 1.7.4.xml**  
+NetOffice version: **1.7.4.0**

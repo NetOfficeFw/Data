@@ -1,0 +1,1252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Enums>
+  <Enum Name="fmDropEffect" Key="a0947a08-e510-49b5-a1d5-651685b8ffad">
+    <Members>
+      <Member Name="fmDropEffectNone" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmDropEffectCopy" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmDropEffectMove" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmDropEffectCopyOrMove" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmAction" Key="_x0033_761466a-9fea-47ac-9b16-a0ed4a6ba235">
+    <Members>
+      <Member Name="fmActionCut" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmActionCopy" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmActionPaste" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmActionDragDrop" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmMode" Key="_x0034_ae84268-5c4d-44ec-a002-13a113f8d83d">
+    <Members>
+      <Member Name="fmModeInherit" Value="-2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmModeOn" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmModeOff" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmMousePointer" Key="_x0032_4eb2b07-e846-4c88-a096-b25e23ee825d">
+    <Members>
+      <Member Name="fmMousePointerDefault" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmMousePointerArrow" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmMousePointerCross" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmMousePointerIBeam" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmMousePointerSizeNESW" Value="6">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmMousePointerSizeNS" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmMousePointerSizeNWSE" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmMousePointerSizeWE" Value="9">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmMousePointerUpArrow" Value="10">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmMousePointerHourGlass" Value="11">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmMousePointerNoDrop" Value="12">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmMousePointerAppStarting" Value="13">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmMousePointerHelp" Value="14">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmMousePointerSizeAll" Value="15">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmMousePointerCustom" Value="99">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmScrollBars" Key="f6a2958b-d6c3-4a0e-a0d4-f2d47df336cd">
+    <Members>
+      <Member Name="fmScrollBarsNone" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmScrollBarsHorizontal" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmScrollBarsVertical" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmScrollBarsBoth" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmScrollAction" Key="_x0032_e060deb-b827-4ca3-810f-1c34777fae69">
+    <Members>
+      <Member Name="fmScrollActionNoChange" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmScrollActionLineUp" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmScrollActionLineDown" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmScrollActionPageUp" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmScrollActionPageDown" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmScrollActionBegin" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmScrollActionEnd" Value="6">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="_fmScrollActionAbsoluteChange" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmScrollActionPropertyChange" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmScrollActionControlRequest" Value="9">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmScrollActionFocusRequest" Value="10">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmCycle" Key="dd77da7e-77f2-4334-9691-b97f7c9978f7">
+    <Members>
+      <Member Name="fmCycleAllForms" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmCycleCurrentForm" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmZOrder" Key="d4c8a16b-8ffb-4933-8b23-805759796f0c">
+    <Members>
+      <Member Name="fmZOrderFront" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmZOrderBack" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmBorderStyle" Key="_x0030_919759c-f6af-445c-990f-170911217f31">
+    <Members>
+      <Member Name="fmBorderStyleNone" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmBorderStyleSingle" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmTextAlign" Key="_x0035_681c4fb-706f-4a00-8c68-31f72bf1288b">
+    <Members>
+      <Member Name="fmTextAlignLeft" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmTextAlignCenter" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmTextAlignRight" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmAlignment" Key="e9472123-0208-4e38-a7f5-dabc44b59d4d">
+    <Members>
+      <Member Name="fmAlignmentLeft" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmAlignmentRight" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmBorders" Key="a46dcc80-6fbe-47e2-a280-687fe2685c15">
+    <Members>
+      <Member Name="fmBordersNone" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmBordersBox" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmBordersLeft" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmBordersTop" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmBackStyle" Key="_x0031_63e9ff5-1413-492f-a8d5-2b5f56b2dea4">
+    <Members>
+      <Member Name="fmBackStyleTransparent" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmBackStyleOpaque" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmButtonStyle" Key="d08a0ecd-38b5-4799-8516-b5c7aeffe178">
+    <Members>
+      <Member Name="fmButtonStylePushButton" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmButtonStyleToggleButton" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmPicPosition" Key="_x0037_8c1f5c9-110b-4142-af3d-bdbf4d47350a">
+    <Members>
+      <Member Name="fmPicPositionCenter" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicPositionTopLeft" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicPositionTopCenter" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicPositionTopRight" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicPositionCenterLeft" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicPositionCenterRight" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicPositionBottomLeft" Value="6">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicPositionBottomCenter" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicPositionBottomRight" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmVerticalScrollBarSide" Key="_x0038_b76772b-473c-4d98-84cd-fa9d25852151">
+    <Members>
+      <Member Name="fmVerticalScrollBarSideRight" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmVerticalScrollBarSideLeft" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmLayoutEffect" Key="_x0032_e67910a-93cb-41dd-b2e6-e6f461851c4d">
+    <Members>
+      <Member Name="fmLayoutEffectNone" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmLayoutEffectInitiate" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="_fmLayoutEffectRespond" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmSpecialEffect" Key="dc5a9bb7-ec0d-4bcf-bab4-76b38b52cc26">
+    <Members>
+      <Member Name="fmSpecialEffectFlat" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmSpecialEffectRaised" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmSpecialEffectSunken" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmSpecialEffectEtched" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmSpecialEffectBump" Value="6">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmDragState" Key="c3751498-40a6-452d-b8f8-2a4d1cbca2f9">
+    <Members>
+      <Member Name="fmDragStateEnter" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmDragStateLeave" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmDragStateOver" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmPictureSizeMode" Key="_x0032_cb19bf1-3400-4d86-9761-656bee6ee466">
+    <Members>
+      <Member Name="fmPictureSizeModeClip" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPictureSizeModeStretch" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPictureSizeModeZoom" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmPictureAlignment" Key="_x0039_3d3ec20-56c2-4dbc-a96f-6b6f196a3eef">
+    <Members>
+      <Member Name="fmPictureAlignmentTopLeft" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPictureAlignmentTopRight" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPictureAlignmentCenter" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPictureAlignmentBottomLeft" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPictureAlignmentBottomRight" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmButtonEffect" Key="_x0032_17c7561-17ea-4c9c-8162-b5236c5f3783">
+    <Members>
+      <Member Name="fmButtonEffectFlat" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmButtonEffectSunken" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmOrientation" Key="_x0039_53cf654-e46a-4af0-9825-0863902e20a3">
+    <Members>
+      <Member Name="fmOrientationAuto" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmOrientationVertical" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmOrientationHorizontal" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmSnapPoint" Key="_x0033_4df675b-43dc-463d-902b-82391adfadad">
+    <Members>
+      <Member Name="fmSnapPointTopLeft" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmSnapPointTopCenter" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmSnapPointTopRight" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmSnapPointCenterLeft" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmSnapPointCenter" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmSnapPointCenterRight" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmSnapPointBottomLeft" Value="6">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmSnapPointBottomCenter" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmSnapPointBottomRight" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmPicturePosition" Key="_x0035_88cf29a-0014-4f50-a89c-b95c1ea2d8d2">
+    <Members>
+      <Member Name="fmPicturePositionLeftTop" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicturePositionLeftCenter" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicturePositionLeftBottom" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicturePositionRightTop" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicturePositionRightCenter" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicturePositionRightBottom" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicturePositionAboveLeft" Value="6">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicturePositionAboveCenter" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicturePositionAboveRight" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicturePositionBelowLeft" Value="9">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicturePositionBelowCenter" Value="10">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicturePositionBelowRight" Value="11">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmPicturePositionCenter" Value="12">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmDisplayStyle" Key="ef859096-417f-4ac3-981b-270ba84867de">
+    <Members>
+      <Member Name="fmDisplayStyleText" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmDisplayStyleList" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmDisplayStyleCombo" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmDisplayStyleCheckBox" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmDisplayStyleOptionButton" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmDisplayStyleToggle" Value="6">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmDisplayStyleDropList" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmShowListWhen" Key="e71a3abe-2e1d-4506-b040-84a60744d8e2">
+    <Members>
+      <Member Name="fmShowListWhenNever" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmShowListWhenButton" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmShowListWhenFocus" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmShowListWhenAlways" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmShowDropButtonWhen" Key="f9fdb4b0-5638-4932-b6cd-c6fb006dda2b">
+    <Members>
+      <Member Name="fmShowDropButtonWhenNever" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmShowDropButtonWhenFocus" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmShowDropButtonWhenAlways" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmMultiSelect" Key="_x0038_6a7ebf1-6846-41d2-bf66-60a94f99a343">
+    <Members>
+      <Member Name="fmMultiSelectSingle" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmMultiSelectMulti" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmMultiSelectExtended" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmListStyle" Key="e3d9eeaf-3c2c-4d9a-82b8-38ebecd544d1">
+    <Members>
+      <Member Name="fmListStylePlain" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmListStyleOption" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmEnterFieldBehavior" Key="_x0035_f52d271-410d-4e0c-b120-8f315183d29e">
+    <Members>
+      <Member Name="fmEnterFieldBehaviorSelectAll" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmEnterFieldBehaviorRecallSelection" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmDragBehavior" Key="_x0031_f1470f8-4d0a-4701-894c-0871dbaaa4f0">
+    <Members>
+      <Member Name="fmDragBehaviorDisabled" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmDragBehaviorEnabled" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmMatchEntry" Key="_x0039_6903a83-c0a0-4956-8f47-c664b0467e32">
+    <Members>
+      <Member Name="fmMatchEntryFirstLetter" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmMatchEntryComplete" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmMatchEntryNone" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmDropButtonStyle" Key="f8b541dd-ea79-40e7-8d18-f1f8e1cb85b8">
+    <Members>
+      <Member Name="fmDropButtonStylePlain" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmDropButtonStyleArrow" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmDropButtonStyleEllipsis" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmDropButtonStyleReduce" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmStyle" Key="fb74c7c2-6c2c-463a-a128-e22240b9b078">
+    <Members>
+      <Member Name="fmStyleDropDownCombo" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmStyleDropDownList" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmTabOrientation" Key="febe20fd-ff7f-4e18-8d45-5d2981e197f9">
+    <Members>
+      <Member Name="fmTabOrientationTop" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmTabOrientationBottom" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmTabOrientationLeft" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmTabOrientationRight" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmTabStyle" Key="ffe85cf8-7194-48b8-84a0-b548534cc503">
+    <Members>
+      <Member Name="fmTabStyleTabs" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmTabStyleButtons" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmTabStyleNone" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmIMEMode" Key="a596b05b-e161-4e10-9824-18ba02b33721">
+    <Members>
+      <Member Name="fmIMEModeNoControl" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmIMEModeOn" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmIMEModeOff" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmIMEModeDisable" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmIMEModeHiragana" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmIMEModeKatakana" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmIMEModeKatakanaHalf" Value="6">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmIMEModeAlphaFull" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmIMEModeAlpha" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmIMEModeHangulFull" Value="9">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmIMEModeHangul" Value="10">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmIMEModeHanziFull" Value="11">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmIMEModeHanzi" Value="12">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmTransitionEffect" Key="_x0034_97783b9-286e-448c-ac10-4e03086b3113">
+    <Members>
+      <Member Name="fmTransitionEffectNone" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmTransitionEffectCoverUp" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmTransitionEffectCoverRightUp" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmTransitionEffectCoverRight" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmTransitionEffectCoverRightDown" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmTransitionEffectCoverDown" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmTransitionEffectCoverLeftDown" Value="6">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmTransitionEffectCoverLeft" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmTransitionEffectCoverLeftUp" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmTransitionEffectPushUp" Value="9">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmTransitionEffectPushRight" Value="10">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmTransitionEffectPushDown" Value="11">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fmTransitionEffectPushLeft" Value="12">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmListBoxStyles" Key="_x0036_61463b1-aa8d-416f-9de9-f5940855ab98">
+    <Members>
+      <Member Name="_fmListBoxStylesNone" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="_fmListBoxStylesListBox" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="_fmListBoxStylesComboBox" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmRepeatDirection" Key="_x0039_f51a46e-62dd-4806-b1f7-b24bdd3112b0">
+    <Members>
+      <Member Name="_fmRepeatDirectionHorizontal" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="_fmRepeatDirectionVertical" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="fmEnAutoSize" Key="cd18b284-2d7e-4fcc-8c73-fed8263a83cb">
+    <Members>
+      <Member Name="_fmEnAutoSizeNone" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="_fmEnAutoSizeHorizontal" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="_fmEnAutoSizeVertical" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+      <Member Name="_fmEnAutoSizeBoth" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+    </RefLibraries>
+  </Enum>
+</Enums>

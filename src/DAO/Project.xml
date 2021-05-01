@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project Name="DAO" Namespace="NetOffice.DAOApi" Key="_x0039_f9e1aa6-516c-4121-87a9-241c80528866" Description="NetOffice DAO Api" Configuration="" Company="netoffice.codeplex.com" Product="NetOffice" Copyright="Sebastian Lange" Trademark="" Culture="" Version="1.7.2.0" FileVersion="1.7.2.0" Ignore="false" xmlns:xi="http://www.w3.org/2001/XInclude">
+<Project Name="DAO" Namespace="NetOffice.DAOApi" Key="_x0039_f9e1aa6-516c-4121-87a9-241c80528866" Description="NetOffice DAO Api" Configuration="" Company="netoffice.codeplex.com" Product="NetOffice" Copyright="Sebastian Lange" Trademark="" Culture="" Version="1.7.4.0" FileVersion="1.7.4.0" Ignore="false" xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="Constants.xml" />
   <xi:include href="Enums.xml" />
   <xi:include href="Modules.xml" />

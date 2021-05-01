@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project Name="Visio" Namespace="NetOffice.VisioApi" Key="_x0035_81b0db6-8146-4729-9ae6-61b27f53b3e6" Description="NetOffice Visio Api" Configuration="" Company="netoffice.codeplex.com" Product="NetOffice" Copyright="Sebastian Lange" Trademark="" Culture="" Version="1.7.2.0" FileVersion="1.7.2.0" Ignore="false" xmlns:xi="http://www.w3.org/2001/XInclude">
+<Project Name="Visio" Namespace="NetOffice.VisioApi" Key="_x0035_81b0db6-8146-4729-9ae6-61b27f53b3e6" Description="NetOffice Visio Api" Configuration="" Company="netoffice.codeplex.com" Product="NetOffice" Copyright="Sebastian Lange" Trademark="" Culture="" Version="1.7.4.0" FileVersion="1.7.4.0" Ignore="false" xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="Constants.xml" />
   <xi:include href="Enums.xml" />
   <xi:include href="Modules.xml" />
