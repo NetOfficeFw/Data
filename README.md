@@ -69,3 +69,18 @@ is used in the **PublisherApi.csproj** (release v1.7.4.3):
 ```
 
 The correct project GUID for **OfficeApi** is `79B19A83-A79F-446C-9B7E-9B595E918E40`.
+
+### Fix 05 - MSForms project GUID
+
+The **MSForms** project uses different GUID in released source code than what is stored
+in the type library document.
+
+```diff
+-<Project Name="MSForms" Key="_x0036_ad5fb72-db04-4862-8acf-e1192ca1eba4"
++<Project Name="MSForms" Key="f1a3eba7-5c09-4986-9821-244e8468fbae"
+```
+
+The project key `_x0036_ad5fb72-db04-4862-8acf-e1192ca1eba4` (GUID `6AD5FB72-DB04-4862-8ACF-E1192CA1EBA4`)
+was changed to `f1a3eba7-5c09-4986-9821-244e8468fbae` to match the official project GUID.
+
+The correct project GUID for **MSForms** is `F1A3EBA7-5C09-4986-9821-244E8468FBAE`.

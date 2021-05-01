@@ -18,7 +18,7 @@
           <RefLibraries>
             <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
           </RefLibraries>
-          <Parameter Name="lplpfont" Type="IFont" TypeKind="TKIND_INTERFACE" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="true" IsOut="true" ParamFlags="paramflag_fout" IsArray="false" IsNative="false" TypeKey="_x0038_f7cfbcc-967a-44c7-bc2f-35cea3147442" ProjectKey="_x0036_ad5fb72-db04-4862-8acf-e1192ca1eba4" LibraryKey="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+          <Parameter Name="lplpfont" Type="IFont" TypeKind="TKIND_INTERFACE" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="true" IsOut="true" ParamFlags="paramflag_fout" IsArray="false" IsNative="false" TypeKey="_x0038_f7cfbcc-967a-44c7-bc2f-35cea3147442" ProjectKey="f1a3eba7-5c09-4986-9821-244e8468fbae" LibraryKey="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
         </Parameters>
       </Method>
       <Method Name="IsEqual" AnalyzeReturn="true" Hidden="false" Key="ad9fc23e-2bdd-4ac1-b1ac-2e3e1fc06fae">
@@ -37,7 +37,7 @@
           <RefLibraries>
             <Ref Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
           </RefLibraries>
-          <Parameter Name="lpFontOther" Type="IFont" TypeKind="TKIND_INTERFACE" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="_x0038_f7cfbcc-967a-44c7-bc2f-35cea3147442" ProjectKey="_x0036_ad5fb72-db04-4862-8acf-e1192ca1eba4" LibraryKey="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
+          <Parameter Name="lpFontOther" Type="IFont" TypeKind="TKIND_INTERFACE" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="false" TypeKey="_x0038_f7cfbcc-967a-44c7-bc2f-35cea3147442" ProjectKey="f1a3eba7-5c09-4986-9821-244e8468fbae" LibraryKey="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" />
         </Parameters>
       </Method>
       <Method Name="SetRatio" AnalyzeReturn="true" Hidden="false" Key="_x0032_5749916-ac64-4524-8106-a39449c56c4c">
