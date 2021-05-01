@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project Name="OWC10" Namespace="NetOffice.OWC10Api" Key="ae08e748-9569-4538-8bb1-f9e7af0fcb3c" Description="NetOffice OWC10 Api" Configuration="" Company="netoffice.codeplex.com" Product="NetOffice" Copyright="Sebastian Lange" Trademark="" Culture="" Version="1.7.4.0" FileVersion="1.7.4.0" Ignore="false" xmlns:xi="http://www.w3.org/2001/XInclude">
+<Project Name="OWC10" Namespace="NetOffice.OWC10Api" Key="ae08e748-9569-4538-8bb1-f9e7af0fcb3c" Description="NetOffice OWC10 Api" Configuration="" Company="netoffice.codeplex.com" Product="NetOffice" Copyright="Sebastian Lange" Trademark="" Culture="" Version="1.7.3.0" FileVersion="1.7.3.0" Ignore="false" xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="Constants.xml" />
   <xi:include href="Enums.xml" />
   <xi:include href="Modules.xml" />

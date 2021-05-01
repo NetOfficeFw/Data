@@ -9,7 +9,6 @@
           <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
           <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
           <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
-          <Ref Key="de2cfe4c-ca7b-4d70-889f-284c0666c6eb" />
         </RefLibraries>
       </DispId>
     </DispIds>
@@ -18,7 +17,6 @@
       <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
       <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
       <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
-      <Ref Key="de2cfe4c-ca7b-4d70-889f-284c0666c6eb" />
     </RefLibraries>
   </Interface>
   <Interface IsEventInterface="false" IsEarlyBind="false" IsHidden="false" TypeLibType="256" Name="_VBComponentsEvents" Key="_x0033_0396d6e-4370-4d6e-a0f9-2eab30590a18">
@@ -30,7 +28,6 @@
           <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
           <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
           <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
-          <Ref Key="de2cfe4c-ca7b-4d70-889f-284c0666c6eb" />
         </RefLibraries>
       </DispId>
     </DispIds>
@@ -39,7 +36,6 @@
       <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
       <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
       <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
-      <Ref Key="de2cfe4c-ca7b-4d70-889f-284c0666c6eb" />
     </RefLibraries>
   </Interface>
   <Interface IsEventInterface="false" IsEarlyBind="false" IsHidden="false" TypeLibType="256" Name="_ReferencesEvents" Key="_x0033_64a513d-100a-4b2b-a59f-a3ef8240c135">
@@ -51,7 +47,6 @@
           <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
           <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
           <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
-          <Ref Key="de2cfe4c-ca7b-4d70-889f-284c0666c6eb" />
         </RefLibraries>
       </DispId>
     </DispIds>
@@ -60,7 +55,6 @@
       <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
       <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
       <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
-      <Ref Key="de2cfe4c-ca7b-4d70-889f-284c0666c6eb" />
     </RefLibraries>
   </Interface>
   <Interface IsEventInterface="false" IsEarlyBind="false" IsHidden="false" TypeLibType="256" Name="_CommandBarControlEvents" Key="_x0033_37ccd02-9f5e-40f8-8533-61a3b5419bb9">
@@ -72,7 +66,6 @@
           <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
           <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
           <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
-          <Ref Key="de2cfe4c-ca7b-4d70-889f-284c0666c6eb" />
         </RefLibraries>
       </DispId>
     </DispIds>
@@ -81,7 +74,6 @@
       <Ref Key="_x0031_43c1fe9-0a50-4670-a9a1-7b8cc17f1c8c" />
       <Ref Key="c6f5f46e-fd90-42b3-a515-8ba5aa2204ac" />
       <Ref Key="b848966c-ed84-4349-9eba-0b22aa44953e" />
-      <Ref Key="de2cfe4c-ca7b-4d70-889f-284c0666c6eb" />
     </RefLibraries>
   </Interface>
 </Interfaces>
