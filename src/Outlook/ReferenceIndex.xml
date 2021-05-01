@@ -20153,12 +20153,12 @@
       </Enum>
       <Enum>
         <Name>OlFlagIcon</Name>
-        <Link>https://docs.microsoft.com/en-us/</Link>
+        <Link>https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.outlook.olflagicon</Link>
         <MsdnLink>http://msdn.microsoft.com/en-us/en-us/library/office/jj715724.aspx</MsdnLink>
       </Enum>
       <Enum>
         <Name>OlFlagStatus</Name>
-        <Link>https://docs.microsoft.com/en-us/</Link>
+        <Link>https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.outlook.olflagstatus</Link>
         <MsdnLink>http://msdn.microsoft.com/en-us/en-us/library/office/jj715744.aspx</MsdnLink>
       </Enum>
       <Enum>
@@ -20328,7 +20328,7 @@
       </Enum>
       <Enum>
         <Name>OlMobileFormat</Name>
-        <Link>https://docs.microsoft.com/en-us/</Link>
+        <Link>https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.outlook.olmobileformat</Link>
         <MsdnLink>http://msdn.microsoft.com/en-us/en-us/library/office/jj715731.aspx</MsdnLink>
       </Enum>
       <Enum>
@@ -20358,12 +20358,12 @@
       </Enum>
       <Enum>
         <Name>OlNetMeetingType</Name>
-        <Link>https://docs.microsoft.com/en-us/</Link>
+        <Link>https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.outlook.olnetmeetingtype</Link>
         <MsdnLink>http://msdn.microsoft.com/en-us/en-us/library/office/jj715740.aspx</MsdnLink>
       </Enum>
       <Enum>
         <Name>OlNoteColor</Name>
-        <Link>https://docs.microsoft.com/en-us/</Link>
+        <Link>https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.outlook.olnotecolor</Link>
         <MsdnLink>http://msdn.microsoft.com/en-us/en-us/library/office/jj715736.aspx</MsdnLink>
       </Enum>
       <Enum>
