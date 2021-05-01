@@ -1042,4 +1042,72 @@
       </DispId>
     </DispIds>
   </Record>
+  <Record Name="tagSAFEARRAY" GUID="_x0030_0000000-0000-0000-0000-000000000000" TypeLibType="0" Key="b7bfb415-1dba-4195-b43b-9113b3c46adb">
+    <RefLibraries>
+      <Ref Key="b6b4cbb7-9049-4067-a5ba-ae375c87bdb8" />
+    </RefLibraries>
+    <Members>
+      <Member Name="cDims" Type="Int16" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="b6b4cbb7-9049-4067-a5ba-ae375c87bdb8" />
+        </RefLibraries>
+      </Member>
+      <Member Name="fFeatures" Type="Int16" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="b6b4cbb7-9049-4067-a5ba-ae375c87bdb8" />
+        </RefLibraries>
+      </Member>
+      <Member Name="cbElements" Type="Int32" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="b6b4cbb7-9049-4067-a5ba-ae375c87bdb8" />
+        </RefLibraries>
+      </Member>
+      <Member Name="cLocks" Type="Int32" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="b6b4cbb7-9049-4067-a5ba-ae375c87bdb8" />
+        </RefLibraries>
+      </Member>
+      <Member Name="pvData" Type="object" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="b6b4cbb7-9049-4067-a5ba-ae375c87bdb8" />
+        </RefLibraries>
+      </Member>
+      <Member Name="rgsabound" Type="object" TypeKind="TKIND_RECORD" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="UnmanagedType.Interface" TypeKey="" ProjectKey="_x0032_6837f52-660e-424d-80b8-30d0427e00b5" LibraryKey="b6b4cbb7-9049-4067-a5ba-ae375c87bdb8">
+        <RefLibraries>
+          <Ref Key="b6b4cbb7-9049-4067-a5ba-ae375c87bdb8" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <DispIds>
+      <DispId Id="_x0030_0000000-0000-0000-0000-000000000000">
+        <RefLibraries>
+          <Ref Key="b6b4cbb7-9049-4067-a5ba-ae375c87bdb8" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Record>
+  <Record Name="tagSAFEARRAYBOUND" GUID="_x0030_0000000-0000-0000-0000-000000000000" TypeLibType="0" Key="e6c1b066-84e7-4975-9a4b-7143e4073fa3">
+    <RefLibraries>
+      <Ref Key="b6b4cbb7-9049-4067-a5ba-ae375c87bdb8" />
+    </RefLibraries>
+    <Members>
+      <Member Name="cElements" Type="Int32" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="b6b4cbb7-9049-4067-a5ba-ae375c87bdb8" />
+        </RefLibraries>
+      </Member>
+      <Member Name="lLbound" Type="Int32" TypeKind="" IsComProxy="false" IsEnum="false" IsExternal="false" IsArray="false" IsNative="true" MarshalAs="" TypeKey="" ProjectKey="" LibraryKey="">
+        <RefLibraries>
+          <Ref Key="b6b4cbb7-9049-4067-a5ba-ae375c87bdb8" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <DispIds>
+      <DispId Id="_x0030_0000000-0000-0000-0000-000000000000">
+        <RefLibraries>
+          <Ref Key="b6b4cbb7-9049-4067-a5ba-ae375c87bdb8" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </Record>
 </Records>
