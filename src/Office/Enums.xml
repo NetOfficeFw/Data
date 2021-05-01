@@ -6135,6 +6135,11 @@
           <Ref Key="_x0039_c9f6f3f-456d-43af-8fae-b9375e0336e7" />
         </RefLibraries>
       </Member>
+      <Member Name="msoContentApp" Value="27">
+        <RefLibraries>
+          <Ref Key="_x0039_c9f6f3f-456d-43af-8fae-b9375e0336e7" />
+        </RefLibraries>
+      </Member>
     </Members>
     <RefLibraries>
       <Ref Key="_x0032_8308278-2453-4aab-b139-43fcfdba2369" />
@@ -24689,6 +24694,11 @@
           <Ref Key="_x0039_c9f6f3f-456d-43af-8fae-b9375e0336e7" />
         </RefLibraries>
       </Member>
+      <Member Name="msoChartFieldRange" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0039_c9f6f3f-456d-43af-8fae-b9375e0336e7" />
+        </RefLibraries>
+      </Member>
     </Members>
     <RefLibraries>
       <Ref Key="_x0039_c9f6f3f-456d-43af-8fae-b9375e0336e7" />
@@ -24773,6 +24783,28 @@
         </RefLibraries>
       </Member>
       <Member Name="xlSeriesNameLevelAll" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0039_c9f6f3f-456d-43af-8fae-b9375e0336e7" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0039_c9f6f3f-456d-43af-8fae-b9375e0336e7" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="MsoPictureCompress" Key="_x0030_87646cb-a5d2-4742-b3a2-acbd5d2d3d28">
+    <Members>
+      <Member Name="msoPictureCompressDocDefault" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0039_c9f6f3f-456d-43af-8fae-b9375e0336e7" />
+        </RefLibraries>
+      </Member>
+      <Member Name="msoPictureCompressFalse" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0039_c9f6f3f-456d-43af-8fae-b9375e0336e7" />
+        </RefLibraries>
+      </Member>
+      <Member Name="msoPictureCompressTrue" Value="1">
         <RefLibraries>
           <Ref Key="_x0039_c9f6f3f-456d-43af-8fae-b9375e0336e7" />
         </RefLibraries>
