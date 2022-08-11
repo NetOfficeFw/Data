@@ -118,18 +118,6 @@
     <DependLib Name="VBIDE" GUID="_x0030_002E157-0000-0000-C000-000000000046" Major="5" Minor="3" Description="Microsoft Visual Basic for Applications Extensibility 5.3" />
     <DependLib Name="ADODB" GUID="_x0030_0000205-0000-0010-8000-00AA006D2EA4" Major="2" Minor="5" Description="Microsoft ActiveX Data Objects 2.5 Library" />
   </Library>
-  <Library Name="MSProject" File="C:\Programme\Microsoft Office\OFFICE11\MSPRJ.OLB" Key="_x0036_5c2e2a6-d1a3-4859-88c4-24255af806fb" GUID="A7107640-94DF-1068-855E-00DD01075445" HelpFile="C:\Programme\Microsoft Office\OFFICE11\VBAPJ.CHM" Major="4" Minor="5" LCID="0" Description="Microsoft Project 11.0 Object Library" Version="11" SysKind="1">
-    <DependLib Name="Office" GUID="_x0032_DF8D04C-5BFA-101B-BDE5-00AA0044DE52" Major="2" Minor="3" Description="Microsoft Office 11.0 Object Library" />
-    <DependLib Name="VBIDE" GUID="_x0030_002E157-0000-0000-C000-000000000046" Major="5" Minor="3" Description="Microsoft Visual Basic for Applications Extensibility 5.3" />
-    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
-    <DependLib Name="MSHTML" GUID="_x0033_050F1C5-98B5-11CF-BB82-00AA00BDCE0B" Major="4" Minor="0" Description="Microsoft HTML Object Library" />
-  </Library>
-  <Library Name="MSHTML" File="C:\WINDOWS\system32\mshtml.tlb" Key="b6b4cbb7-9049-4067-a5ba-ae375c87bdb8" GUID="_x0033_050F1C5-98B5-11CF-BB82-00AA00BDCE0B" HelpFile="" Major="4" Minor="0" LCID="0" Description="Microsoft HTML Object Library" Version="4" SysKind="1">
-    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
-  </Library>
-  <Library Name="Visio" File="C:\Programme\Microsoft Office\Visio11\VISLIB.DLL" Key="a18bd75a-319c-43ed-9066-0ea4055660aa" GUID="_x0030_0021A98-0000-0000-C000-000000000046" HelpFile="C:\Programme\Microsoft Office\Visio11\Vis_SDR.CHM" Major="4" Minor="11" LCID="0" Description="&lt;NoDescription&gt;" Version="11" SysKind="1">
-    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
-  </Library>
   <Library Name="Excel" File="C:\Programme\Microsoft Office\Office12\EXCEL.EXE" Key="_x0033_a670e6d-67ba-40fb-83ff-ccf8bebeac88" GUID="_x0030_0020813-0000-0000-C000-000000000046" HelpFile="C:\Programme\Microsoft Office\Office12\VBAXL10.CHM" Major="1" Minor="6" LCID="0" Description="Microsoft Excel 12.0 Object Library" Version="12" SysKind="1">
     <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
     <DependLib Name="Office" GUID="_x0032_DF8D04C-5BFA-101B-BDE5-00AA0044DE52" Major="2" Minor="4" Description="Office, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" />
@@ -162,15 +150,6 @@
     <DependLib Name="DAO" GUID="_x0030_0025E01-0000-0000-C000-000000000046" Major="5" Minor="0" Description="Microsoft DAO 3.6 Object Library" />
     <DependLib Name="VBIDE" GUID="_x0030_002E157-0000-0000-C000-000000000046" Major="5" Minor="3" Description="Microsoft.Vbe.Interop, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" />
     <DependLib Name="ADODB" GUID="_x0030_0000205-0000-0010-8000-00AA006D2EA4" Major="2" Minor="5" Description="Microsoft ActiveX Data Objects 2.5 Library" />
-  </Library>
-  <Library Name="MSProject" File="C:\Programme\Microsoft Office\Office12\MSPRJ.OLB" Key="b2de9018-48df-432f-91a6-f7f7e28c5912" GUID="A7107640-94DF-1068-855E-00DD01075445" HelpFile="C:\Programme\Microsoft Office\Office12\VBAPJ.CHM" Major="4" Minor="6" LCID="0" Description="Microsoft.Office.Interop.MSProject, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" Version="12" SysKind="1">
-    <DependLib Name="Office" GUID="_x0032_DF8D04C-5BFA-101B-BDE5-00AA0044DE52" Major="2" Minor="4" Description="Office, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" />
-    <DependLib Name="VBIDE" GUID="_x0030_002E157-0000-0000-C000-000000000046" Major="5" Minor="3" Description="Microsoft.Vbe.Interop, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" />
-    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
-    <DependLib Name="MSHTML" GUID="_x0033_050F1C5-98B5-11CF-BB82-00AA00BDCE0B" Major="4" Minor="0" Description="Microsoft HTML Object Library" />
-  </Library>
-  <Library Name="Visio" File="C:\Programme\Microsoft Office\Office12\VISLIB.DLL" Key="cb2c9353-d5ee-46fb-82be-38c9ef7207fd" GUID="_x0030_0021A98-0000-0000-C000-000000000046" HelpFile="C:\Programme\Microsoft Office\Office12\Vis_SDR.CHM" Major="4" Minor="12" LCID="0" Description="&lt;NoDescription&gt;" Version="12" SysKind="1">
-    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
   </Library>
   <Library Name="Excel" File="C:\Programme\Microsoft Office\Office14\EXCEL.EXE" Key="_x0031_0196087-ea58-4b13-b66b-55823af29a2a" GUID="_x0030_0020813-0000-0000-C000-000000000046" HelpFile="C:\Programme\Microsoft Office\Office14\VBAXL10.CHM" Major="1" Minor="7" LCID="0" Description="Microsoft Excel 14.0 Object Library" Version="14" SysKind="1">
     <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
@@ -208,15 +187,6 @@
   <Library Name="DAO" File="C:\Programme\Gemeinsame Dateien\Microsoft Shared\OFFICE14\ACEDAO.DLL" Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" GUID="_x0034_AC9E1DA-5BAD-4AC7-86E3-24F4CDCECA28" HelpFile="C:\Programme\Gemeinsame Dateien\Microsoft Shared\OFFICE14\dao360.chm" Major="12" Minor="0" LCID="0" Description="&lt;NoDescription&gt;" Version="12.0" SysKind="1">
     <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
   </Library>
-  <Library Name="MSProject" File="C:\Programme\Microsoft Office\Office14\MSPRJ.OLB" Key="_x0030_382e225-7f74-4783-9993-e031d6886720" GUID="A7107640-94DF-1068-855E-00DD01075445" HelpFile="C:\Programme\Microsoft Office\Office14\VBAPJ.CHM" Major="4" Minor="7" LCID="0" Description="Microsoft.Office.Interop.MSProject, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" Version="14" SysKind="1">
-    <DependLib Name="Office" GUID="_x0032_DF8D04C-5BFA-101B-BDE5-00AA0044DE52" Major="2" Minor="5" Description="Office, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" />
-    <DependLib Name="VBIDE" GUID="_x0030_002E157-0000-0000-C000-000000000046" Major="5" Minor="3" Description="Microsoft.Vbe.Interop, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" />
-    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
-    <DependLib Name="MSHTML" GUID="_x0033_050F1C5-98B5-11CF-BB82-00AA00BDCE0B" Major="4" Minor="0" Description="Microsoft HTML Object Library" />
-  </Library>
-  <Library Name="Visio" File="C:\Programme\Microsoft Office\Office14\VISLIB.DLL" Key="_x0038_be54962-65f2-4695-918c-9f51c364b27a" GUID="_x0030_0021A98-0000-0000-C000-000000000046" HelpFile="C:\Programme\Microsoft Office\Office14\Vis_SDR.CHM" Major="4" Minor="14" LCID="0" Description="&lt;NoDescription&gt;" Version="14" SysKind="1">
-    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
-  </Library>
   <Library Name="Excel" File="C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE" Key="aa7b2283-078e-4986-b58b-51a71d4de5f1" GUID="_x0030_0020813-0000-0000-C000-000000000046" HelpFile="C:\Program Files\Microsoft Office 15\Root\Office15\VBAXL10.CHM" Major="1" Minor="8" LCID="0" Description="Microsoft Excel 15.0 Object Library" Version="15" SysKind="1">
     <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
     <DependLib Name="Office" GUID="_x0032_DF8D04C-5BFA-101B-BDE5-00AA0044DE52" Major="2" Minor="7" Description="Microsoft Office 15.0 Object Library" />
@@ -246,30 +216,6 @@
     <DependLib Name="VBIDE" GUID="_x0030_002E157-0000-0000-C000-000000000046" Major="5" Minor="3" Description="Microsoft Visual Basic for Applications Extensibility 5.3" />
     <DependLib Name="ADODB" GUID="_x0030_0000205-0000-0010-8000-00AA006D2EA4" Major="2" Minor="5" Description="Microsoft ActiveX Data Objects 2.5 Library" />
   </Library>
-  <Library Name="MSProject" File="C:\Program Files\Microsoft Office\Office15\MSPRJ.OLB" Key="_x0037_88c67f9-8bd5-41b9-beff-ddf304922bf2" GUID="A7107640-94DF-1068-855E-00DD01075445" HelpFile="C:\Program Files\Microsoft Office\Office15\VBAPJ.CHM" Major="4" Minor="7" LCID="0" Description="Microsoft.Office.Interop.MSProject, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" Version="11" SysKind="1">
-    <DependLib Name="Office" GUID="_x0032_DF8D04C-5BFA-101B-BDE5-00AA0044DE52" Major="2" Minor="7" Description="Microsoft Office 15.0 Object Library" />
-    <DependLib Name="VBIDE" GUID="_x0030_002E157-0000-0000-C000-000000000046" Major="5" Minor="3" Description="Microsoft Visual Basic for Applications Extensibility 5.3" />
-    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
-    <DependLib Name="MSHTML" GUID="_x0033_050F1C5-98B5-11CF-BB82-00AA00BDCE0B" Major="4" Minor="0" Description="Microsoft HTML Object Library" />
-  </Library>
-  <Library Name="Visio" File="C:\Program Files\Microsoft Office\Office15\VISLIB.DLL" Key="b59ef2ab-8a57-4e29-8946-e9eac3bb0fb5" GUID="_x0030_0021A98-0000-0000-C000-000000000046" HelpFile="C:\Program Files\Microsoft Office\Office15\Vis_SDR.CHM" Major="4" Minor="15" LCID="0" Description="&lt;NoDescription&gt;" Version="15" SysKind="1">
-    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
-  </Library>
-  <Library Name="MSForms" File="C:\WINDOWS\system32\FM20.DLL" Key="_x0030_eb83aaf-719e-4e32-a89f-8ffe5fe42d4e" GUID="_x0030_D452EE1-E08F-101A-852E-02608C4D0BB4" HelpFile="C:\WINDOWS\system32\fm20.hlp" Major="2" Minor="0" LCID="0" Description="Microsoft Forms 2.0 Object Library" Version="2" SysKind="1">
-    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
-  </Library>
-  <Library Name="Publisher" File="C:\Program Files\Microsoft Office\Office14\MSPUB.TLB" Key="_x0036_01e303a-001d-4cc1-b451-dd8eebdc4bc8" GUID="_x0030_002123C-0000-0000-C000-000000000046" HelpFile="C:\Program Files\Microsoft Office\Office14\vbapb10.chm" Major="2" Minor="1" LCID="0" Description="Microsoft.Office.Interop.Publisher, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" Version="14" SysKind="3">
-    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
-    <DependLib Name="Office" GUID="_x0032_DF8D04C-5BFA-101B-BDE5-00AA0044DE52" Major="2" Minor="5" Description="Office, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71E9BCE111E9429C" />
-  </Library>
-  <Library Name="Publisher" File="C:\Program Files\Microsoft Office 15\Root\Office15\MSPUB.TLB" Key="efda2078-f4ba-4f5a-9745-74db7f105ff5" GUID="_x0030_002123C-0000-0000-C000-000000000046" HelpFile="C:\Program Files\Microsoft Office 15\Root\Office15\vbapb10.chm" Major="2" Minor="2" LCID="0" Description="Microsoft Publisher 15.0 Object Library" Version="15" SysKind="1">
-    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
-    <DependLib Name="Office" GUID="_x0032_DF8D04C-5BFA-101B-BDE5-00AA0044DE52" Major="2" Minor="7" Description="Microsoft Office 15.0 Object Library" />
-  </Library>
-  <Library Name="Publisher" File="C:\Program Files (x86)\Microsoft Office\Root\Office16\MSPUB.TLB" Key="efb6e16c-9e78-4ca3-b481-998e1a780b4a" GUID="_x0030_002123C-0000-0000-C000-000000000046" HelpFile="C:\Program Files (x86)\Microsoft Office\Root\Office16\vbapb10.chm" Major="2" Minor="3" LCID="0" Description="Microsoft Publisher 16.0 Object Library" Version="16" SysKind="1">
-    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
-    <DependLib Name="Office" GUID="_x0032_DF8D04C-5BFA-101B-BDE5-00AA0044DE52" Major="2" Minor="8" Description="Microsoft Office 16.0 Object Library" />
-  </Library>
   <Library Name="Office" File="C:\Program Files (x86)\Microsoft Office\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\OFFICE16\MSO.DLL" Key="_x0030_d3aadbc-b5e1-4d0a-97ab-6b041a2b7546" GUID="_x0032_DF8D04C-5BFA-101B-BDE5-00AA0044DE52" HelpFile="C:\Program Files (x86)\Microsoft Office\Root\VFS\ProgramFilesCommonX86\Microsoft Shared\OFFICE16\vbaof11.chm" Major="2" Minor="8" LCID="0" Description="Microsoft Office 16.0 Object Library" Version="16" SysKind="1">
     <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
   </Library>
@@ -298,14 +244,5 @@
     <DependLib Name="DAO" GUID="_x0034_AC9E1DA-5BAD-4AC7-86E3-24F4CDCECA28" Major="12" Minor="0" Description="&lt;NoDescription&gt;" />
     <DependLib Name="VBIDE" GUID="_x0030_002E157-0000-0000-C000-000000000046" Major="5" Minor="3" Description="Microsoft Visual Basic for Applications Extensibility 5.3" />
     <DependLib Name="ADODB" GUID="_x0030_0000205-0000-0010-8000-00AA006D2EA4" Major="2" Minor="5" Description="Microsoft ActiveX Data Objects 2.5 Library" />
-  </Library>
-  <Library Name="MSProject" File="C:\Program Files\Microsoft Office\Root\Office16\MSPRJ.OLB" Key="_x0036_4c4c48f-918b-4b82-968a-e385b681c257" GUID="A7107640-94DF-1068-855E-00DD01075445" HelpFile="C:\Program Files\Microsoft Office\Root\Office16\VBAPJ.CHM" Major="4" Minor="9" LCID="0" Description="Microsoft Office Project 16.0 Object Library" Version="16" SysKind="1">
-    <DependLib Name="Office" GUID="_x0032_DF8D04C-5BFA-101B-BDE5-00AA0044DE52" Major="2" Minor="8" Description="Microsoft Office 16.0 Object Library" />
-    <DependLib Name="VBIDE" GUID="_x0030_002E157-0000-0000-C000-000000000046" Major="5" Minor="3" Description="Microsoft Visual Basic for Applications Extensibility 5.3" />
-    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
-    <DependLib Name="MSHTML" GUID="_x0033_050F1C5-98B5-11CF-BB82-00AA00BDCE0B" Major="4" Minor="0" Description="Microsoft HTML Object Library" />
-  </Library>
-  <Library Name="Visio" File="C:\Program Files\Microsoft Office\Root\Office16\VISLIB.DLL" Key="_x0034_f988715-60e5-4b9a-9f75-1452a744ff85" GUID="_x0030_0021A98-0000-0000-C000-000000000046" HelpFile="C:\Program Files\Microsoft Office\Root\Office16\Vis_SDR.CHM" Major="4" Minor="16" LCID="0" Description="&lt;NoDescription&gt;" Version="16" SysKind="1">
-    <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />
   </Library>
 </Libraries>
