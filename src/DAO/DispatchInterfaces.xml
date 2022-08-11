@@ -8878,4 +8878,538 @@
       <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
     </RefLibraries>
   </Interface>
+  <Interface IsEventInterface="false" IsEarlyBind="false" IsHidden="false" TypeLibType="4160" Name="Field3" Key="d4b6b90d-1cc9-42ba-b875-c5486b1d5e3a">
+    <Methods>
+      <Method Name="AppendChunk" AnalyzeReturn="true" Hidden="false" Key="bcaeaeb5-9c84-4711-9575-2e1daca5052b">
+        <DispIds>
+          <DispId Id="1610809374">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="void" VarType="VT_VOID" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="false" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+          <Parameter Name="Val" Type="object" TypeKind="" VarType="VT_VARIANT" MarshalAs="UnmanagedType.Struct" IsExternal="false" IsComProxy="true" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+        </Parameters>
+      </Method>
+      <Method Name="GetChunk" AnalyzeReturn="true" Hidden="false" Key="_x0039_b348f3b-e1f1-417d-bcb1-6224835a252a">
+        <DispIds>
+          <DispId Id="1610809375">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="COMVariant" VarType="VT_VARIANT" MarshalAs="UnmanagedType.Struct" TypeKind="" IsComProxy="true" IsExternal="false" IsEnum="false" IsArray="false" IsNative="false" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+          <Parameter Name="Offset" Type="Int32" TypeKind="" VarType="VT_I4" MarshalAs="" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <Parameter Name="Bytes" Type="Int32" TypeKind="" VarType="VT_I4" MarshalAs="" IsExternal="false" IsComProxy="false" IsOptional="false" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="paramflag_fin" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+        </Parameters>
+      </Method>
+      <Method Name="_30_FieldSize" AnalyzeReturn="true" Hidden="false" Key="_x0037_0c07576-4aab-4a65-8de9-9efbdcfd66f8">
+        <DispIds>
+          <DispId Id="1610809376">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_I4" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Method>
+      <Method Name="CreateProperty" AnalyzeReturn="true" Hidden="false" Key="_x0032_051b501-6f27-4c57-98ea-544d46471955">
+        <DispIds>
+          <DispId Id="1610809377">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Property" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" TypeKind="TKIND_DISPATCH" IsComProxy="true" IsExternal="false" IsEnum="false" IsArray="false" IsNative="false" TypeKey="_x0038_99c3032-f0c6-4d1d-9c41-10cddbf74c76" ProjectKey="_x0039_f9e1aa6-516c-4121-87a9-241c80528866" LibraryKey="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+          <Parameter Name="Name" Type="object" TypeKind="" VarType="VT_VARIANT" MarshalAs="UnmanagedType.Struct" IsExternal="false" IsComProxy="true" IsOptional="true" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="17" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <Parameter Name="Type" Type="object" TypeKind="" VarType="VT_VARIANT" MarshalAs="UnmanagedType.Struct" IsExternal="false" IsComProxy="true" IsOptional="true" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="17" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <Parameter Name="Value" Type="object" TypeKind="" VarType="VT_VARIANT" MarshalAs="UnmanagedType.Struct" IsExternal="false" IsComProxy="true" IsOptional="true" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="17" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <Parameter Name="DDL" Type="object" TypeKind="" VarType="VT_VARIANT" MarshalAs="UnmanagedType.Struct" IsExternal="false" IsComProxy="true" IsOptional="true" HasDefaultValue="false" DefaultValue="" IsEnum="false" IsRef="false" IsOut="false" ParamFlags="17" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+        </Parameters>
+      </Method>
+    </Methods>
+    <Properties>
+      <Property Name="Properties" InvokeKind="INVOKE_PROPERTYGET" AnalyzeReturn="true" Hidden="false" Key="bfefdf7d-3cb0-4e41-b425-ad96447bcbed">
+        <DispIds>
+          <DispId Id="10">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Properties" VarType="VT_EMPTY" MarshalAs="UnmanagedType.Interface" TypeKind="TKIND_DISPATCH" IsComProxy="true" IsExternal="false" IsEnum="false" IsArray="false" IsNative="false" TypeKey="_x0033_8c7ce11-2bb5-4f01-9277-c3393cef29e2" ProjectKey="_x0039_f9e1aa6-516c-4121-87a9-241c80528866" LibraryKey="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="CollatingOrder" InvokeKind="INVOKE_PROPERTYGET" AnalyzeReturn="true" Hidden="false" Key="_x0031_fca4f0d-7958-41b6-844a-60e43cd73150">
+        <DispIds>
+          <DispId Id="1610809344">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_I4" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="Type" InvokeKind="INVOKE_PROPERTYPUT" AnalyzeReturn="true" Hidden="false" Key="d163f650-7711-4f6b-88bf-e5864aa6d6df">
+        <DispIds>
+          <DispId Id="1610809345">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int16" VarType="VT_I2" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="Name" InvokeKind="INVOKE_PROPERTYPUT" AnalyzeReturn="true" Hidden="false" Key="_x0033_94ff451-cec7-4716-837f-195e5e717043">
+        <DispIds>
+          <DispId Id="1610809347">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="string" VarType="VT_BSTR" MarshalAs="UnmanagedType.BStr" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="Size" InvokeKind="INVOKE_PROPERTYPUT" AnalyzeReturn="true" Hidden="false" Key="_x0035_eb2123c-5716-493e-ace2-941a1f05a28b">
+        <DispIds>
+          <DispId Id="1610809349">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_I4" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="SourceField" InvokeKind="INVOKE_PROPERTYGET" AnalyzeReturn="true" Hidden="false" Key="a447cc93-307e-4c14-859d-bce58f8506ec">
+        <DispIds>
+          <DispId Id="1610809351">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="string" VarType="VT_BSTR" MarshalAs="UnmanagedType.BStr" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="SourceTable" InvokeKind="INVOKE_PROPERTYGET" AnalyzeReturn="true" Hidden="false" Key="bcd80a7b-539e-44c5-9266-10c11dca9d72">
+        <DispIds>
+          <DispId Id="1610809352">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="string" VarType="VT_BSTR" MarshalAs="UnmanagedType.BStr" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="Value" InvokeKind="INVOKE_PROPERTYPUT" AnalyzeReturn="true" Hidden="false" Key="d0d588a0-25f4-40a4-a0f1-9ccda07326f1">
+        <DispIds>
+          <DispId Id="0">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="COMVariant" VarType="VT_VARIANT" MarshalAs="UnmanagedType.Struct" TypeKind="" IsComProxy="true" IsExternal="false" IsEnum="false" IsArray="false" IsNative="false" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="Attributes" InvokeKind="INVOKE_PROPERTYPUT" AnalyzeReturn="true" Hidden="false" Key="_x0036_3018370-8f78-44a6-9886-636bd420da74">
+        <DispIds>
+          <DispId Id="1610809355">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_I4" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="OrdinalPosition" InvokeKind="INVOKE_PROPERTYPUT" AnalyzeReturn="true" Hidden="false" Key="_x0034_ef30d6f-77e4-4d00-9d95-8c1d1b262e77">
+        <DispIds>
+          <DispId Id="1610809357">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int16" VarType="VT_I2" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="ValidationText" InvokeKind="INVOKE_PROPERTYPUT" AnalyzeReturn="true" Hidden="false" Key="aa776712-17de-42c7-a4fd-438a204e0731">
+        <DispIds>
+          <DispId Id="1610809359">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="string" VarType="VT_BSTR" MarshalAs="UnmanagedType.BStr" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="ValidateOnSet" InvokeKind="INVOKE_PROPERTYPUT" AnalyzeReturn="true" Hidden="false" Key="_x0034_c28c491-c587-45b5-8fab-ea964bc96f5f">
+        <DispIds>
+          <DispId Id="1610809361">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="bool" VarType="VT_BOOL" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="ValidationRule" InvokeKind="INVOKE_PROPERTYPUT" AnalyzeReturn="true" Hidden="false" Key="_x0031_0edafba-6b62-4826-ac86-1a7feec2ede4">
+        <DispIds>
+          <DispId Id="1610809363">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="string" VarType="VT_BSTR" MarshalAs="UnmanagedType.BStr" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="DefaultValue" InvokeKind="INVOKE_PROPERTYPUT" AnalyzeReturn="true" Hidden="false" Key="_x0039_ddb330a-59bc-4a5d-96ce-e4f959a35448">
+        <DispIds>
+          <DispId Id="1610809365">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="COMVariant" VarType="VT_VARIANT" MarshalAs="UnmanagedType.Struct" TypeKind="" IsComProxy="true" IsExternal="false" IsEnum="false" IsArray="false" IsNative="false" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="Required" InvokeKind="INVOKE_PROPERTYPUT" AnalyzeReturn="true" Hidden="false" Key="_x0035_113a0e9-a892-49e8-b62d-a93bb0158b94">
+        <DispIds>
+          <DispId Id="1610809367">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="bool" VarType="VT_BOOL" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="AllowZeroLength" InvokeKind="INVOKE_PROPERTYPUT" AnalyzeReturn="true" Hidden="false" Key="c623eea9-c1e0-433f-ba93-45dc29fe8817">
+        <DispIds>
+          <DispId Id="1610809369">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="bool" VarType="VT_BOOL" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="DataUpdatable" InvokeKind="INVOKE_PROPERTYGET" AnalyzeReturn="true" Hidden="false" Key="a6426b8b-ff5e-415f-bcec-507f7f6cb780">
+        <DispIds>
+          <DispId Id="1610809371">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="bool" VarType="VT_BOOL" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="ForeignName" InvokeKind="INVOKE_PROPERTYPUT" AnalyzeReturn="true" Hidden="false" Key="a57cbed2-f1a9-4541-93f5-009a35f58136">
+        <DispIds>
+          <DispId Id="1610809372">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="string" VarType="VT_BSTR" MarshalAs="UnmanagedType.BStr" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="CollectionIndex" InvokeKind="INVOKE_PROPERTYGET" AnalyzeReturn="true" Hidden="true" Key="_x0034_5528426-fdc4-4c10-bfad-0e0c3576e154">
+        <DispIds>
+          <DispId Id="1610809378">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int16" VarType="VT_I2" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="OriginalValue" InvokeKind="INVOKE_PROPERTYGET" AnalyzeReturn="true" Hidden="false" Key="bcea5e57-3416-4bf8-8992-b3fc82bbd0d0">
+        <DispIds>
+          <DispId Id="1610809379">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="COMVariant" VarType="VT_VARIANT" MarshalAs="UnmanagedType.Struct" TypeKind="" IsComProxy="true" IsExternal="false" IsEnum="false" IsArray="false" IsNative="false" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="VisibleValue" InvokeKind="INVOKE_PROPERTYGET" AnalyzeReturn="true" Hidden="false" Key="_x0039_14c11e1-df0a-46ef-99ac-d567346fff5f">
+        <DispIds>
+          <DispId Id="1610809380">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="COMVariant" VarType="VT_VARIANT" MarshalAs="UnmanagedType.Struct" TypeKind="" IsComProxy="true" IsExternal="false" IsEnum="false" IsArray="false" IsNative="false" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="FieldSize" InvokeKind="INVOKE_PROPERTYGET" AnalyzeReturn="true" Hidden="false" Key="_x0030_4539c44-d224-49fc-a4d5-64f4806440a5">
+        <DispIds>
+          <DispId Id="1610809381">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int32" VarType="VT_I4" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="Precision" InvokeKind="INVOKE_PROPERTYPUT" AnalyzeReturn="true" Hidden="false" Key="_x0036_cf20f00-30b1-4749-b11d-a2aed0656994">
+        <DispIds>
+          <DispId Id="1610940416">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int16" VarType="VT_I2" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+      <Property Name="Scale" InvokeKind="INVOKE_PROPERTYPUT" AnalyzeReturn="true" Hidden="false" Key="eb2195e6-eb1c-473a-a22d-96b173ef8046">
+        <DispIds>
+          <DispId Id="1610940418">
+            <RefLibraries>
+              <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+            </RefLibraries>
+          </DispId>
+        </DispIds>
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+        <Parameters>
+          <ReturnValue Type="Int16" VarType="VT_I2" MarshalAs="" TypeKind="" IsComProxy="false" IsExternal="false" IsEnum="false" IsArray="false" IsNative="true" TypeKey="" ProjectKey="" LibraryKey="" />
+          <RefLibraries>
+            <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+          </RefLibraries>
+        </Parameters>
+      </Property>
+    </Properties>
+    <DispIds>
+      <DispId Id="_x0030_0000057-0000-0010-8000-00AA006D2EA4">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+    <Inherited>
+      <Ref Key="dd3ffdcd-9160-4a5e-a1f0-8e234318b2fc">
+        <RefLibraries>
+          <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+        </RefLibraries>
+      </Ref>
+    </Inherited>
+    <RefLibraries>
+      <Ref Key="_x0035_970eb60-07b0-495d-86d5-dd5614ff162c" />
+    </RefLibraries>
+  </Interface>
 </DispatchInterfaces>

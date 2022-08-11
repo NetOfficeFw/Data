@@ -430,4 +430,37 @@
       </DispId>
     </DispIds>
   </CoClass>
+  <CoClass Name="SensitivityLabel" AutomaticQuit="false" IsAppObject="false" Key="bb0ac580-b2d9-48a2-a462-26fcb719d4af">
+    <RefLibraries>
+      <Ref Key="_x0030_d3aadbc-b5e1-4d0a-97ab-6b041a2b7546" />
+    </RefLibraries>
+    <DefaultInterfaces>
+      <Ref Key="cdd4d697-ef75-4219-94a4-06f37d5f23ba">
+        <RefLibraries>
+          <Ref Key="_x0030_d3aadbc-b5e1-4d0a-97ab-6b041a2b7546" />
+        </RefLibraries>
+      </Ref>
+    </DefaultInterfaces>
+    <EventInterfaces>
+      <Ref Key="ea6b1be3-a586-47eb-a29b-fc2b17f7621c">
+        <RefLibraries>
+          <Ref Key="_x0030_d3aadbc-b5e1-4d0a-97ab-6b041a2b7546" />
+        </RefLibraries>
+      </Ref>
+    </EventInterfaces>
+    <Inherited>
+      <Ref Key="cdd4d697-ef75-4219-94a4-06f37d5f23ba">
+        <RefLibraries>
+          <Ref Key="_x0030_d3aadbc-b5e1-4d0a-97ab-6b041a2b7546" />
+        </RefLibraries>
+      </Ref>
+    </Inherited>
+    <DispIds>
+      <DispId Id="CA42DA75-D621-4476-B8F9-9C4ADAE77085">
+        <RefLibraries>
+          <Ref Key="_x0030_d3aadbc-b5e1-4d0a-97ab-6b041a2b7546" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </CoClass>
 </CoClasses>

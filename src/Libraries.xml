@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Libraries>
   <Library Name="Excel" File="C:\Programme\Microsoft Office\Office\EXCEL9.OLB" Key="_x0038_bff3628-eb9f-475a-ad09-574e0a8ca01d" GUID="_x0030_0020813-0000-0000-C000-000000000046" HelpFile="C:\Programme\Microsoft Office\Office\VBAXL9.CHM" Major="1" Minor="3" LCID="0" Description="Microsoft Excel 9.0 Object Library" Version="9" SysKind="1">
     <DependLib Name="stdole" GUID="_x0030_0020430-0000-0000-C000-000000000046" Major="2" Minor="0" Description="OLE Automation" />

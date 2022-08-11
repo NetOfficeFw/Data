@@ -6439,4 +6439,31 @@
       </DispId>
     </DispIds>
   </CoClass>
+  <CoClass Name="SearchView" AutomaticQuit="false" IsAppObject="false" Key="_x0035_7785acf-7c74-4cda-8099-68d808b021d9">
+    <RefLibraries>
+      <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+    </RefLibraries>
+    <DefaultInterfaces>
+      <Ref Key="bceec85a-2757-42c7-84a7-97bc4ce324fd">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Ref>
+    </DefaultInterfaces>
+    <EventInterfaces />
+    <Inherited>
+      <Ref Key="bceec85a-2757-42c7-84a7-97bc4ce324fd">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Ref>
+    </Inherited>
+    <DispIds>
+      <DispId Id="_x0030_006200F-0000-0000-C000-000000000046">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </DispId>
+    </DispIds>
+  </CoClass>
 </CoClasses>

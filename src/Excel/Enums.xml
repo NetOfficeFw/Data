@@ -19002,6 +19002,11 @@
           <Ref Key="ad798577-81a5-4446-a475-14be59a0b4c7" />
         </RefLibraries>
       </Member>
+      <Member Name="xlOutdatedLinkedDataType" Value="11">
+        <RefLibraries>
+          <Ref Key="ad798577-81a5-4446-a475-14be59a0b4c7" />
+        </RefLibraries>
+      </Member>
     </Members>
     <RefLibraries>
       <Ref Key="_x0039_57c59e1-ffff-490d-9fd1-2ee4453844aa" />

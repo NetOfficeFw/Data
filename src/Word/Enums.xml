@@ -35071,6 +35071,16 @@
           <Ref Key="_x0035_78d038b-8434-4295-8295-a8ce2b5eefb3" />
         </RefLibraries>
       </Member>
+      <Member Name="wdRDIDocumentIntelligence" Value="20">
+        <RefLibraries>
+          <Ref Key="_x0035_78d038b-8434-4295-8295-a8ce2b5eefb3" />
+        </RefLibraries>
+      </Member>
+      <Member Name="wdRDICommentReactions" Value="21">
+        <RefLibraries>
+          <Ref Key="_x0035_78d038b-8434-4295-8295-a8ce2b5eefb3" />
+        </RefLibraries>
+      </Member>
     </Members>
     <RefLibraries>
       <Ref Key="_x0031_ec9cc56-7e60-46f2-80ab-65e48e490025" />

@@ -28668,4 +28668,48 @@
       <Ref Key="_x0030_d3aadbc-b5e1-4d0a-97ab-6b041a2b7546" />
     </RefLibraries>
   </Enum>
+  <Enum Name="MsoAssignmentMethod" Key="c5d00dfa-427c-472e-aa3e-09d807f0f8a6">
+    <Members>
+      <Member Name="NOT_SET" Value="-1">
+        <RefLibraries>
+          <Ref Key="_x0030_d3aadbc-b5e1-4d0a-97ab-6b041a2b7546" />
+        </RefLibraries>
+      </Member>
+      <Member Name="STANDARD" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_d3aadbc-b5e1-4d0a-97ab-6b041a2b7546" />
+        </RefLibraries>
+      </Member>
+      <Member Name="PRIVILEGED" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_d3aadbc-b5e1-4d0a-97ab-6b041a2b7546" />
+        </RefLibraries>
+      </Member>
+      <Member Name="AUTO" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0030_d3aadbc-b5e1-4d0a-97ab-6b041a2b7546" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_d3aadbc-b5e1-4d0a-97ab-6b041a2b7546" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="MsoSensitivityLabelError" Key="_x0030_7582afa-a795-47fe-9848-5c201b121e73">
+    <Members>
+      <Member Name="msoNoError" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0030_d3aadbc-b5e1-4d0a-97ab-6b041a2b7546" />
+        </RefLibraries>
+      </Member>
+      <Member Name="msoUserNotSignedIn" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0030_d3aadbc-b5e1-4d0a-97ab-6b041a2b7546" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0030_d3aadbc-b5e1-4d0a-97ab-6b041a2b7546" />
+    </RefLibraries>
+  </Enum>
 </Enums>

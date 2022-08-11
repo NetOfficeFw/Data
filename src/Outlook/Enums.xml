@@ -3045,6 +3045,11 @@
           <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
         </RefLibraries>
       </Member>
+      <Member Name="olClassSearchView" Value="188">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
     </Members>
     <RefLibraries>
       <Ref Key="_x0034_6c4a3ed-5602-482b-817b-f49cfbe6d612" />
@@ -4522,6 +4527,11 @@
           <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
         </RefLibraries>
       </Member>
+      <Member Name="olSearchView" Value="10">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
     </Members>
     <RefLibraries>
       <Ref Key="ddcda45a-1959-4983-ad5d-abc8e03101e8" />
@@ -4800,6 +4810,11 @@
           <Ref Key="_x0035_7a5e584-1cae-44ca-a6ad-14828e37e972" />
           <Ref Key="ebeb0988-745a-4d0d-8d95-9532232af68d" />
           <Ref Key="_x0038_773680f-62fa-496a-8503-0ca7e03d14ee" />
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olEncryptOnly" Value="3">
+        <RefLibraries>
           <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
         </RefLibraries>
       </Member>
@@ -9130,6 +9145,113 @@
         </RefLibraries>
       </Member>
       <Member Name="olGroupCalendarFolder" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+    </Members>
+    <RefLibraries>
+      <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+    </RefLibraries>
+  </Enum>
+  <Enum Name="OlMeetingProvider" Key="_x0034_08a4ae1-dac7-482f-be39-b622cfd3a503">
+    <Members>
+      <Member Name="olNoProvider" Value="0">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olUnknownProvider" Value="1">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olNotSupported" Value="2">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olSkypeBusiness" Value="3">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olSkypeConsumer" Value="4">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olTeams" Value="5">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olZoom" Value="6">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olBlueJeans" Value="7">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olGoToMeeting" Value="8">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olWebex" Value="9">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olGoogleMeet" Value="10">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olJioMeet" Value="11">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olRingCentral" Value="12">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olAmazonChimePublic" Value="13">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olAmazonChimePrivate" Value="14">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olAlibabaDingTalk" Value="15">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olFacebookWorkplace" Value="16">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olAppleFacetime" Value="17">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olClaroVideoconferencia" Value="18">
+        <RefLibraries>
+          <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
+        </RefLibraries>
+      </Member>
+      <Member Name="olProviderNotReady" Value="200">
         <RefLibraries>
           <Ref Key="_x0036_b6cc0d5-d7d6-4bf7-8e03-ba483c4480e6" />
         </RefLibraries>
