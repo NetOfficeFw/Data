@@ -1,21 +1,34 @@
-(__DATA,__const) external _AAD_SECURECONVERSATION_LABEL
 (__DATA,__data) external _ADALFrameworkNumber
 (__TEXT,__const) external _ADALFrameworkVersionString
+(__DATA,__const) external _ADAL_AAD_SECURECONVERSATION_LABEL
+(__DATA,__const) external _ADAL_AUTH_ADDITIONAL_USER_IDENTIFIER
+(__DATA,__const) external _ADAL_AUTH_CLOUD_INSTANCE_HOST_NAME
+(__DATA,__const) external _ADAL_AUTH_PROTECTION_POLICY_REQUIRED
+(__DATA,__const) external _ADAL_AUTH_SUBERROR
+(__DATA,__const) external _ADAL_AUTH_USERNAME_KEY
 (__DATA,__const) external _ADAL_BROKER_APP_BUNDLE_ID
 (__DATA,__const) external _ADAL_BROKER_APP_REDIRECT_URI
+(__DATA,__const) external _ADAL_BROKER_APP_VERSION
+(__DATA,__const) external _ADAL_BROKER_HASH_KEY
+(__DATA,__const) external _ADAL_BROKER_INTUNE_HASH_KEY
+(__DATA,__const) external _ADAL_BROKER_INTUNE_RESPONSE_KEY
+(__DATA,__const) external _ADAL_BROKER_MAX_PROTOCOL_VERSION
+(__DATA,__const) external _ADAL_BROKER_MESSAGE_VERSION
+(__DATA,__const) external _ADAL_BROKER_NONCE_KEY
+(__DATA,__const) external _ADAL_BROKER_NONCE_SCHEME
+(__DATA,__const) external _ADAL_BROKER_RESPONSE_KEY
 (__DATA,__const) external _ADAL_BROKER_SCHEME
 (__DATA,__const) external _ADAL_CLIENT_FAMILY_ID
-(__DATA,__const) external _ADAL_ID_CPU
-(__DATA,__const) external _ADAL_ID_DEVICE_MODEL
-(__DATA,__const) external _ADAL_ID_OS_VER
-(__DATA,__const) external _ADAL_ID_PLATFORM
+(__DATA,__const) external _ADAL_CLIENT_TELEMETRY
 (__DATA,__const) external _ADAL_ID_VERSION
+(__DATA,__const) external _ADAL_MS_ENROLLMENT_ID
 (__DATA,__const) external _ADAuthenticationErrorDomain
-(__DATA,__const) external _ADBrokerAppIdentifier
 (__DATA,__const) external _ADBrokerResponseErrorDomain
+(__DATA,__const) external _ADBrokerVersionKey
 (__DATA,__const) external _ADCancelError
 (__DATA,__const) external _ADCredentialsNeeded
 (__DATA,__const) external _ADHTTPErrorCodeDomain
+(__DATA,__const) external _ADHTTPHeadersKey
 (__DATA,__const) external _ADInteractionNotSupportedInExtension
 (__DATA,__const) external _ADInvalidArgumentMessage
 (__DATA,__const) external _ADKeychainErrorDomain
@@ -23,120 +36,38 @@
 (__DATA,__const) external _ADOAuthServerErrorDomain
 (__DATA,__const) external _ADRedirectUriInvalidError
 (__DATA,__const) external _ADServerError
+(__DATA,__const) external _ADSuberrorKey
+(__DATA,__const) external _ADTrustedAuthority
+(__DATA,__const) external _ADTrustedAuthorityChina
+(__DATA,__const) external _ADTrustedAuthorityCloudGovApi
+(__DATA,__const) external _ADTrustedAuthorityGermany
+(__DATA,__const) external _ADTrustedAuthorityUS
+(__DATA,__const) external _ADTrustedAuthorityUSGovernment
+(__DATA,__const) external _ADTrustedAuthorityWorldWide
 (__DATA,__const) external _ADUnknownError
+(__DATA,__const) external _ADUserIdKey
 (__DATA,__data) external _ADWebAuthDidCompleteNotification
 (__DATA,__data) external _ADWebAuthDidFailNotification
 (__DATA,__data) external _ADWebAuthDidFinishLoadNotification
 (__DATA,__data) external _ADWebAuthDidReceieveResponseFromBroker
 (__DATA,__data) external _ADWebAuthDidStartLoadNotification
 (__DATA,__data) external _ADWebAuthWillSwitchToBrokerApp
-(__DATA,__const) external _AD_TELEMETRY_EVENT_ACQUIRE_TOKEN_SILENT
-(__DATA,__const) external _AD_TELEMETRY_EVENT_API_EVENT
-(__DATA,__const) external _AD_TELEMETRY_EVENT_AUTHORITY_VALIDATION
-(__DATA,__const) external _AD_TELEMETRY_EVENT_AUTHORIZATION_CODE
-(__DATA,__const) external _AD_TELEMETRY_EVENT_HTTP_REQUEST
-(__DATA,__const) external _AD_TELEMETRY_EVENT_LAUNCH_BROKER
-(__DATA,__const) external _AD_TELEMETRY_EVENT_TOKEN_CACHE_DELETE
-(__DATA,__const) external _AD_TELEMETRY_EVENT_TOKEN_CACHE_LOOKUP
-(__DATA,__const) external _AD_TELEMETRY_EVENT_TOKEN_CACHE_WRITE
-(__DATA,__const) external _AD_TELEMETRY_EVENT_TOKEN_GRANT
-(__DATA,__const) external _AD_TELEMETRY_EVENT_UI_EVENT
-(__DATA,__const) external _AD_TELEMETRY_KEY_API_ERROR_CODE
-(__DATA,__const) external _AD_TELEMETRY_KEY_API_ID
-(__DATA,__const) external _AD_TELEMETRY_KEY_API_STATUS
-(__DATA,__const) external _AD_TELEMETRY_KEY_APPLICATION_NAME
-(__DATA,__const) external _AD_TELEMETRY_KEY_APPLICATION_VERSION
-(__DATA,__const) external _AD_TELEMETRY_KEY_AUTHORITY
-(__DATA,__const) external _AD_TELEMETRY_KEY_AUTHORITY_TYPE
-(__DATA,__const) external _AD_TELEMETRY_KEY_AUTHORITY_VALIDATION_STATUS
-(__DATA,__const) external _AD_TELEMETRY_KEY_BROKER_APP
-(__DATA,__const) external _AD_TELEMETRY_KEY_BROKER_APP_USED
-(__DATA,__const) external _AD_TELEMETRY_KEY_BROKER_PROTOCOL_VERSION
-(__DATA,__const) external _AD_TELEMETRY_KEY_BROKER_VERSION
-(__DATA,__const) external _AD_TELEMETRY_KEY_CACHE_EVENT_COUNT
-(__DATA,__const) external _AD_TELEMETRY_KEY_CLIENT_ID
-(__DATA,__const) external _AD_TELEMETRY_KEY_CORRELATION_ID
-(__DATA,__const) external _AD_TELEMETRY_KEY_DEVICE_ID
-(__DATA,__const) external _AD_TELEMETRY_KEY_DEVICE_IP_ADDRESS
-(__DATA,__const) external _AD_TELEMETRY_KEY_END_TIME
-(__DATA,__const) external _AD_TELEMETRY_KEY_ERROR_DESCRIPTION
-(__DATA,__const) external _AD_TELEMETRY_KEY_ERROR_DOMAIN
-(__DATA,__const) external _AD_TELEMETRY_KEY_EVENT_NAME
-(__DATA,__const) external _AD_TELEMETRY_KEY_EXTENDED_EXPIRES_ON_SETTING
-(__DATA,__const) external _AD_TELEMETRY_KEY_FRT_STATUS
-(__DATA,__const) external _AD_TELEMETRY_KEY_GRANT_TYPE
-(__DATA,__const) external _AD_TELEMETRY_KEY_HTTP_ERROR_DOMAIN
-(__DATA,__const) external _AD_TELEMETRY_KEY_HTTP_EVENT_COUNT
-(__DATA,__const) external _AD_TELEMETRY_KEY_HTTP_METHOD
-(__DATA,__const) external _AD_TELEMETRY_KEY_HTTP_PATH
-(__DATA,__const) external _AD_TELEMETRY_KEY_HTTP_REQUEST_ID_HEADER
-(__DATA,__const) external _AD_TELEMETRY_KEY_HTTP_RESPONSE_CODE
-(__DATA,__const) external _AD_TELEMETRY_KEY_HTTP_RESPONSE_METHOD
-(__DATA,__const) external _AD_TELEMETRY_KEY_IDP
-(__DATA,__const) external _AD_TELEMETRY_KEY_IS_EXTENED_LIFE_TIME_TOKEN
-(__DATA,__const) external _AD_TELEMETRY_KEY_IS_FRT
-(__DATA,__const) external _AD_TELEMETRY_KEY_IS_MRRT
-(__DATA,__const) external _AD_TELEMETRY_KEY_IS_RT
-(__DATA,__const) external _AD_TELEMETRY_KEY_IS_SUCCESSFUL
-(__DATA,__const) external _AD_TELEMETRY_KEY_LOGIN_HINT
-(__DATA,__const) external _AD_TELEMETRY_KEY_MRRT_STATUS
-(__DATA,__const) external _AD_TELEMETRY_KEY_NTLM_HANDLED
-(__DATA,__const) external _AD_TELEMETRY_KEY_OAUTH_ERROR_CODE
-(__DATA,__const) external _AD_TELEMETRY_KEY_PROMPT_BEHAVIOR
-(__DATA,__const) external _AD_TELEMETRY_KEY_PROTOCOL_CODE
-(__DATA,__const) external _AD_TELEMETRY_KEY_REQUEST_ID
-(__DATA,__const) external _AD_TELEMETRY_KEY_REQUEST_QUERY_PARAMS
-(__DATA,__const) external _AD_TELEMETRY_KEY_RESPONSE_TIME
-(__DATA,__const) external _AD_TELEMETRY_KEY_RESULT_STATUS
-(__DATA,__const) external _AD_TELEMETRY_KEY_RT_STATUS
-(__DATA,__const) external _AD_TELEMETRY_KEY_START_TIME
-(__DATA,__const) external _AD_TELEMETRY_KEY_TENANT_ID
-(__DATA,__const) external _AD_TELEMETRY_KEY_TOKEN_TYPE
-(__DATA,__const) external _AD_TELEMETRY_KEY_UI_EVENT_COUNT
-(__DATA,__const) external _AD_TELEMETRY_KEY_USER_AGENT
-(__DATA,__const) external _AD_TELEMETRY_KEY_USER_CANCEL
-(__DATA,__const) external _AD_TELEMETRY_KEY_USER_ID
-(__DATA,__const) external _AD_TELEMETRY_VALUE_ACCESS_TOKEN
-(__DATA,__const) external _AD_TELEMETRY_VALUE_ADFS_TOKEN
-(__DATA,__const) external _AD_TELEMETRY_VALUE_AUTHORITY_AAD
-(__DATA,__const) external _AD_TELEMETRY_VALUE_AUTHORITY_ADFS
-(__DATA,__const) external _AD_TELEMETRY_VALUE_BY_CODE
-(__DATA,__const) external _AD_TELEMETRY_VALUE_BY_REFRESH_TOKEN
-(__DATA,__const) external _AD_TELEMETRY_VALUE_CANCELLED
-(__DATA,__const) external _AD_TELEMETRY_VALUE_FAILED
-(__DATA,__const) external _AD_TELEMETRY_VALUE_FAMILY_REFRESH_TOKEN
-(__DATA,__const) external _AD_TELEMETRY_VALUE_MULTI_RESOURCE_REFRESH_TOKEN
-(__DATA,__const) external _AD_TELEMETRY_VALUE_NO
-(__DATA,__const) external _AD_TELEMETRY_VALUE_NOT_FOUND
-(__DATA,__const) external _AD_TELEMETRY_VALUE_SUCCEEDED
-(__DATA,__const) external _AD_TELEMETRY_VALUE_TRIED
-(__DATA,__const) external _AD_TELEMETRY_VALUE_UNKNOWN
-(__DATA,__const) external _AD_TELEMETRY_VALUE_USER_CANCELLED
-(__DATA,__const) external _AD_TELEMETRY_VALUE_YES
-(__DATA,__const) external _AUTH_FAILED
-(__DATA,__const) external _AUTH_FAILED_BAD_PARAMETERS
-(__DATA,__const) external _AUTH_FAILED_BAD_STATE
-(__DATA,__const) external _AUTH_FAILED_BUSY
-(__DATA,__const) external _AUTH_FAILED_ERROR_CODE
-(__DATA,__const) external _AUTH_FAILED_NO_CLIENTID
-(__DATA,__const) external _AUTH_FAILED_NO_REDIRECTURI
-(__DATA,__const) external _AUTH_FAILED_NO_STATE
-(__DATA,__const) external _AUTH_FAILED_NO_TOKEN
-(__DATA,__const) external _AUTH_FAILED_SERVER_ERROR
-(__DATA,__const) external _AUTH_NON_PROTOCOL_ERROR
-(__DATA,__const) external _BROKER_APP_VERSION
-(__DATA,__const) external _BROKER_HASH_KEY
-(__DATA,__const) external _BROKER_MAX_PROTOCOL_VERSION
-(__DATA,__const) external _BROKER_MESSAGE_VERSION
-(__DATA,__const) external _BROKER_RESPONSE_KEY
+(__DATA,__const) external _AD_INTUNE_ENROLLMENT_ID_ARRAY
+(__DATA,__const) external _AD_INTUNE_ENROLL_ID
+(__DATA,__const) external _AD_INTUNE_HOME_ACCOUNT_ID
+(__DATA,__const) external _AD_INTUNE_OID
+(__DATA,__const) external _AD_INTUNE_TID
+(__DATA,__const) external _AD_INTUNE_USER_ID
 (undefined) external _CCHmac (from libSystem)
 (undefined) external _CC_SHA1 (from libSystem)
 (undefined) external _CC_SHA256 (from libSystem)
+(undefined) external _CFArrayGetCount (from CoreFoundation)
+(undefined) external _CFArrayGetValueAtIndex (from CoreFoundation)
+(undefined) external _CFGetTypeID (from CoreFoundation)
 (undefined) external _CFRelease (from CoreFoundation)
 (undefined) external _CFRetain (from CoreFoundation)
 (undefined) external _CFStringCreateMutableCopy (from CoreFoundation)
 (undefined) external _CFStringFindAndReplace (from CoreFoundation)
-(undefined) external _CFStringGetCStringPtr (from CoreFoundation)
 (undefined) external _CFStringGetLength (from CoreFoundation)
 (undefined) external _CFURLCreateStringByReplacingPercentEscapes (from CoreFoundation)
 (__TEXT,__const) external _CUSTOM_VIEW_HEIGHT
@@ -146,6 +77,9 @@
 (__DATA,__const) external _ConnectionError
 (__TEXT,__text) external _CopySerialNumber
 (__DATA,__const) external _ExtractionExpression
+(undefined) external _GSSCredentialCopyName (from GSS)
+(undefined) external _GSSCredentialGetLifetime (from GSS)
+(undefined) external _GSSNameCreateDisplayString (from GSS)
 (__DATA,__data) external _HeaderLastEndpoint
 (__DATA,__data) external _HeaderLastError
 (__DATA,__data) external _HeaderLastRequest
@@ -168,12 +102,250 @@
 (undefined) external _IOServiceMatching (from IOKit)
 (__DATA,__const) external _InvalidHeader
 (__DATA,__const) external _InvalidResponse
+(__DATA,__const) external _MSIDAADTenantTypeCommonRawValue
+(__DATA,__const) external _MSIDAADTenantTypeConsumersRawValue
+(__DATA,__const) external _MSIDAADTenantTypeOrganizationsRawValue
+(__DATA,__data) external _MSIDCorrelationIdKey
+(__TEXT,__text) external _MSIDCreateError
+(__TEXT,__text) external _MSIDErrorCodeForOAuthError
+(__DATA,__data) external _MSIDErrorDescriptionKey
+(__DATA,__data) external _MSIDErrorDomain
+(__TEXT,__text) external _MSIDErrorDomainsAndCodes
+(__DATA,__data) external _MSIDHTTPHeadersKey
+(__DATA,__data) external _MSIDHTTPResponseCodeKey
+(__DATA,__data) external _MSIDHttpErrorCodeDomain
+(__DATA,__data) external _MSIDKeychainErrorDomain
+(__DATA,__data) external _MSIDOAuthErrorDomain
+(__DATA,__data) external _MSIDOAuthErrorKey
+(__DATA,__data) external _MSIDOAuthSubErrorKey
+(__DATA,__const) external _MSIDTrustedAuthority
+(__DATA,__const) external _MSIDTrustedAuthorityChina
+(__DATA,__const) external _MSIDTrustedAuthorityChina2
+(__DATA,__const) external _MSIDTrustedAuthorityCloudGovApi
+(__DATA,__const) external _MSIDTrustedAuthorityGermany
+(__DATA,__const) external _MSIDTrustedAuthorityUS
+(__DATA,__const) external _MSIDTrustedAuthorityUSGovernment
+(__DATA,__const) external _MSIDTrustedAuthorityWorldWide
+(__DATA,__data) external _MSIDUserDisplayableIdKey
+(__DATA,__const) external _MSID_ACCESS_TOKEN_CACHE_TYPE
+(__DATA,__const) external _MSID_ADDITIONAL_INFO_CACHE_KEY
+(__DATA,__const) external _MSID_ALTERNATIVE_ACCOUNT_ID_KEY
+(__DATA,__const) external _MSID_APPLICATION_IDENTIFIER_CACHE_KEY
+(__DATA,__const) external _MSID_APP_NAME_KEY
+(__DATA,__const) external _MSID_APP_VER_KEY
+(__DATA,__const) external _MSID_AUTHORITY_CACHE_KEY
+(__DATA,__const) external _MSID_AUTHORITY_TYPE_CACHE_KEY
+(__DATA,__const) external _MSID_AUTH_CLOUD_INSTANCE_HOST_NAME
+(__DATA,__const) external _MSID_CACHED_AT_CACHE_KEY
+(__DATA,__const) external _MSID_CLIENT_ID_CACHE_KEY
+(__DATA,__const) external _MSID_CLIENT_INFO_CACHE_KEY
+(__DATA,__const) external _MSID_CPU_KEY
+(__DATA,__const) external _MSID_CREDENTIAL_TYPE_CACHE_KEY
+(__TEXT,__const) external _MSID_CUSTOM_VIEW_HEIGHT
+(__TEXT,__const) external _MSID_CUSTOM_VIEW_WIDTH
+(__TEXT,__const) external _MSID_CUSTOM_VIEW_X
+(__TEXT,__const) external _MSID_CUSTOM_VIEW_Y
+(__DATA,__const) external _MSID_DEVICE_MODEL_KEY
+(__DATA,__const) external _MSID_ENROLLMENT_ID_CACHE_KEY
+(__DATA,__const) external _MSID_ENVIRONMENT_CACHE_KEY
+(__DATA,__const) external _MSID_EXPIRES_ON_CACHE_KEY
+(__DATA,__const) external _MSID_EXTENDED_EXPIRES_ON_CACHE_KEY
+(__DATA,__const) external _MSID_FAMILY_ID
+(__DATA,__const) external _MSID_FAMILY_ID_CACHE_KEY
+(__DATA,__const) external _MSID_FAMILY_NAME_CACHE_KEY
+(__DATA,__const) external _MSID_GENERAL_TOKEN_CACHE_TYPE
+(__DATA,__const) external _MSID_GIVEN_NAME_CACHE_KEY
+(__DATA,__const) external _MSID_HOME_ACCOUNT_ID_CACHE_KEY
+(__DATA,__const) external _MSID_ID_TOKEN_CACHE_KEY
+(__DATA,__const) external _MSID_ID_TOKEN_CACHE_TYPE
+(__DATA,__const) external _MSID_LEGACY_TOKEN_CACHE_TYPE
+(__DATA,__const) external _MSID_LOCAL_ACCOUNT_ID_CACHE_KEY
+(__DATA,__const) external _MSID_MIDDLE_NAME_CACHE_KEY
+(__DATA,__const) external _MSID_NAME_CACHE_KEY
+(__DATA,__const) external _MSID_OAUTH2_ACCESS_TOKEN
+(__DATA,__const) external _MSID_OAUTH2_ADDITIONAL_SERVER_INFO
+(__DATA,__const) external _MSID_OAUTH2_ASSERTION
+(__DATA,__const) external _MSID_OAUTH2_AUTHORITY
+(__DATA,__const) external _MSID_OAUTH2_AUTHORIZATION
+(__DATA,__const) external _MSID_OAUTH2_AUTHORIZATION_CODE
+(__DATA,__const) external _MSID_OAUTH2_AUTHORIZATION_URI
+(__DATA,__const) external _MSID_OAUTH2_AUTHORIZE_SUFFIX
+(__DATA,__const) external _MSID_OAUTH2_BEARER
+(__DATA,__const) external _MSID_OAUTH2_CLAIMS
+(__DATA,__const) external _MSID_OAUTH2_CLIENT_ID
+(__DATA,__const) external _MSID_OAUTH2_CLIENT_INFO
+(__DATA,__const) external _MSID_OAUTH2_CLIENT_TELEMETRY
+(__DATA,__const) external _MSID_OAUTH2_CODE
+(__DATA,__const) external _MSID_OAUTH2_CODE_CHALLENGE
+(__DATA,__const) external _MSID_OAUTH2_CODE_CHALLENGE_METHOD
+(__DATA,__const) external _MSID_OAUTH2_CODE_VERIFIER
+(__DATA,__const) external _MSID_OAUTH2_CORRELATION_ID_REQUEST
+(__DATA,__const) external _MSID_OAUTH2_CORRELATION_ID_REQUEST_VALUE
+(__DATA,__const) external _MSID_OAUTH2_CORRELATION_ID_RESPONSE
+(__DATA,__const) external _MSID_OAUTH2_DOMAIN_REQ
+(__DATA,__const) external _MSID_OAUTH2_ENVIRONMENT
+(__DATA,__const) external _MSID_OAUTH2_ERROR
+(__DATA,__const) external _MSID_OAUTH2_ERROR_DESCRIPTION
+(__DATA,__const) external _MSID_OAUTH2_ERROR_SUBCODE
+(__DATA,__const) external _MSID_OAUTH2_EXPIRES_IN
+(__DATA,__const) external _MSID_OAUTH2_EXPIRES_ON
+(__DATA,__const) external _MSID_OAUTH2_EXT_EXPIRES_IN
+(__DATA,__const) external _MSID_OAUTH2_GRANT_TYPE
+(__DATA,__const) external _MSID_OAUTH2_ID_TOKEN
+(__DATA,__const) external _MSID_OAUTH2_INSTANCE_DISCOVERY_SUFFIX
+(__DATA,__const) external _MSID_OAUTH2_LOGIN_HINT
+(__DATA,__const) external _MSID_OAUTH2_LOGIN_REQ
+(__DATA,__const) external _MSID_OAUTH2_PROMPT
+(__DATA,__const) external _MSID_OAUTH2_PROMPT_NONE
+(__DATA,__const) external _MSID_OAUTH2_REDIRECT_URI
+(__DATA,__const) external _MSID_OAUTH2_REFRESH_TOKEN
+(__DATA,__const) external _MSID_OAUTH2_RESOURCE
+(__DATA,__const) external _MSID_OAUTH2_RESPONSE_TYPE
+(__DATA,__const) external _MSID_OAUTH2_SAML11_BEARER_VALUE
+(__DATA,__const) external _MSID_OAUTH2_SAML2_BEARER_VALUE
+(__DATA,__const) external _MSID_OAUTH2_SCOPE
+(__DATA,__const) external _MSID_OAUTH2_SCOPE_OFFLINE_ACCESS_VALUE
+(__DATA,__const) external _MSID_OAUTH2_SCOPE_OPENID_VALUE
+(__DATA,__const) external _MSID_OAUTH2_SCOPE_PROFILE_VALUE
+(__DATA,__const) external _MSID_OAUTH2_STATE
+(__DATA,__const) external _MSID_OAUTH2_SUB_ERROR
+(__DATA,__const) external _MSID_OAUTH2_TOKEN
+(__DATA,__const) external _MSID_OAUTH2_TOKEN_SUFFIX
+(__DATA,__const) external _MSID_OAUTH2_TOKEN_TYPE
+(__DATA,__const) external _MSID_OAUTH2_UNIQUE_IDENTIFIER
+(__DATA,__const) external _MSID_OAUTH2_UNIQUE_TENANT_IDENTIFIER
+(__DATA,__const) external _MSID_OAUTH_TOKEN_TYPE_CACHE_KEY
+(__DATA,__const) external _MSID_OPENID_CONFIGURATION_SUFFIX
+(__DATA,__const) external _MSID_OS_VER_KEY
+(__TEXT,__const) external _MSID_PASSWORD_FIELD_HEIGHT
+(__TEXT,__const) external _MSID_PASSWORD_FIELD_WIDTH
+(__TEXT,__const) external _MSID_PASSWORD_FIELD_X
+(__TEXT,__const) external _MSID_PASSWORD_FIELD_Y
+(__TEXT,__const) external _MSID_PASSWORD_LABEL_HEIGHT
+(__TEXT,__const) external _MSID_PASSWORD_LABEL_WIDTH
+(__TEXT,__const) external _MSID_PASSWORD_LABEL_X
+(__TEXT,__const) external _MSID_PASSWORD_LABEL_Y
+(__DATA,__const) external _MSID_PLATFORM_KEY
+(__DATA,__const) external _MSID_PREFERRED_USERNAME_MISSING
+(__DATA,__const) external _MSID_PROTECTION_POLICY_REQUIRED
+(__DATA,__const) external _MSID_REALM_CACHE_KEY
+(__DATA,__const) external _MSID_REFRESH_TOKEN_CACHE_TYPE
+(__DATA,__const) external _MSID_RESOURCE_RT_CACHE_KEY
+(__DATA,__const) external _MSID_SPE_INFO_CACHE_KEY
+(__DATA,__const) external _MSID_TARGET_CACHE_KEY
+(__DATA,__const) external _MSID_TELEMETRY_EVENT_ACQUIRE_TOKEN_SILENT
+(__DATA,__const) external _MSID_TELEMETRY_EVENT_API_EVENT
+(__DATA,__const) external _MSID_TELEMETRY_EVENT_AUTHORITY_VALIDATION
+(__DATA,__const) external _MSID_TELEMETRY_EVENT_AUTHORIZATION_CODE
+(__DATA,__const) external _MSID_TELEMETRY_EVENT_DEFAULT_EVENT
+(__DATA,__const) external _MSID_TELEMETRY_EVENT_HTTP_REQUEST
+(__DATA,__const) external _MSID_TELEMETRY_EVENT_LAUNCH_BROKER
+(__DATA,__const) external _MSID_TELEMETRY_EVENT_TOKEN_CACHE_DELETE
+(__DATA,__const) external _MSID_TELEMETRY_EVENT_TOKEN_CACHE_LOOKUP
+(__DATA,__const) external _MSID_TELEMETRY_EVENT_TOKEN_CACHE_WRITE
+(__DATA,__const) external _MSID_TELEMETRY_EVENT_TOKEN_GRANT
+(__DATA,__const) external _MSID_TELEMETRY_EVENT_UI_EVENT
+(__DATA,__const) external _MSID_TELEMETRY_KEY_API_ERROR_CODE
+(__DATA,__const) external _MSID_TELEMETRY_KEY_API_ID
+(__DATA,__const) external _MSID_TELEMETRY_KEY_API_STATUS
+(__DATA,__const) external _MSID_TELEMETRY_KEY_APPLICATION_NAME
+(__DATA,__const) external _MSID_TELEMETRY_KEY_APPLICATION_VERSION
+(__DATA,__const) external _MSID_TELEMETRY_KEY_AUTHORITY
+(__DATA,__const) external _MSID_TELEMETRY_KEY_AUTHORITY_TYPE
+(__DATA,__const) external _MSID_TELEMETRY_KEY_AUTHORITY_VALIDATION_STATUS
+(__DATA,__const) external _MSID_TELEMETRY_KEY_BROKER_APP
+(__DATA,__const) external _MSID_TELEMETRY_KEY_BROKER_APP_USED
+(__DATA,__const) external _MSID_TELEMETRY_KEY_BROKER_PROTOCOL_VERSION
+(__DATA,__const) external _MSID_TELEMETRY_KEY_BROKER_VERSION
+(__DATA,__const) external _MSID_TELEMETRY_KEY_CACHE_EVENT_COUNT
+(__DATA,__const) external _MSID_TELEMETRY_KEY_CLIENT_ID
+(__DATA,__const) external _MSID_TELEMETRY_KEY_CORRELATION_ID
+(__DATA,__const) external _MSID_TELEMETRY_KEY_DEVICE_ID
+(__DATA,__const) external _MSID_TELEMETRY_KEY_END_TIME
+(__DATA,__const) external _MSID_TELEMETRY_KEY_ERROR_DESCRIPTION
+(__DATA,__const) external _MSID_TELEMETRY_KEY_ERROR_DOMAIN
+(__DATA,__const) external _MSID_TELEMETRY_KEY_EVENT_NAME
+(__DATA,__const) external _MSID_TELEMETRY_KEY_EXTENDED_EXPIRES_ON_SETTING
+(__DATA,__const) external _MSID_TELEMETRY_KEY_FRT_STATUS
+(__DATA,__const) external _MSID_TELEMETRY_KEY_GRANT_TYPE
+(__DATA,__const) external _MSID_TELEMETRY_KEY_HTTP_ERROR_DOMAIN
+(__DATA,__const) external _MSID_TELEMETRY_KEY_HTTP_EVENT_COUNT
+(__DATA,__const) external _MSID_TELEMETRY_KEY_HTTP_METHOD
+(__DATA,__const) external _MSID_TELEMETRY_KEY_HTTP_PATH
+(__DATA,__const) external _MSID_TELEMETRY_KEY_HTTP_REQUEST_ID_HEADER
+(__DATA,__const) external _MSID_TELEMETRY_KEY_HTTP_RESPONSE_CODE
+(__DATA,__const) external _MSID_TELEMETRY_KEY_HTTP_RESPONSE_METHOD
+(__DATA,__const) external _MSID_TELEMETRY_KEY_IDP
+(__DATA,__const) external _MSID_TELEMETRY_KEY_IS_EXTENED_LIFE_TIME_TOKEN
+(__DATA,__const) external _MSID_TELEMETRY_KEY_IS_FRT
+(__DATA,__const) external _MSID_TELEMETRY_KEY_IS_MRRT
+(__DATA,__const) external _MSID_TELEMETRY_KEY_IS_RT
+(__DATA,__const) external _MSID_TELEMETRY_KEY_IS_SUCCESSFUL
+(__DATA,__const) external _MSID_TELEMETRY_KEY_LOGIN_HINT
+(__DATA,__const) external _MSID_TELEMETRY_KEY_MRRT_STATUS
+(__DATA,__const) external _MSID_TELEMETRY_KEY_NTLM_HANDLED
+(__DATA,__const) external _MSID_TELEMETRY_KEY_OAUTH_ERROR_CODE
+(__DATA,__const) external _MSID_TELEMETRY_KEY_PROMPT_BEHAVIOR
+(__DATA,__const) external _MSID_TELEMETRY_KEY_PROTOCOL_CODE
+(__DATA,__const) external _MSID_TELEMETRY_KEY_REQUEST_ID
+(__DATA,__const) external _MSID_TELEMETRY_KEY_REQUEST_QUERY_PARAMS
+(__DATA,__const) external _MSID_TELEMETRY_KEY_RESPONSE_TIME
+(__DATA,__const) external _MSID_TELEMETRY_KEY_RESULT_STATUS
+(__DATA,__const) external _MSID_TELEMETRY_KEY_RT_AGE
+(__DATA,__const) external _MSID_TELEMETRY_KEY_RT_STATUS
+(__DATA,__const) external _MSID_TELEMETRY_KEY_SERVER_ERROR_CODE
+(__DATA,__const) external _MSID_TELEMETRY_KEY_SERVER_SUBERROR_CODE
+(__DATA,__const) external _MSID_TELEMETRY_KEY_SPE_INFO
+(__DATA,__const) external _MSID_TELEMETRY_KEY_START_TIME
+(__DATA,__const) external _MSID_TELEMETRY_KEY_TENANT_ID
+(__DATA,__const) external _MSID_TELEMETRY_KEY_TOKEN_TYPE
+(__DATA,__const) external _MSID_TELEMETRY_KEY_UI_BEHAVIOR
+(__DATA,__const) external _MSID_TELEMETRY_KEY_UI_CANCELLED
+(__DATA,__const) external _MSID_TELEMETRY_KEY_UI_EVENT_COUNT
+(__DATA,__const) external _MSID_TELEMETRY_KEY_USER_AGENT
+(__DATA,__const) external _MSID_TELEMETRY_KEY_USER_CANCEL
+(__DATA,__const) external _MSID_TELEMETRY_KEY_USER_ID
+(__DATA,__const) external _MSID_TELEMETRY_KEY_WEBVIEW_TYPE
+(__DATA,__const) external _MSID_TELEMETRY_KEY_WIPE_APP
+(__DATA,__const) external _MSID_TELEMETRY_KEY_WIPE_TIME
+(__DATA,__const) external _MSID_TELEMETRY_VALUE_ACCESS_TOKEN
+(__DATA,__const) external _MSID_TELEMETRY_VALUE_ADFS_TOKEN
+(__DATA,__const) external _MSID_TELEMETRY_VALUE_AUTHORITY_AAD
+(__DATA,__const) external _MSID_TELEMETRY_VALUE_AUTHORITY_ADFS
+(__DATA,__const) external _MSID_TELEMETRY_VALUE_AUTHORITY_B2C
+(__DATA,__const) external _MSID_TELEMETRY_VALUE_BY_CODE
+(__DATA,__const) external _MSID_TELEMETRY_VALUE_BY_REFRESH_TOKEN
+(__DATA,__const) external _MSID_TELEMETRY_VALUE_CANCELLED
+(__DATA,__const) external _MSID_TELEMETRY_VALUE_FAILED
+(__DATA,__const) external _MSID_TELEMETRY_VALUE_FAMILY_REFRESH_TOKEN
+(__DATA,__const) external _MSID_TELEMETRY_VALUE_MULTI_RESOURCE_REFRESH_TOKEN
+(__DATA,__const) external _MSID_TELEMETRY_VALUE_NO
+(__DATA,__const) external _MSID_TELEMETRY_VALUE_NOT_FOUND
+(__DATA,__const) external _MSID_TELEMETRY_VALUE_REFRESH_TOKEN
+(__DATA,__const) external _MSID_TELEMETRY_VALUE_SUCCEEDED
+(__DATA,__const) external _MSID_TELEMETRY_VALUE_TRIED
+(__DATA,__const) external _MSID_TELEMETRY_VALUE_UNKNOWN
+(__DATA,__const) external _MSID_TELEMETRY_VALUE_USER_CANCELLED
+(__DATA,__const) external _MSID_TELEMETRY_VALUE_YES
+(__DATA,__const) external _MSID_TOKEN_CACHE_KEY
+(__DATA,__const) external _MSID_USERNAME_CACHE_KEY
+(__TEXT,__const) external _MSID_USERNAME_FIELD_HEIGHT
+(__TEXT,__const) external _MSID_USERNAME_FIELD_WIDTH
+(__TEXT,__const) external _MSID_USERNAME_FIELD_X
+(__TEXT,__const) external _MSID_USERNAME_FIELD_Y
+(__TEXT,__const) external _MSID_USERNAME_LABEL_HEIGHT
+(__TEXT,__const) external _MSID_USERNAME_LABEL_WIDTH
+(__TEXT,__const) external _MSID_USERNAME_LABEL_X
+(__TEXT,__const) external _MSID_USERNAME_LABEL_Y
+(__DATA,__const) external _MSID_USER_DISPLAYABLE_IDENTIFIER
+(__DATA,__const) external _MSID_VERSION_KEY
 (__DATA,__const) external _MissingHeader
 (__DATA,__const) external _MissingOrInvalidAuthority
 (undefined) external _NSApp (from AppKit)
 (undefined) external _NSCocoaErrorDomain (from Foundation)
 (undefined) external _NSInternalInconsistencyException (from CoreFoundation)
 (undefined) external _NSInvalidArgumentException (from CoreFoundation)
+(undefined) external _NSKeyedArchiveRootObjectKey (from Foundation)
 (undefined) external _NSLog (from Foundation)
 (undefined) external _NSStringFromClass (from Foundation)
 (undefined) external _NSURLAuthenticationMethodClientCertificate (from Foundation)
@@ -181,42 +353,8 @@
 (undefined) external _NSURLAuthenticationMethodNegotiate (from Foundation)
 (undefined) external _NSURLErrorDomain (from Foundation)
 (undefined) external _NSURLErrorFailingURLErrorKey (from Foundation)
+(undefined) external _NSURLErrorFailingURLStringErrorKey (from Foundation)
 (undefined) external _NSUnderlyingErrorKey (from Foundation)
-(__DATA,__const) external _OAUTH2_ACCESS_TOKEN
-(__DATA,__const) external _OAUTH2_ASSERTION
-(__DATA,__const) external _OAUTH2_AUTHORITY
-(__DATA,__const) external _OAUTH2_AUTHORIZATION
-(__DATA,__const) external _OAUTH2_AUTHORIZATION_CODE
-(__DATA,__const) external _OAUTH2_AUTHORIZATION_URI
-(__DATA,__const) external _OAUTH2_AUTHORIZE_SUFFIX
-(__DATA,__const) external _OAUTH2_BEARER
-(__DATA,__const) external _OAUTH2_CLIENT_ID
-(__DATA,__const) external _OAUTH2_CLIENT_SECRET
-(__DATA,__const) external _OAUTH2_CODE
-(__DATA,__const) external _OAUTH2_CORRELATION_ID_REQUEST
-(__DATA,__const) external _OAUTH2_CORRELATION_ID_REQUEST_VALUE
-(__DATA,__const) external _OAUTH2_CORRELATION_ID_RESPONSE
-(__DATA,__const) external _OAUTH2_ERROR
-(__DATA,__const) external _OAUTH2_ERROR_DESCRIPTION
-(__DATA,__const) external _OAUTH2_EXPIRES_IN
-(__DATA,__const) external _OAUTH2_GRANT_TYPE
-(__DATA,__const) external _OAUTH2_ID_TOKEN
-(__DATA,__const) external _OAUTH2_INSTANCE_DISCOVERY_SUFFIX
-(__DATA,__const) external _OAUTH2_LOGIN_HINT
-(__DATA,__const) external _OAUTH2_PLATFORM_ID
-(__DATA,__const) external _OAUTH2_REALM
-(__DATA,__const) external _OAUTH2_REDIRECT_URI
-(__DATA,__const) external _OAUTH2_REFRESH_TOKEN
-(__DATA,__const) external _OAUTH2_RESOURCE
-(__DATA,__const) external _OAUTH2_RESPONSE_TYPE
-(__DATA,__const) external _OAUTH2_SAML11_BEARER_VALUE
-(__DATA,__const) external _OAUTH2_SAML2_BEARER_VALUE
-(__DATA,__const) external _OAUTH2_SCOPE
-(__DATA,__const) external _OAUTH2_SCOPE_OPENID_VALUE
-(__DATA,__const) external _OAUTH2_STATE
-(__DATA,__const) external _OAUTH2_TOKEN
-(__DATA,__const) external _OAUTH2_TOKEN_SUFFIX
-(__DATA,__const) external _OAUTH2_TOKEN_TYPE
 (__DATA,__const) external _OAuth2_Authenticate_Header
 (__DATA,__const) external _OAuth2_Authorization_Uri
 (__DATA,__const) external _OAuth2_Bearer
@@ -226,11 +364,13 @@
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADAggregatedDispatcher
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADAuthenticationContext
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADAuthenticationError
+(__DATA,__objc_data) external _OBJC_CLASS_$_ADAuthenticationErrorConverter
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADAuthenticationParameters
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADAuthenticationRequest
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADAuthenticationResult
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADAuthenticationSettings
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADAuthenticationViewController
+(__DATA,__objc_data) external _OBJC_CLASS_$_ADAuthorityUtils
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADAuthorityValidation
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADAuthorityValidationRequest
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADBrokerHelper
@@ -241,26 +381,24 @@
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADCustomHeaderHandler
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADDefaultDispatcher
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADDrsDiscoveryRequest
+(__DATA,__objc_data) external _OBJC_CLASS_$_ADEnrollmentGateway
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADHelpers
-(__DATA,__objc_data) external _OBJC_CLASS_$_ADIpAddressHelper
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADJwtHelper
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADLogger
+(__DATA,__objc_data) external _OBJC_CLASS_$_ADMSIDContext
+(__DATA,__objc_data) external _OBJC_CLASS_$_ADMSIDDataSourceWrapper
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADNTLMHandler
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADNTLMUIPrompt
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADNegotiateHandler
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADPkeyAuthHelper
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADRegistrationInformation
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADRequestParameters
+(__DATA,__objc_data) external _OBJC_CLASS_$_ADResponseCacheHandler
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADTelemetry
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADTelemetryAPIEvent
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADTelemetryBrokerEvent
-(__DATA,__objc_data) external _OBJC_CLASS_$_ADTelemetryCacheEvent
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADTelemetryCollectionRules
-(__DATA,__objc_data) external _OBJC_CLASS_$_ADTelemetryDefaultEvent
-(__DATA,__objc_data) external _OBJC_CLASS_$_ADTelemetryHttpEvent
-(__DATA,__objc_data) external _OBJC_CLASS_$_ADTelemetryUIEvent
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADTokenCache
-(__DATA,__objc_data) external _OBJC_CLASS_$_ADTokenCacheAccessor
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADTokenCacheItem
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADTokenCacheKey
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADURLProtocol
@@ -275,6 +413,140 @@
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADWebRequest
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADWebResponse
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADWorkPlaceJoinUtil
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADAuthority
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADAuthorityMetadataRequest
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADAuthorityMetadataResponse
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADAuthorityMetadataResponseSerializer
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADAuthorityValidationRequest
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADAuthorizationCodeGrantRequest
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADAuthorizationCodeRequest
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADEndpointProvider
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADIdTokenClaimsFactory
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADNetworkConfiguration
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADOauth2Factory
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADRefreshTokenGrantRequest
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADRequestConfigurator
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADRequestErrorHandler
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADResponseSerializer
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADTenant
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADTokenResponse
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADV1AuthorizationCodeRequest
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADV1IdTokenClaims
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADV1Oauth2Factory
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADV1RefreshTokenGrantRequest
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADV1TokenResponse
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADV1WebviewFactory
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADV2IdTokenClaims
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADV2Oauth2Factory
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADV2TokenResponse
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADV2WebviewFactory
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAADWebviewFactory
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDADFSAuthority
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAadAuthorityCache
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAadAuthorityCacheRecord
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAadAuthorityResolver
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAccessToken
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAccount
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAccountCacheItem
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAccountCredentialCache
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAccountIdentifier
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAccountTypeHelpers
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAdfsAuthorityResolver
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAuthority
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAuthorityCacheRecord
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAuthorityFactory
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDAuthorizationCodeGrantRequest
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDB2CAuthority
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDB2CAuthorityResolver
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDB2CIdTokenClaims
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDB2COauth2Factory
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDB2CTokenResponse
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDBaseToken
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDBrokerResponse
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDCache
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDCacheKey
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDCertificateChooserHelper
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDChallengeHandler
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDClientCapabilitiesUtil
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDClientInfo
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDConfiguration
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDCredentialCacheItem
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDCredentialCollectionController
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDCredentialTypeHelpers
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDDRSDiscoveryRequest
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDDRSDiscoveryResponseSerializer
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDDefaultAccountCacheKey
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDDefaultAccountCacheQuery
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDDefaultCredentialCacheKey
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDDefaultCredentialCacheQuery
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDDefaultErrorConverter
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDDefaultTokenCacheAccessor
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDDeviceId
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDErrorConverter
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDHelpers
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDHttpRequest
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDHttpRequestTelemetry
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDHttpResponseSerializer
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDIdToken
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDIdTokenClaims
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDJWTHelper
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDJsonObject
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDJsonResponseSerializer
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDJsonSerializer
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDKeychainUtil
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDKeyedArchiverSerializer
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDLegacyAccessToken
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDLegacyRefreshToken
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDLegacySingleResourceToken
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDLegacyTokenCacheAccessor
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDLegacyTokenCacheItem
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDLegacyTokenCacheKey
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDLegacyTokenCacheQuery
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDLogger
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDMacTokenCache
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDNTLMHandler
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDNTLMUIPrompt
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDNegotiateHandler
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDNetworkConfiguration
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDNotifications
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDOauth2Factory
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDOpenIdConfigurationInfoRequest
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDOpenIdConfigurationInfoResponseSerializer
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDOpenIdProviderMetadata
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDPKeyAuthHandler
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDPkce
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDPkeyAuthHelper
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDRefreshToken
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDRefreshTokenGrantRequest
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDRegistrationInformation
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDTLSHandler
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDTelemetry
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDTelemetryAPIEvent
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDTelemetryBaseEvent
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDTelemetryCacheEvent
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDTelemetryHttpEvent
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDTelemetryPiiOiiRules
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDTelemetryUIEvent
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDTokenFilteringHelper
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDTokenRequest
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDTokenResponse
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDURLFormObject
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDURLSessionDelegate
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDURLSessionManager
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDUrlRequestSerializer
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDUserInformation
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDVersion
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDWebAADAuthResponse
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDWebFingerRequest
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDWebMSAuthResponse
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDWebOAuth2Response
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDWebOpenBrowserResponse
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDWebviewAuthorization
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDWebviewConfiguration
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDWebviewFactory
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDWebviewResponse
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDWebviewSession
+(__DATA,__objc_data) external _OBJC_CLASS_$_MSIDWorkPlaceJoinUtil
 (undefined) external _OBJC_CLASS_$_NSAlert (from AppKit)
 (undefined) external _OBJC_CLASS_$_NSArray (from CoreFoundation)
 (undefined) external _OBJC_CLASS_$_NSBundle (from Foundation)
@@ -285,6 +557,7 @@
 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
 (undefined) external _OBJC_CLASS_$_NSError (from Foundation)
 (undefined) external _OBJC_CLASS_$_NSException (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSHTTPURLResponse (from Foundation)
 (undefined) external _OBJC_CLASS_$_NSJSONSerialization (from Foundation)
 (undefined) external _OBJC_CLASS_$_NSKeyedArchiver (from Foundation)
 (undefined) external _OBJC_CLASS_$_NSKeyedUnarchiver (from Foundation)
@@ -292,6 +565,7 @@
 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
 (undefined) external _OBJC_CLASS_$_NSMutableData (from CoreFoundation)
 (undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSMutableOrderedSet (from CoreFoundation)
 (undefined) external _OBJC_CLASS_$_NSMutableSet (from CoreFoundation)
 (undefined) external _OBJC_CLASS_$_NSMutableString (from Foundation)
 (undefined) external _OBJC_CLASS_$_NSMutableURLRequest (from Foundation)
@@ -299,11 +573,14 @@
 (undefined) external _OBJC_CLASS_$_NSNull (from CoreFoundation)
 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+(undefined) external _OBJC_CLASS_$_NSOrderedSet (from CoreFoundation)
 (undefined) external _OBJC_CLASS_$_NSProcessInfo (from Foundation)
 (undefined) external _OBJC_CLASS_$_NSProgressIndicator (from AppKit)
 (undefined) external _OBJC_CLASS_$_NSRegularExpression (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSScanner (from Foundation)
 (undefined) external _OBJC_CLASS_$_NSScreen (from AppKit)
 (undefined) external _OBJC_CLASS_$_NSSecureTextField (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSSet (from CoreFoundation)
 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
 (undefined) external _OBJC_CLASS_$_NSTextField (from AppKit)
 (undefined) external _OBJC_CLASS_$_NSThread (from Foundation)
@@ -323,18 +600,20 @@
 (undefined) external _OBJC_CLASS_$_NSWorkspace (from AppKit)
 (undefined) external _OBJC_CLASS_$_SFChooseIdentityPanel (from SecurityInterface)
 (undefined) external _OBJC_CLASS_$_WebView (from WebKit)
+(undefined) external _OBJC_EHTYPE_$_NSException (from CoreFoundation)
 (undefined) external _OBJC_EHTYPE_id (from libobjc)
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAcquireTokenSilentHandler._attemptedFRT
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAcquireTokenSilentHandler._extendedLifetimeAccessTokenItem
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAcquireTokenSilentHandler._mrrtItem
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAcquireTokenSilentHandler._mrrtResult
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAcquireTokenSilentHandler._requestParams
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAcquireTokenSilentHandler._verifyUserId
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationContext._authority
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationContext._correlationId
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationContext._credentialsType
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationContext._extendedLifetimeEnabled
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationContext._logComponent
-(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationContext._tokenCacheStore
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationContext._tokenCache
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationContext._useModalAuthWindow
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationContext._validateAuthority
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationContext._webView
@@ -347,20 +626,22 @@
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationRequest._assertionType
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationRequest._attemptedFRT
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationRequest._claims
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationRequest._cloudAuthority
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationRequest._context
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationRequest._logComponent
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationRequest._mrrtItem
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationRequest._promptBehavior
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationRequest._queryParams
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationRequest._refreshToken
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationRequest._refreshTokenCredential
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationRequest._requestParams
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationRequest._requestStarted
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationRequest._samlAssertion
-(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationRequest._scope
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationRequest._silent
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationRequest._skipCache
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationRequest._underlyingError
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationRequest._useModalAuthWindow
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationResult._authority
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationResult._correlationId
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationResult._error
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationResult._extendedLifeTimeToken
@@ -368,11 +649,9 @@
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationResult._status
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationResult._tokenCacheItem
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationSettings._defaultStorageDelegate
-(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationSettings._enableParseUserInfoFromAcessToken
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationSettings._expirationBuffer
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthenticationSettings._requestTimeOut
-(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthorityValidation._validatedADAuthorities
-(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthorityValidation._validatedAdfsAuthorities
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADAuthorityValidation._aadCache
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADCredentialCollectionController._customView
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADCredentialCollectionController._passwordField
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADCredentialCollectionController._passwordLabel
@@ -391,31 +670,28 @@
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADRequestParameters._clientId
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADRequestParameters._correlationId
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADRequestParameters._extendedLifetime
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADRequestParameters._forceRefresh
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADRequestParameters._identifier
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADRequestParameters._redirectUri
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADRequestParameters._resource
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADRequestParameters._scopesString
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADRequestParameters._telemetryRequestId
-(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADRequestParameters._tokenCache
-(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTelemetryDefaultEvent._defaultPropertyCount
-(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTelemetryDefaultEvent._propertyMap
-(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCache._cache
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCache._delegate
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCache._lock
-(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheAccessor._authority
-(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheAccessor._dataSource
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheItem._accessToken
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheItem._accessTokenType
-(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheItem._additionalClient
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheItem._additionalServer
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheItem._applicationIdentifier
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheItem._authority
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheItem._clientId
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheItem._enrollmentId
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheItem._expiresOn
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheItem._familyId
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheItem._hash
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheItem._refreshToken
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheItem._resource
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheItem._sessionKey
-(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheItem._tombstone
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheItem._storageAuthority
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheItem._userInformation
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheKey._authority
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADTokenCacheKey._clientId
@@ -426,6 +702,7 @@
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADUserIdentifier._type
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADUserIdentifier._userId
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADUserInformation._allClaims
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_ADUserInformation._homeAccountId
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADUserInformation._rawIdToken
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADUserInformation._uniqueId
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADUserInformation._userId
@@ -463,16 +740,51 @@
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADWebRequest._timeout
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADWebResponse._body
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_ADWebResponse._response
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDAccessToken._accessToken
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDAuthority._openIdConfigurationEndpoint
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDAuthority._url
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDBaseToken._accountIdentifier
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDBaseToken._additionalServerInfo
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDBaseToken._authority
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDBaseToken._clientId
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDCacheKey._account
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDCacheKey._generic
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDCacheKey._service
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDCacheKey._type
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDHttpRequest._context
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDHttpRequest._errorHandler
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDHttpRequest._parameters
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDHttpRequest._requestSerializer
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDHttpRequest._responseSerializer
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDHttpRequest._telemetry
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDHttpRequest._urlRequest
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDIdTokenClaims._uniqueId
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDIdTokenClaims._userId
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDIdTokenClaims._userIdDisplayable
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDJsonObject._json
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDOauth2Factory._webviewFactory
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDRefreshToken._familyId
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDRefreshToken._refreshToken
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDRegistrationInformation._certificate
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDRegistrationInformation._certificateData
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDRegistrationInformation._certificateIssuer
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDRegistrationInformation._certificateSubject
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDRegistrationInformation._privateKey
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDRegistrationInformation._securityIdentity
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDTelemetryBaseEvent._propertyMap
+(__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDURLFormObject._urlForm
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADALFrameworkUtils
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADAcquireTokenSilentHandler
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADAggregatedDispatcher
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADAuthenticationContext
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADAuthenticationError
+(__DATA,__objc_data) external _OBJC_METACLASS_$_ADAuthenticationErrorConverter
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADAuthenticationParameters
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADAuthenticationRequest
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADAuthenticationResult
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADAuthenticationSettings
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADAuthenticationViewController
+(__DATA,__objc_data) external _OBJC_METACLASS_$_ADAuthorityUtils
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADAuthorityValidation
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADAuthorityValidationRequest
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADBrokerHelper
@@ -483,26 +795,24 @@
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADCustomHeaderHandler
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADDefaultDispatcher
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADDrsDiscoveryRequest
+(__DATA,__objc_data) external _OBJC_METACLASS_$_ADEnrollmentGateway
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADHelpers
-(__DATA,__objc_data) external _OBJC_METACLASS_$_ADIpAddressHelper
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADJwtHelper
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADLogger
+(__DATA,__objc_data) external _OBJC_METACLASS_$_ADMSIDContext
+(__DATA,__objc_data) external _OBJC_METACLASS_$_ADMSIDDataSourceWrapper
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADNTLMHandler
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADNTLMUIPrompt
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADNegotiateHandler
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADPkeyAuthHelper
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADRegistrationInformation
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADRequestParameters
+(__DATA,__objc_data) external _OBJC_METACLASS_$_ADResponseCacheHandler
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADTelemetry
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADTelemetryAPIEvent
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADTelemetryBrokerEvent
-(__DATA,__objc_data) external _OBJC_METACLASS_$_ADTelemetryCacheEvent
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADTelemetryCollectionRules
-(__DATA,__objc_data) external _OBJC_METACLASS_$_ADTelemetryDefaultEvent
-(__DATA,__objc_data) external _OBJC_METACLASS_$_ADTelemetryHttpEvent
-(__DATA,__objc_data) external _OBJC_METACLASS_$_ADTelemetryUIEvent
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADTokenCache
-(__DATA,__objc_data) external _OBJC_METACLASS_$_ADTokenCacheAccessor
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADTokenCacheItem
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADTokenCacheKey
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADURLProtocol
@@ -517,6 +827,140 @@
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADWebRequest
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADWebResponse
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADWorkPlaceJoinUtil
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADAuthority
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADAuthorityMetadataRequest
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADAuthorityMetadataResponse
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADAuthorityMetadataResponseSerializer
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADAuthorityValidationRequest
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADAuthorizationCodeGrantRequest
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADAuthorizationCodeRequest
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADEndpointProvider
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADIdTokenClaimsFactory
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADNetworkConfiguration
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADOauth2Factory
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADRefreshTokenGrantRequest
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADRequestConfigurator
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADRequestErrorHandler
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADResponseSerializer
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADTenant
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADTokenResponse
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADV1AuthorizationCodeRequest
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADV1IdTokenClaims
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADV1Oauth2Factory
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADV1RefreshTokenGrantRequest
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADV1TokenResponse
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADV1WebviewFactory
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADV2IdTokenClaims
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADV2Oauth2Factory
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADV2TokenResponse
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADV2WebviewFactory
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAADWebviewFactory
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDADFSAuthority
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAadAuthorityCache
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAadAuthorityCacheRecord
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAadAuthorityResolver
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAccessToken
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAccount
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAccountCacheItem
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAccountCredentialCache
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAccountIdentifier
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAccountTypeHelpers
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAdfsAuthorityResolver
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAuthority
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAuthorityCacheRecord
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAuthorityFactory
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDAuthorizationCodeGrantRequest
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDB2CAuthority
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDB2CAuthorityResolver
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDB2CIdTokenClaims
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDB2COauth2Factory
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDB2CTokenResponse
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDBaseToken
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDBrokerResponse
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDCache
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDCacheKey
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDCertificateChooserHelper
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDChallengeHandler
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDClientCapabilitiesUtil
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDClientInfo
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDConfiguration
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDCredentialCacheItem
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDCredentialCollectionController
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDCredentialTypeHelpers
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDDRSDiscoveryRequest
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDDRSDiscoveryResponseSerializer
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDDefaultAccountCacheKey
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDDefaultAccountCacheQuery
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDDefaultCredentialCacheKey
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDDefaultCredentialCacheQuery
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDDefaultErrorConverter
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDDefaultTokenCacheAccessor
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDDeviceId
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDErrorConverter
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDHelpers
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDHttpRequest
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDHttpRequestTelemetry
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDHttpResponseSerializer
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDIdToken
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDIdTokenClaims
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDJWTHelper
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDJsonObject
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDJsonResponseSerializer
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDJsonSerializer
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDKeychainUtil
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDKeyedArchiverSerializer
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDLegacyAccessToken
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDLegacyRefreshToken
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDLegacySingleResourceToken
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDLegacyTokenCacheAccessor
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDLegacyTokenCacheItem
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDLegacyTokenCacheKey
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDLegacyTokenCacheQuery
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDLogger
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDMacTokenCache
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDNTLMHandler
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDNTLMUIPrompt
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDNegotiateHandler
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDNetworkConfiguration
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDNotifications
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDOauth2Factory
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDOpenIdConfigurationInfoRequest
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDOpenIdConfigurationInfoResponseSerializer
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDOpenIdProviderMetadata
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDPKeyAuthHandler
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDPkce
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDPkeyAuthHelper
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDRefreshToken
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDRefreshTokenGrantRequest
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDRegistrationInformation
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDTLSHandler
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDTelemetry
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDTelemetryAPIEvent
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDTelemetryBaseEvent
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDTelemetryCacheEvent
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDTelemetryHttpEvent
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDTelemetryPiiOiiRules
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDTelemetryUIEvent
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDTokenFilteringHelper
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDTokenRequest
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDTokenResponse
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDURLFormObject
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDURLSessionDelegate
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDURLSessionManager
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDUrlRequestSerializer
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDUserInformation
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDVersion
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDWebAADAuthResponse
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDWebFingerRequest
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDWebMSAuthResponse
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDWebOAuth2Response
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDWebOpenBrowserResponse
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDWebviewAuthorization
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDWebviewConfiguration
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDWebviewFactory
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDWebviewResponse
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDWebviewSession
+(__DATA,__objc_data) external _OBJC_METACLASS_$_MSIDWorkPlaceJoinUtil
 (undefined) external _OBJC_METACLASS_$_NSError (from Foundation)
 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
 (undefined) external _OBJC_METACLASS_$_NSURLProtocol (from Foundation)
@@ -530,13 +974,20 @@
 (__TEXT,__const) external _PASSWORD_LABEL_X
 (__TEXT,__const) external _PASSWORD_LABEL_Y
 (__TEXT,__const) external _Quote
-(__DATA,__const) external _RegularExpression
 (undefined) external _SecCertificateCopyData (from Security)
 (undefined) external _SecCertificateCopySubjectSummary (from Security)
 (undefined) external _SecIdentityCopyCertificate (from Security)
 (undefined) external _SecIdentityCopyPreferred (from Security)
+(undefined) external _SecIdentityCopyPrivateKey (from Security)
+(undefined) external _SecIdentityGetTypeID (from Security)
+(undefined) external _SecItemAdd (from Security)
 (undefined) external _SecItemCopyMatching (from Security)
+(undefined) external _SecItemDelete (from Security)
 (undefined) external _SecKeyGetBlockSize (from Security)
+(undefined) external _SecRandomCopyBytes (from Security)
+(undefined) external _SecSignTransformCreate (from Security)
+(undefined) external _SecTransformExecute (from Security)
+(undefined) external _SecTransformSetAttribute (from Security)
 (__TEXT,__const) external _USERNAME_FIELD_HEIGHT
 (__TEXT,__const) external _USERNAME_FIELD_WIDTH
 (__TEXT,__const) external _USERNAME_FIELD_X
@@ -546,55 +997,39 @@
 (__TEXT,__const) external _USERNAME_LABEL_X
 (__TEXT,__const) external _USERNAME_LABEL_Y
 (__DATA,__const) external _UnauthorizedHTTStatusExpected
-(undefined) external __Block_copy (from libSystem)
 (undefined) external __Block_object_assign (from libSystem)
 (undefined) external __Block_object_dispose (from libSystem)
-(undefined) external __DefaultRuneLocale (from libSystem)
 (undefined) external __NSConcreteGlobalBlock (from libSystem)
 (undefined) external __NSConcreteStackBlock (from libSystem)
 (undefined) external __Unwind_Resume (from libSystem)
 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+(undefined) external ___NSArray0__ (from CoreFoundation)
+(undefined) external ___assert_rtn (from libSystem)
+(undefined) external ___gss_krb5_mechanism_oid_desc (from GSS)
 (undefined) external ___objc_personality_v0 (from libobjc)
 (undefined) external ___stack_chk_fail (from libSystem)
 (undefined) external ___stack_chk_guard (from libSystem)
 (undefined) external __dispatch_main_q (from libSystem)
-(undefined) external __dyld_register_func_for_add_image (from libSystem)
+(undefined) external __dispatch_queue_attr_concurrent (from libSystem)
 (undefined) external __objc_empty_cache (from libobjc)
-(undefined) external __objc_empty_vtable (from libobjc)
-(undefined) external _abort (from libSystem)
-(__DATA,__data) external _adalVersion_2_5_1
-(undefined) external _asprintf (from libSystem)
-(undefined) external _bzero (from libSystem)
+(__DATA,__data) external _adalVersion_2_7_14
 (undefined) external _calloc (from libSystem)
-(undefined) external _class_addMethod (from libobjc)
-(undefined) weak external _class_addProperty (from libobjc)
-(undefined) external _class_addProtocol (from libobjc)
-(undefined) external _class_getInstanceMethod (from libobjc)
-(undefined) external _class_getInstanceSize (from libobjc)
-(undefined) external _class_getInstanceVariable (from libobjc)
-(undefined) external _class_getIvarLayout (from libobjc)
-(undefined) external _class_getName (from libobjc)
-(undefined) external _class_getSuperclass (from libobjc)
-(undefined) external _class_isMetaClass (from libobjc)
-(undefined) external _class_replaceMethod (from libobjc)
-(undefined) external _class_respondsToSelector (from libobjc)
 (undefined) external _dispatch_after (from libSystem)
 (undefined) external _dispatch_async (from libSystem)
+(undefined) external _dispatch_barrier_sync (from libSystem)
 (undefined) external _dispatch_get_global_queue (from libSystem)
 (undefined) external _dispatch_once (from libSystem)
+(undefined) external _dispatch_queue_create (from libSystem)
 (undefined) external _dispatch_semaphore_create (from libSystem)
 (undefined) external _dispatch_semaphore_signal (from libSystem)
 (undefined) external _dispatch_semaphore_wait (from libSystem)
+(undefined) external _dispatch_sync (from libSystem)
 (undefined) external _dispatch_time (from libSystem)
 (__TEXT,__const) external _fragmentSeparator
 (undefined) external _free (from libSystem)
-(undefined) external _freeifaddrs (from libSystem)
-(undefined) external _getifaddrs (from libSystem)
-(undefined) external _hash_create (from libSystem)
-(undefined) external _hash_search (from libSystem)
-(undefined) external _inet_ntoa (from libSystem)
-(undefined) external _ivar_getName (from libobjc)
-(undefined) external _ivar_getOffset (from libobjc)
+(undefined) external _gss_iter_creds (from GSS)
+(undefined) external _gss_release_cred (from GSS)
+(undefined) external _gss_release_name (from GSS)
 (__DATA,__const) external _kADALAlreadyWorkplaceJoined
 (__DATA,__const) external _kADALApplicationIdentifierPrefix
 (__DATA,__const) external _kADALCertificateDeleteFailure
@@ -618,56 +1053,58 @@
 (__DATA,__const) external _kADALUpnMismatchOnJoin
 (__DATA,__const) external _kADALWwwAuthenticateHeader
 (__DATA,__data) external _kAdalResumeDictionaryKey
+(__DATA,__data) external _kAdalSDKNameKey
+(__DATA,__data) external _kAdalSDKObjc
 (undefined) external _kCFAllocatorDefault (from CoreFoundation)
 (undefined) external _kCFBooleanTrue (from CoreFoundation)
-(undefined) external _kCFCoreFoundationVersionNumber (from CoreFoundation)
 (undefined) external _kIOMasterPortDefault (from IOKit)
-(undefined) external _kSecAttrApplicationTag (from Security)
+(__DATA,__const) external _kMSIDPKeyAuthHeader
+(__DATA,__const) external _kMSIDPKeyAuthHeaderVersion
+(__DATA,__const) external _kMSIDPKeyAuthUrn
+(__DATA,__const) external _kMSIDPrivateKeyIdentifier
+(__DATA,__const) external _kMSIDProtectionSpaceDistinguishedName
+(undefined) external _kSecAttrAccessGroup (from Security)
+(undefined) external _kSecAttrAccessible (from Security)
+(undefined) external _kSecAttrAccessibleAlways (from Security)
+(undefined) external _kSecAttrAccount (from Security)
 (undefined) external _kSecAttrIssuer (from Security)
-(undefined) external _kSecAttrKeyClass (from Security)
-(undefined) external _kSecAttrKeyClassPrivate (from Security)
-(undefined) external _kSecAttrKeyType (from Security)
-(undefined) external _kSecAttrKeyTypeRSA (from Security)
-(undefined) external _kSecAttrLabel (from Security)
+(undefined) external _kSecAttrService (from Security)
 (undefined) external _kSecClass (from Security)
-(undefined) external _kSecClassCertificate (from Security)
+(undefined) external _kSecClassGenericPassword (from Security)
 (undefined) external _kSecClassIdentity (from Security)
-(undefined) external _kSecClassKey (from Security)
+(undefined) external _kSecDigestLengthAttribute (from Security)
+(undefined) external _kSecDigestSHA2 (from Security)
+(undefined) external _kSecDigestTypeAttribute (from Security)
+(undefined) external _kSecInputIsAttributeName (from Security)
+(undefined) external _kSecInputIsDigest (from Security)
 (undefined) external _kSecMatchIssuers (from Security)
 (undefined) external _kSecMatchLimit (from Security)
 (undefined) external _kSecMatchLimitAll (from Security)
+(undefined) external _kSecPaddingKey (from Security)
+(undefined) external _kSecPaddingPKCS1Key (from Security)
+(undefined) external _kSecRandomDefault (from Security)
 (undefined) external _kSecReturnAttributes (from Security)
 (undefined) external _kSecReturnRef (from Security)
+(undefined) external _kSecTransformInputAttributeName (from Security)
 (undefined) external _kSecValueRef (from Security)
 (undefined) external _malloc (from libSystem)
-(undefined) external _memcmp (from libSystem)
 (undefined) external _memcpy (from libSystem)
-(undefined) external _method_setImplementation (from libobjc)
-(undefined) external _objc_allocateClassPair (from libobjc)
+(undefined) external _objc_alloc (from libobjc)
 (undefined) external _objc_autorelease (from libobjc)
-(undefined) weak external _objc_autoreleasePoolPush (from libobjc)
+(undefined) external _objc_autoreleasePoolPop (from libobjc)
+(undefined) external _objc_autoreleasePoolPush (from libobjc)
 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
 (undefined) external _objc_begin_catch (from libobjc)
-(undefined) external _objc_constructInstance (from libobjc)
-(undefined) external _objc_copyClassNamesForImage (from libobjc)
 (undefined) external _objc_destroyWeak (from libobjc)
 (undefined) external _objc_end_catch (from libobjc)
 (undefined) external _objc_enumerationMutation (from libobjc)
 (undefined) external _objc_exception_throw (from libobjc)
 (undefined) external _objc_getAssociatedObject (from libobjc)
-(undefined) external _objc_getClass (from libobjc)
-(undefined) external _objc_getMetaClass (from libobjc)
 (undefined) external _objc_getProperty (from libobjc)
-(undefined) external _objc_getProtocol (from libobjc)
-(undefined) external _objc_getRequiredClass (from libobjc)
-(undefined) external _objc_initializeClassPair (from libobjc)
 (undefined) external _objc_loadWeakRetained (from libobjc)
-(undefined) external _objc_lookUpClass (from libobjc)
 (undefined) external _objc_msgSend (from libobjc)
 (undefined) external _objc_msgSendSuper2 (from libobjc)
 (undefined) external _objc_msgSend_stret (from libobjc)
-(undefined) weak external _objc_readClassPair (from libobjc)
-(undefined) external _objc_registerClassPair (from libobjc)
 (undefined) external _objc_release (from libobjc)
 (undefined) external _objc_retain (from libobjc)
 (undefined) external _objc_retainAutorelease (from libobjc)
@@ -677,32 +1114,20 @@
 (undefined) external _objc_setAssociatedObject (from libobjc)
 (undefined) external _objc_setProperty_atomic (from libobjc)
 (undefined) external _objc_setProperty_atomic_copy (from libobjc)
+(undefined) external _objc_setProperty_nonatomic_copy (from libobjc)
 (undefined) external _objc_storeStrong (from libobjc)
 (undefined) external _objc_storeWeak (from libobjc)
 (undefined) external _objc_sync_enter (from libobjc)
 (undefined) external _objc_sync_exit (from libobjc)
-(undefined) external _object_getClass (from libobjc)
-(undefined) external _object_getIndexedIvars (from libobjc)
-(undefined) external _object_getIvar (from libobjc)
-(undefined) external _object_setIvar (from libobjc)
-(undefined) weak external _property_copyAttributeList (from libobjc)
-(undefined) external _protocol_getMethodDescription (from libobjc)
-(undefined) external _protocol_getName (from libobjc)
-(undefined) external _pthread_mutex_lock (from libSystem)
-(undefined) external _pthread_mutex_unlock (from libSystem)
+(undefined) external _objc_unsafeClaimAutoreleasedReturnValue (from libobjc)
 (undefined) external _pthread_rwlock_destroy (from libSystem)
 (undefined) external _pthread_rwlock_init (from libSystem)
-(undefined) external _pthread_rwlock_rdlock (from libSystem)
 (undefined) external _pthread_rwlock_unlock (from libSystem)
 (undefined) external _pthread_rwlock_wrlock (from libSystem)
+(undefined) external _pthread_threadid_np (from libSystem)
 (__TEXT,__const) external _queryStringSeparator
 (undefined) external _round (from libSystem)
 (__DATA,__common) external _s_brokerAppVersion
 (__DATA,__common) external _s_brokerProtocolVersion
-(undefined) external _sel_getUid (from libobjc)
-(undefined) external _strcmp (from libSystem)
-(undefined) external _strlen (from libSystem)
-(undefined) external _strncmp (from libSystem)
 (undefined) external _sysctlbyname (from libSystem)
-(__TEXT,__text) external _validBase64Characters
 (undefined) external dyld_stub_binder (from libSystem)

@@ -15,6 +15,7 @@
 (undefined) external _CFArrayGetCount (from CoreFoundation)
 (undefined) external _CFArrayGetFirstIndexOfValue (from CoreFoundation)
 (undefined) external _CFArrayGetValueAtIndex (from CoreFoundation)
+(undefined) external _CFArrayGetValues (from CoreFoundation)
 (undefined) external _CFArrayInsertValueAtIndex (from CoreFoundation)
 (undefined) external _CFArrayRemoveValueAtIndex (from CoreFoundation)
 (undefined) external _CFAutorelease (from CoreFoundation)
@@ -23,9 +24,6 @@
 (undefined) external _CFBundleCopyBundleURL (from CoreFoundation)
 (undefined) external _CFBundleCopyLocalizedString (from CoreFoundation)
 (undefined) external _CFBundleCopyResourceURL (from CoreFoundation)
-(undefined) external _CFBundleCopyResourcesDirectoryURL (from CoreFoundation)
-(undefined) external _CFBundleCreate (from CoreFoundation)
-(undefined) external _CFBundleGetBundleWithIdentifier (from CoreFoundation)
 (undefined) external _CFBundleGetFunctionPointersForNames (from CoreFoundation)
 (undefined) external _CFBundleGetInfoDictionary (from CoreFoundation)
 (undefined) external _CFBundleGetMainBundle (from CoreFoundation)
@@ -62,6 +60,7 @@
 (undefined) external _CFDictionaryApplyFunction (from CoreFoundation)
 (undefined) external _CFDictionaryContainsKey (from CoreFoundation)
 (undefined) external _CFDictionaryCreateMutable (from CoreFoundation)
+(undefined) external _CFDictionaryCreateMutableCopy (from CoreFoundation)
 (undefined) external _CFDictionaryGetCount (from CoreFoundation)
 (undefined) external _CFDictionaryGetKeysAndValues (from CoreFoundation)
 (undefined) external _CFDictionaryGetTypeID (from CoreFoundation)
@@ -73,9 +72,7 @@
 (undefined) external _CFGetTypeID (from CoreFoundation)
 (undefined) external _CFLocaleCopyCurrent (from CoreFoundation)
 (undefined) external _CFLocaleCopyDisplayNameForPropertyValue (from CoreFoundation)
-(undefined) external _CFLocaleCreate (from CoreFoundation)
 (undefined) external _CFLocaleCreateCanonicalLanguageIdentifierFromString (from CoreFoundation)
-(undefined) external _CFLocaleCreateCanonicalLocaleIdentifierFromString (from CoreFoundation)
 (undefined) external _CFLocaleCreateComponentsFromLocaleIdentifier (from CoreFoundation)
 (undefined) external _CFLocaleCreateLocaleIdentifierFromComponents (from CoreFoundation)
 (undefined) external _CFLocaleCreateLocaleIdentifierFromWindowsLocaleCode (from CoreFoundation)
@@ -140,6 +137,7 @@
 (undefined) external _CFStringGetMaximumSizeOfFileSystemRepresentation (from CoreFoundation)
 (undefined) external _CFStringGetSystemEncoding (from CoreFoundation)
 (undefined) external _CFStringGetTypeID (from CoreFoundation)
+(undefined) external _CFStringHasPrefix (from CoreFoundation)
 (undefined) external _CFStringInsert (from CoreFoundation)
 (undefined) external _CFStringLowercase (from CoreFoundation)
 (undefined) external _CFStringNormalize (from CoreFoundation)
@@ -180,7 +178,6 @@
 (__TEXT,__text) external _CharUpperBuffA
 (__TEXT,__text) external _CharUpperBuffW
 (__TEXT,__text) external _CharUpperW
-(__TEXT,__text) external _ChrCmpIW
 (__TEXT,__text) external _CloseHandle
 (__TEXT,__text) external _CompareFileTime
 (__TEXT,__text) external _CompareStringA
@@ -188,7 +185,6 @@
 (__TEXT,__text) external _CompareStringOrdinal
 (__TEXT,__text) external _CompareStringW
 (__TEXT,__text) external _ConvertINetString
-(__TEXT,__text) external _ConvertSidToStringSidW
 (__TEXT,__text) external _CopyFileExW
 (__TEXT,__text) external _CopyFileW
 (__TEXT,__text) external _CreateDirectoryW
@@ -196,10 +192,8 @@
 (__TEXT,__text) external _CreateEventExA
 (__TEXT,__text) external _CreateEventExW
 (__TEXT,__text) external _CreateEventW
-(__TEXT,__text) external _CreateFileA
 (__TEXT,__text) external _CreateFileMappingW
 (__TEXT,__text) external _CreateFileW
-(__TEXT,__text) external _CreateMemoryResourceNotification
 (__TEXT,__text) external _CreateMutexExW
 (__TEXT,__text) external _CreateMutexW
 (__TEXT,__text) external _CreateSemaphoreA
@@ -207,9 +201,7 @@
 (__TEXT,__text) external _CreateSemaphoreW
 (__TEXT,__text) external _CreateThread
 (__TEXT,__text) external _CreateTimerQueueTimer
-(__TEXT,__text) external _CreateWaitableTimerA
 (__TEXT,__text) external _CreateWaitableTimerW
-(__TEXT,__text) external _CreateWellKnownSid
 (__TEXT,__text) external _DbgPrint
 (__TEXT,__text) external _DbgPrintEx
 (__TEXT,__text) external _DeleteAtom
@@ -222,16 +214,10 @@
 (__TEXT,__text) external _EnterCriticalSection
 (__TEXT,__text) external _EnumCalendarInfoExEx
 (__TEXT,__text) external _EnumDateFormatsExEx
-(__TEXT,__text) external _EnumDateFormatsW
 (__TEXT,__text) external _EnumSystemLocalesEx
 (__TEXT,__text) external _EnumTimeFormatsEx
-(__TEXT,__text) external _EnumTimeFormatsW
 (__TEXT,__text) external _ExitProcess
 (__TEXT,__text) external _ExitThread
-(__TEXT,__const) weak external _FOLDERID_InternetCache
-(__TEXT,__const) weak external _FOLDERID_LocalAppData
-(__TEXT,__const) weak external _FOLDERID_LocalAppDataLow
-(__TEXT,__const) weak external _FOLDERID_RoamingAppData
 (__TEXT,__text) external _FatalAppExitA
 (__TEXT,__text) external _FileTimeToLocalFileTime
 (__TEXT,__text) external _FileTimeToSystemTime
@@ -241,17 +227,6 @@
 (__TEXT,__text) external _FindNextFileW
 (__TEXT,__text) external _FlushFileBuffers
 (__TEXT,__text) external _FoldStringW
-(__TEXT,__text) external _FreeLibrary
-(__TEXT,__const) external _GUID_ACDC_POWER_SOURCE
-(__TEXT,__const) external _GUID_BATTERY_PERCENTAGE_REMAINING
-(__TEXT,__const) external _GUID_IDLE_BACKGROUND_TASK
-(__TEXT,__const) external _GUID_MAX_POWER_SAVINGS
-(__TEXT,__const) external _GUID_MIN_POWER_SAVINGS
-(__TEXT,__const) external _GUID_MONITOR_POWER_ON
-(__TEXT,__const) external _GUID_POWERSCHEME_PERSONALITY
-(__TEXT,__const) external _GUID_SESSION_USER_PRESENCE
-(__TEXT,__const) external _GUID_SYSTEM_AWAYMODE
-(__TEXT,__const) external _GUID_TYPICAL_POWER_SAVINGS
 (__TEXT,__text) external _GetACP
 (__TEXT,__text) external _GetAsyncKeyState
 (__TEXT,__text) external _GetAtomNameA
@@ -294,9 +269,17 @@
 (__TEXT,__text) external _GetModuleHandleW
 (__TEXT,__text) external _GetNumberFormatW
 (__TEXT,__text) external _GetOverlappedResult
-(__TEXT,__text) external _GetProcAddress
+(__TEXT,__text) external _GetPrivateProfileIntA
+(__TEXT,__text) external _GetPrivateProfileIntW
+(__TEXT,__text) external _GetPrivateProfileSectionA
+(__TEXT,__text) external _GetPrivateProfileSectionW
+(__TEXT,__text) external _GetPrivateProfileStringA
+(__TEXT,__text) external _GetPrivateProfileStringW
 (__TEXT,__text) external _GetProcessHeap
 (__TEXT,__text) external _GetProcessId
+(__TEXT,__text) external _GetProfileIntW
+(__TEXT,__text) external _GetProfileStringA
+(__TEXT,__text) external _GetProfileStringW
 (__TEXT,__text) external _GetStringTypeA
 (__TEXT,__text) external _GetStringTypeExW
 (__TEXT,__text) external _GetStringTypeW
@@ -313,14 +296,12 @@
 (__TEXT,__text) external _GetThreadId
 (__TEXT,__text) external _GetThreadLocale
 (__TEXT,__text) external _GetThreadPriority
-(__TEXT,__text) external _GetThreadPriorityBoost
 (__TEXT,__text) external _GetTickCount
 (__TEXT,__text) external _GetTickCount64
 (__TEXT,__text) external _GetTimeFormatA
 (__TEXT,__text) external _GetTimeFormatEx
 (__TEXT,__text) external _GetTimeFormatW
 (__TEXT,__text) external _GetTimeZoneInformation
-(__TEXT,__text) external _GetTokenInformation
 (__TEXT,__text) external _GetUserDefaultLCID
 (__TEXT,__text) external _GetUserDefaultLangID
 (__TEXT,__text) external _GetUserDefaultLocaleName
@@ -346,7 +327,6 @@
 (__TEXT,__text) external _HeapDestroy
 (__TEXT,__text) external _HeapFree
 (__TEXT,__text) external _HeapReAlloc
-(__TEXT,__text) external _HeapSetInformation
 (__TEXT,__text) external _HeapSize
 (__TEXT,__text) external _HeapValidate
 (undefined) external _IOPSCopyPowerSourcesInfo (from IOKit)
@@ -364,26 +344,19 @@
 (__TEXT,__text) external _InterlockedFlushSList
 (__TEXT,__text) external _InterlockedPopEntrySList
 (__TEXT,__text) external _InterlockedPushEntrySList
-(undefined) external _IsAliveMSApplicationProcess (from mbukernel)
 (undefined) external _IsAliveProcess (from mbukernel)
 (__TEXT,__text) external _IsCharAlphaA
 (__TEXT,__text) external _IsCharAlphaNumericA
-(__TEXT,__text) external _IsCharLowerA
-(__TEXT,__text) external _IsCharUpperA
 (__TEXT,__text) external _IsClipboardFormatAvailable
 (__TEXT,__text) external _IsDBCSLeadByte
 (__TEXT,__text) external _IsDBCSLeadByteEx
-(__TEXT,__text) external _IsSystemResumeAutomatic
 (__TEXT,__text) external _IsValidCodePage
 (__TEXT,__text) external _IsValidLocale
 (__TEXT,__text) external _IsValidLocaleName
-(__TEXT,__text) external _IsValidSid
 (__TEXT,__text) external _LCIDToLocaleName
 (__TEXT,__text) external _LCMapStringA
 (__TEXT,__text) external _LCMapStringW
 (__TEXT,__text) external _LeaveCriticalSection
-(__TEXT,__text) external _LoadLibraryExW
-(__TEXT,__text) external _LoadLibraryW
 (__TEXT,__text) external _LocalAlloc
 (__TEXT,__text) external _LocalFileTimeToFileTime
 (__TEXT,__text) external _LocalFree
@@ -398,9 +371,12 @@
 (undefined) external _MBUAtomicIncrement32 (from mbukernel)
 (undefined) external _MBUAtomicSwapPointer (from mbukernel)
 (undefined) external _MBUGetCurrentTimestamp (from mbukernel)
+(undefined) external _MBUGetMicrosecondsBetween (from mbukernel)
 (undefined) external _MBUGetMillisecondsBetween (from mbukernel)
 (undefined) external _MBUSpinLockLock (from mbukernel)
 (undefined) external _MBUSpinLockUnlock (from mbukernel)
+(undefined) external _MBUSuitewidePreferencesCopyValueForKey (from mbuinstrument)
+(undefined) external _MBUSuitewidePreferencesSetValueForKey (from mbuinstrument)
 (undefined) external _MBUThreadStorageGetValue (from mbukernel)
 (undefined) external _MBUThreadStorageKeyCreate (from mbukernel)
 (undefined) external _MBUThreadStorageKeyRelease (from mbukernel)
@@ -416,11 +392,10 @@
 (undefined) external _MbuChangeCase (from mbukernel)
 (undefined) external _MbuChangeCaseCFMutable (from mbukernel)
 (undefined) external _MbuCloseSecurityScopedResourceSessionWithFilePath (from mbukernel)
+(undefined) external _MbuCopyCFLocaleFromLcid (from mbulocale)
 (undefined) external _MbuCopyCFLocaleFromLid (from mbulocale)
 (undefined) external _MbuCopyCFLocaleFromLidCalid (from mbulocale)
 (undefined) external _MbuCopyCFLocaleFromLocaleIdentifier (from mbulocale)
-(undefined) external _MbuCopyCFLocaleFromLocaleIdentifierCalId (from mbulocale)
-(undefined) external _MbuCopyFileLastAccessTime (from mbukernel)
 (undefined) external _MbuCreateListOfActiveAppProcessIDs (from mbukernel)
 (undefined) external _MbuCreateMFODirt (from mbukernel)
 (undefined) external _MbuCreateNormalizedLocaleIdentifier (from mbulocale)
@@ -429,36 +404,30 @@
 (undefined) external _MbuFGetMFODirt (from mbukernel)
 (undefined) external _MbuFIsOperatingSystemAtLeastVersion (from mbukernel)
 (undefined) external _MbuFLidFromCFLocale (from mbulocale)
+(undefined) external _MbuGetBundleWithNameOrIdentifier (from mbukernel)
 (undefined) external _MbuGetCPFromTextEncoding (from mbulocale)
 (undefined) external _MbuGetFreeDiskSpaceSize (from mbukernel)
 (undefined) external _MbuGetLocalizationLid (from mbulocale)
+(undefined) external _MbuGetMainBundle (from mbukernel)
 (undefined) external _MbuGetPreferredTextEncoding (from mbulocale)
 (undefined) external _MbuGetTextEncodingFromCP (from mbulocale)
+(undefined) external _MbuHashDataWithSHA1 (from mbukernel)
+(undefined) external _MbuInAutomatedAssertMode (from mbuinstrument)
+(undefined) external _MbuInAutomatedQTestMode (from mbuinstrument)
+(undefined) external _MbuLcidFromCFLocaleIdentifier (from mbulocale)
 (undefined) external _MbuLidFromCFLocaleIdentifier (from mbulocale)
 (undefined) external _MbuMultiByteToUnicode (from mbukernel)
 (undefined) external _MbuNormalizeUnicodeStringForForm (from mbukernel)
 (undefined) external _MbuOpenSecurityScopedResourceSessionWithFilePath (from mbukernel)
-(undefined) external _MbuRegisterInitTermFunctions (from mbukernel)
 (__TEXT,__text) external _MbuRegisterPowerSettingNotification
 (undefined) external _MbuRgwchRIndex (from mbukernel)
-(undefined) external _MbuSetFileLastAccessTime (from mbukernel)
 (undefined) external _MbuStringCompareWithOptionsAndLocale (from mbukernel)
 (undefined) external _MbuUnicodeToMultiByte (from mbukernel)
-(undefined) external _MbuUnicodeToUTF8 (from mbukernel)
-(__TEXT,__text) external _MbuUnregisterPowerSettingNotification
-(__TEXT,__text) external _McpCchGetCFLocaleInfo
+(undefined) external _MbuWzFromCFString (from mbukernel)
 (__TEXT,__text) external _McpCchGetLocaleInfo
 (__TEXT,__text) external _McpCchGetLocaleInfoA
-(__TEXT,__text) external _McpCchGetLocaleInfoFromNlsTables
-(__TEXT,__text) external _McpCchGetLocaleInfoWithLocaleId
-(__TEXT,__text) external _McpCopyCFLocaleInfo
-(__TEXT,__text) external _McpCopyCalendarInfo
-(__TEXT,__text) external _McpCopyCalendarInfoWithLocaleId
-(__TEXT,__text) external _McpCopyCalendarInfoWithLocaleIdCalId
-(__TEXT,__text) external _McpCopyLocaleInfo
-(__TEXT,__text) external _McpCopyLocaleInfoFromNlsTables
-(__TEXT,__text) external _McpCopyLocaleInfoWithLocaleId
 (__TEXT,__text) external _McpWstrtol
+(undefined) external _MerpSetHostMetadataValue (from merp)
 (__TEXT,__text) external _MoveFileExW
 (__TEXT,__text) external _MulDiv
 (__TEXT,__text) external _MultiByteToWideChar
@@ -495,6 +464,7 @@
 (undefined) external _OBJC_CLASS_$_NSOperation (from Foundation)
 (undefined) external _OBJC_CLASS_$_NSPasteboard (from AppKit)
 (undefined) external _OBJC_CLASS_$_NSPredicate (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSProcessInfo (from Foundation)
 (undefined) external _OBJC_CLASS_$_NSPropertyListSerialization (from Foundation)
 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
 (undefined) external _OBJC_CLASS_$_NSThread (from Foundation)
@@ -511,13 +481,12 @@
 (undefined) external _OBJC_METACLASS_$_NSView (from AppKit)
 (__DATA,__objc_data) external _OBJC_METACLASS_$_WLMNSOperation
 (__DATA,__objc_data) external _OBJC_METACLASS_$_WlmDragDropView
-(undefined) external _OSStatusFromPfmFRLErr (from mbukernel)
 (__TEXT,__text) external _OpenEventW
 (__TEXT,__text) external _OpenFileMappingW
 (__TEXT,__text) external _OpenMutexW
 (__TEXT,__text) external _OpenProcess
-(__TEXT,__text) external _OpenProcessToken
-(__TEXT,__text) external _OpenThread
+(__TEXT,__text) external _OpenSemaphoreA
+(__TEXT,__text) external _OpenSemaphoreW
 (__TEXT,__text) external _OutputDebugStringA
 (__TEXT,__text) external _OutputDebugStringW
 (__TEXT,__text) external _PathAppendW
@@ -526,7 +495,6 @@
 (__TEXT,__text) external _PathFindExtensionW
 (__TEXT,__text) external _PathFindFileNameW
 (__TEXT,__text) external _PathFindNextComponentW
-(__TEXT,__text) external _PathIsDirectoryW
 (__TEXT,__text) external _PathIsPrefixW
 (__TEXT,__text) external _PathIsRelativeW
 (__TEXT,__text) external _PathIsRootW
@@ -542,28 +510,16 @@
 (undefined) external _PfmFRLCchGetName (from mbukernel)
 (undefined) external _PfmFRLCchGetPath (from mbukernel)
 (undefined) external _PfmFRLCopyCFURL (from mbukernel)
-(undefined) external _PfmFRLCopyCreationDate (from mbukernel)
-(undefined) external _PfmFRLCopyModificationDate (from mbukernel)
 (undefined) external _PfmFRLCreateDirectory (from mbukernel)
 (undefined) external _PfmFRLCreateFromCFURL (from mbukernel)
 (undefined) external _PfmFRLCreateFromCurrentWorkingDirectory_DEPRECATED (from mbukernel)
 (undefined) external _PfmFRLCreateFromPfmFRLUnicode (from mbukernel)
-(undefined) external _PfmFRLCreateFromUnicode (from mbukernel)
 (undefined) external _PfmFRLCreateFromWz (from mbukernel)
 (undefined) external _PfmFRLCreateMutable (from mbukernel)
-(undefined) external _PfmFRLFIsDirectory (from mbukernel)
-(undefined) external _PfmFRLFValid (from mbukernel)
 (undefined) external _PfmFRLRelease (from mbukernel)
-(undefined) external _PfmFRLSetCreationDate (from mbukernel)
-(undefined) external _PfmFRLSetModificationDate (from mbukernel)
-(__TEXT,__text) external _PfmFRLWlmCopyFile
 (__TEXT,__text) external _PfmFRLWlmCreateFile
-(__TEXT,__text) external _PfmFRLWlmDeleteFile
-(__TEXT,__text) external _PfmFRLWlmGetFileTime
-(__TEXT,__text) external _PfmFRLWlmGetTempFileName
 (__TEXT,__text) external _PfmFRLWlmMoveFileEx
 (__TEXT,__text) external _PfmFRLWlmResolveFileW
-(__TEXT,__text) external _PfmFRLWlmSetFileTime
 (undefined) external _PfmMutableFRLSetFromPfmFRLWz (from mbukernel)
 (__TEXT,__text) external _QueryDepthSList
 (__TEXT,__text) external _QueryPerformanceCounter
@@ -578,10 +534,9 @@
 (__TEXT,__text) external _RegCreateKeyExW
 (__TEXT,__text) external _RegCreateKeyW
 (__TEXT,__text) external _RegDeleteKeyA
-(__TEXT,__text) external _RegDeleteKeyExA
 (__TEXT,__text) external _RegDeleteKeyExW
-(__TEXT,__text) external _RegDeleteKeyValueW
 (__TEXT,__text) external _RegDeleteKeyW
+(__TEXT,__text) external _RegDeleteTreeA
 (__TEXT,__text) external _RegDeleteTreeW
 (__TEXT,__text) external _RegDeleteValueA
 (__TEXT,__text) external _RegDeleteValueW
@@ -606,10 +561,8 @@
 (__TEXT,__text) external _RegQueryValueExW
 (__TEXT,__text) external _RegQueryValueW
 (__TEXT,__text) external _RegSetKeyValueW
-(__TEXT,__text) external _RegSetValueA
 (__TEXT,__text) external _RegSetValueExA
 (__TEXT,__text) external _RegSetValueExW
-(__TEXT,__text) external _RegSetValueW
 (__TEXT,__text) external _RegisterClipboardFormatA
 (__TEXT,__text) external _RegisterClipboardFormatW
 (__TEXT,__text) external _RegisterWaitForSingleObject
@@ -629,7 +582,6 @@
 (__TEXT,__text) external _RtlClearBits
 (__TEXT,__text) external _RtlDeleteCriticalSection
 (__TEXT,__text) external _RtlDeleteElementGenericTableAvl
-(__TEXT,__text) external _RtlDeleteResource
 (__TEXT,__text) external _RtlDllShutdownInProgress
 (__TEXT,__text) external _RtlEnterCriticalSection
 (__TEXT,__text) external _RtlEnumerateGenericTableAvl
@@ -642,9 +594,7 @@
 (__TEXT,__text) external _RtlInitializeCriticalSection
 (__TEXT,__text) external _RtlInitializeCriticalSectionAndSpinCount
 (__TEXT,__text) external _RtlInitializeGenericTableAvl
-(__TEXT,__text) external _RtlInitializeResource
 (__TEXT,__text) external _RtlInsertElementGenericTableAvl
-(__TEXT,__text) external _RtlIntegerToUnicodeString
 (__TEXT,__text) external _RtlIpv4AddressToStringExW
 (__TEXT,__text) external _RtlIpv4StringToAddressExW
 (__TEXT,__text) external _RtlIpv6AddressToStringExW
@@ -671,7 +621,6 @@
 (__TEXT,__text) external _SHQueryValueExW
 (__TEXT,__text) external _SHRegGetBoolUSValueA
 (__TEXT,__text) external _SHRegGetUSValueA
-(__TEXT,__text) external _SetBundleOfInstance
 (__TEXT,__text) external _SetCriticalSectionSpinCount
 (__TEXT,__text) external _SetDefaultCreatorType
 (__TEXT,__text) external _SetDefaultFileType
@@ -684,12 +633,8 @@
 (__TEXT,__text) external _SetFileSecurityW
 (__TEXT,__text) external _SetFileTime
 (__TEXT,__text) external _SetLastError
-(__TEXT,__text) external _SetLastErrorEx
-(__TEXT,__text) external _SetThreadAffinityMask
 (__TEXT,__text) external _SetThreadPriority
-(__TEXT,__text) external _SetThreadPriorityBoost
 (__TEXT,__text) external _SetWaitableTimer
-(__TEXT,__text) external _SignalObjectAndWait
 (__TEXT,__text) external _SleepEx
 (__TEXT,__text) external _StrChrA
 (__TEXT,__text) external _StrChrW
@@ -720,12 +665,13 @@
 (__TEXT,__text) external _TlsFree
 (__TEXT,__text) external _TlsGetValue
 (__TEXT,__text) external _TlsSetValue
+(__TEXT,__text) external _TryAcquireSRWLockExclusive
+(__TEXT,__text) external _TryAcquireSRWLockShared
 (__TEXT,__text) external _TryEnterCriticalSection
 (__TEXT,__text) external _TzSpecificLocalTimeToSystemTime
 (undefined) external _UTTypeCopyPreferredTagWithClass (from CoreServices)
 (undefined) external _UTTypeCreatePreferredIdentifierForTag (from CoreServices)
 (undefined) external _UTTypeEqual (from CoreServices)
-(__TEXT,__text) external _UnicodeFromAnsi
 (__TEXT,__text) external _UnlockFile
 (__TEXT,__text) external _UnlockFileEx
 (__TEXT,__text) external _UnmapViewOfFile
@@ -735,7 +681,6 @@
 (__TEXT,__text) external _VirtualAlloc
 (__TEXT,__text) external _VirtualFree
 (__TEXT,__text) external _WLMFreeHandleAndDetachData
-(__TEXT,__text) external _WLM_GetApplicationHInstance
 (__TEXT,__text) external _WaitForMultipleObjects
 (__TEXT,__text) external _WaitForMultipleObjectsEx
 (__TEXT,__text) external _WaitForSingleObject
@@ -743,23 +688,17 @@
 (__TEXT,__text) external _WideCharToMultiByte
 (__TEXT,__text) external _WinErrorFromOSStatus
 (__TEXT,__text) external _WlGetLegacyFileType
-(__TEXT,__text) external _WlmAttachDynamicallyLoadedLibrary
-(__TEXT,__text) external _WlmBuildPosixObjectName
-(__TEXT,__text) external _WlmBuildPosixObjectNameW
 (__TEXT,__text) external _WlmCFStringCreateFromMultiByte
-(__TEXT,__text) external _WlmCanReadFirstPointerFromAddress_DO_NOT_USE
 (__TEXT,__text) external _WlmConvertFilePathHFSToPosix
 (__TEXT,__text) external _WlmConvertFilePathPosixToHFS
 (__TEXT,__text) external _WlmConvertFilePathPosixToWin
 (__TEXT,__text) external _WlmConvertFilePathWinToPosix
 (__TEXT,__text) external _WlmConvertUnixTimeToFileTime
-(__TEXT,__text) external _WlmConvertUnixTimespecToFileTime
 (__TEXT,__text) external _WlmConvertWinFileTimeToUnixTime
 (__TEXT,__text) external _WlmCreateCFUUIDFromGUID
 (__TEXT,__text) external _WlmCreateCustomObjectHandle
 (__TEXT,__text) external _WlmCreateNSUUIDFromGUID
 (__TEXT,__text) external _WlmCustomObjectPointer
-(__TEXT,__text) external _WlmDebug
 (__TEXT,__text) external _WlmDllShutdownInProgress
 (__TEXT,__text) external _WlmFindClipboardFormatForPasteboardType
 (__TEXT,__text) external _WlmGetGUIDFromCFUUID
@@ -767,34 +706,26 @@
 (__TEXT,__text) external _WlmGetHInstanceFromBundle
 (__TEXT,__text) external _WlmGetPasteboardTypeFromClipboardFormat
 (__TEXT,__text) external _WlmGetPathStyle
-(__TEXT,__text) external _WlmGetRawPasteboardTypeFromClipboardFormat
 (__TEXT,__text) external _WlmGetTempDirectoryPath
-(__TEXT,__text) external _WlmIsPointerToAnyObjectiveCObject
 (__TEXT,__text) external _WlmKernel_FrameworkInit
+(__TEXT,__text) external _WlmKernel_FrameworkSuspend
 (__TEXT,__text) external _WlmKernel_FrameworkTerm
 (__TEXT,__text) external _WlmKernel_FrameworkTermErr
 (__TEXT,__text) external _WlmKernel_SynchronizeWithFrameworkTermBegin
 (__TEXT,__text) external _WlmKernel_SynchronizeWithFrameworkTermEnd
 (__TEXT,__text) external _WlmMultiByteFromCFString
 (__TEXT,__text) external _WlmRegGetKeyPath
-(__TEXT,__text) external _WlmRestoreNakedPosixThreadAssertOnCurrentThread
 (__TEXT,__text) external _WlmSHFreePath
 (__TEXT,__text) external _WlmSHGetKnownFolderPath
-(__TEXT,__text) external _WlmSingleProcessCreateEventA
-(__TEXT,__text) external _WlmSingleProcessCreateEventExA
-(__TEXT,__text) external _WlmSingleProcessCreateEventExW
-(__TEXT,__text) external _WlmSingleProcessCreateEventW
-(__TEXT,__text) external _WlmSingleProcessCreateMutexExW
-(__TEXT,__text) external _WlmSingleProcessCreateMutexW
-(__TEXT,__text) external _WlmSuppressNakedPosixThreadAssertOnCurrentThread
+(__TEXT,__text) external _WlmSynchronizeRegistryAndReinitForTesting
 (__TEXT,__text) external _WlmTimevalToFiletime
-(__TEXT,__text) external _WlmfileCreateFileMappingW
 (__TEXT,__text) external _WriteFile
+(__TEXT,__text) external _WritePrivateProfileStringA
+(__TEXT,__text) external _WritePrivateProfileStringW
 (undefined) external __Block_copy (from libSystem)
 (undefined) external __Block_object_assign (from libSystem)
 (undefined) external __Block_object_dispose (from libSystem)
 (undefined) external __Block_release (from libSystem)
-(undefined) external __DefaultRuneLocale (from libSystem)
 (__TEXT,__text) external __IsCStringPointer
 (undefined) external __MbuSendStructuredTraceTagv (from mbuinstrument)
 (undefined) external __NSConcreteGlobalBlock (from libSystem)
@@ -802,7 +733,6 @@
 (undefined) external __Unwind_Resume (from libSystem)
 (undefined) external MBUThreadExit() (from mbukernel)
 (undefined) external MBUThreadYield() (from mbukernel)
-(__TEXT,__text) external _StrCmpLocaleW(unsigned int, wchar_t const*, int, wchar_t const*, int)
 (undefined) external MBUCreateThread(char const*, void*, void (*)(void*), MBUThreadID&, unsigned int) (from mbukernel)
 (undefined) external MBUDestroyThread(MBUThreadID const&) (from mbukernel)
 (undefined) external MBUGetMainThread() (from mbukernel)
@@ -821,28 +751,16 @@
 (undefined) external MBUThreadPool::~MBUThreadPool() (from mbukernel)
 (undefined) external MBUFileSharedLock::MBUFileSharedLock(char const*) (from mbukernel)
 (__TEXT,__text) external WLMThreadDecorator::WLMThreadDecorator()
-(__TEXT,__text) external WLMThreadDecorator::WLMThreadDecorator()
 (__TEXT,__text) external WLMThreadDecorator::~WLMThreadDecorator()
-(__TEXT,__text) external WLMThreadDecorator::~WLMThreadDecorator()
-(__TEXT,__text) external WLMThreadDecorator::~WLMThreadDecorator()
-(undefined) external MBUReaderWriterLock::AcquireReadLock(unsigned int) (from mbukernel)
-(undefined) external MBUReaderWriterLock::ReleaseReadLock() (from mbukernel)
-(undefined) external MBUReaderWriterLock::AcquireWriteLock(unsigned int) (from mbukernel)
-(undefined) external MBUReaderWriterLock::ReleaseWriteLock() (from mbukernel)
-(undefined) external MBUReaderWriterLock::MBUReaderWriterLock(char const*) (from mbukernel)
-(undefined) external MBUReaderWriterLock::~MBUReaderWriterLock() (from mbukernel)
 (undefined) external MBUSignaledCondition::WaitForDuration(unsigned int) (from mbukernel)
 (undefined) external MBUSignaledCondition::Signal() (from mbukernel)
 (undefined) external MBUSignaledCondition::MBUSignaledCondition(char const*) (from mbukernel)
 (undefined) external MBUSignaledCondition::~MBUSignaledCondition() (from mbukernel)
-(undefined) external MbuSpinControlDisabler::MbuSpinControlDisabler() (from mbuinstrument)
-(undefined) external MbuSpinControlDisabler::~MbuSpinControlDisabler() (from mbuinstrument)
 (__DATA,__common) external WlmRegisterDllMainObject::s_head
-(undefined) external Mbu::AB::LowLevel::FeatureGate::FeatureGate(std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&, Mbu::AB::LowLevel::ABLowLevelScope const&) (from mbuinstrument)
-(undefined) external Mbu::AB::LowLevel::FeatureGate::operator()() (from mbuinstrument)
 (undefined) external Mbu::Logging::MbuShouldTrace(unsigned int, Mbu::Logging::Category, Mbu::Logging::Severity) (from mbuinstrument)
 (undefined) external Mbu::Logging::MbuSendStructuredTraceTag(unsigned int, Mbu::Logging::Category, Mbu::Logging::Severity, wchar_t const*) (from mbuinstrument)
 (undefined) external Mbu::Logging::MbuSendStructuredTraceTag(unsigned int, Mbu::Logging::Category, Mbu::Logging::Severity, wchar_t const*, Mbu::Logging::IStructuredTrace const&) (from mbuinstrument)
+(undefined) external wc16::wc16iswdigit(wchar_t) (from mbukernel)
 (undefined) external wc16::wc16iswspace(wchar_t) (from mbukernel)
 (undefined) external wc16::wcschr(wchar_t const*, wchar_t) (from mbukernel)
 (undefined) external wc16::wcscmp(wchar_t const*, wchar_t const*) (from mbukernel)
@@ -861,31 +779,41 @@
 (undefined) external mbukernel::SpinLock::Unlock() (from mbukernel)
 (undefined) external mbukernel::SpinLock::SpinLock() (from mbukernel)
 (undefined) external mbukernel::SpinLock::~SpinLock() (from mbukernel)
+(undefined) external Mbu::AB::LowLevel::ABLowLevel<bool>::GetValue() const (from mbuinstrument)
+(undefined) external Mbu::AB::LowLevel::ABLowLevel<int>::GetValue() const (from mbuinstrument)
 (undefined) external std::__1::__vector_base_common<true>::__throw_length_error() const (from libc++)
 (undefined) external std::__1::__basic_string_common<true>::__throw_length_error() const (from libc++)
 (undefined) external std::exception::what() const (from libc++)
 (undefined) external std::logic_error::logic_error(char const*) (from libc++)
 (undefined) external std::length_error::~length_error() (from libc++)
 (undefined) external std::__1::__call_once(unsigned long volatile&, void*, void (*)(void*)) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::append(char const*) (from libc++)
 (undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::append(char const*, unsigned long) (from libc++)
 (undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::insert(unsigned long, char const*) (from libc++)
-(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::reserve(unsigned long) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) (from libc++)
 (undefined) external std::__1::recursive_mutex::lock() (from libc++)
 (undefined) external std::__1::recursive_mutex::unlock() (from libc++)
 (undefined) external std::__1::recursive_mutex::recursive_mutex() (from libc++)
+(undefined) external std::__1::condition_variable::~condition_variable() (from libc++)
+(undefined) external std::__1::__shared_mutex_base::lock_shared() (from libc++)
+(undefined) external std::__1::__shared_mutex_base::unlock_shared() (from libc++)
+(undefined) external std::__1::__shared_mutex_base::lock() (from libc++)
+(undefined) external std::__1::__shared_mutex_base::unlock() (from libc++)
+(undefined) external std::__1::__shared_mutex_base::__shared_mutex_base() (from libc++)
+(undefined) external std::__1::__throw_system_error(int, char const*) (from libc++)
+(undefined) external std::__1::mutex::lock() (from libc++)
+(undefined) external std::__1::mutex::unlock() (from libc++)
+(undefined) external std::__1::mutex::~mutex() (from libc++)
 (undefined) external std::__1::to_string(unsigned long long) (from libc++)
 (undefined) external std::exception::~exception() (from libc++)
 (undefined) external std::nothrow (from libc++)
 (undefined) external std::terminate() (from libc++)
 (undefined) external typeinfo for MBUThreadPool (from mbukernel)
-(__DATA,__const) external typeinfo for WLMThreadDecorator
-(__DATA,__data) weak external typeinfo for _EXCEPTION_POINTERS
-(__DATA,__data) weak external typeinfo for CppStructuredException
+(__DATA,__const) weak external typeinfo for _EXCEPTION_POINTERS
+(__DATA,__const) weak external typeinfo for CppStructuredException
 (undefined) weak external typeinfo for std::length_error (from libc++)
 (undefined) external typeinfo for std::bad_alloc (from libc++)
 (undefined) external typeinfo for std::exception (from libc++)
-(__TEXT,__const) external typeinfo name for WLMThreadDecorator
-(__DATA,__const) external vtable for WLMThreadDecorator
 (undefined) external vtable for __cxxabiv1::__class_type_info (from libc++)
 (undefined) external vtable for __cxxabiv1::__si_class_type_info (from libc++)
 (undefined) external vtable for std::length_error (from libc++)
@@ -914,15 +842,12 @@
 (undefined) external ___error (from libSystem)
 (undefined) external ___fpclassifyd (from libSystem)
 (undefined) external ___gxx_personality_v0 (from libc++)
-(undefined) external ___maskrune (from libSystem)
 (undefined) external ___mb_cur_max (from libSystem)
 (undefined) external ___memcpy_chk (from libSystem)
 (undefined) external ___objc_personality_v0 (from libobjc)
 (undefined) external ___snprintf_chk (from libSystem)
 (undefined) external ___stack_chk_fail (from libSystem)
 (undefined) external ___stack_chk_guard (from libSystem)
-(undefined) external ___tolower (from libSystem)
-(__TEXT,__text) external __access
 (__TEXT,__text) external __aligned_free
 (__TEXT,__text) external __aligned_malloc
 (undefined) external __dispatch_main_q (from libSystem)
@@ -934,9 +859,6 @@
 (__TEXT,__text) external __iAddAtom
 (__TEXT,__text) external __iDeleteAtom
 (__TEXT,__text) external __iFindAtom
-(__TEXT,__text) external __iGetAtomName
-(__TEXT,__text) external __interlockedbittestandreset
-(__TEXT,__text) external __ismbcspace
 (__TEXT,__text) external __isnan
 (__TEXT,__text) external __lclose
 (__TEXT,__text) external __lcreatW
@@ -944,34 +866,20 @@
 (__TEXT,__text) external __lopenW
 (__TEXT,__text) external __lread
 (__TEXT,__text) external __lwrite
-(__TEXT,__text) external __mbclen
 (__TEXT,__text) external __mbschr
-(__TEXT,__text) external __mbscmp
-(__TEXT,__text) external __mbscspn
-(__TEXT,__text) external __mbsicmp
-(__TEXT,__text) external __mbsinc
-(__TEXT,__text) external __mbslwr_s
-(__TEXT,__text) external __mbsncmp
-(__TEXT,__text) external __mbspbrk
 (__TEXT,__text) external __mbsrchr
-(__TEXT,__text) external __mbsspn
 (__TEXT,__text) external __mbsstr
 (__TEXT,__text) external __memicmp
 (undefined) external __objc_empty_cache (from libobjc)
-(__TEXT,__text) external __scprintf
-(__TEXT,__text) external __snwprintf_s_l
 (__TEXT,__text) external __stricmp
 (__TEXT,__text) external __strlwr_s
 (__TEXT,__text) external __strnicmp
-(__TEXT,__text) external __strnicoll
-(__TEXT,__text) external __strrev
 (__TEXT,__text) external __time64
 (__TEXT,__text) external __waccess
 (__TEXT,__text) external __wcsicmp
 (__TEXT,__text) external __wcslwr
 (__TEXT,__text) external __wcslwr_s
 (__TEXT,__text) external __wcsnicmp
-(__TEXT,__text) external __wcsrev
 (__TEXT,__text) external __wcstoi64
 (__TEXT,__text) external __wcstoui64
 (__TEXT,__text) external __wcsupr
@@ -981,6 +889,7 @@
 (undefined) external _access (from libSystem)
 (undefined) external _alphasort$INODE64 (from libSystem)
 (undefined) external _atol (from libSystem)
+(undefined) external _backtrace (from libSystem)
 (undefined) external _bsearch (from libSystem)
 (undefined) external _calloc (from libSystem)
 (undefined) external _chflags (from libSystem)
@@ -1002,6 +911,7 @@
 (undefined) external _dispatch_group_async (from libSystem)
 (undefined) external _dispatch_group_create (from libSystem)
 (undefined) external _dispatch_group_notify (from libSystem)
+(undefined) external _dispatch_group_wait (from libSystem)
 (undefined) external _dispatch_once (from libSystem)
 (undefined) external _dispatch_queue_create (from libSystem)
 (undefined) external _dispatch_release (from libSystem)
@@ -1018,7 +928,6 @@
 (undefined) external _dispatch_source_set_event_handler_f (from libSystem)
 (undefined) external _dispatch_source_set_timer (from libSystem)
 (undefined) external _dispatch_sync (from libSystem)
-(undefined) external _dispatch_sync_f (from libSystem)
 (undefined) external _dispatch_time (from libSystem)
 (undefined) external _exit (from libSystem)
 (undefined) external _fcntl (from libSystem)
@@ -1035,16 +944,21 @@
 (undefined) external _getpagesize (from libSystem)
 (undefined) external _getpid (from libSystem)
 (undefined) external _getpwuid_r (from libSystem)
+(undefined) external _gettimeofday (from libSystem)
 (undefined) external _getuid (from libSystem)
 (undefined) external _host_get_clock_service (from libSystem)
+(undefined) external _iswascii (from libSystem)
+(undefined) external _iswlower (from libSystem)
+(undefined) external _iswxdigit (from libSystem)
 (undefined) external _kCFAllocatorDefault (from CoreFoundation)
 (undefined) external _kCFAllocatorMalloc (from CoreFoundation)
 (undefined) external _kCFAllocatorNull (from CoreFoundation)
 (undefined) external _kCFAllocatorSystemDefault (from CoreFoundation)
+(undefined) external _kCFBooleanFalse (from CoreFoundation)
+(undefined) external _kCFBooleanTrue (from CoreFoundation)
 (undefined) external _kCFBuddhistCalendar (from CoreFoundation)
 (undefined) external _kCFBundleNameKey (from CoreFoundation)
 (undefined) external _kCFChineseCalendar (from CoreFoundation)
-(undefined) external _kCFCopyStringDictionaryKeyCallBacks (from CoreFoundation)
 (undefined) external _kCFGregorianCalendar (from CoreFoundation)
 (undefined) external _kCFHebrewCalendar (from CoreFoundation)
 (undefined) external _kCFIslamicCalendar (from CoreFoundation)
@@ -1122,7 +1036,6 @@
 (undefined) external _mach_port_deallocate (from libSystem)
 (undefined) external _mach_task_self_ (from libSystem)
 (undefined) external _mach_timebase_info (from libSystem)
-(undefined) external _mach_vm_page_query (from libSystem)
 (undefined) external _malloc (from libSystem)
 (undefined) external _malloc_size (from libSystem)
 (undefined) external _mblen (from libSystem)
@@ -1139,18 +1052,20 @@
 (undefined) external _mkdir (from libSystem)
 (undefined) external _mmap (from libSystem)
 (undefined) external _munmap (from libSystem)
+(undefined) external _objc_alloc (from libobjc)
+(undefined) external _objc_autorelease (from libobjc)
 (undefined) external _objc_autoreleasePoolPop (from libobjc)
 (undefined) external _objc_autoreleasePoolPush (from libobjc)
 (undefined) external _objc_begin_catch (from libobjc)
-(undefined) external _objc_copyClassList (from libobjc)
 (undefined) external _objc_end_catch (from libobjc)
 (undefined) external _objc_enumerationMutation (from libobjc)
 (undefined) external _objc_msgSend (from libobjc)
 (undefined) external _objc_msgSendSuper2 (from libobjc)
+(undefined) external _objc_release (from libobjc)
+(undefined) external _objc_retain (from libobjc)
 (undefined) external _objc_setProperty_nonatomic (from libobjc)
 (undefined) external _objc_sync_enter (from libobjc)
 (undefined) external _objc_sync_exit (from libobjc)
-(undefined) external _object_getClass (from libobjc)
 (undefined) external _open (from libSystem)
 (undefined) external _pthread_getspecific (from libSystem)
 (undefined) external _pthread_key_create (from libSystem)
@@ -1163,6 +1078,7 @@
 (undefined) external _pthread_mutexattr_destroy (from libSystem)
 (undefined) external _pthread_mutexattr_init (from libSystem)
 (undefined) external _pthread_mutexattr_settype (from libSystem)
+(undefined) external _pthread_rwlock_destroy (from libSystem)
 (undefined) external _pthread_rwlock_rdlock (from libSystem)
 (undefined) external _pthread_rwlock_unlock (from libSystem)
 (undefined) external _pthread_rwlock_wrlock (from libSystem)
@@ -1170,6 +1086,7 @@
 (undefined) external _pthread_setspecific (from libSystem)
 (undefined) external _qsort (from libSystem)
 (undefined) external _read (from libSystem)
+(undefined) external _readlink (from libSystem)
 (undefined) external _realloc (from libSystem)
 (undefined) external _rename (from libSystem)
 (undefined) external _rmdir (from libSystem)
@@ -1177,12 +1094,6 @@
 (undefined) external _roundf (from libSystem)
 (undefined) external _scandir$INODE64 (from libSystem)
 (undefined) external _sched_yield (from libSystem)
-(undefined) external _sem_close (from libSystem)
-(undefined) external _sem_open (from libSystem)
-(undefined) external _sem_post (from libSystem)
-(undefined) external _sem_trywait (from libSystem)
-(undefined) external _sem_unlink (from libSystem)
-(undefined) external _sem_wait (from libSystem)
 (undefined) external _shm_open (from libSystem)
 (undefined) external _shm_unlink (from libSystem)
 (undefined) external _sqlite3_bind_blob (from libsqlite3)
@@ -1203,6 +1114,8 @@
 (undefined) external _sqlite3_column_text16 (from libsqlite3)
 (undefined) external _sqlite3_config (from libsqlite3)
 (undefined) external _sqlite3_exec (from libsqlite3)
+(undefined) external _sqlite3_extended_errcode (from libsqlite3)
+(undefined) external _sqlite3_extended_result_codes (from libsqlite3)
 (undefined) external _sqlite3_file_control (from libsqlite3)
 (undefined) external _sqlite3_finalize (from libsqlite3)
 (undefined) external _sqlite3_open_v2 (from libsqlite3)
@@ -1218,14 +1131,15 @@
 (undefined) external _strncasecmp (from libSystem)
 (undefined) external _strncmp (from libSystem)
 (undefined) external _strrchr (from libSystem)
+(undefined) external _strtol (from libSystem)
+(undefined) external _symlink (from libSystem)
 (undefined) external _sysconf (from libSystem)
 (undefined) external _sysctl (from libSystem)
 (undefined) external _sysctlbyname (from libSystem)
+(undefined) external _tolower (from libSystem)
 (undefined) external _unlink (from libSystem)
 (undefined) external _usleep (from libSystem)
 (undefined) external _utime (from libSystem)
-(undefined) external _vm_page_mask (from libSystem)
-(undefined) external _vm_page_size (from libSystem)
 (undefined) external _wc16_mbstowcs (from mbukernel)
 (undefined) external _wc16_towlower (from mbukernel)
 (undefined) external _wc16_towupper (from mbukernel)
@@ -1241,6 +1155,5 @@
 (__TEXT,__text) external _wlm_dispatch_group_async
 (__TEXT,__text) external _wlm_dispatch_group_notify
 (__TEXT,__text) external _wlm_dispatch_sync
-(__TEXT,__text) external _wlm_dispatch_sync_f
 (undefined) external _write (from libSystem)
 (undefined) external dyld_stub_binder (from libSystem)

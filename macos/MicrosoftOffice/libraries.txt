@@ -1,9 +1,0 @@
-/Applications/Microsoft PowerPoint.app/Contents/Frameworks/MicrosoftOffice.framework/Versions/A/MicrosoftOffice:
-	@rpath/MicrosoftOffice.framework/Versions/A/MicrosoftOffice (compatibility version 0.0.0, current version 0.0.0)
-	@rpath/mbukernel.framework/Versions/A/mbukernel (compatibility version 0.0.0, current version 0.0.0)
-	@rpath/OLEAutomation.framework/Versions/A/OLEAutomation (compatibility version 0.0.0, current version 0.0.0)
-	@rpath/COMBase.framework/Versions/A/COMBase (compatibility version 0.0.0, current version 0.0.0)
-	@rpath/OLE.framework/Versions/A/OLE (compatibility version 0.0.0, current version 0.0.0)
-	@rpath/rpcrt4.framework/Versions/A/rpcrt4 (compatibility version 0.0.0, current version 0.0.0)
-	/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 400.9.0)
-	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1252.0.0)
