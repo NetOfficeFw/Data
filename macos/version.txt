@@ -1,3 +1,3 @@
-CFBundleVersion=16.31.19111002
-MicrosoftBuildNumber=191110
-CFBundleShortVersionString=16.31
+CFBundleVersion=16.43.20110804
+MicrosoftBuildNumber=201108
+CFBundleShortVersionString=16.43

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>18G103</string>
+	<string>19G2021</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -391,26 +391,6 @@
 		<dict>
 			<key>CFBundleTypeExtensions</key>
 			<array>
-				<string>ppt</string>
-			</array>
-			<key>CFBundleTypeIconFile</key>
-			<string>SLD8.icns</string>
-			<key>CFBundleTypeName</key>
-			<string>Microsoft PowerPoint Stationery</string>
-			<key>CFBundleTypeOSTypes</key>
-			<array>
-				<string>sLD8</string>
-			</array>
-			<key>CFBundleTypeRole</key>
-			<string>None</string>
-			<key>LSHandlerRank</key>
-			<string>None</string>
-			<key>NSDocumentClass</key>
-			<string>PPTDocument</string>
-		</dict>
-		<dict>
-			<key>CFBundleTypeExtensions</key>
-			<array>
 				<string>rtf</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
@@ -503,68 +483,6 @@
 			<key>CFBundleTypeOSTypes</key>
 			<array>
 				<string>SLD3</string>
-			</array>
-			<key>CFBundleTypeRole</key>
-			<string>None</string>
-			<key>LSHandlerRank</key>
-			<string>None</string>
-			<key>NSDocumentClass</key>
-			<string>PPTDocument</string>
-		</dict>
-		<dict>
-			<key>CFBundleTypeName</key>
-			<string>Microsoft PowerPoint Stationery</string>
-			<key>CFBundleTypeOSTypes</key>
-			<array>
-				<string>sLD3</string>
-			</array>
-			<key>CFBundleTypeRole</key>
-			<string>None</string>
-			<key>LSHandlerRank</key>
-			<string>None</string>
-			<key>NSDocumentClass</key>
-			<string>PPTDocument</string>
-		</dict>
-		<dict>
-			<key>CFBundleTypeIconFile</key>
-			<string>sPOT.icns</string>
-			<key>CFBundleTypeName</key>
-			<string>Microsoft PowerPoint Stationery</string>
-			<key>CFBundleTypeOSTypes</key>
-			<array>
-				<string>sEXT</string>
-			</array>
-			<key>CFBundleTypeRole</key>
-			<string>None</string>
-			<key>LSHandlerRank</key>
-			<string>None</string>
-			<key>NSDocumentClass</key>
-			<string>PPTDocument</string>
-		</dict>
-		<dict>
-			<key>CFBundleTypeIconFile</key>
-			<string>sPOT.icns</string>
-			<key>CFBundleTypeName</key>
-			<string>Microsoft PowerPoint Stationery</string>
-			<key>CFBundleTypeOSTypes</key>
-			<array>
-				<string>sTF </string>
-			</array>
-			<key>CFBundleTypeRole</key>
-			<string>None</string>
-			<key>LSHandlerRank</key>
-			<string>None</string>
-			<key>NSDocumentClass</key>
-			<string>PPTDocument</string>
-		</dict>
-		<dict>
-			<key>CFBundleTypeIconFile</key>
-			<string>sPOT.icns</string>
-			<key>CFBundleTypeName</key>
-			<string>Microsoft PowerPoint Stationery</string>
-			<key>CFBundleTypeOSTypes</key>
-			<array>
-				<string>stro</string>
 			</array>
 			<key>CFBundleTypeRole</key>
 			<string>None</string>
@@ -743,7 +661,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>16.31</string>
+	<string>16.43</string>
 	<key>CFBundleSignature</key>
 	<string>PPT3</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -764,23 +682,25 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>16.31.19111002</string>
+	<string>16.43.20110804</string>
 	<key>CSFlags</key>
 	<integer>65536</integer>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11A420a</string>
+	<string>12A7209</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>GM</string>
+	<string>10.15.6</string>
 	<key>DTSDKBuild</key>
-	<string>19A547</string>
+	<string>19G68</string>
 	<key>DTSDKName</key>
 	<string>macosx10.15</string>
 	<key>DTXcode</key>
-	<string>1100</string>
+	<string>1200</string>
 	<key>DTXcodeBuild</key>
-	<string>11A420a</string>
+	<string>12A7209</string>
 	<key>IntuneMAMSettings</key>
 	<dict>
 		<key>AppGroupIdentifiers</key>
@@ -798,8 +718,6 @@
 	<true/>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.13</string>
-	<key>LSRequiresNativeExecution</key>
-	<true/>
 	<key>MSEnableBootTimeFontPreviewCacheGeneration</key>
 	<true/>
 	<key>MSOfeedbackAppID</key>
@@ -807,12 +725,14 @@
 	<key>MSSuiteCompatibility</key>
 	<dict>
 		<key>COMBaseRPC</key>
-		<string>1</string>
+		<string>2</string>
 	</dict>
 	<key>MicrosoftBuildIncrement</key>
-	<string>2</string>
+	<string>4</string>
 	<key>MicrosoftBuildNumber</key>
-	<string>191110</string>
+	<string>201108</string>
+	<key>NSAccentColorName</key>
+	<string>PowerPointOrange</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
@@ -822,10 +742,12 @@
 	<string>Microsoft PowerPoint uses AppleEvents to communicate with other applications to extend Office functionality.</string>
 	<key>NSAppleScriptEnabled</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>PowerPoint needs your permission to use the camera for recording narration.</string>
 	<key>NSContactsUsageDescription</key>
 	<string>Microsoft PowerPoint uses your contacts to make it easier to collaborate with others.</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>© 2019 Microsoft Corporation. All rights reserved.</string>
+	<string>© 2020 Microsoft Corporation. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSMicrophoneUsageDescription</key>
@@ -837,9 +759,9 @@
 	<key>OSAScriptingDefinition</key>
 	<string>PowerPoint.sdef</string>
 	<key>OfficeLegacyVersion</key>
-	<string>16.31.1110.0</string>
+	<string>16.43.1108.0</string>
 	<key>SyncIntegrationAppProtocolVersion</key>
-	<string>8</string>
+	<string>10</string>
 	<key>UTExportedTypeDeclarations</key>
 	<array>
 		<dict>
@@ -1090,28 +1012,6 @@
 				</array>
 				<key>public.mime-type</key>
 				<string>application/vnd.ms-powerpoint</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>UTTypeConformsTo</key>
-			<array>
-				<string>public.data</string>
-				<string>com.microsoft.powerpoint.ppt</string>
-			</array>
-			<key>UTTypeDescription</key>
-			<string>Microsoft PowerPoint Stationery</string>
-			<key>UTTypeIconFile</key>
-			<string>SLD8.icns</string>
-			<key>UTTypeIdentifier</key>
-			<string>com.microsoft.powerpoint.ppt.stationery</string>
-			<key>UTTypeTagSpecification</key>
-			<dict>
-				<key>com.apple.ostype</key>
-				<string>sLD8</string>
-				<key>public.filename-extension</key>
-				<array>
-					<string>ppt</string>
-				</array>
 			</dict>
 		</dict>
 		<dict>

@@ -8,7 +8,7 @@ libs=(
   COMBase
   'Visual Basic for Applications'
   mso20
-  ADAL
+  ADAL4
   WLMKernel
   WLMUser
 )

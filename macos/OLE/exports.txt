@@ -94,6 +94,7 @@
 (undefined) external _CreateCompatibleDC (from WLMGraphicsDevice)
 (__TEXT,__text) external _CreateDataAdviseHolder
 (__TEXT,__text) external _CreateDataCache
+(undefined) external _CreateErrorInfo (from OLEAutomation)
 (undefined) external _CreateEventW (from WLMKernel)
 (__TEXT,__text) external _CreateFileMoniker
 (undefined) external _CreateFileW (from WLMKernel)
@@ -192,7 +193,7 @@
 (undefined) external _HWND_UserUnmarshal64 (from COMBase)
 (__TEXT,__text) external _HWND_UserUnmarshal64Ext
 (__TEXT,__text) external _HWND_UserUnmarshalExt
-(undefined) external _IID_IUnwrappableDataObject (from COMBase)
+(undefined) weak external _IID_IUnwrappableDataObject (from COMBase)
 (undefined) external _InitializeCriticalSection (from WLMKernel)
 (undefined) external _InternalCoRegisterDisconnectCallback (from COMBase)
 (undefined) external _InternalCoStdMarshalObject (from COMBase)
@@ -211,8 +212,6 @@
 (undefined) external _IsDBCSLeadByte (from WLMKernel)
 (undefined) external _IsValidInterface (from COMBase)
 (undefined) external _LeaveCriticalSection (from WLMKernel)
-(undefined) external _LockFile (from WLMKernel)
-(undefined) external _MBUAtomicCompareAndSwapPointer (from mbukernel)
 (undefined) external _MbuCreatePDFDataFromPICTData (from mbukernel)
 (undefined) external _MbuFIsOperatingSystemAtLeastVersion (from mbukernel)
 (undefined) external _MbuGetPreferredTextEncoding (from mbulocale)
@@ -325,6 +324,9 @@
 (__TEXT,__text) external _OleIsRunning
 (__TEXT,__text) external _OleLoad
 (__TEXT,__text) external _OleLoadFromStream
+(__TEXT,__text) external _OleLoadPictureExt
+(__TEXT,__text) external _OleLoadPictureFileExt
+(__TEXT,__text) external _OleLoadPicturePathExt
 (__TEXT,__text) external _OleLockRunning
 (__TEXT,__text) external _OlePasteboardDisableSyntheticFlavorGeneration
 (__TEXT,__text) external _OleQueryCreateFromData
@@ -335,6 +337,7 @@
 (__TEXT,__text) external _OleRegGetUserType
 (__TEXT,__text) external _OleRun
 (__TEXT,__text) external _OleSave
+(__TEXT,__text) external _OleSavePictureFileExt
 (__TEXT,__text) external _OleSaveToStream
 (__TEXT,__text) external _OleSetClipboard
 (__TEXT,__text) external _OleSetContainedObject
@@ -392,6 +395,7 @@
 (__TEXT,__text) external _SetConvertStg
 (undefined) external _SetEndOfFile (from WLMKernel)
 (undefined) external _SetEnhMetaFileBits (from WLMGraphicsDevice)
+(undefined) external _SetErrorInfo (from OLEAutomation)
 (undefined) external _SetEvent (from WLMKernel)
 (undefined) external _SetFilePointer (from WLMKernel)
 (undefined) external _SetFileTime (from WLMKernel)
@@ -419,7 +423,6 @@
 (undefined) external _UTTypeCopyPreferredTagWithClass (from CoreServices)
 (undefined) external _UTTypeCreatePreferredIdentifierForTag (from CoreServices)
 (undefined) external _UTTypeEqual (from CoreServices)
-(undefined) external _UnlockFile (from WLMKernel)
 (undefined) external _VariantChangeType (from OLEAutomation)
 (undefined) external _VariantChangeTypeEx (from OLEAutomation)
 (undefined) external _VariantClear (from OLEAutomation)
@@ -467,7 +470,7 @@
 (undefined) external CMutexSem2::~CMutexSem2() (from COMBase)
 (undefined) external CExtHashTable::Hash(wchar_t const*) (from COMBase)
 (undefined) external CPageAllocator::AllocEntry(int) (from COMBase)
-(undefined) external CPageAllocator::Initialize(unsigned long long, unsigned short, COleStaticMutexSem*, unsigned int) (from COMBase)
+(undefined) external CPageAllocator::Initialize(unsigned long, unsigned short, COleStaticMutexSem*, unsigned int) (from COMBase)
 (undefined) external CPageAllocator::CPageAllocator() (from COMBase)
 (undefined) external CPageAllocator::~CPageAllocator() (from COMBase)
 (undefined) external CProcessSecret::GetProcessSecret(_GUID*) (from COMBase)
@@ -488,14 +491,11 @@
 (undefined) external wc16::wcscmp(wchar_t const*, wchar_t const*) (from mbukernel)
 (undefined) external wc16::wcslen(wchar_t const*) (from mbukernel)
 (undefined) external Mbu::AB::LowLevel::ABLowLevel<bool>::GetValue() const (from mbuinstrument)
-(undefined) external std::__1::__basic_string_common<true>::__throw_length_error() const (from libc++)
-(undefined) external std::logic_error::logic_error(char const*) (from libc++)
-(undefined) external std::length_error::~length_error() (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) (from libc++)
 (undefined) external std::nothrow (from libc++)
 (undefined) external std::terminate() (from libc++)
 (__DATA,__const) weak external typeinfo for _EXCEPTION_POINTERS
 (__DATA,__const) weak external typeinfo for CppStructuredException
-(undefined) weak external typeinfo for std::length_error (from libc++)
 (undefined) external typeinfo for int (from libc++)
 (undefined) external vtable for CExtHashTable (from COMBase)
 (undefined) external vtable for CWriteInterfaceDataMarshalingStream (from COMBase)
@@ -505,7 +505,6 @@
 (undefined) external vtable for __cxxabiv1::__class_type_info (from libc++)
 (undefined) external vtable for __cxxabiv1::__si_class_type_info (from libc++)
 (undefined) external vtable for __cxxabiv1::__vmi_class_type_info (from libc++)
-(undefined) external vtable for std::length_error (from libc++)
 (undefined) weak external operator delete[](void*) (from libc++)
 (undefined) weak external operator delete(void*) (from libc++)
 (undefined) weak external operator delete(void*, std::nothrow_t const&) (from libc++)
@@ -529,9 +528,13 @@
 (undefined) external ___error (from libSystem)
 (undefined) external ___gxx_personality_v0 (from libc++)
 (undefined) external ___objc_personality_v0 (from libobjc)
-(undefined) external ___snprintf_chk (from libSystem)
 (undefined) external ___stack_chk_fail (from libSystem)
 (undefined) external ___stack_chk_guard (from libSystem)
+(undefined) external __lclose (from WLMKernel)
+(undefined) external __llseek (from WLMKernel)
+(undefined) external __lopenW (from WLMKernel)
+(undefined) external __lread (from WLMKernel)
+(undefined) external __lwrite (from WLMKernel)
 (undefined) external __objc_empty_cache (from libobjc)
 (undefined) external __wcsicmp (from WLMKernel)
 (undefined) external __wcslwr (from WLMKernel)
@@ -590,6 +593,7 @@
 (undefined) external _pthread_main_np (from libSystem)
 (undefined) external _qsort (from libSystem)
 (undefined) external _round (from libSystem)
+(undefined) external _snprintf (from libSystem)
 (undefined) external _strcmp (from libSystem)
 (undefined) external _strlen (from libSystem)
 (undefined) external _toupper (from libSystem)

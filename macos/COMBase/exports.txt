@@ -112,7 +112,7 @@
 (undefined) external _GetCurrentThreadId (from WLMKernel)
 (undefined) external _GetEnhMetaFileBits (from WLMGraphicsDevice)
 (__TEXT,__text) external _GetHGlobalFromStream
-(undefined) external _GetLastError (from WLMKernel)
+(undefined) external _GetLastError (from WinCrypto)
 (undefined) external _GetMetaFileBitsEx (from WLMGraphicsDevice)
 (undefined) external _GetModuleFileNameW (from WLMKernel)
 (undefined) external _GetObjectFromRotByPath (from OLE)
@@ -167,7 +167,7 @@
 (undefined) external _HeapSize (from WLMKernel)
 (undefined) external _HeapValidate (from WLMKernel)
 (__TEXT,__text) external _IIDFromString
-(__TEXT,__const) external _IID_IUnwrappableDataObject
+(__TEXT,__const) weak external _IID_IUnwrappableDataObject
 (undefined) external _I_RpcAllocate (from rpcrt4)
 (undefined) external _I_RpcAsyncAbortCall (from rpcrt4)
 (undefined) external _I_RpcAsyncSetHandle (from rpcrt4)
@@ -223,7 +223,6 @@
 (undefined) external _LeaveCriticalSection (from WLMKernel)
 (undefined) external _LocalAlloc (from WLMKernel)
 (undefined) external _LocalFree (from WLMKernel)
-(undefined) external _MBUAtomicCompareAndSwapPointer (from mbukernel)
 (__TEXT,__text) external _MIDL_user_free
 (undefined) external _MbuIsAppCompatibleWithSuiteFeature (from mbukernel)
 (undefined) external _MbuLaunchApplicationURLWithConfig (from mbukernel)
@@ -386,7 +385,7 @@
 (__TEXT,__text) external _SetCleanupFlag
 (undefined) external _SetEnhMetaFileBits (from WLMGraphicsDevice)
 (undefined) external _SetEvent (from WLMKernel)
-(undefined) external _SetLastError (from WLMKernel)
+(undefined) external _SetLastError (from WinCrypto)
 (undefined) external _SetMetaFileBitsEx (from WLMGraphicsDevice)
 (undefined) external _SimpleTypeAlignment (from rpcrt4)
 (undefined) external _SimpleTypeBufferSize (from rpcrt4)
@@ -447,7 +446,7 @@
 (__TEXT,__text) external CMutexSem2::~CMutexSem2()
 (__TEXT,__text) external CExtHashTable::Hash(wchar_t const*)
 (__TEXT,__text) external CPageAllocator::AllocEntry(int)
-(__TEXT,__text) external CPageAllocator::Initialize(unsigned long long, unsigned short, COleStaticMutexSem*, unsigned int)
+(__TEXT,__text) external CPageAllocator::Initialize(unsigned long, unsigned short, COleStaticMutexSem*, unsigned int)
 (__TEXT,__text) external CPageAllocator::CPageAllocator()
 (__TEXT,__text) external CPageAllocator::~CPageAllocator()
 (__TEXT,__text) external CProcessSecret::GetProcessSecret(_GUID*)
@@ -472,6 +471,7 @@
 (__TEXT,__text) external CBaseMInterfacePointerMarshalingStream::SetSize(_ULARGE_INTEGER)
 (undefined) external Mbu::Logging::MbuShouldTrace(unsigned int, Mbu::Logging::Category, Mbu::Logging::Severity) (from mbuinstrument)
 (undefined) external Mbu::Logging::MbuSendStructuredTraceTag(unsigned int, Mbu::Logging::Category, Mbu::Logging::Severity, wchar_t const*, Mbu::Logging::IStructuredTrace const&) (from mbuinstrument)
+(__TEXT,__text) external __ZN4Apex26RegisterHostWaitForRpcProcEPDoFbvE
 (__TEXT,__text) external Apex::RegisterProxyFilesWithClassID(tagProxyFileInfo const**, _GUID const*)
 (__TEXT,__text) external Apex::RegisterDllGetClassObjectWithClassIDs(int (*)(_GUID const&, _GUID const&, void**), _GUID const**)
 (__TEXT,__text) external Apex::RegisterDllGetClassObjectWithPreflightProc(int (*)(_GUID const&, _GUID const&, void**), int (*)(_GUID const&))
@@ -479,14 +479,13 @@
 (undefined) external wc16::wcscmp(wchar_t const*, wchar_t const*) (from mbukernel)
 (undefined) external wc16::wcslen(wchar_t const*) (from mbukernel)
 (undefined) external wc16::wcsstr(wchar_t const*, wchar_t const*) (from mbukernel)
-(undefined) external MBULock::Acquire() (from mbukernel)
-(undefined) external MBULock::Release() (from mbukernel)
-(undefined) external MBULock::MBULock(char const*, bool) (from mbukernel)
-(undefined) external MBULock::~MBULock() (from mbukernel)
 (undefined) external std::__1::__vector_base_common<true>::__throw_length_error() const (from libc++)
 (undefined) external std::__1::__basic_string_common<true>::__throw_length_error() const (from libc++)
 (undefined) external std::logic_error::logic_error(char const*) (from libc++)
 (undefined) external std::length_error::~length_error() (from libc++)
+(undefined) external std::__1::mutex::lock() (from libc++)
+(undefined) external std::__1::mutex::unlock() (from libc++)
+(undefined) external std::__1::mutex::~mutex() (from libc++)
 (undefined) external std::nothrow (from libc++)
 (undefined) external std::terminate() (from libc++)
 (__DATA,__const) weak external typeinfo for _EXCEPTION_POINTERS
@@ -528,7 +527,6 @@
 (undefined) external ___dynamic_cast (from libc++)
 (undefined) external ___error (from libSystem)
 (undefined) external ___gxx_personality_v0 (from libc++)
-(undefined) external ___snprintf_chk (from libSystem)
 (undefined) external ___stack_chk_fail (from libSystem)
 (undefined) external ___stack_chk_guard (from libSystem)
 (undefined) external __wcsicmp (from WLMKernel)
@@ -546,6 +544,7 @@
 (__DATA,__common) external _gRNG
 (__DATA,__common) external _gRegisterCombaseDLL
 (__DATA,__common) external _g_mxsSingleThreadOle
+(undefined) external _getenv (from libSystem)
 (undefined) external _getpid (from libSystem)
 (undefined) external _getpwuid_r (from libSystem)
 (undefined) external _gettimeofday (from libSystem)
@@ -580,6 +579,7 @@
 (undefined) external _pthread_mutexattr_settype (from libSystem)
 (undefined) external _random (from libSystem)
 (undefined) external _sleep (from libSystem)
+(undefined) external _snprintf (from libSystem)
 (undefined) external _sqlite3_bind_blob (from libsqlite3)
 (undefined) external _sqlite3_bind_double (from libsqlite3)
 (undefined) external _sqlite3_bind_int64 (from libsqlite3)
