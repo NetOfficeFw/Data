@@ -7,9 +7,9 @@ libs=(
   OLE
   COMBase
   'Visual Basic for Applications'
-  MsoCore
+  mso20
   MicrosoftOffice
-  'ADAL-OSX'
+  ADAL
   WLMKernel
   WLMUser
 )
@@ -24,6 +24,6 @@ for lib in "${libs[@]}"; do
   echo $lib
   mkdir -p "$lib"
   binpath="/Applications/$APP.app/Contents/Frameworks/$lib.framework/Versions/A/$lib"
-  nm -m "$binpath" | c++filt | cut -c 10- > "$lib/exports.txt"
+  nm -m "$binpath" | c++filt | cut -c 18- > "$lib/exports.txt"
   otool -L "$binpath" > "$lib/libraries.txt"
 done

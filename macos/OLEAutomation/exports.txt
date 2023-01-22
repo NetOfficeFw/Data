@@ -1,15 +1,11 @@
-(undefined) external .objc_class_name_NSAutoreleasePool (from Foundation)
-(undefined) external .objc_class_name_NSBundle (from Foundation)
-(undefined) external .objc_class_name_NSFileManager (from Foundation)
-(undefined) external .objc_class_name_NSMutableDictionary (from CoreFoundation)
-(undefined) external .objc_class_name_NSNumber (from Foundation)
-(undefined) external .objc_class_name_NSString (from Foundation)
-(undefined) external .objc_class_name_NSURL (from CoreFoundation)
-(undefined) external .objc_class_name_NSWorkspace (from AppKit)
 (__TEXT,__text) external _BSTR_UserFree
+(__TEXT,__text) external _BSTR_UserFree64
 (__TEXT,__text) external _BSTR_UserMarshal
+(__TEXT,__text) external _BSTR_UserMarshal64
 (__TEXT,__text) external _BSTR_UserSize
+(__TEXT,__text) external _BSTR_UserSize64
 (__TEXT,__text) external _BSTR_UserUnmarshal
+(__TEXT,__text) external _BSTR_UserUnmarshal64
 (__TEXT,__text) external _BstrFromVector
 (undefined) external _CFBundleCopyResourceURL (from CoreFoundation)
 (undefined) external _CFBundleGetBundleWithIdentifier (from CoreFoundation)
@@ -28,9 +24,17 @@
 (undefined) external _CFURLCreateCopyDeletingPathExtension (from CoreFoundation)
 (undefined) external _CFURLCreateWithFileSystemPath (from CoreFoundation)
 (undefined) external _CFURLResourceIsReachable (from CoreFoundation)
+(undefined) weak external _CLEANLOCALSTORAGE_UserFree64 (from OLE)
+(undefined) weak external _CLEANLOCALSTORAGE_UserMarshal64 (from OLE)
+(undefined) weak external _CLEANLOCALSTORAGE_UserSize64 (from OLE)
+(undefined) weak external _CLEANLOCALSTORAGE_UserUnmarshal64 (from OLE)
+(undefined) weak external _CLIPFORMAT_UserFree64 (from OLE)
 (undefined) weak external _CLIPFORMAT_UserFreeExt (from OLE)
+(undefined) weak external _CLIPFORMAT_UserMarshal64 (from OLE)
 (undefined) weak external _CLIPFORMAT_UserMarshalExt (from OLE)
+(undefined) weak external _CLIPFORMAT_UserSize64 (from OLE)
 (undefined) weak external _CLIPFORMAT_UserSizeExt (from OLE)
+(undefined) weak external _CLIPFORMAT_UserUnmarshal64 (from OLE)
 (undefined) weak external _CLIPFORMAT_UserUnmarshalExt (from OLE)
 (undefined) weak external _CLSIDFromString (from COMBase)
 (undefined) external _CStdStubBuffer_AddRef (from rpcrt4)
@@ -61,6 +65,7 @@
 (__TEXT,__text) external _CreateErrorInfo
 (undefined) external _CreateFileW (from WLMKernel)
 (undefined) external _CreateProxyFromTypeInfo (from rpcrt4)
+(__TEXT,__text) external _CreateStdDispatch
 (undefined) external _CreateStubFromTypeInfo (from rpcrt4)
 (__TEXT,__text) external _CreateTypeLib
 (__TEXT,__text) external _CreateTypeLib2
@@ -91,20 +96,46 @@
 (undefined) external _GetTimeFormatW (from WLMKernel)
 (undefined) external _GetUserDefaultLCID (from WLMKernel)
 (__TEXT,__text) external _GetVarConversionLocaleSetting
+(undefined) weak external _HACCEL_UserFree64 (from OLE)
+(undefined) weak external _HACCEL_UserMarshal64 (from OLE)
+(undefined) weak external _HACCEL_UserSize64 (from OLE)
+(undefined) weak external _HACCEL_UserUnmarshal64 (from OLE)
+(undefined) weak external _HDC_UserFree64 (from OLE)
+(undefined) weak external _HDC_UserMarshal64 (from OLE)
+(undefined) weak external _HDC_UserSize64 (from OLE)
+(undefined) weak external _HDC_UserUnmarshal64 (from OLE)
+(undefined) weak external _HFONT_UserFree64 (from OLE)
+(undefined) weak external _HFONT_UserMarshal64 (from OLE)
+(undefined) weak external _HFONT_UserSize64 (from OLE)
+(undefined) weak external _HFONT_UserUnmarshal64 (from OLE)
+(undefined) weak external _HPALETTE_UserFree64 (from OLE)
 (undefined) weak external _HPALETTE_UserFreeExt (from OLE)
+(undefined) weak external _HPALETTE_UserMarshal64 (from OLE)
 (undefined) weak external _HPALETTE_UserMarshalExt (from OLE)
+(undefined) weak external _HPALETTE_UserSize64 (from OLE)
 (undefined) weak external _HPALETTE_UserSizeExt (from OLE)
+(undefined) weak external _HPALETTE_UserUnmarshal64 (from OLE)
 (undefined) weak external _HPALETTE_UserUnmarshalExt (from OLE)
+(undefined) weak external _HRGN_UserFree64 (from OLE)
+(undefined) weak external _HRGN_UserMarshal64 (from OLE)
+(undefined) weak external _HRGN_UserSize64 (from OLE)
+(undefined) weak external _HRGN_UserUnmarshal64 (from OLE)
+(__TEXT,__text) external _HWND_UserFree64
+(undefined) weak external _HWND_UserFree64Ext (from OLE)
 (undefined) weak external _HWND_UserFreeExt (from OLE)
+(__TEXT,__text) external _HWND_UserMarshal64
+(undefined) weak external _HWND_UserMarshal64Ext (from OLE)
 (undefined) weak external _HWND_UserMarshalExt (from OLE)
+(__TEXT,__text) external _HWND_UserSize64
+(undefined) weak external _HWND_UserSize64Ext (from OLE)
 (undefined) weak external _HWND_UserSizeExt (from OLE)
+(__TEXT,__text) external _HWND_UserUnmarshal64
+(undefined) weak external _HWND_UserUnmarshal64Ext (from OLE)
 (undefined) weak external _HWND_UserUnmarshalExt (from OLE)
 (undefined) external _IUnknown_AddRef_Proxy (from rpcrt4)
 (undefined) external _IUnknown_QueryInterface_Proxy (from rpcrt4)
 (undefined) external _IUnknown_Release_Proxy (from rpcrt4)
 (undefined) external _InitializeCriticalSectionAndSpinCount (from WLMKernel)
-(undefined) external _InterlockedDecrement (from WLMKernel)
-(undefined) external _InterlockedIncrement (from WLMKernel)
 (undefined) external _LCMapStringW (from WLMKernel)
 (__TEXT,__text) external _LHashValOfNameSys
 (__TEXT,__text) external _LHashValOfNameSysA
@@ -112,9 +143,13 @@
 (__TEXT,__text) external _LPSAFEARRAY_Size
 (__TEXT,__text) external _LPSAFEARRAY_Unmarshal
 (__TEXT,__text) external _LPSAFEARRAY_UserFree
+(__TEXT,__text) external _LPSAFEARRAY_UserFree64
 (__TEXT,__text) external _LPSAFEARRAY_UserMarshal
+(__TEXT,__text) external _LPSAFEARRAY_UserMarshal64
 (__TEXT,__text) external _LPSAFEARRAY_UserSize
+(__TEXT,__text) external _LPSAFEARRAY_UserSize64
 (__TEXT,__text) external _LPSAFEARRAY_UserUnmarshal
+(__TEXT,__text) external _LPSAFEARRAY_UserUnmarshal64
 (undefined) external _LeaveCriticalSection (from WLMKernel)
 (undefined) external _LoadLibraryExW (from WLMKernel)
 (__TEXT,__text) external _LoadRegTypeLib
@@ -126,7 +161,7 @@
 (undefined) external _NSTemporaryDirectory (from Foundation)
 (undefined) external _NdrCStdStubBuffer2_Release (from rpcrt4)
 (undefined) external _NdrCStdStubBuffer_Release (from rpcrt4)
-(undefined) external _NdrClientCall2 (from rpcrt4)
+(undefined) external _NdrClientCall3 (from rpcrt4)
 (undefined) external _NdrDllGetClassObject (from rpcrt4)
 (undefined) external _NdrGetUserMarshalInfo (from rpcrt4)
 (undefined) external _NdrOleAllocate (from rpcrt4)
@@ -143,10 +178,16 @@
 (undefined) weak external _NdrProxyForwardingFunction7 (from COMBase)
 (undefined) weak external _NdrProxyForwardingFunction8 (from COMBase)
 (undefined) weak external _NdrProxyForwardingFunction9 (from COMBase)
-(undefined) external _NdrStubCall2 (from rpcrt4)
+(undefined) external _NdrStubCall3 (from rpcrt4)
 (undefined) external _NdrStubForwardingFunction (from rpcrt4)
 (__TEXT,__text) external _OACleanup
 (__TEXT,__text) external _OACreateTypeLib2
+(undefined) external _OBJC_CLASS_$_NSBundle (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSFileManager (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSURL (from CoreFoundation)
 (__TEXT,__text) external _OaBuildVersion
 (__TEXT,__text) external _OaDeleteCriticalSection
 (__TEXT,__text) external _OaEnablePerUserTLibRegistration
@@ -227,9 +268,13 @@
 (__TEXT,__text) external _RevokeActiveObject
 (undefined) weak external _RevokeActiveObjectExt (from OLE)
 (undefined) external _RpcRaiseException (from rpcrt4)
+(undefined) weak external _STGMEDIUM_UserFree64 (from OLE)
 (undefined) weak external _STGMEDIUM_UserFreeExt (from OLE)
+(undefined) weak external _STGMEDIUM_UserMarshal64 (from OLE)
 (undefined) weak external _STGMEDIUM_UserMarshalExt (from OLE)
+(undefined) weak external _STGMEDIUM_UserSize64 (from OLE)
 (undefined) weak external _STGMEDIUM_UserSizeExt (from OLE)
+(undefined) weak external _STGMEDIUM_UserUnmarshal64 (from OLE)
 (undefined) weak external _STGMEDIUM_UserUnmarshalExt (from OLE)
 (__TEXT,__text) external _SafeArrayAccessData
 (__TEXT,__text) external _SafeArrayAllocData
@@ -283,9 +328,13 @@
 (__TEXT,__text) external _UnRegisterTypeLib
 (__TEXT,__text) external _UnRegisterTypeLibForUser
 (__TEXT,__text) external _VARIANT_UserFree
+(__TEXT,__text) external _VARIANT_UserFree64
 (__TEXT,__text) external _VARIANT_UserMarshal
+(__TEXT,__text) external _VARIANT_UserMarshal64
 (__TEXT,__text) external _VARIANT_UserSize
+(__TEXT,__text) external _VARIANT_UserSize64
 (__TEXT,__text) external _VARIANT_UserUnmarshal
+(__TEXT,__text) external _VARIANT_UserUnmarshal64
 (__TEXT,__text) external _VarAbs
 (__TEXT,__text) external _VarAdd
 (__TEXT,__text) external _VarAnd
@@ -581,16 +630,22 @@
 (__TEXT,__text) external _VariantTimeToSystemTime
 (__TEXT,__text) external _VectorFromBstr
 (undefined) weak external _WdtpInterfacePointer_UserMarshal (from COMBase)
+(undefined) weak external _WdtpInterfacePointer_UserMarshal64 (from COMBase)
 (undefined) weak external _WdtpInterfacePointer_UserSize (from COMBase)
+(undefined) weak external _WdtpInterfacePointer_UserSize64 (from COMBase)
 (undefined) weak external _WdtpInterfacePointer_UserUnmarshal (from COMBase)
+(undefined) weak external _WdtpInterfacePointer_UserUnmarshal64 (from COMBase)
 (undefined) external _WideCharToMultiByte (from WLMKernel)
-(undefined) external _WlmRegisterDllMain (from WLMKernel)
 (undefined) external _WriteFile (from WLMKernel)
 (undefined) weak external _WriteStorageProperties (from OLE)
 (undefined) external __DefaultRuneLocale (from libSystem)
+(undefined) external __IsCStringPointer (from WLMKernel)
 (undefined) external __NSConcreteGlobalBlock (from libSystem)
 (undefined) external __Unwind_Resume (from libSystem)
 (__TEXT,__text) external ApexFindTypeLibrary(wchar_t const*, wchar_t*, unsigned long)
+(undefined) external WlmRegisterDllMainObject::s_head (from WLMKernel)
+(undefined) external Mbu::Logging::MbuShouldTrace(unsigned int, Mbu::Logging::Category, Mbu::Logging::Severity) (from mbuinstrument)
+(undefined) external Mbu::Logging::MbuSendStructuredTraceTag(unsigned int, Mbu::Logging::Category, Mbu::Logging::Severity, wchar_t const*, Mbu::Logging::IStructuredTrace const&) (from mbuinstrument)
 (__TEXT,__text) external Apex::OleautCanGetClassObject(_GUID const&)
 (undefined) weak external Apex::RegisterProxyFilesWithClassID(tagProxyFileInfo const**, _GUID const*) (from COMBase)
 (undefined) external wc16::wcscmp(wchar_t const*, wchar_t const*) (from mbukernel)
@@ -612,17 +667,12 @@
 (undefined) external ___cxa_guard_release (from libc++)
 (undefined) external ___cxa_pure_virtual (from libc++)
 (undefined) external ___cxa_rethrow (from libc++)
-(undefined) external ___divdi3 (from libSystem)
 (undefined) external ___error (from libSystem)
-(undefined) external ___fixunsdfdi (from libSystem)
 (undefined) external ___gxx_personality_v0 (from libc++)
 (undefined) external ___maskrune (from libSystem)
-(undefined) external ___moddi3 (from libSystem)
 (undefined) external ___snprintf_chk (from libSystem)
 (undefined) external ___stack_chk_fail (from libSystem)
 (undefined) external ___stack_chk_guard (from libSystem)
-(undefined) external ___udivdi3 (from libSystem)
-(undefined) external ___umoddi3 (from libSystem)
 (undefined) external __mbscmp (from WLMKernel)
 (undefined) external __wcsicmp (from WLMKernel)
 (undefined) external __wcsnicmp (from WLMKernel)
@@ -633,6 +683,7 @@
 (undefined) external _floor (from libSystem)
 (undefined) external _floorf (from libSystem)
 (undefined) external _fmod (from libSystem)
+(undefined) external _free (from libSystem)
 (__DATA,__common) external _gRegisterOleautDLL
 (undefined) external _getenv (from libSystem)
 (undefined) external _getpwuid_r (from libSystem)
@@ -645,14 +696,17 @@
 (undefined) external _memset (from libSystem)
 (undefined) external _memset_pattern16 (from libSystem)
 (undefined) external _modf (from libSystem)
+(undefined) external _objc_autoreleasePoolPop (from libobjc)
+(undefined) external _objc_autoreleasePoolPush (from libobjc)
 (undefined) external _objc_msgSend (from libobjc)
 (undefined) external _pow (from libSystem)
 (undefined) external _pthread_mutex_init (from libSystem)
 (undefined) external _pthread_mutex_lock (from libSystem)
 (undefined) external _pthread_mutex_unlock (from libSystem)
-(undefined) external _pthread_mutexattr_destroy$UNIX2003 (from libSystem)
+(undefined) external _pthread_mutexattr_destroy (from libSystem)
 (undefined) external _pthread_mutexattr_init (from libSystem)
 (undefined) external _pthread_mutexattr_settype (from libSystem)
+(undefined) external _reallocf (from libSystem)
 (undefined) external _remove (from libSystem)
 (undefined) external _strcmp (from libSystem)
 (undefined) external _strlen (from libSystem)

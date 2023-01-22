@@ -5,7 +5,7 @@
 	<key>ATSApplicationFontsPath</key>
 	<string>Fonts/</string>
 	<key>BuildMachineOSBuild</key>
-	<string>15B42</string>
+	<string>16G29</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -38,32 +38,6 @@
 			</array>
 			<key>NSDocumentClass</key>
 			<string>PPTDocument</string>
-		</dict>
-		<dict>
-			<key>CFBundleTypeExtensions</key>
-			<array>
-				<string>odp</string>
-			</array>
-			<key>CFBundleTypeIconFile</key>
-			<string>PODP.icns</string>
-			<key>CFBundleTypeName</key>
-			<string>OpenDocument Presentation</string>
-			<key>CFBundleTypeOSTypes</key>
-			<array>
-				<string>ODP </string>
-			</array>
-			<key>CFBundleTypeRole</key>
-			<string>Viewer</string>
-			<key>LSHandlerRank</key>
-			<string>Owner</string>
-			<key>LSItemContentTypes</key>
-			<array>
-				<string>org.oasis-open.opendocument.presentation</string>
-			</array>
-			<key>NSDocumentClass</key>
-			<string>PPTDocument</string>
-			<key>UTTypeDescription</key>
-			<string>OpenDocument Presentation</string>
 		</dict>
 		<dict>
 			<key>CFBundleTypeExtensions</key>
@@ -192,6 +166,54 @@
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>com.microsoft.powerpoint.pot</string>
+			</array>
+			<key>NSDocumentClass</key>
+			<string>PPTDocument</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>PDF</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>PDF </string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>DocumentTypeSection</key>
+			<string>Export</string>
+			<key>LSHandlerRank</key>
+			<string>None</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.microsoft.ppt.export.pdf</string>
+			</array>
+			<key>NSDocumentClass</key>
+			<string>PPTDocument</string>
+			<key>UTTypeDescription</key>
+			<string>PDF</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>odp</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>PODP.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>OpenDocument Presentation</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>ODP </string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>DocumentTypeSection</key>
+			<string>Export</string>
+			<key>LSHandlerRank</key>
+			<string>Owner</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>org.oasis-open.opendocument.presentation</string>
 			</array>
 			<key>NSDocumentClass</key>
 			<string>PPTDocument</string>
@@ -659,7 +681,7 @@
 	<key>CFBundleExecutable</key>
 	<string>Microsoft PowerPoint</string>
 	<key>CFBundleGetInfoString</key>
-	<string>15.19.1 (160212), © 2016 Microsoft Corporation. All rights reserved.</string>
+	<string>15.41 (171205), © 2017 Microsoft Corporation. All rights reserved.</string>
 	<key>CFBundleHelpBookFolder</key>
 	<string>Help</string>
 	<key>CFBundleHelpBookName</key>
@@ -675,7 +697,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>15.19.1</string>
+	<string>15.41</string>
 	<key>CFBundleSignature</key>
 	<string>PPT3</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -697,21 +719,21 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>15.19.1</string>
+	<string>15.41.17120500</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>7B1005</string>
+	<string>9A1004</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>15A278</string>
+	<string>17A360</string>
 	<key>DTSDKName</key>
-	<string>macosx10.11</string>
+	<string>macosx10.13</string>
 	<key>DTXcode</key>
-	<string>0711</string>
+	<string>0901</string>
 	<key>DTXcodeBuild</key>
-	<string>7B1005</string>
+	<string>9A1004</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.productivity</string>
 	<key>LSHasLocalizedDisplayName</key>
@@ -722,8 +744,13 @@
 	<true/>
 	<key>MSOfeedbackAppID</key>
 	<string>231</string>
+	<key>MSSuiteCompatibility</key>
+	<dict>
+		<key>COMBaseRPC</key>
+		<string>1</string>
+	</dict>
 	<key>MicrosoftBuildNumber</key>
-	<string>160212</string>
+	<string>171205</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
@@ -732,7 +759,7 @@
 	<key>NSAppleScriptEnabled</key>
 	<true/>
 	<key>NSHumanReadableCopyright</key>
-	<string>© 2016 Microsoft Corporation. All rights reserved.</string>
+	<string>© 2017 Microsoft Corporation. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
@@ -741,6 +768,8 @@
 	<true/>
 	<key>OSAScriptingDefinition</key>
 	<string>PowerPoint.sdef</string>
+	<key>OfficeLegacyVersion</key>
+	<string>15.41.1205.0</string>
 	<key>UTExportedTypeDeclarations</key>
 	<array>
 		<dict>
@@ -1201,6 +1230,70 @@
 				<key>public.filename-extension</key>
 				<array>
 					<string>pdf</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.content</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>OpenDocument Presentation</string>
+			<key>UTTypeIconFile</key>
+			<string>PODP.icns</string>
+			<key>UTTypeIdentifier</key>
+			<string>org.oasis-open.opendocument.presentation</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>com.apple.ostype</key>
+				<string>ODP</string>
+				<key>public.filename-extension</key>
+				<array>
+					<string>odp</string>
+				</array>
+				<key>public.mime-type</key>
+				<array>
+					<string>application/vnd.oasis.opendocument.presentation</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.movie</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>MP4</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.microsoft.ppt.export.mp4</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>com.apple.ostype</key>
+				<string>MP4</string>
+				<key>public.filename-extension</key>
+				<array>
+					<string>mp4</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.movie</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>MOV</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.microsoft.ppt.export.mov</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>com.apple.ostype</key>
+				<string>MOV</string>
+				<key>public.filename-extension</key>
+				<array>
+					<string>mov</string>
 				</array>
 			</dict>
 		</dict>

@@ -1,198 +1,721 @@
-(undefined) external .objc_class_name_MbuSpinControlWatchDog (from mbuinstrument)
-(undefined) external .objc_class_name_NSApplication (from AppKit)
-(undefined) external .objc_class_name_NSArray (from CoreFoundation)
-(undefined) external .objc_class_name_NSAutoreleasePool (from Foundation)
-(undefined) external .objc_class_name_NSBundle (from Foundation)
-(undefined) external .objc_class_name_NSCursor (from AppKit)
-(undefined) external .objc_class_name_NSData (from CoreFoundation)
-(undefined) external .objc_class_name_NSDate (from CoreFoundation)
-(undefined) external .objc_class_name_NSDictionary (from CoreFoundation)
-(undefined) external .objc_class_name_NSEvent (from AppKit)
-(undefined) external .objc_class_name_NSException (from CoreFoundation)
-(undefined) external .objc_class_name_NSFileManager (from Foundation)
-(undefined) external .objc_class_name_NSGraphicsContext (from AppKit)
-(undefined) external .objc_class_name_NSImage (from AppKit)
-(undefined) external .objc_class_name_NSMutableArray (from CoreFoundation)
-(undefined) external .objc_class_name_NSMutableDictionary (from CoreFoundation)
-(undefined) external .objc_class_name_NSMutableSet (from CoreFoundation)
-(undefined) external .objc_class_name_NSNumber (from Foundation)
-(undefined) external .objc_class_name_NSObject (from libobjc)
-(undefined) external .objc_class_name_NSOpenPanel (from AppKit)
-(undefined) external .objc_class_name_NSPanel (from AppKit)
-(undefined) external .objc_class_name_NSRunLoop (from CoreFoundation)
-(undefined) external .objc_class_name_NSScreen (from AppKit)
-(undefined) external .objc_class_name_NSString (from Foundation)
-(undefined) external .objc_class_name_NSTextField (from AppKit)
-(undefined) external .objc_class_name_NSTimer (from CoreFoundation)
-(undefined) external .objc_class_name_NSTrackingArea (from AppKit)
-(undefined) external .objc_class_name_NSURL (from CoreFoundation)
-(undefined) external .objc_class_name_NSValue (from Foundation)
-(undefined) external .objc_class_name_NSView (from AppKit)
-(undefined) external .objc_class_name_NSWindow (from AppKit)
-(__OBJC,__class) external .objc_class_name_VBWMView
 (__TEXT,__text) external _AdjustWindowRect
 (__TEXT,__text) external _AdjustWindowRectEx
+(__TEXT,__text) external _AfxCheckMenuItem
+(__TEXT,__text) external _AfxDeleteMenu
+(__TEXT,__text) external _AfxDrawMenuBar
+(__TEXT,__text) external _AfxEnableMenuItem
+(undefined) external _AfxEqualRect (from WLMGraphicsDevice)
 (undefined) external _AfxFillRect (from WLMGraphicsDevice)
-(__TEXT,__text) external _AfxGetDoubleClickTime
+(undefined) external _AfxFillRgn (from WLMGraphicsDevice)
+(undefined) external _AfxFrameRect (from WLMGraphicsDevice)
+(undefined) external _AfxFrameRgn (from WLMGraphicsDevice)
+(__TEXT,__text) external _AfxGetCursor
+(undefined) external _AfxGetPixel (from WLMGraphicsDevice)
+(undefined) external _AfxInvertRect (from WLMGraphicsDevice)
+(__TEXT,__text) external _AfxInvertRgn
+(__TEXT,__text) external _AfxIsWindowVisible
+(undefined) external _AfxLineTo (from WLMGraphicsDevice)
+(__TEXT,__text) external _AfxLoadResource
+(__TEXT,__text) external _AfxMoveWindow
+(undefined) external _AfxOffsetRect (from WLMGraphicsDevice)
+(undefined) external _AfxOffsetRgn (from WLMGraphicsDevice)
+(undefined) external _AfxPtInRect (from WLMGraphicsDevice)
+(__TEXT,__text) external _AfxSetCursor
 (undefined) external _AfxSetRect (from WLMGraphicsDevice)
+(undefined) external _AfxSetRectRgn (from WLMGraphicsDevice)
+(__TEXT,__text) external _AfxShowWindow
+(undefined) external _AfxSleep (from WLMKernel)
+(undefined) external _AfxUnionRect (from WLMGraphicsDevice)
+(__TEXT,__text) external _AppendMenuA
+(__TEXT,__text) external _BCryptCloseAlgorithmProvider
+(__TEXT,__text) external _BCryptCreateHash
+(__TEXT,__text) external _BCryptDestroyHash
+(__TEXT,__text) external _BCryptFinishHash
+(__TEXT,__text) external _BCryptGetProperty
+(__TEXT,__text) external _BCryptHashData
+(__TEXT,__text) external _BCryptOpenAlgorithmProvider
+(undefined) external _BeginCGDrawingHdc (from WLMGraphicsDevice)
+(__TEXT,__text) external _BeginDeferWindowPos
+(__TEXT,__text) external _BeginPaint
 (undefined) external _BitBlt (from WLMGraphicsDevice)
+(__TEXT,__text) external _BringWindowToTop
+(undefined) external _CFAbsoluteTimeGetCurrent (from CoreFoundation)
+(undefined) external _CFArrayCreate (from CoreFoundation)
+(undefined) external _CFArrayGetCount (from CoreFoundation)
+(undefined) external _CFArrayGetValueAtIndex (from CoreFoundation)
+(undefined) external _CFAttributedStringCreate (from CoreFoundation)
+(undefined) external _CFBooleanGetValue (from CoreFoundation)
+(undefined) external _CFBundleCopyBundleURL (from CoreFoundation)
 (undefined) external _CFBundleCopyLocalizedString (from CoreFoundation)
 (undefined) external _CFBundleCopyResourceURL (from CoreFoundation)
 (undefined) external _CFBundleGetBundleWithIdentifier (from CoreFoundation)
-(undefined) external _CFBundleGetIdentifier (from CoreFoundation)
+(undefined) external _CFDataCreateMutable (from CoreFoundation)
+(undefined) external _CFDataGetBytePtr (from CoreFoundation)
+(undefined) external _CFDataGetLength (from CoreFoundation)
+(undefined) external _CFDataGetMutableBytePtr (from CoreFoundation)
+(undefined) external _CFDataSetLength (from CoreFoundation)
+(undefined) external _CFDictionaryContainsValue (from CoreFoundation)
+(undefined) external _CFDictionaryCreate (from CoreFoundation)
+(undefined) external _CFDictionaryCreateMutable (from CoreFoundation)
+(undefined) external _CFDictionaryGetCount (from CoreFoundation)
+(undefined) external _CFDictionaryGetKeysAndValues (from CoreFoundation)
+(undefined) external _CFDictionaryGetTypeID (from CoreFoundation)
+(undefined) external _CFDictionaryGetValue (from CoreFoundation)
+(undefined) external _CFDictionarySetValue (from CoreFoundation)
+(undefined) external _CFGetTypeID (from CoreFoundation)
+(undefined) external _CFLocaleCopyCurrent (from CoreFoundation)
+(undefined) external _CFLocaleGetLanguageCharacterDirection (from CoreFoundation)
+(undefined) external _CFLocaleGetValue (from CoreFoundation)
+(undefined) external _CFNumberCreate (from CoreFoundation)
+(undefined) external _CFNumberGetTypeID (from CoreFoundation)
+(undefined) external _CFNumberGetValue (from CoreFoundation)
+(undefined) external _CFPropertyListCreateWithStream (from CoreFoundation)
+(undefined) external _CFReadStreamClose (from CoreFoundation)
+(undefined) external _CFReadStreamCreateWithFile (from CoreFoundation)
+(undefined) external _CFReadStreamOpen (from CoreFoundation)
+(undefined) external _CFReadStreamRead (from CoreFoundation)
 (undefined) external _CFRelease (from CoreFoundation)
+(undefined) external _CFRetain (from CoreFoundation)
+(undefined) external _CFRunLoopAddSource (from CoreFoundation)
+(undefined) external _CFRunLoopAddTimer (from CoreFoundation)
+(undefined) external _CFRunLoopGetMain (from CoreFoundation)
+(undefined) external _CFRunLoopRemoveSource (from CoreFoundation)
+(undefined) external _CFRunLoopSourceCreate (from CoreFoundation)
+(undefined) external _CFRunLoopSourceSignal (from CoreFoundation)
+(undefined) external _CFRunLoopTimerCreate (from CoreFoundation)
+(undefined) external _CFRunLoopTimerInvalidate (from CoreFoundation)
+(undefined) external _CFStringConvertEncodingToNSStringEncoding (from CoreFoundation)
+(undefined) external _CFStringCreateCopy (from CoreFoundation)
+(undefined) external _CFStringCreateWithBytes (from CoreFoundation)
+(undefined) external _CFStringCreateWithCString (from CoreFoundation)
+(undefined) external _CFStringCreateWithCharacters (from CoreFoundation)
+(undefined) external _CFStringCreateWithFormat (from CoreFoundation)
+(undefined) external _CFStringGetBytes (from CoreFoundation)
+(undefined) external _CFStringGetCString (from CoreFoundation)
+(undefined) external _CFStringGetCharacters (from CoreFoundation)
+(undefined) external _CFStringGetLength (from CoreFoundation)
+(undefined) external _CFStringTokenizerAdvanceToNextToken (from CoreFoundation)
+(undefined) external _CFStringTokenizerCreate (from CoreFoundation)
+(undefined) external _CFStringTokenizerGetCurrentSubTokens (from CoreFoundation)
+(undefined) external _CFStringTokenizerGetCurrentTokenRange (from CoreFoundation)
+(undefined) external _CFStringTokenizerSetString (from CoreFoundation)
+(undefined) external _CFURLCreateCopyAppendingPathComponent (from CoreFoundation)
+(undefined) external _CFURLCreateCopyDeletingLastPathComponent (from CoreFoundation)
+(undefined) external _CFURLGetFileSystemRepresentation (from CoreFoundation)
+(undefined) external _CGAffineTransformMakeScale (from CoreGraphics)
+(undefined) external _CGBitmapContextCreate (from CoreGraphics)
+(undefined) external _CGBitmapContextCreateImage (from CoreGraphics)
+(undefined) external _CGColorSpaceCreateDeviceRGB (from CoreGraphics)
+(undefined) external _CGColorSpaceCreateWithName (from CoreGraphics)
+(undefined) external _CGColorSpaceRelease (from CoreGraphics)
+(undefined) external _CGContextAddPath (from CoreGraphics)
+(undefined) external _CGContextClearRect (from CoreGraphics)
+(undefined) external _CGContextClip (from CoreGraphics)
+(undefined) external _CGContextClipToRect (from CoreGraphics)
+(undefined) external _CGContextDrawImage (from CoreGraphics)
+(undefined) external _CGContextFillPath (from CoreGraphics)
+(undefined) external _CGContextGetCTM (from CoreGraphics)
+(undefined) external _CGContextGetClipBoundingBox (from CoreGraphics)
+(undefined) external _CGContextRelease (from CoreGraphics)
+(undefined) external _CGContextRestoreGState (from CoreGraphics)
+(undefined) external _CGContextRetain (from CoreGraphics)
+(undefined) external _CGContextSaveGState (from CoreGraphics)
+(undefined) external _CGContextScaleCTM (from CoreGraphics)
+(undefined) external _CGContextSetLineCap (from CoreGraphics)
+(undefined) external _CGContextSetLineDash (from CoreGraphics)
+(undefined) external _CGContextSetLineJoin (from CoreGraphics)
+(undefined) external _CGContextSetLineWidth (from CoreGraphics)
+(undefined) external _CGContextSetRGBFillColor (from CoreGraphics)
+(undefined) external _CGContextSetRGBStrokeColor (from CoreGraphics)
+(undefined) external _CGContextSetShouldSmoothFonts (from CoreGraphics)
+(undefined) external _CGContextSetTextMatrix (from CoreGraphics)
+(undefined) external _CGContextSetTextPosition (from CoreGraphics)
+(undefined) external _CGContextStrokeRect (from CoreGraphics)
+(undefined) external _CGContextTranslateCTM (from CoreGraphics)
+(undefined) external _CGDataProviderCreateWithCFData (from CoreGraphics)
+(undefined) external _CGDataProviderCreateWithData (from CoreGraphics)
+(undefined) external _CGDataProviderCreateWithURL (from CoreGraphics)
+(undefined) external _CGDataProviderRelease (from CoreGraphics)
+(undefined) external _CGDisplayBounds (from CoreGraphics)
+(undefined) external _CGDisplayRegisterReconfigurationCallback (from CoreGraphics)
+(undefined) external _CGGetActiveDisplayList (from CoreGraphics)
+(undefined) external _CGGetDisplaysWithPoint (from CoreGraphics)
+(undefined) external _CGGetDisplaysWithRect (from CoreGraphics)
+(undefined) external _CGImageCreate (from CoreGraphics)
+(undefined) external _CGImageCreateWithImageInRect (from CoreGraphics)
+(undefined) external _CGImageCreateWithPNGDataProvider (from CoreGraphics)
+(undefined) external _CGImageGetHeight (from CoreGraphics)
+(undefined) external _CGImageGetWidth (from CoreGraphics)
+(undefined) external _CGImageRelease (from CoreGraphics)
+(undefined) external _CGImageRetain (from CoreGraphics)
 (undefined) external _CGImageSourceCreateImageAtIndex (from ImageIO)
 (undefined) external _CGImageSourceCreateWithData (from ImageIO)
-(undefined) external _CGRectContainsRect (from CoreGraphics)
+(undefined) external _CGImageSourceCreateWithURL (from ImageIO)
+(undefined) external _CGImageSourceGetCount (from ImageIO)
+(undefined) external _CGPathAddLineToPoint (from CoreGraphics)
+(undefined) external _CGPathAddQuadCurveToPoint (from CoreGraphics)
+(undefined) external _CGPathCloseSubpath (from CoreGraphics)
+(undefined) external _CGPathCreateCopy (from CoreGraphics)
+(undefined) external _CGPathCreateMutable (from CoreGraphics)
+(undefined) external _CGPathMoveToPoint (from CoreGraphics)
+(undefined) external _CGRectEqualToRect (from CoreGraphics)
+(undefined) external _CGRectGetMaxX (from CoreGraphics)
+(undefined) external _CGRectGetMaxY (from CoreGraphics)
+(undefined) external _CGRectGetMidX (from CoreGraphics)
+(undefined) external _CGRectGetMidY (from CoreGraphics)
 (undefined) external _CGRectIntersection (from CoreGraphics)
-(undefined) external _CGRectIntersectsRect (from CoreGraphics)
-(undefined) external _CGWindowLevelForKey (from CoreGraphics)
+(undefined) external _CGRectIsNull (from CoreGraphics)
+(undefined) external _CGRectUnion (from CoreGraphics)
+(undefined) external _CGRectZero (from CoreGraphics)
+(undefined) external _CGWarpMouseCursorPosition (from CoreGraphics)
+(undefined) external _CGWindowListCopyWindowInfo (from CoreGraphics)
+(undefined) external _CTFontCopyPostScriptName (from CoreText)
+(undefined) external _CTFontCreateUIFontForLanguage (from CoreText)
+(undefined) external _CTFontGetSize (from CoreText)
+(undefined) external _CTFontGetSymbolicTraits (from CoreText)
+(undefined) external _CTLineCreateTruncatedLine (from CoreText)
+(undefined) external _CTLineCreateWithAttributedString (from CoreText)
+(undefined) external _CTLineDraw (from CoreText)
+(undefined) external _CTLineGetTypographicBounds (from CoreText)
+(undefined) external _CTParagraphStyleCreate (from CoreText)
+(undefined) external _CUICreateDisabledImageForCGImage (from CocoaUI)
+(undefined) external _CUIDrawThreePartCGImage (from CocoaUI)
+(undefined) external _CUIScreenScale (from CocoaUI)
+(__TEXT,__text) external _CallNextHookEx
+(__TEXT,__text) external _CallWindowProcA
+(__TEXT,__text) external _CascadeWindows
+(undefined) external _CharLowerBuffW (from WLMKernel)
+(undefined) external _CharLowerW (from WLMKernel)
+(undefined) external _CharNextA (from WLMKernel)
+(undefined) external _CharUpperBuffW (from WLMKernel)
+(__TEXT,__text) external _CheckDlgButton
+(__TEXT,__text) external _CheckRadioButton
+(__TEXT,__text) external _ChooseColorA
+(__TEXT,__text) external _ClientToScreen
+(__TEXT,__text) external _CloseClipboard
+(undefined) external _CombineRgn (from WLMGraphicsDevice)
+(undefined) external _CompareStringA (from WLMKernel)
+(undefined) external _CompareStringW (from WLMKernel)
+(__TEXT,__text) external _ConvertRTLMultipleBytesToCompatibleWithWindows
 (__TEXT,__text) external _CopyAcceleratorTableA
+(undefined) external _CopyRect (from WLMGraphicsDevice)
 (__TEXT,__text) external _CreateAcceleratorTableA
+(undefined) external _CreateBitmap (from WLMGraphicsDevice)
+(undefined) external _CreateBrushIndirect (from WLMGraphicsDevice)
+(__TEXT,__text) external _CreateCaret
+(undefined) external _CreateCompatibleBitmap (from WLMGraphicsDevice)
 (undefined) external _CreateCompatibleDC (from WLMGraphicsDevice)
+(__TEXT,__text) external _CreateDialogParamA
+(__TEXT,__text) external _CreateDirectoryA
+(undefined) external _CreateFontA (from WLMGraphicsDevice)
+(undefined) external _CreateFontIndirectA (from WLMGraphicsDevice)
+(undefined) external _CreateFontIndirectW (from WLMGraphicsDevice)
+(__TEXT,__text) external _CreateIconIndirect
+(__TEXT,__text) external _CreateMDIWindowA
+(__TEXT,__text) external _CreateMappedBitmap
+(undefined) external _CreateOffscreenDC (from WLMGraphicsDevice)
+(__TEXT,__text) external _CreatePalette
+(undefined) external _CreatePatternBrush (from WLMGraphicsDevice)
+(undefined) external _CreatePen (from WLMGraphicsDevice)
+(undefined) external _CreatePolygonRgn (from WLMGraphicsDevice)
+(undefined) external _CreateRectRgn (from WLMGraphicsDevice)
+(undefined) external _CreateRectRgnIndirect (from WLMGraphicsDevice)
+(undefined) external _CreateRoundRectRgn (from WLMGraphicsDevice)
 (undefined) external _CreateSolidBrush (from WLMGraphicsDevice)
+(__TEXT,__text) external _CreateToolbarEx
+(__TEXT,__text) external _CreateWindowExA
+(__TEXT,__text) external _CryptFindOIDInfo
+(__TEXT,__text) external _DefFrameProcA
+(__TEXT,__text) external _DefMDIChildProcA
+(__TEXT,__text) external _DefWindowProcA
+(__TEXT,__text) external _DeferWindowPos
+(undefined) external _DeleteCriticalSection (from WLMKernel)
 (undefined) external _DeleteDC (from WLMGraphicsDevice)
 (undefined) external _DeleteObject (from WLMGraphicsDevice)
 (__TEXT,__text) external _DestroyAcceleratorTable
+(__TEXT,__text) external _DestroyCaret
+(__TEXT,__text) external _DestroyCursor
+(__TEXT,__text) external _DestroyIcon
+(__TEXT,__text) external _DestroyMenu
+(__TEXT,__text) external _DestroyWindow
+(__TEXT,__text) external _DialogBoxIndirectParamA
+(__TEXT,__text) external _DialogBoxParamA
+(undefined) external _DisableThreadLibraryCalls (from WLMKernel)
+(__TEXT,__text) external _DispatchMessageA
+(__TEXT,__text) external _DragFinish
+(__TEXT,__text) external _DragQueryFileA
+(__TEXT,__text) external _DrawCGImage
+(__TEXT,__text) external _DrawEdge
+(__TEXT,__text) external _DrawFocusRect
+(__TEXT,__text) external _DrawFrameControl
+(__TEXT,__text) external _DrawIcon
+(__TEXT,__text) external _DrawTextA
+(__TEXT,__text) external _DrawTextExW
+(__TEXT,__text) external _EmptyClipboard
+(__TEXT,__text) external _EnableScrollBar
+(__TEXT,__text) external _EnableWindow
+(undefined) external _EndCGDrawingHdc (from WLMGraphicsDevice)
+(__TEXT,__text) external _EndDeferWindowPos
+(__TEXT,__text) external _EndDialog
+(__TEXT,__text) external _EndPaint
+(__TEXT,__text) external _EnumChildWindows
+(__TEXT,__text) external _EnumFontFamiliesExA
+(undefined) external _EnumFontFamiliesExW (from WLMGraphicsDevice)
+(__TEXT,__text) external _EnumFontsA
+(__TEXT,__text) external _EnumWindows
+(undefined) external _ExcludeClipRect (from WLMGraphicsDevice)
+(__TEXT,__text) external _ExtTextOutA
+(undefined) external _ExtTextOutW (from WLMGraphicsDevice)
+(__TEXT,__text) external _ExtractIconA
+(__TEXT,__text) external _FCurrentLocaleIsRTL
 (__TEXT,__text) external _FInVBHostedModalLoop
+(__TEXT,__text) external _FillSystemFont
+(__TEXT,__text) external _FindFirstFileA
+(__TEXT,__text) external _FindNextFileA
+(__TEXT,__text) external _FindResourceA
+(__TEXT,__text) external _FindWindowA
 (__TEXT,__text) external _FlipScreenYAxis
+(__TEXT,__text) external _FreeResource
+(undefined) external _GetACP (from WLMKernel)
+(__TEXT,__text) external _GetActiveWindow
+(__TEXT,__text) external _GetAncestor
+(undefined) external _GetAsyncKeyState (from WLMKernel)
+(undefined) external _GetBitmapBits (from WLMGraphicsDevice)
 (undefined) external _GetBkColor (from WLMGraphicsDevice)
+(undefined) external _GetBkMode (from WLMGraphicsDevice)
 (undefined) external _GetBundleOfInstance (from WLMKernel)
+(undefined) external _GetCGClientContextHdc (from WLMGraphicsDevice)
+(__TEXT,__text) external _GetCapture
+(__TEXT,__text) external _GetCaretBlinkTime
+(__TEXT,__text) external _GetCaretPos
+(undefined) external _GetCharABCWidthsI (from WLMGraphicsDevice)
+(undefined) external _GetCharWidthInfo (from WLMGraphicsDevice)
+(undefined) external _GetCharWidthW (from WLMGraphicsDevice)
 (__TEXT,__text) external _GetClassInfoA
+(__TEXT,__text) external _GetClassNameA
+(__TEXT,__text) external _GetClientRect
+(undefined) external _GetClipBox (from WLMGraphicsDevice)
+(__TEXT,__text) external _GetClipboardData
+(undefined) external _GetCurrentObject (from WLMGraphicsDevice)
 (undefined) external _GetCurrentProcessId (from WLMKernel)
 (undefined) external _GetCurrentThreadId (from WLMKernel)
+(__TEXT,__text) external _GetCursorPos
+(undefined) external _GetDC (from WLMGraphicsDevice)
+(__TEXT,__text) external _GetDCEx
+(undefined) external _GetDCOrgEx (from WLMGraphicsDevice)
+(__TEXT,__text) external _GetDesktopWindow
+(undefined) external _GetDeviceCaps (from WLMGraphicsDevice)
+(__TEXT,__text) external _GetDialogBaseUnits
+(__TEXT,__text) external _GetDlgCtrlID
+(__TEXT,__text) external _GetDlgItem
+(__TEXT,__text) external _GetDlgItemInt
+(__TEXT,__text) external _GetDlgItemTextA
+(__TEXT,__text) external _GetDoubleClickTime
+(__TEXT,__text) external _GetEnvironmentVariableA
 (__TEXT,__text) external _GetFileTitleW
+(__TEXT,__text) external _GetFocus
+(__TEXT,__text) external _GetForegroundWindow
+(undefined) external _GetGlyphIndicesW (from WLMGraphicsDevice)
+(undefined) external _GetKeyState (from WLMKernel)
+(__TEXT,__text) external _GetKeyboardState
+(__TEXT,__text) external _GetLastInputInfo
+(undefined) external _GetLayout (from WLMGraphicsDevice)
+(undefined) external _GetLocaleInfoA (from WLMKernel)
+(undefined) external _GetMapMode (from WLMGraphicsDevice)
+(__TEXT,__text) external _GetMenuItemCount
+(__TEXT,__text) external _GetMenuItemID
+(__TEXT,__text) external _GetMenuStringA
+(__TEXT,__text) external _GetMessageA
+(__TEXT,__text) external _GetMessagePos
+(__TEXT,__text) external _GetMessageTime
+(__TEXT,__text) external _GetMonitorInfoA
+(undefined) external _GetNearestColor (from WLMGraphicsDevice)
+(__TEXT,__text) external _GetNextDlgTabItem
 (undefined) external _GetObjectA (from WLMGraphicsDevice)
+(undefined) external _GetObjectType (from WLMGraphicsDevice)
+(undefined) external _GetObjectW (from WLMGraphicsDevice)
+(__TEXT,__text) external _GetOpenFileNameA
 (__TEXT,__text) external _GetOpenFileNameW
+(__TEXT,__text) external _GetPaletteEntries
+(__TEXT,__text) external _GetParent
+(undefined) external _GetProcessHeap (from WLMKernel)
+(__TEXT,__text) external _GetPropA
+(undefined) external _GetRegionData (from WLMGraphicsDevice)
+(undefined) external _GetRgnBox (from WLMGraphicsDevice)
+(__TEXT,__text) external _GetSaveFileNameA
 (__TEXT,__text) external _GetSaveFileNameW
+(__TEXT,__text) external _GetScrollInfo
+(__TEXT,__text) external _GetScrollPos
+(undefined) external _GetStockObject (from WLMGraphicsDevice)
+(undefined) external _GetStringTypeW (from WLMKernel)
+(__TEXT,__text) external _GetSubMenu
+(undefined) external _GetSysColor (from WLMGraphicsDevice)
+(undefined) external _GetSysColorBrush (from WLMGraphicsDevice)
+(undefined) external _GetSystemDefaultLCID (from WLMKernel)
+(__TEXT,__text) external _GetSystemMenu
 (__TEXT,__text) external _GetSystemMetrics
+(undefined) external _GetTextAlign (from WLMGraphicsDevice)
+(undefined) external _GetTextCharset (from WLMGraphicsDevice)
+(undefined) external _GetTextCharsetInfo (from WLMGraphicsDevice)
+(undefined) external _GetTextColor (from WLMGraphicsDevice)
+(undefined) external _GetTextExtentPointW (from WLMGraphicsDevice)
+(undefined) external _GetTextFaceA (from WLMGraphicsDevice)
+(undefined) external _GetTextFaceW (from WLMGraphicsDevice)
+(undefined) external _GetTextMetricsA (from WLMGraphicsDevice)
+(undefined) external _GetTextMetricsW (from WLMGraphicsDevice)
+(undefined) external _GetThreadLocale (from WLMKernel)
 (undefined) external _GetTickCount (from WLMKernel)
+(__TEXT,__text) external _GetUpdateRect
+(__TEXT,__text) external _GetUpdateRgn
+(undefined) external _GetUserDefaultLCID (from WLMKernel)
+(undefined) external _GetViewportExtEx (from WLMGraphicsDevice)
+(undefined) external _GetViewportOrgEx (from WLMGraphicsDevice)
+(__TEXT,__text) external _GetWindow
+(__TEXT,__text) external _GetWindowDC
+(undefined) external _GetWindowExtEx (from WLMGraphicsDevice)
+(__TEXT,__text) external _GetWindowLongA
+(__TEXT,__text) external _GetWindowLongPtrA
+(__TEXT,__text) external _GetWindowPlacement
+(__TEXT,__text) external _GetWindowRect
+(__TEXT,__text) external _GetWindowTextA
+(__TEXT,__text) external _GetWindowTextLengthA
 (__TEXT,__text) external _GetWindowThreadProcessId
 (undefined) external _GlobalAddAtomA (from WLMKernel)
 (undefined) external _GlobalAlloc (from WLMKernel)
+(undefined) external _GlobalDeleteAtom (from WLMKernel)
+(undefined) external _GlobalFindAtomA (from WLMKernel)
+(undefined) external _GlobalFlags (from WLMKernel)
 (undefined) external _GlobalFree (from WLMKernel)
 (undefined) external _GlobalLock (from WLMKernel)
+(undefined) external _GlobalReAlloc (from WLMKernel)
 (undefined) external _GlobalSize (from WLMKernel)
 (undefined) external _GlobalUnlock (from WLMKernel)
-(__TEXT,__text) external _IsHooked
+(undefined) external _HeapAlloc (from WLMKernel)
+(undefined) external _HeapFree (from WLMKernel)
+(undefined) external _HeapReAlloc (from WLMKernel)
+(__TEXT,__text) external _HideCaret
+(__TEXT,__text) external _ImageList_AddCGImageRef
+(__TEXT,__text) external _ImageList_AddMasked
+(__TEXT,__text) external _ImageList_Create
+(__TEXT,__text) external _ImageList_Destroy
+(__TEXT,__text) external _ImageList_Draw
+(__TEXT,__text) external _ImageList_DrawEx
+(__TEXT,__text) external _ImageList_GetIconSize
+(__TEXT,__text) external _ImageList_GetImageCount
+(__TEXT,__text) external _ImageList_LoadImageA
+(__TEXT,__text) external _ImageList_SetBkColor
+(__TEXT,__text) external _ImageList_SetOverlayImage
+(__TEXT,__text) external _ImmGetContext
+(__TEXT,__text) external _ImmGetOpenStatus
+(__TEXT,__text) external _ImmInitializeForMac
+(__TEXT,__text) external _ImmReleaseContext
+(__TEXT,__text) external _ImmSetOpenStatus
+(__TEXT,__text) external _ImmTerminateForMac
+(undefined) external _InflateRect (from WLMGraphicsDevice)
+(__TEXT,__text) external _InitCommonControls
+(__TEXT,__text) external _InitCommonControlsEx
+(undefined) external _InitializeCriticalSection (from WLMKernel)
+(undefined) external _IntersectClipRect (from WLMGraphicsDevice)
+(undefined) external _IntersectRect (from WLMGraphicsDevice)
+(__TEXT,__text) external _InvalidateRect
+(__TEXT,__text) external _InvalidateRgn
+(undefined) external _IsCharAlphaNumericA (from WLMKernel)
+(__TEXT,__text) external _IsChild
+(undefined) external _IsClipboardFormatAvailable (from WLMKernel)
+(__TEXT,__text) external _IsDialogMessageA
+(__TEXT,__text) external _IsDlgButtonChecked
+(__TEXT,__text) external _IsIconic
+(undefined) external _IsRectEmpty (from WLMGraphicsDevice)
+(undefined) external _IsValidLocale (from WLMKernel)
+(__TEXT,__text) external _IsWindow
+(__TEXT,__text) external _IsWindowEnabled
+(__TEXT,__text) external _IsWindowUnicode
+(__TEXT,__text) external _IsZoomed
+(__TEXT,__text) external _KillTimer
 (__TEXT,__text) external _LoadAcceleratorsA
+(__TEXT,__text) external _LoadBitmapA
+(__TEXT,__text) external _LoadCursorA
+(__TEXT,__text) external _LoadIconA
+(__TEXT,__text) external _LoadImageA
+(__TEXT,__text) external _LoadMenuA
 (__TEXT,__text) external _LoadStringA
+(__TEXT,__text) external _LoadStringW
 (undefined) external _LocalAlloc (from WLMKernel)
 (undefined) external _LocalFree (from WLMKernel)
-(__TEXT,__text) external _MacCocoa_BeginPaint
-(__TEXT,__text) external _MacCocoa_CallNextHookEx
-(__TEXT,__text) external _MacCocoa_CallWindowProc
-(__TEXT,__text) external _MacCocoa_CallWindowsHook
-(__TEXT,__text) external _MacCocoa_ClientToScreen
-(__TEXT,__text) external _MacCocoa_CreateCaret
-(__TEXT,__text) external _MacCocoa_CreateWindowEx
-(__TEXT,__text) external _MacCocoa_DefWindowProc
-(__TEXT,__text) external _MacCocoa_DestroyCaret
-(__TEXT,__text) external _MacCocoa_DestroyWindow
-(__TEXT,__text) external _MacCocoa_EnableWindow
-(__TEXT,__text) external _MacCocoa_EndPaint
-(__TEXT,__text) external _MacCocoa_EnumChildWindows
-(__TEXT,__text) external _MacCocoa_GetActiveWindow
-(__TEXT,__text) external _MacCocoa_GetAsyncKeyState
-(__TEXT,__text) external _MacCocoa_GetCapture
-(__TEXT,__text) external _MacCocoa_GetClassNameA
-(__TEXT,__text) external _MacCocoa_GetClientRect
-(__TEXT,__text) external _MacCocoa_GetCursor
-(__TEXT,__text) external _MacCocoa_GetCursorPos
-(__TEXT,__text) external _MacCocoa_GetDC
-(__TEXT,__text) external _MacCocoa_GetDesktopWindow
-(__TEXT,__text) external _MacCocoa_GetFocus
-(__TEXT,__text) external _MacCocoa_GetForegroundWindow
-(__TEXT,__text) external _MacCocoa_GetKeyboardState
-(__TEXT,__text) external _MacCocoa_GetParent
-(__TEXT,__text) external _MacCocoa_GetProp
-(__TEXT,__text) external _MacCocoa_GetUpdateRect
-(__TEXT,__text) external _MacCocoa_GetWindow
-(__TEXT,__text) external _MacCocoa_GetWindowDC
-(__TEXT,__text) external _MacCocoa_GetWindowLong
-(__TEXT,__text) external _MacCocoa_GetWindowRect
-(__TEXT,__text) external _MacCocoa_GetWindowText
-(__TEXT,__text) external _MacCocoa_GetWindowTextLength
-(__TEXT,__text) external _MacCocoa_HideCaret
-(__TEXT,__text) external _MacCocoa_InvalidateRect
-(__TEXT,__text) external _MacCocoa_IsChild
-(__TEXT,__text) external _MacCocoa_IsIconic
-(__TEXT,__text) external _MacCocoa_IsWindow
-(__TEXT,__text) external _MacCocoa_IsWindowEnabled
-(__TEXT,__text) external _MacCocoa_IsWindowVisible
-(__TEXT,__text) external _MacCocoa_IsZoomed
-(__TEXT,__text) external _MacCocoa_KillTimer
-(__TEXT,__text) external _MacCocoa_LoadCursor
-(__TEXT,__text) external _MacCocoa_MapWindowPoints
-(__TEXT,__text) external _MacCocoa_MapWindowRect
-(__TEXT,__text) external _MacCocoa_MoveWindow
-(__TEXT,__text) external _MacCocoa_PostMessage
-(__TEXT,__text) external _MacCocoa_PostQuitMessage
-(__TEXT,__text) external _MacCocoa_ProcessWindowsHook
-(__TEXT,__text) external _MacCocoa_RedrawWindow
-(__TEXT,__text) external _MacCocoa_ReleaseCapture
-(__TEXT,__text) external _MacCocoa_ReleaseDC
-(__TEXT,__text) external _MacCocoa_RemoveProp
-(__TEXT,__text) external _MacCocoa_RenderWindow
-(__TEXT,__text) external _MacCocoa_ScreenToClient
-(__TEXT,__text) external _MacCocoa_SendMessage
-(__TEXT,__text) external _MacCocoa_SetActiveWindow
-(__TEXT,__text) external _MacCocoa_SetCapture
-(__TEXT,__text) external _MacCocoa_SetCaretPos
-(__TEXT,__text) external _MacCocoa_SetCursor
-(__TEXT,__text) external _MacCocoa_SetFocus
-(__TEXT,__text) external _MacCocoa_SetKeyboardState
-(__TEXT,__text) external _MacCocoa_SetProp
-(__TEXT,__text) external _MacCocoa_SetTimer
-(__TEXT,__text) external _MacCocoa_SetWindowLong
-(__TEXT,__text) external _MacCocoa_SetWindowPos
-(__TEXT,__text) external _MacCocoa_SetWindowText
-(__TEXT,__text) external _MacCocoa_SetWindowsHookEx
-(__TEXT,__text) external _MacCocoa_ShowCaret
-(__TEXT,__text) external _MacCocoa_ShowWindow
-(__TEXT,__text) external _MacCocoa_TopLevelHwnd
-(__TEXT,__text) external _MacCocoa_UnhookWindowsHookEx
-(__TEXT,__text) external _MacCocoa_UpdateWindow
-(__TEXT,__text) external _MacCocoa_ValidateHwnd
-(__TEXT,__text) external _MacCocoa_VkmFromCh
-(__TEXT,__text) external _MacCocoa_WindowFromPoint
+(undefined) external _LocalReAlloc (from WLMKernel)
+(undefined) external _LocalSize (from WLMKernel)
+(__TEXT,__text) external _LockResource
+(__TEXT,__text) external _MapDialogRect
+(__TEXT,__text) external _MapWindowPoints
+(undefined) external _MbuCchSzLen (from mbukernel)
 (undefined) external _MbuCchWzFromCFString (from mbukernel)
 (undefined) external _MbuCchWzLen (from mbukernel)
 (undefined) external _MbuFGetFourCharCodeFromCFString (from mbukernel)
+(undefined) external _MbuFontSystemDefaultFontGDIName (from MicrosoftFontLibrary)
+(undefined) external _MbuGetLocalizationLid (from mbulocale)
+(undefined) external _MbuGetPreferredTextEncoding (from mbulocale)
 (undefined) external _MbuIsRuntimeEastAsian (from mbulocale)
 (undefined) external _MbuRgwchRIndex (from mbukernel)
 (undefined) external _MbuWzCchCopy (from mbukernel)
 (__TEXT,__text) external _MessageBeep
+(__TEXT,__text) external _MessageBoxA
+(__TEXT,__text) external _MessageBoxW
+(__TEXT,__text) external _ModifyMenuA
+(__TEXT,__text) external _MonitorFromPoint
+(undefined) external _MoveToEx (from WLMGraphicsDevice)
+(undefined) external _MulDiv (from WLMKernel)
 (undefined) external _MultiByteToWideChar (from WLMKernel)
+(undefined) external _NSAccessibilityButtonRole (from AppKit)
+(undefined) external _NSAccessibilityCellRole (from AppKit)
+(undefined) external _NSAccessibilityCheckBoxRole (from AppKit)
+(undefined) external _NSAccessibilityCloseButtonSubrole (from AppKit)
+(undefined) external _NSAccessibilityComboBoxRole (from AppKit)
+(undefined) external _NSAccessibilityCreatedNotification (from AppKit)
+(undefined) external _NSAccessibilityDecrementArrowSubrole (from AppKit)
+(undefined) external _NSAccessibilityDecrementPageSubrole (from AppKit)
+(undefined) external _NSAccessibilityDisclosureTriangleRole (from AppKit)
+(undefined) external _NSAccessibilityFloatingWindowSubrole (from AppKit)
+(undefined) external _NSAccessibilityFocusedUIElementChangedNotification (from AppKit)
+(undefined) external _NSAccessibilityGroupRole (from AppKit)
+(undefined) external _NSAccessibilityImageRole (from AppKit)
+(undefined) external _NSAccessibilityIncrementArrowSubrole (from AppKit)
+(undefined) external _NSAccessibilityIncrementPageSubrole (from AppKit)
+(undefined) external _NSAccessibilityIncrementorRole (from AppKit)
+(undefined) external _NSAccessibilityLayoutAreaRole (from AppKit)
+(undefined) external _NSAccessibilityLayoutChangedNotification (from AppKit)
+(undefined) external _NSAccessibilityListRole (from AppKit)
+(undefined) external _NSAccessibilityMenuButtonRole (from AppKit)
+(undefined) external _NSAccessibilityMinimizeButtonSubrole (from AppKit)
+(undefined) external _NSAccessibilityOutlineRole (from AppKit)
+(undefined) external _NSAccessibilityOutlineRowSubrole (from AppKit)
+(undefined) external _NSAccessibilityPopUpButtonRole (from AppKit)
+(undefined) external _NSAccessibilityPostNotification (from AppKit)
+(undefined) external _NSAccessibilityPostNotificationWithUserInfo (from AppKit)
+(undefined) external _NSAccessibilityRadioButtonRole (from AppKit)
+(undefined) external _NSAccessibilityRoleDescription (from AppKit)
+(undefined) external _NSAccessibilityRowCountChangedNotification (from AppKit)
+(undefined) external _NSAccessibilityRowRole (from AppKit)
+(undefined) external _NSAccessibilityScrollAreaRole (from AppKit)
+(undefined) external _NSAccessibilityScrollBarRole (from AppKit)
+(undefined) external _NSAccessibilitySecureTextFieldSubrole (from AppKit)
+(undefined) external _NSAccessibilitySelectedChildrenChangedNotification (from AppKit)
+(undefined) external _NSAccessibilitySelectedChildrenMovedNotification (from AppKit)
+(undefined) external _NSAccessibilitySelectedRowsChangedNotification (from AppKit)
+(undefined) external _NSAccessibilitySelectedTextChangedNotification (from AppKit)
+(undefined) external _NSAccessibilityStandardWindowSubrole (from AppKit)
+(undefined) external _NSAccessibilityStaticTextRole (from AppKit)
+(undefined) weak external _NSAccessibilityTabButtonSubrole (from AppKit)
+(undefined) external _NSAccessibilityTabGroupRole (from AppKit)
+(undefined) external _NSAccessibilityTextFieldRole (from AppKit)
+(undefined) external _NSAccessibilityTitleChangedNotification (from AppKit)
+(undefined) external _NSAccessibilityToolbarRole (from AppKit)
+(undefined) external _NSAccessibilityUIElementDestroyedNotification (from AppKit)
+(undefined) external _NSAccessibilityUIElementsKey (from AppKit)
+(undefined) external _NSAccessibilityUnignoredAncestor (from AppKit)
+(undefined) external _NSAccessibilityUnignoredChildren (from AppKit)
+(undefined) external _NSAccessibilityUnignoredChildrenForOnlyChild (from AppKit)
+(undefined) external _NSAccessibilityUnignoredDescendant (from AppKit)
+(undefined) external _NSAccessibilityUnknownRole (from AppKit)
+(undefined) external _NSAccessibilityUnknownSubrole (from AppKit)
+(undefined) external _NSAccessibilityValueChangedNotification (from AppKit)
+(undefined) external _NSAccessibilityValueIndicatorRole (from AppKit)
+(undefined) external _NSAccessibilityWindowRole (from AppKit)
+(undefined) external _NSAccessibilityZoomButtonSubrole (from AppKit)
 (undefined) external _NSApp (from AppKit)
 (undefined) external _NSBeep (from AppKit)
-(undefined) external _NSDefaultRunLoopMode (from CoreFoundation)
 (undefined) external _NSEqualRects (from Foundation)
+(undefined) external _NSEqualSizes (from Foundation)
 (undefined) external _NSEventTrackingRunLoopMode (from AppKit)
-(undefined) external _NSIsEmptyRect (from Foundation)
-(undefined) external _NSModalPanelRunLoopMode (from AppKit)
+(undefined) external _NSInsetRect (from Foundation)
+(undefined) external _NSIntersectsRect (from Foundation)
+(undefined) external _NSMouseInRect (from Foundation)
+(undefined) external _NSPasteboardTypeString (from AppKit)
 (__TEXT,__text) external _NSPointByFlippingNSPoint
 (__TEXT,__text) external _NSPointFromPOINT
+(undefined) external _NSPointInRect (from Foundation)
 (__TEXT,__text) external _NSRectFromRECT
-(undefined) external _NSRunLoopCommonModes (from CoreFoundation)
+(__TEXT,__text) external _NSViewForHWND
 (__TEXT,__text) external _NSViewGetBoundsRECT
+(undefined) external _NSWindowDidChangeBackingPropertiesNotification (from AppKit)
+(undefined) external _NSWindowDidDeminiaturizeNotification (from AppKit)
+(undefined) external _NSWindowDidMoveNotification (from AppKit)
+(__TEXT,__text) external _NSWindowGetHWND
+(undefined) external _NSWindowWillCloseNotification (from AppKit)
+(undefined) external _NSWindowWillMiniaturizeNotification (from AppKit)
+(undefined) external _NSWindowWillMoveNotification (from AppKit)
+(undefined) external _NSWorkspaceActiveSpaceDidChangeNotification (from AppKit)
 (undefined) external _NSZeroPoint (from Foundation)
 (undefined) external _NSZeroRect (from Foundation)
 (undefined) external _NewInstanceFromBundle (from WLMKernel)
+(__TEXT,__text) external _NotifyWinEvent
+(undefined) external _OBJC_CLASS_$_CUIModalityManager (from CocoaUI)
+(undefined) external _OBJC_CLASS_$_NSAccessibilityElement (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSArray (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSAttributedString (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSBitmapImageRep (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSBox (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSBundle (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSButton (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSCharacterSet (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSColor (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSComboBox (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSCursor (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSData (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSDate (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSEvent (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSFileManager (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSGraphicsContext (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSImage (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSIndexSet (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSMapTable (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSMenu (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSMenuItem (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSMutableIndexSet (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSMutableSet (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSMutableString (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSNib (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSNotificationCenter (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSObject (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSOpenPanel (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSPanel (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSPasteboard (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSPopUpButton (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSProcessInfo (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSPropertyListSerialization (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSSavePanel (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSScreen (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSSecureTextField (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSTabView (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSTableView (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSTextField (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSTextInputContext (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSURL (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSValue (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSWindow (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSWindowController (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSWorkspace (from AppKit)
+(undefined) external _OBJC_CLASS_$_WlmDragDropView (from WLMKernel)
+(undefined) external _OBJC_EHTYPE_$_NSException (from CoreFoundation)
+(undefined) external _OBJC_METACLASS_$_NSAccessibilityElement (from AppKit)
+(undefined) external _OBJC_METACLASS_$_NSBox (from AppKit)
+(undefined) external _OBJC_METACLASS_$_NSButton (from AppKit)
+(undefined) external _OBJC_METACLASS_$_NSComboBox (from AppKit)
+(undefined) external _OBJC_METACLASS_$_NSObject (from CoreFoundation)
+(undefined) external _OBJC_METACLASS_$_NSPanel (from AppKit)
+(undefined) external _OBJC_METACLASS_$_NSPopUpButton (from AppKit)
+(undefined) external _OBJC_METACLASS_$_NSSecureTextField (from AppKit)
+(undefined) external _OBJC_METACLASS_$_NSTabView (from AppKit)
+(undefined) external _OBJC_METACLASS_$_NSTableView (from AppKit)
+(undefined) external _OBJC_METACLASS_$_NSTextField (from AppKit)
+(undefined) external _OBJC_METACLASS_$_NSWindow (from AppKit)
+(undefined) external _OBJC_METACLASS_$_WlmDragDropView (from WLMKernel)
+(undefined) external _OffsetWindowOrgEx (from WLMGraphicsDevice)
+(__TEXT,__text) external _OpenClipboard
+(__TEXT,__text) external _OpenFile
 (__TEXT,__text) external _POINTFromNSPoint
+(undefined) external _PatBlt (from WLMGraphicsDevice)
+(__TEXT,__text) external _PeekMessageA
+(undefined) external _Polyline (from WLMGraphicsDevice)
+(__TEXT,__text) external _PostMessageA
+(__TEXT,__text) external _PostQuitMessage
+(__TEXT,__text) external _PostThreadMessageA
+(__TEXT,__text) external _PrintDlgA
+(__TEXT,__text) external _PropertySheetA
 (__TEXT,__text) external _RECTFromNSRect
+(undefined) external _RcgpathCreateWithHrgn (from WLMGraphicsDevice)
+(__TEXT,__text) external _RealizePalette
+(undefined) external _RectInRegion (from WLMGraphicsDevice)
+(undefined) external _RectVisible (from WLMGraphicsDevice)
+(__TEXT,__text) external _RedrawWindow
+(undefined) external _RegCloseKey (from WLMKernel)
+(undefined) external _RegCreateKeyA (from WLMKernel)
+(undefined) external _RegOpenKeyExA (from WLMKernel)
+(undefined) external _RegQueryValueExA (from WLMKernel)
+(undefined) external _RegSetValueExA (from WLMKernel)
 (__TEXT,__text) external _RegisterClassA
 (__TEXT,__text) external _RegisterWindowMessageA
+(__TEXT,__text) external _ReleaseCapture
+(undefined) external _ReleaseDC (from WLMGraphicsDevice)
+(__TEXT,__text) external _RemoveMenu
+(__TEXT,__text) external _RemovePropA
+(undefined) external _RestoreDC (from WLMGraphicsDevice)
+(__TEXT,__text) external _RtlDeleteFunctionTable
+(__TEXT,__text) external _RtlLookupFunctionEntry
+(undefined) external _SaveDC (from WLMGraphicsDevice)
+(__TEXT,__text) external _ScreenToClient
+(__TEXT,__text) external _ScrollDC
+(__TEXT,__text) external _ScrollWindow
+(__TEXT,__text) external _ScrollWindowEx
 (undefined) external _SelectObject (from WLMGraphicsDevice)
+(__TEXT,__text) external _SelectPalette
+(__TEXT,__text) external _SendDlgItemMessageA
+(__TEXT,__text) external _SendMessageA
+(__TEXT,__text) external _SetActiveWindow
+(undefined) external _SetBkColor (from WLMGraphicsDevice)
+(undefined) external _SetBkMode (from WLMGraphicsDevice)
+(undefined) external _SetBrushOrgEx (from WLMGraphicsDevice)
+(__TEXT,__text) external _SetCapture
+(__TEXT,__text) external _SetCaretBlinkTime
+(__TEXT,__text) external _SetCaretPos
+(__TEXT,__text) external _SetClipboardData
+(__TEXT,__text) external _SetCoalescableTimer
+(__TEXT,__text) external _SetDlgItemInt
+(__TEXT,__text) external _SetDlgItemTextA
+(__TEXT,__text) external _SetDlgItemTextW
+(__TEXT,__text) external _SetFocus
+(__TEXT,__text) external _SetForegroundWindow
+(undefined) external _SetGraphicsMode (from WLMGraphicsDevice)
+(__TEXT,__text) external _SetKeyboardState
 (undefined) external _SetLastError (from WLMKernel)
+(undefined) external _SetLayout (from WLMGraphicsDevice)
+(__TEXT,__text) external _SetParent
+(__TEXT,__text) external _SetPropA
+(undefined) external _SetRectEmpty (from WLMGraphicsDevice)
+(__TEXT,__text) external _SetScrollInfo
+(__TEXT,__text) external _SetScrollPos
+(__TEXT,__text) external _SetScrollRange
+(undefined) external _SetTextAlign (from WLMGraphicsDevice)
+(undefined) external _SetTextColor (from WLMGraphicsDevice)
+(__TEXT,__text) external _SetTimer
+(undefined) external _SetViewportOrgEx (from WLMGraphicsDevice)
+(__TEXT,__text) external _SetWindowLongA
+(__TEXT,__text) external _SetWindowLongPtrA
+(__TEXT,__text) external _SetWindowPos
+(__TEXT,__text) external _SetWindowTextA
+(__TEXT,__text) external _SetWindowTextW
+(__TEXT,__text) external _SetWindowsHookA
+(__TEXT,__text) external _SetWindowsHookExA
+(__TEXT,__text) external _ShowCaret
+(__TEXT,__text) external _ShowScrollBar
+(__TEXT,__text) external _SizeofResource
+(undefined) external _StrCmpICA (from WLMKernel)
+(undefined) external _StretchBlt (from WLMGraphicsDevice)
+(undefined) external _SubtractRect (from WLMGraphicsDevice)
+(__TEXT,__text) external _SuspendThread
+(undefined) external _SysFreeString (from OLEAutomation)
+(undefined) external _SysStringLen (from OLEAutomation)
 (__TEXT,__text) external _SystemParametersInfoA
+(__TEXT,__text) external _TextOutA
+(__TEXT,__text) external _TileWindows
+(__TEXT,__text) external _TrackPopupMenu
+(__TEXT,__text) external _TranslateAcceleratorA
+(undefined) external _TranslateCharsetInfo (from WLMGraphicsDevice)
+(__TEXT,__text) external _TranslateMDISysAccel
+(__TEXT,__text) external _TranslateMessage
 (undefined) external _UTCreateStringForOSType (from CoreServices)
+(__TEXT,__text) external _UnhookWindowsHook
+(__TEXT,__text) external _UnhookWindowsHookEx
+(undefined) external _UnrealizeObject (from WLMGraphicsDevice)
 (__TEXT,__text) external _UnregisterClassA
 (undefined) external _UnwrapContext (from WLMGraphicsDevice)
+(__TEXT,__text) external _UpdateWindow
 (__TEXT,__text) external _VBCreateCGImageRefFromBundle
-(__TEXT,__text) external _VBDeferredCall
 (__TEXT,__text) external _VBForms_SetWindowActivationHook
-(__TEXT,__text) external _VBGetKeyState
 (__TEXT,__text) external _VBGetNumberOfEventLoops
 (__TEXT,__text) external _VBHideFormsWindows
 (__TEXT,__text) external _VBInModalLoop
@@ -202,61 +725,167 @@
 (__TEXT,__text) external _VBStopModal
 (__TEXT,__text) external _VBStopNestedEventLoop
 (__TEXT,__text) external _VBTrackMouseLocation
-(__TEXT,__text) external _VB_OrderWindowFront
-(__TEXT,__text) external _VB_OrderWindowOut
 (__TEXT,__text) external _VB_SetWindowWorksWhenModal
+(__TEXT,__text) external _ValidateRect
+(undefined) external _VariantClear (from OLEAutomation)
+(undefined) external _VariantInit (from OLEAutomation)
+(__TEXT,__text) external _VkmFromCh
+(undefined) external _WLMGDI_SetGetDCForHWNDCallback (from WLMGraphicsDevice)
+(undefined) external _WLMGDI_SetReleaseDCForHWNDCallback (from WLMGraphicsDevice)
+(__TEXT,__text) external _WLMUserMonitorTransformCGPointFromTopLeftToCartesian
+(__TEXT,__text) external _WLMUserMonitorTransformCGRectFromTopLeftToCartesian
+(undefined) external _WLM_CreateCGImageFromBitmap (from WLMGraphicsDevice)
+(undefined) external _WLM_GreSubtractRgnRectList (from WLMGraphicsDevice)
+(__TEXT,__text) external _WLM_PatBltInvert
+(__TEXT,__text) external _WaitMessage
 (undefined) external _WideCharToMultiByte (from WLMKernel)
 (__TEXT,__text) external _WinHelpW
+(__TEXT,__text) external _WindowFromDC
+(__TEXT,__text) external _WindowFromPoint
 (__TEXT,__text) external _WlmAcceleratorTableEntryCount
-(undefined) external _WlmGDI_FrameworkInit (from WLMGraphicsDevice)
-(undefined) external _WlmGDI_FrameworkTerm (from WLMGraphicsDevice)
+(undefined) external _WlmCFStringCreateFromMultiByte (from WLMKernel)
+(__TEXT,__text) external _WlmCopyCGImageFromHinst
+(__TEXT,__text) external _WlmGetNativeOwnerWindowRect
 (__TEXT,__text) external _WlmHinstance
-(__TEXT,__text) external _WlmUser_FrameworkInit
-(__TEXT,__text) external _WlmUser_FrameworkTerm
+(undefined) external _WlmIsPointerToAnyObjectiveCObject (from WLMKernel)
+(undefined) external _WlmMultiByteFromCFString (from WLMKernel)
 (undefined) external _WrapContext (from WLMGraphicsDevice)
-(__TEXT,__text) external __CallHookById
+(undefined) external __Block_object_assign (from libSystem)
+(undefined) external __Block_object_dispose (from libSystem)
 (undefined) external __IsCStringPointer (from WLMKernel)
 (undefined) external __NSConcreteGlobalBlock (from libSystem)
 (undefined) external __NSConcreteStackBlock (from libSystem)
 (undefined) external __Unwind_Resume (from libSystem)
-(__TEXT,__text) external WlmGetClassForAtom(unsigned short, HINSTANCE__*, unsigned char)
-(__TEXT,__text) external WlmGetClassForName(char const*, HINSTANCE__*, unsigned char)
+(undefined) external WlmRegisterDllMainObject::s_head (from WLMKernel)
 (undefined) external wc16::wcslen(wchar_t const*) (from mbukernel)
+(undefined) external std::__1::__shared_weak_count::__get_deleter(std::type_info const&) const (from libc++)
+(undefined) external std::__1::__vector_base_common<true>::__throw_length_error() const (from libc++)
+(undefined) external std::__1::__basic_string_common<true>::__throw_length_error() const (from libc++)
+(undefined) external std::logic_error::logic_error(char const*) (from libc++)
+(undefined) external std::length_error::~length_error() (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::append(char const*) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::append(char const*, unsigned long) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::assign(char const*) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::resize(unsigned long, char) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) (from libc++)
+(undefined) external std::__1::__shared_weak_count::__add_weak() (from libc++)
+(undefined) external std::__1::__shared_weak_count::__release_weak() (from libc++)
+(undefined) external std::__1::__shared_weak_count::__release_shared() (from libc++)
+(undefined) external std::__1::__shared_weak_count::lock() (from libc++)
+(undefined) external std::__1::__shared_weak_count::~__shared_weak_count() (from libc++)
+(undefined) external std::nothrow (from libc++)
+(undefined) external std::terminate() (from libc++)
 (undefined) external vtable for __cxxabiv1::__class_type_info (from libc++)
+(undefined) external vtable for __cxxabiv1::__si_class_type_info (from libc++)
+(undefined) external vtable for __cxxabiv1::__vmi_class_type_info (from libc++)
+(undefined) external vtable for std::length_error (from libc++)
+(undefined) weak external operator delete[](void*) (from libc++)
 (undefined) weak external operator delete(void*) (from libc++)
+(undefined) weak external operator delete(void*, std::nothrow_t const&) (from libc++)
+(undefined) weak external operator new[](unsigned long) (from libc++)
+(undefined) weak external operator new[](unsigned long, std::nothrow_t const&) (from libc++)
 (undefined) weak external operator new(unsigned long) (from libc++)
+(undefined) weak external operator new(unsigned long, std::nothrow_t const&) (from libc++)
 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+(undefined) external ___assert_rtn (from libSystem)
 (undefined) external ___bzero (from libSystem)
 (undefined) external ___cxa_allocate_exception (from libc++)
+(undefined) external ___cxa_atexit (from libSystem)
+(undefined) external ___cxa_begin_catch (from libc++)
+(undefined) external ___cxa_free_exception (from libc++)
+(undefined) external ___cxa_guard_abort (from libc++)
+(undefined) external ___cxa_guard_acquire (from libc++)
+(undefined) external ___cxa_guard_release (from libc++)
 (undefined) external ___cxa_throw (from libc++)
+(undefined) external ___dynamic_cast (from libc++)
+(undefined) external ___error (from libSystem)
 (undefined) external ___gxx_personality_v0 (from libc++)
+(undefined) external ___memmove_chk (from libSystem)
+(undefined) external ___objc_personality_v0 (from libobjc)
+(undefined) external ___snprintf_chk (from libSystem)
 (undefined) external ___stack_chk_fail (from libSystem)
 (undefined) external ___stack_chk_guard (from libSystem)
+(undefined) external __dispatch_main_q (from libSystem)
 (undefined) external __iAddAtom (from WLMKernel)
 (undefined) external __iDeleteAtom (from WLMKernel)
 (undefined) external __iFindAtom (from WLMKernel)
-(undefined) external __setjmp (from libSystem)
+(__TEXT,__text) external __lcreat
+(__TEXT,__text) external __lopen
+(undefined) external __objc_empty_cache (from libobjc)
+(__TEXT,__text) external __statusfp
+(undefined) external _abort (from libSystem)
 (undefined) external _calloc (from libSystem)
-(undefined) external _dispatch_once (from libSystem)
-(undefined) external _feclearexcept (from libSystem)
-(undefined) external _fegetexceptflag (from libSystem)
+(undefined) external _dispatch_after (from libSystem)
+(undefined) external _dispatch_async (from libSystem)
+(undefined) weak external _dispatch_once_f (from libSystem)
+(undefined) external _dladdr (from libSystem)
+(undefined) external _dlsym (from libSystem)
+(undefined) external _fclose (from libSystem)
+(undefined) external _fopen (from libSystem)
+(undefined) external _fread (from libSystem)
 (undefined) external _free (from libSystem)
+(undefined) external _fseek (from libSystem)
+(undefined) external _ftell (from libSystem)
+(undefined) external _kCFAllocatorDefault (from CoreFoundation)
+(undefined) external _kCFBooleanFalse (from CoreFoundation)
+(undefined) external _kCFBooleanTrue (from CoreFoundation)
+(undefined) external _kCFLocaleLanguageCode (from CoreFoundation)
+(undefined) external _kCFRunLoopCommonModes (from CoreFoundation)
+(undefined) external _kCFTypeArrayCallBacks (from CoreFoundation)
+(undefined) external _kCFTypeDictionaryKeyCallBacks (from CoreFoundation)
+(undefined) external _kCFTypeDictionaryValueCallBacks (from CoreFoundation)
+(undefined) external _kCGColorSpaceGenericRGB (from CoreGraphics)
+(undefined) external _kCGColorSpaceSRGB (from CoreGraphics)
+(undefined) external _kCGWindowNumber (from CoreGraphics)
+(undefined) external _kCTFontAttributeName (from CoreText)
+(undefined) external _kCTForegroundColorAttributeName (from CoreText)
+(undefined) external _kCTParagraphStyleAttributeName (from CoreText)
+(undefined) external _lstrcmpA (from WLMKernel)
+(undefined) external _lstrcmpiA (from WLMKernel)
+(undefined) external _lstrcmpiW (from WLMKernel)
+(__TEXT,__text) external _lstrcpyW
+(undefined) external _lstrlenA (from mbukernel)
 (undefined) external _lstrlenW (from mbukernel)
+(undefined) external _malloc (from libSystem)
+(undefined) external _malloc_size (from libSystem)
+(undefined) external _mbuFont_copyGDIFamilyName (from MicrosoftFontLibrary)
+(undefined) external _mbuFont_copyRefFromPostScriptName (from MicrosoftFontLibrary)
+(undefined) external _mbuFont_release (from MicrosoftFontLibrary)
 (undefined) external _memchr (from libSystem)
+(undefined) external _memcmp (from libSystem)
 (undefined) external _memcpy (from libSystem)
 (undefined) external _memmove (from libSystem)
 (undefined) external _memset (from libSystem)
+(undefined) external _objc_autorelease (from libobjc)
+(undefined) external _objc_autoreleasePoolPop (from libobjc)
+(undefined) external _objc_autoreleasePoolPush (from libobjc)
+(undefined) external _objc_autoreleaseReturnValue (from libobjc)
+(undefined) external _objc_begin_catch (from libobjc)
+(undefined) external _objc_destroyWeak (from libobjc)
+(undefined) external _objc_end_catch (from libobjc)
 (undefined) external _objc_enumerationMutation (from libobjc)
-(undefined) external _objc_exception_extract (from libobjc)
-(undefined) external _objc_exception_match (from libobjc)
-(undefined) external _objc_exception_throw (from libobjc)
-(undefined) external _objc_exception_try_enter (from libobjc)
-(undefined) external _objc_exception_try_exit (from libobjc)
-(undefined) external _objc_lookUpClass (from libobjc)
+(undefined) external _objc_getAssociatedObject (from libobjc)
+(undefined) external _objc_loadWeakRetained (from libobjc)
 (undefined) external _objc_msgSend (from libobjc)
 (undefined) external _objc_msgSendSuper (from libobjc)
-(undefined) external _objc_msgSend_fpret (from libobjc)
+(undefined) external _objc_msgSendSuper2 (from libobjc)
 (undefined) external _objc_msgSend_stret (from libobjc)
-(undefined) external _objc_setProperty (from libobjc)
+(undefined) external _objc_release (from libobjc)
+(undefined) external _objc_retain (from libobjc)
+(undefined) external _objc_retainAutorelease (from libobjc)
+(undefined) external _objc_retainAutoreleaseReturnValue (from libobjc)
+(undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+(undefined) external _objc_retainBlock (from libobjc)
+(undefined) external _objc_setAssociatedObject (from libobjc)
+(undefined) external _objc_storeStrong (from libobjc)
+(undefined) external _objc_storeWeak (from libobjc)
+(undefined) external _pthread_self (from libSystem)
+(undefined) external _realloc (from libSystem)
+(undefined) external _rewind (from libSystem)
+(undefined) external _round (from libSystem)
+(undefined) external _sscanf (from libSystem)
+(undefined) external _strcmp (from libSystem)
+(undefined) external _strdup (from libSystem)
 (undefined) external _strlen (from libSystem)
 (undefined) external dyld_stub_binder (from libSystem)

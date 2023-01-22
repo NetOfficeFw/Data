@@ -1,0 +1,2163 @@
+(undefined) external _AcquireSRWLockExclusive (from WLMKernel)
+(undefined) external _AcquireSRWLockShared (from WLMKernel)
+(undefined) external _AfxGetCurrentProcess (from WLMKernel)
+(undefined) external _AfxGetCurrentThread (from WLMKernel)
+(undefined) external _AfxSleep (from WLMKernel)
+(undefined) external _CCHmacFinal (from libSystem)
+(undefined) external _CCHmacInit (from libSystem)
+(undefined) external _CCHmacUpdate (from libSystem)
+(undefined) external _CC_MD2_Final (from libSystem)
+(undefined) external _CC_MD2_Init (from libSystem)
+(undefined) external _CC_MD2_Update (from libSystem)
+(undefined) external _CC_MD4_Final (from libSystem)
+(undefined) external _CC_MD4_Init (from libSystem)
+(undefined) external _CC_MD4_Update (from libSystem)
+(undefined) external _CC_MD5_Final (from libSystem)
+(undefined) external _CC_MD5_Init (from libSystem)
+(undefined) external _CC_MD5_Update (from libSystem)
+(undefined) external _CC_SHA1_Final (from libSystem)
+(undefined) external _CC_SHA1_Init (from libSystem)
+(undefined) external _CC_SHA1_Update (from libSystem)
+(undefined) external _CC_SHA256_Final (from libSystem)
+(undefined) external _CC_SHA256_Init (from libSystem)
+(undefined) external _CC_SHA256_Update (from libSystem)
+(undefined) external _CC_SHA384_Final (from libSystem)
+(undefined) external _CC_SHA384_Init (from libSystem)
+(undefined) external _CC_SHA384_Update (from libSystem)
+(undefined) external _CC_SHA512_Final (from libSystem)
+(undefined) external _CC_SHA512_Init (from libSystem)
+(undefined) external _CC_SHA512_Update (from libSystem)
+(undefined) external _CFArrayAppendValue (from CoreFoundation)
+(undefined) external _CFArrayCreateMutable (from CoreFoundation)
+(undefined) external _CFArrayGetCount (from CoreFoundation)
+(undefined) external _CFArrayGetTypeID (from CoreFoundation)
+(undefined) external _CFArrayGetValueAtIndex (from CoreFoundation)
+(undefined) external _CFBooleanGetTypeID (from CoreFoundation)
+(undefined) external _CFBooleanGetValue (from CoreFoundation)
+(undefined) external _CFBundleCopyBundleURL (from CoreFoundation)
+(undefined) external _CFBundleGetIdentifier (from CoreFoundation)
+(undefined) external _CFBundleGetMainBundle (from CoreFoundation)
+(undefined) external _CFBundleGetValueForInfoDictionaryKey (from CoreFoundation)
+(undefined) external _CFCopyDescription (from CoreFoundation)
+(undefined) external _CFDateGetAbsoluteTime (from CoreFoundation)
+(undefined) external _CFDictionaryAddValue (from CoreFoundation)
+(undefined) external _CFDictionaryApplyFunction (from CoreFoundation)
+(undefined) external _CFDictionaryCreateMutable (from CoreFoundation)
+(undefined) external _CFDictionaryGetTypeID (from CoreFoundation)
+(undefined) external _CFDictionaryGetValue (from CoreFoundation)
+(undefined) external _CFDictionaryGetValueIfPresent (from CoreFoundation)
+(undefined) external _CFErrorGetCode (from CoreFoundation)
+(undefined) external _CFErrorGetDomain (from CoreFoundation)
+(undefined) external _CFGetTypeID (from CoreFoundation)
+(undefined) external _CFLocaleGetSystem (from CoreFoundation)
+(undefined) external _CFNullGetTypeID (from CoreFoundation)
+(undefined) external _CFNumberCreate (from CoreFoundation)
+(undefined) external _CFNumberGetType (from CoreFoundation)
+(undefined) external _CFNumberGetTypeID (from CoreFoundation)
+(undefined) external _CFNumberGetValue (from CoreFoundation)
+(undefined) external _CFPreferencesCopyAppValue (from CoreFoundation)
+(undefined) external _CFPreferencesGetAppBooleanValue (from CoreFoundation)
+(undefined) external _CFPreferencesGetAppIntegerValue (from CoreFoundation)
+(undefined) external _CFPreferencesSetAppValue (from CoreFoundation)
+(undefined) external _CFRelease (from CoreFoundation)
+(undefined) external _CFRetain (from CoreFoundation)
+(undefined) external _CFRunLoopRunInMode (from CoreFoundation)
+(undefined) external _CFStringAppend (from CoreFoundation)
+(undefined) external _CFStringCompare (from CoreFoundation)
+(undefined) external _CFStringCreateArrayBySeparatingStrings (from CoreFoundation)
+(undefined) external _CFStringCreateMutable (from CoreFoundation)
+(undefined) external _CFStringCreateMutableCopy (from CoreFoundation)
+(undefined) external _CFStringCreateWithCStringNoCopy (from CoreFoundation)
+(undefined) external _CFStringCreateWithCharacters (from CoreFoundation)
+(undefined) external _CFStringCreateWithFormat (from CoreFoundation)
+(undefined) external _CFStringGetCString (from CoreFoundation)
+(undefined) external _CFStringGetCharacters (from CoreFoundation)
+(undefined) external _CFStringGetIntValue (from CoreFoundation)
+(undefined) external _CFStringGetLength (from CoreFoundation)
+(undefined) external _CFStringGetTypeID (from CoreFoundation)
+(undefined) external _CFStringHasPrefix (from CoreFoundation)
+(undefined) external _CFStringUppercase (from CoreFoundation)
+(undefined) external _CFURLCopyAbsoluteURL (from CoreFoundation)
+(undefined) external _CFURLCopyFileSystemPath (from CoreFoundation)
+(undefined) external _CFUUIDCreateFromString (from CoreFoundation)
+(undefined) external _CLSIDFromString (from COMBase)
+(__TEXT,__const) external _CLSID_InkRenderer
+(__TEXT,__const) weak external _CLSID_WICImagingFactory2
+(undefined) external _CancelWaitableTimer (from WLMKernel)
+(__TEXT,__text) external _CbGetHashSaltSize
+(__TEXT,__text) external _CharClassFromWch
+(undefined) external _CharLowerW (from WLMKernel)
+(undefined) external _CloseHandle (from WLMKernel)
+(undefined) external _CoCreateGuid (from COMBase)
+(undefined) external _CoCreateInstance (from COMBase)
+(undefined) external _CoGetMalloc (from COMBase)
+(undefined) external _CoInitializeEx (from COMBase)
+(undefined) external _CoTaskMemAlloc (from COMBase)
+(undefined) external _CoTaskMemFree (from COMBase)
+(undefined) external _CoUninitialize (from COMBase)
+(undefined) external _CodeMarker (from mbuinstrument)
+(undefined) external _CompareFileTime (from WLMKernel)
+(undefined) external _CompareStringEx (from WLMKernel)
+(undefined) external _CompareStringW (from WLMKernel)
+(undefined) external _CopyFileW (from WLMKernel)
+(undefined) external _CreateDirectoryW (from WLMKernel)
+(undefined) external _CreateEventExW (from WLMKernel)
+(undefined) external _CreateEventW (from WLMKernel)
+(undefined) external _CreateFileW (from WLMKernel)
+(undefined) external _CreateMemoryResourceNotification (from WLMKernel)
+(undefined) external _CreateMutexW (from WLMKernel)
+(undefined) external _CreateSemaphoreExW (from WLMKernel)
+(undefined) external _CreateStreamOnHGlobal (from COMBase)
+(undefined) external _CreateThread (from WLMKernel)
+(undefined) external _CreateWaitableTimerW (from WLMKernel)
+(undefined) external _CryptAcquireContextW (from WinCrypto)
+(undefined) external _CryptProtectData (from WinCrypto)
+(undefined) external _CryptReleaseContext (from WinCrypto)
+(undefined) external _CryptUnprotectData (from WinCrypto)
+(undefined) external _DeleteCriticalSection (from WLMKernel)
+(undefined) external _DeleteFileW (from WLMKernel)
+(__TEXT,__text) external _DwGetHashSpinCount
+(undefined) external _EnterCriticalSection (from WLMKernel)
+(__TEXT,__text) external _FCryptAlwaysAcquireContextW
+(__TEXT,__text) external _FGetCngCipherChain
+(__TEXT,__const) weak external _FMTID_DocSummaryInformation
+(__TEXT,__const) weak external _FMTID_SummaryInformation
+(__TEXT,__const) weak external _FMTID_UserDefinedProperties
+(__TEXT,__text) external _FNewKeyOnPwdChange
+(__TEXT,__text) external _FRgwchIsLocalPath
+(__TEXT,__text) external _FScanMem
+(__TEXT,__text) external _FTPInitialized
+(__TEXT,__text) external _FValidShortFileName
+(undefined) external _FileTimeToLocalFileTime (from WLMKernel)
+(undefined) external _FileTimeToSystemTime (from WLMKernel)
+(undefined) external _FindClose (from WLMKernel)
+(undefined) external _FindFirstFileExW (from WLMKernel)
+(undefined) external _FindNextFileW (from WLMKernel)
+(undefined) external _FlushFileBuffers (from WLMKernel)
+(__TEXT,__text) external _FreeTpLibrary
+(undefined) external _GUID_ACDC_POWER_SOURCE (from WLMKernel)
+(undefined) external _GUID_BATTERY_PERCENTAGE_REMAINING (from WLMKernel)
+(undefined) external _GUID_IDLE_BACKGROUND_TASK (from WLMKernel)
+(undefined) external _GUID_MAX_POWER_SAVINGS (from WLMKernel)
+(undefined) external _GUID_MIN_POWER_SAVINGS (from WLMKernel)
+(undefined) external _GUID_MONITOR_POWER_ON (from WLMKernel)
+(__TEXT,__const) weak external _GUID_NULL
+(undefined) external _GUID_POWERSCHEME_PERSONALITY (from WLMKernel)
+(undefined) external _GUID_SESSION_USER_PRESENCE (from WLMKernel)
+(undefined) external _GUID_SYSTEM_AWAYMODE (from WLMKernel)
+(undefined) external _GUID_TYPICAL_POWER_SAVINGS (from WLMKernel)
+(undefined) external _GetACP (from WLMKernel)
+(__TEXT,__text) external _GetBaseFlightName
+(undefined) external _GetComputerNameW (from WLMKernel)
+(undefined) external _GetCurrentProcessId (from WLMKernel)
+(undefined) external _GetCurrentThreadId (from WLMKernel)
+(__TEXT,__text) external _GetEffectiveApp
+(__TEXT,__text) external _GetExtendedFlightName
+(undefined) external _GetFileAttributesExW (from WLMKernel)
+(undefined) external _GetFileSecurityW (from WLMKernel)
+(undefined) external _GetFileSizeEx (from WLMKernel)
+(undefined) external _GetFileTime (from WLMKernel)
+(undefined) external _GetFileTimeFromCFAbsoluteTime (from WLMKernel)
+(undefined) external _GetFileType (from WLMKernel)
+(undefined) external _GetLastError (from WinCrypto)
+(undefined) external _GetLocalTime (from WLMKernel)
+(undefined) external _GetModuleFileNameW (from WLMKernel)
+(__TEXT,__text) external _GetMsoAppInfo
+(undefined) external _GetOverlappedResult (from WLMKernel)
+(undefined) external _GetProcessId (from WLMKernel)
+(__TEXT,__text) external _GetSeed
+(__TEXT,__text) external _GetSqmGuidRid
+(undefined) external _GetStringTypeExW (from WLMKernel)
+(undefined) external _GetStringTypeW (from WLMKernel)
+(undefined) external _GetSysColor (from WLMGraphicsDevice)
+(undefined) external _GetSystemPowerStatus (from WLMKernel)
+(undefined) external _GetSystemTime (from WLMKernel)
+(undefined) external _GetSystemTimeAsFileTime (from WLMKernel)
+(undefined) external _GetSystemTimeFromCFAbsoluteTime (from WLMKernel)
+(undefined) external _GetTempFileNameW (from WLMKernel)
+(__TEXT,__text) external _GetTempFolder
+(undefined) external _GetTempPathW (from WLMKernel)
+(undefined) external _GetTickCount (from WLMKernel)
+(undefined) external _GetTickCount64 (from WLMKernel)
+(__TEXT,__text) external _GetUniProp
+(undefined) external _GetUserDefaultLocaleName (from WLMKernel)
+(__TEXT,__text) external _GetUsrSpan
+(undefined) external _GlobalAlloc (from WLMKernel)
+(undefined) external _GlobalFlags (from WLMKernel)
+(undefined) external _GlobalFree (from WLMKernel)
+(undefined) external _GlobalHandle (from WLMKernel)
+(undefined) external _GlobalLock (from WLMKernel)
+(undefined) external _GlobalReAlloc (from WLMKernel)
+(undefined) external _GlobalSize (from WLMKernel)
+(undefined) external _GlobalUnlock (from WLMKernel)
+(__TEXT,__text) external _HostGetHostType
+(__TEXT,__text) external _HrGetCngAlg
+(__TEXT,__text) external _HrInitTpLibrary
+(__TEXT,__text) external _HrMsoAllocHost
+(__TEXT,__text) external _HrMsoMarkMemHost
+(__TEXT,__text) external _HrMsoReallocHost
+(__TEXT,__text) external _HrReadExact
+(__TEXT,__text) external _HrRfc1123DateToSystemTime
+(__TEXT,__text) external _HrWriteExact
+(undefined) external _IIDFromString (from COMBase)
+(__TEXT,__const) weak external _IID_IDispatch
+(__TEXT,__const) weak external _IID_IMarshal
+(__TEXT,__const) external _IID_IOleControlSite
+(__TEXT,__const) weak external _IID_IOleObject
+(__TEXT,__const) external _IID_IPersistPropertyBag
+(__TEXT,__const) weak external _IID_IPersistStorage
+(__TEXT,__const) weak external _IID_IPersistStream
+(__TEXT,__const) external _IID_IPersistStreamInit
+(__TEXT,__const) weak external _IID_IPropertySetStorage
+(__TEXT,__const) weak external _IID_ISequentialStream
+(__TEXT,__const) weak external _IID_IStorage
+(__TEXT,__const) weak external _IID_IStream
+(__TEXT,__const) weak external _IID_ISupportErrorInfo
+(__TEXT,__const) weak external _IID_IUnknown
+(__TEXT,__text) external _ISqrt
+(undefined) external _IdnToAscii (from WLMKernel)
+(undefined) external _IdnToUnicode (from WLMKernel)
+(__TEXT,__text) external _InitNextGenHeader
+(undefined) external _InitializeCriticalSection (from WLMKernel)
+(undefined) external _InitializeCriticalSectionEx (from WLMKernel)
+(undefined) external _InitializeSListHead (from WLMKernel)
+(undefined) external _InitializeSRWLock (from WLMKernel)
+(undefined) external _InterlockedPopEntrySList (from WLMKernel)
+(undefined) external _InterlockedPushEntrySList (from WLMKernel)
+(undefined) external _IsSystemResumeAutomatic (from WLMKernel)
+(undefined) external _IsValidCodePage (from WLMKernel)
+(__TEXT,__text) external _LAddForwardslash
+(__TEXT,__text) external _LAddPathSeparator
+(undefined) external _LeaveCriticalSection (from WLMKernel)
+(undefined) external _LocalAlloc (from WLMKernel)
+(undefined) external _LocalFileTimeToFileTime (from WLMKernel)
+(undefined) external _LocalFree (from WLMKernel)
+(__TEXT,__text) external _LogCryptoError
+(__TEXT,__text) external _LogLine
+(__TEXT,__text) external _LogLineException
+(undefined) external _MBUAtomicCompareAndSwapPointer (from mbukernel)
+(undefined) external _MBUKernelForceAppExit (from mbukernel)
+(undefined) external _MBUSuitewidePreferencesCopyValueForKey (from mbuinstrument)
+(undefined) external _MBUSuitewidePreferencesSetValueForKey (from mbuinstrument)
+(undefined) external _MBUThreadStorageGetValue (from mbukernel)
+(undefined) external _MBUThreadStorageKeyCreate (from mbukernel)
+(undefined) external _MBUThreadStorageSetValue (from mbukernel)
+(undefined) external _MbuCFStringCreateWithWz (from mbukernel)
+(undefined) external _MbuCchSzLen (from mbukernel)
+(undefined) external _MbuCchWzFromCFString (from mbukernel)
+(undefined) external _MbuCchWzLen (from mbukernel)
+(undefined) external _MbuCopyCurrentProcessName (from mbukernel)
+(undefined) external _MbuCopyDeviceID (from mbuinstrument)
+(undefined) external _MbuCopySystemVersionWz (from mbukernel)
+(undefined) external _MbuGetDeviceModel (from mbuinstrument)
+(undefined) external _MbuGetDeviceTypeWz (from mbukernel)
+(undefined) external _MbuGetFreeDiskSpaceSize (from mbukernel)
+(undefined) external _MbuGetISOCodesFromLid (from mbulocale)
+(undefined) external _MbuGetOSVersion (from mbukernel)
+(undefined) external _MbuGetPlatformTypeWz (from mbukernel)
+(undefined) external _MbuGetProcInfoForPid (from mbukernel)
+(undefined) external _MbuGetRuntimeLid (from mbulocale)
+(undefined) external _MbuGetTaskResidentAndVirtualMemory (from mbukernel)
+(undefined) external _MbuGetTotalPhysicalMemory (from mbukernel)
+(undefined) external _MbuInAutomatedAssertMode (from mbuinstrument)
+(undefined) external _MbuInAutomatedQTestMode (from mbuinstrument)
+(undefined) external _MbuIsAppStoreSKU (from mbukernel)
+(undefined) external _MbuIsDebugOrInternalShipBuild (from mbukernel)
+(undefined) external _MbuRegisterPowerSettingNotification (from WLMKernel)
+(undefined) external _MbuUTF8ToUnicode (from mbukernel)
+(undefined) external _MbuUnicodeToUTF8 (from mbukernel)
+(undefined) external _MbuUnregisterPowerSettingNotification (from WLMKernel)
+(undefined) external _MbuWzFromCFString (from mbukernel)
+(undefined) external _MbudirtCreateCFStringWithSystemPath (from mbukernel)
+(__TEXT,__text) external _MetroFValidPartChar
+(undefined) external _MoveFileExW (from WLMKernel)
+(__TEXT,__text) external _MsoAppendToPath
+(__TEXT,__text) external _MsoAppendToUrl
+(__TEXT,__text) external _MsoBpscBulletProofLinkedList
+(__TEXT,__text) external _MsoBpscBulletProofPx
+(__TEXT,__text) external _MsoCbActualFromPv
+(__TEXT,__text) external _MsoCbBufSizeCb
+(__TEXT,__text) external _MsoCbRegGetBufferSizeBinary
+(__TEXT,__text) external _MsoCbRegGetBufferSizeMultiWz
+(__TEXT,__text) external _MsoCbRegGetBufferSizeSz
+(__TEXT,__text) external _MsoCbStream
+(__TEXT,__text) external _MsoCchCanonicalizePath
+(__TEXT,__text) external _MsoCchInsertWtz
+(__TEXT,__text) external _MsoCchInsertWz
+(__TEXT,__text) external _MsoCchInsertWzCore
+(__TEXT,__text) external _MsoCchParseRomanIntSz
+(__TEXT,__text) external _MsoCchRegGetBufferSizeDefaultWz
+(__TEXT,__text) external _MsoCchRegGetBufferSizeWz
+(__TEXT,__text) external _MsoCchWzIndexRight
+(__TEXT,__text) external _MsoClearRgvarg
+(__TEXT,__text) external _MsoCompareFileTime
+(__TEXT,__text) external _MsoCompareStringW
+(__TEXT,__text) external _MsoCopyFileW
+(__TEXT,__text) external _MsoCopyStream
+(__TEXT,__text) external _MsoCpCchSzLenFromWz
+(__TEXT,__text) external _MsoCpRgchToRgwchCore
+(__TEXT,__text) external _MsoCpSzToWzCore
+(__TEXT,__text) external _MsoCrc32Compute
+(__TEXT,__text) external _MsoCreateFileW
+(__TEXT,__text) external _MsoCreateSemaphore
+(__TEXT,__text) external _MsoCreateSemaphoreEx
+(__TEXT,__text) external _MsoCwchParseRomanIntWz
+(__TEXT,__text) external _MsoDecodeBase64W
+(__TEXT,__text) external _MsoDeletePx
+(__TEXT,__text) external _MsoDwGetShellSetting
+(__TEXT,__text) external _MsoDwRegGetDefaultDw
+(__TEXT,__text) external _MsoDwRegGetDw
+(__TEXT,__text) external _MsoEmptyPx
+(__TEXT,__text) external _MsoEnumKeyExW
+(__TEXT,__text) external _MsoEnumValueW
+(__TEXT,__text) external _MsoFAllXmlWS
+(__TEXT,__text) external _MsoFAllocPx
+(__TEXT,__text) external _MsoFAllocPxCore
+(__TEXT,__text) external _MsoFAlphaNumWch
+(__TEXT,__text) external _MsoFAlphaWch
+(__TEXT,__text) external _MsoFBstrAlloc
+(__TEXT,__text) external _MsoFBstrCloneRgwch
+(__TEXT,__text) external _MsoFBstrSetCch
+(__TEXT,__text) external _MsoFBstrWriteRgwch
+(__TEXT,__text) external _MsoFByteLoad
+(__TEXT,__text) external _MsoFByteSave
+(__TEXT,__text) external _MsoFCanonicalizePathWz
+(__TEXT,__text) external _MsoFChangeFileLastWriteTime
+(__TEXT,__text) external _MsoFClonePx
+(__TEXT,__text) external _MsoFCompactPx
+(__TEXT,__text) external _MsoFComplexMarkWch
+(__TEXT,__text) external _MsoFCreateEncData
+(__TEXT,__text) external _MsoFCreateFullLocalDirectory
+(__TEXT,__text) external _MsoFCreatePxwz
+(__TEXT,__text) external _MsoFCreateTempFile
+(__TEXT,__text) external _MsoFCreateTempFileEx
+(__TEXT,__text) external _MsoFDeleteFilesW
+(__TEXT,__text) external _MsoFDeleteKeyAndSubkeys
+(__TEXT,__text) external _MsoFDeleteSubkeys
+(__TEXT,__text) external _MsoFDigitWch
+(__TEXT,__text) external _MsoFDirExist
+(__TEXT,__text) external _MsoFEnableComplexGraphics
+(__TEXT,__text) external _MsoFEnsureCbPv
+(__TEXT,__text) external _MsoFEnsureDirectory
+(__TEXT,__text) external _MsoFEnsureSpacePx
+(__TEXT,__text) external _MsoFExtenderWch
+(__TEXT,__text) external _MsoFFEWch
+(__TEXT,__text) external _MsoFGenerateRandomFilename
+(__TEXT,__text) external _MsoFGetSecureTempPathW
+(__TEXT,__text) external _MsoFGrowPx
+(__TEXT,__text) external _MsoFGuidFromWz
+(__TEXT,__text) external _MsoFHexDigitWch
+(__TEXT,__text) external _MsoFHighContrast
+(__TEXT,__text) external _MsoFInResume
+(__TEXT,__text) external _MsoFInitPx
+(__TEXT,__text) external _MsoFInitPxCore
+(__TEXT,__text) external _MsoFInsertExPx
+(__TEXT,__text) external _MsoFInsertNewPx
+(__TEXT,__text) external _MsoFInsertPx
+(__TEXT,__text) external _MsoFIsDomainSeparator
+(__TEXT,__text) external _MsoFIsFromTempInternetCache
+(__TEXT,__text) external _MsoFIsFromUserTempFolder
+(__TEXT,__text) external _MsoFIsRunningRestricted
+(__TEXT,__text) external _MsoFLongLoad
+(__TEXT,__text) external _MsoFLongSave
+(__TEXT,__text) external _MsoFLookupPx
+(__TEXT,__text) external _MsoFLookupSortPx
+(__TEXT,__text) external _MsoFLookupWzInPxwz
+(__TEXT,__text) external _MsoFMarkMemCore
+(__TEXT,__text) external _MsoFNextLookupPx
+(__TEXT,__text) external _MsoFOfficeShuttingDown
+(__TEXT,__text) external _MsoFParseBoolWz
+(__TEXT,__text) external _MsoFPuncWch
+(__TEXT,__text) external _MsoFQuickSort
+(__TEXT,__text) external _MsoFQuickSortPx
+(__TEXT,__text) external _MsoFRegGetBinary
+(__TEXT,__text) external _MsoFRegGetDwCore
+(__TEXT,__text) external _MsoFRegGetMultiWz
+(__TEXT,__text) external _MsoFRegKeyExists
+(__TEXT,__text) external _MsoFRegPolicyValueExists
+(__TEXT,__text) external _MsoFRegReadDefaultWz
+(__TEXT,__text) external _MsoFRegReadSz
+(__TEXT,__text) external _MsoFRegReadWz
+(__TEXT,__text) external _MsoFRegSetBinary
+(__TEXT,__text) external _MsoFRegSetCFString
+(__TEXT,__text) external _MsoFRegSetDw
+(__TEXT,__text) external _MsoFRegSetMultiWz
+(__TEXT,__text) external _MsoFRegSetSz
+(__TEXT,__text) external _MsoFRegSetWz
+(__TEXT,__text) external _MsoFRegValueExists
+(__TEXT,__text) external _MsoFRegValueExistsDefault
+(__TEXT,__text) external _MsoFRemovePx
+(__TEXT,__text) external _MsoFResizePx
+(__TEXT,__text) external _MsoFRgchRecognizedURI
+(__TEXT,__text) external _MsoFRgwchNeedsXmlEscaping
+(__TEXT,__text) external _MsoFRomanDigitWch
+(__TEXT,__text) external _MsoFSafeMode
+(__TEXT,__text) external _MsoFSpaceCh
+(__TEXT,__text) external _MsoFSpaceWch
+(__TEXT,__text) external _MsoFSqmEnabled
+(__TEXT,__text) external _MsoFSqmSetStreamParameters
+(__TEXT,__text) external _MsoFSurrogatePairToUCS4
+(__TEXT,__text) external _MsoFSzToWzCore
+(__TEXT,__text) external _MsoFTestCbPv
+(__TEXT,__text) external _MsoFTestCbPvRO
+(__TEXT,__text) external _MsoFTestH
+(__TEXT,__text) external _MsoFTestSt
+(__TEXT,__text) external _MsoFTestStz
+(__TEXT,__text) external _MsoFTestSz
+(__TEXT,__text) external _MsoFTestWt
+(__TEXT,__text) external _MsoFTestWtz
+(__TEXT,__text) external _MsoFTestWz
+(__TEXT,__text) external _MsoFUCS4ToSurrogatePair
+(__TEXT,__text) external _MsoFValidNCNameRgwch
+(__TEXT,__text) external _MsoFValidXmlChar
+(__TEXT,__text) external _MsoFValidXmlPxch
+(__TEXT,__text) external _MsoFValidateUrn
+(__TEXT,__text) external _MsoFWindowsLiveHost
+(__TEXT,__text) external _MsoFWordLoad
+(__TEXT,__text) external _MsoFWordSave
+(__TEXT,__text) external _MsoFWtzLoad
+(__TEXT,__text) external _MsoFWtzSave
+(__TEXT,__text) external _MsoFWzAllDigits
+(__TEXT,__text) external _MsoFWzIsResUrl
+(__TEXT,__text) external _MsoFWzToSzCore
+(__TEXT,__text) external _MsoFreeHost
+(__TEXT,__text) external _MsoFreePvCore
+(__TEXT,__text) external _MsoFreePx
+(__TEXT,__text) external _MsoFreePxwz
+(__TEXT,__text) external _MsoGetApp
+(__TEXT,__text) external _MsoGetCryptCompatMode
+(__TEXT,__text) external _MsoGetDigSigApp
+(__TEXT,__text) external _MsoGetDoubleClickTime
+(__TEXT,__text) external _MsoGetIdealConcurrencyValue
+(__TEXT,__text) external _MsoGetScaleFactor
+(__TEXT,__text) external _MsoGetSysColor
+(__TEXT,__text) external _MsoGetSystemMetrics
+(__TEXT,__text) external _MsoGetTempFileNameW
+(__TEXT,__text) external _MsoGlobalAlloc
+(__TEXT,__text) external _MsoGlobalFlags
+(__TEXT,__text) external _MsoGlobalFree
+(__TEXT,__text) external _MsoGlobalHandle
+(__TEXT,__text) external _MsoGlobalLock
+(__TEXT,__text) external _MsoGlobalReAlloc
+(__TEXT,__text) external _MsoGlobalSize
+(__TEXT,__text) external _MsoGlobalUnlock
+(__TEXT,__text) external _MsoHexFromBytes
+(__TEXT,__text) external _MsoHrCloneUrl
+(__TEXT,__text) external _MsoHrComputePasswordHash
+(__TEXT,__text) external _MsoHrCopyRgvarg
+(__TEXT,__text) external _MsoHrCreateBase64DecodeStream
+(__TEXT,__text) external _MsoHrCreateBase64EncodeStream
+(__TEXT,__text) external _MsoHrCreateCapiHash
+(__TEXT,__text) external _MsoHrCreateHashObj
+(__TEXT,__text) external _MsoHrCreateUrlSimple
+(__TEXT,__text) external _MsoHrCreateUrlSimpleFromCanonicalUrl
+(__TEXT,__text) external _MsoHrCreateUrlSimpleFromUser
+(__TEXT,__text) external _MsoHrCreateUrlSimpleFromUserRgwch
+(__TEXT,__text) external _MsoHrDecodeUrlCore
+(__TEXT,__text) external _MsoHrEscapeXmlRgwch
+(__TEXT,__text) external _MsoHrGenerateRandomData
+(__TEXT,__text) external _MsoHrGetAppDataFolder
+(__TEXT,__text) external _MsoHrGetByteStream
+(__TEXT,__text) external _MsoHrGetByteStreamFromHandle
+(__TEXT,__text) external _MsoHrGetDesktopFolder
+(__TEXT,__text) external _MsoHrGetFileByteStream
+(__TEXT,__text) external _MsoHrGetFileByteStreamMFO
+(__TEXT,__text) external _MsoHrGetIBSFromILockBytes
+(__TEXT,__text) external _MsoHrGetIBSFromIStreamEx
+(__TEXT,__text) external _MsoHrGetILockBytesFromIBS
+(__TEXT,__text) external _MsoHrGetILockBytesFromIStream
+(__TEXT,__text) external _MsoHrGetIStorageFromIBSEx
+(__TEXT,__text) external _MsoHrGetIStream
+(__TEXT,__text) external _MsoHrGetIStreamFromIBSEx
+(__TEXT,__text) external _MsoHrGetLocalAppDataFolder
+(__TEXT,__text) external _MsoHrGetMsoMallocEx
+(__TEXT,__text) external _MsoHrGetMyDocumentsFolder
+(__TEXT,__text) external _MsoHrGetMyPicturesFolder
+(__TEXT,__text) external _MsoHrGetTempFileByteStream2
+(__TEXT,__text) external _MsoHrGetTempFileByteStreamEx
+(__TEXT,__text) external _MsoHrGetUrlDisplayForm
+(__TEXT,__text) external _MsoHrGzipUncompressFromIBS
+(__TEXT,__text) external _MsoHrIdnDecodeServer
+(__TEXT,__text) external _MsoHrIdnEncodeServer
+(__TEXT,__text) external _MsoHrMakeStringSimple
+(__TEXT,__text) external _MsoHrSetUrlFromEscapedUTF8
+(__TEXT,__text) external _MsoHrSimpleQueryInterface
+(__TEXT,__text) external _MsoHrSimpleQueryInterface2
+(__TEXT,__text) external _MsoHrUnescapeXmlRgwch
+(__TEXT,__text) external _MsoHrVerifyFreeThreadedObject
+(__TEXT,__text) external _MsoHrVerifyFreeThreadedObjectStdImpl
+(__TEXT,__text) external _MsoHrZAdler32Compute
+(__TEXT,__text) external _MsoHrZCompressToIBS
+(__TEXT,__text) external _MsoHrZCrc32Compute
+(__TEXT,__text) external _MsoHrZUncompressFromIBS
+(__TEXT,__text) external _MsoIAppendNewPx
+(__TEXT,__text) external _MsoIAppendPx
+(__TEXT,__text) external _MsoIAppendUniquePx
+(__TEXT,__text) external _MsoIFromPwch
+(__TEXT,__text) external _MsoIInsertSortDupPx
+(__TEXT,__text) external _MsoIInsertSortPx
+(__TEXT,__text) external _MsoInitRgvarg
+(__TEXT,__text) external _MsoIsProcessInAppContainer
+(__TEXT,__text) external _MsoMovePx
+(__TEXT,__text) external _MsoMultiByteToWideChar
+(__TEXT,__text) external _MsoOSRegCreateKeyExW
+(__TEXT,__text) external _MsoOSRegOpenKeyExW
+(__TEXT,__text) external _MsoOrapiDeleteFromCache
+(__TEXT,__text) external _MsoPLookupPx
+(__TEXT,__text) external _MsoPLookupSortPx
+(__TEXT,__text) external _MsoParseDoubleWz
+(__TEXT,__text) external _MsoParseDoubleWzEx
+(__TEXT,__text) external _MsoParseHexIntSz
+(__TEXT,__text) external _MsoParseHexIntWz
+(__TEXT,__text) external _MsoParseHexUIntWz
+(__TEXT,__text) external _MsoParseInt64Wz
+(__TEXT,__text) external _MsoParseIntWz
+(__TEXT,__text) external _MsoParseTimeWz
+(__TEXT,__text) external _MsoParseUInt64Wz
+(__TEXT,__text) external _MsoParseUIntWz
+(__TEXT,__text) external _MsoPathFindExtension
+(__TEXT,__text) external _MsoPathFindNextComponent
+(__TEXT,__text) external _MsoPathIsUNC
+(__TEXT,__text) external _MsoPathIsURL
+(__TEXT,__text) external _MsoPathRemoveBackslash
+(__TEXT,__text) external _MsoPathRemoveExtension
+(__TEXT,__text) external _MsoPathRemoveFileSpec
+(__TEXT,__text) external _MsoPathSkipRoot
+(__TEXT,__text) external _MsoPathStripToRoot
+(__TEXT,__text) external _MsoPchStrStrFast
+(__TEXT,__text) external _MsoPostMsoMessageToAllInstances
+(__TEXT,__text) external _MsoPvAllocClearCore
+(__TEXT,__text) external _MsoPvCallocExCore
+(__TEXT,__text) external _MsoPvReallocCore
+(__TEXT,__text) external _MsoPwchLowerCore
+(__TEXT,__text) external _MsoPwchStrStrFast
+(__TEXT,__text) external _MsoPwchStrStrRightFast
+(__TEXT,__text) external _MsoPwchUpperCore
+(__TEXT,__text) external _MsoQueryInfoKeyW
+(__TEXT,__text) external _MsoRaiseException
+(__TEXT,__text) external _MsoRegCopyCFString
+(__TEXT,__text) external _MsoRegCreateKey
+(__TEXT,__text) external _MsoRegCreateKeyEx
+(__TEXT,__text) external _MsoRegCreateKeyExA
+(__TEXT,__text) external _MsoRegCreateKeyExW
+(__TEXT,__text) external _MsoRegCreateKeySimpleW
+(__TEXT,__text) external _MsoRegDeleteKey
+(__TEXT,__text) external _MsoRegDeleteTree
+(__TEXT,__text) external _MsoRegDeleteValue
+(__TEXT,__text) external _MsoRegEnumKeyExW
+(__TEXT,__text) external _MsoRegEnumValueW
+(__TEXT,__text) external _MsoRegOpenKey
+(__TEXT,__text) external _MsoRegOpenKeyEx
+(__TEXT,__text) external _MsoRegOpenKeyEx2
+(__TEXT,__text) external _MsoRegOpenKeyExA
+(__TEXT,__text) external _MsoRegOpenKeyExW
+(__TEXT,__text) external _MsoRegQueryInfoKeyW
+(__TEXT,__text) external _MsoRegQueryValueExW
+(__TEXT,__text) external _MsoRegQueryValueW
+(__TEXT,__text) external _MsoRegReadWz
+(__TEXT,__text) external _MsoRegSetValueExW
+(__TEXT,__text) external _MsoReleaseMemCore
+(__TEXT,__text) external _MsoReleaseMemHost
+(__TEXT,__text) external _MsoReplaceAllOfWchWithWch
+(__TEXT,__text) external _MsoReplaceFileW
+(__TEXT,__text) external _MsoRestartApp
+(__TEXT,__text) external _MsoRewindStream
+(__TEXT,__text) external _MsoRgchCopy
+(__TEXT,__text) external _MsoRgchIndexRight
+(__TEXT,__text) external _MsoRgchIndexSimple
+(__TEXT,__text) external _MsoRgchToRgwch
+(__TEXT,__text) external _MsoRgochToRgoch
+(__TEXT,__text) external _MsoRgwchAppend
+(__TEXT,__text) external _MsoRgwchCopy
+(__TEXT,__text) external _MsoRgwchIndex
+(__TEXT,__text) external _MsoRgwchIndexRight
+(__TEXT,__text) external _MsoRgwchLowerFast
+(__TEXT,__text) external _MsoRgwchPathSepIndex
+(__TEXT,__text) external _MsoRgwchPathSepIndexRight
+(__TEXT,__text) external _MsoRgwchToCpRgch
+(__TEXT,__text) external _MsoRgwchToCpRgch2
+(__TEXT,__text) external _MsoRgwchToCpRgchExCore
+(__TEXT,__text) external _MsoRgwchToRgchSimple
+(__TEXT,__text) external _MsoRgwchUrlSepIndex
+(__TEXT,__text) external _MsoRgwchUrlSepIndexRight
+(__TEXT,__text) external _MsoRgwchWtAppend
+(__TEXT,__text) external _MsoRgwchWtzAppend
+(__TEXT,__text) external _MsoScaleForDPI
+(__TEXT,__text) external _MsoSetApp
+(__TEXT,__text) external _MsoSetDigSigApp
+(__TEXT,__text) external _MsoSetStackLimits
+(__TEXT,__text) external _MsoSgnRgchRgwchCompareSimple
+(__TEXT,__text) external _MsoShipAssertTagProc
+(__TEXT,__text) external _MsoStRgchCopy
+(__TEXT,__text) external _MsoStToSz
+(__TEXT,__text) external _MsoStToWzCch
+(__TEXT,__text) external _MsoStealPx
+(__TEXT,__text) external _MsoStgCreateDocfile
+(__TEXT,__text) external _MsoStgCreateStorageEx
+(__TEXT,__text) external _MsoStgOpenStorage
+(__TEXT,__text) external _MsoStgOpenStorageEx
+(__TEXT,__text) external _MsoSzAppend
+(__TEXT,__text) external _MsoSzCloneRgchCore
+(__TEXT,__text) external _MsoSzDecodeInt
+(__TEXT,__text) external _MsoSzDecodeSize_t
+(__TEXT,__text) external _MsoSzDecodeUint
+(__TEXT,__text) external _MsoSzMarkRgwchCore
+(__TEXT,__text) external _MsoSzToSt
+(__TEXT,__text) external _MsoSzToWtzCore
+(__TEXT,__text) external _MsoSzToWz
+(__TEXT,__text) external _MsoSzToWzSimple
+(__TEXT,__text) external _MsoUpdateBpsc
+(__TEXT,__text) external _MsoUsrFromWch
+(__TEXT,__text) external _MsoWaitForMultipleObjects
+(__TEXT,__text) external _MsoWaitForMultipleObjectsEx
+(__TEXT,__text) external _MsoWaitForSingleObject
+(__TEXT,__text) external _MsoWaitForSingleObjectEx
+(__TEXT,__text) external _MsoWaitResumeAdjusted
+(__TEXT,__text) external _MsoWchStripAccent
+(__TEXT,__text) external _MsoWchToLowerLid
+(__TEXT,__text) external _MsoWchToUpperInvariant
+(__TEXT,__text) external _MsoWchToUpperLid
+(__TEXT,__text) external _MsoWideCharToMultiByte
+(__TEXT,__text) external _MsoWtRgwchCopy
+(__TEXT,__text) external _MsoWtzAppend
+(__TEXT,__text) external _MsoWtzRgwchCopy
+(__TEXT,__text) external _MsoWtzToWz
+(__TEXT,__text) external _MsoWzAfterPath
+(__TEXT,__text) external _MsoWzAppend
+(__TEXT,__text) external _MsoWzBeforeExt
+(__TEXT,__text) external _MsoWzCloneLenCore
+(__TEXT,__text) external _MsoWzCloneRgwchCore
+(__TEXT,__text) external _MsoWzDecodeDouble
+(__TEXT,__text) external _MsoWzDecodeDoubleEx
+(__TEXT,__text) external _MsoWzDecodeInt
+(__TEXT,__text) external _MsoWzDecodeInt64
+(__TEXT,__text) external _MsoWzDecodeTime
+(__TEXT,__text) external _MsoWzDecodeUIntFill
+(__TEXT,__text) external _MsoWzDecodeUint
+(__TEXT,__text) external _MsoWzDecodeUint64
+(__TEXT,__text) external _MsoWzFileNameInPath
+(__TEXT,__text) external _MsoWzGetTempFilename
+(__TEXT,__text) external _MsoWzGetUserAgent
+(__TEXT,__text) external _MsoWzGetUserAgent2
+(__TEXT,__text) external _MsoWzLowerCore
+(__TEXT,__text) external _MsoWzMarkRgchCore
+(__TEXT,__text) external _MsoWzStripSpaces
+(__TEXT,__text) external _MsoWzToStCch
+(__TEXT,__text) external _MsoWzToSzCore
+(__TEXT,__text) external _MsoWzToSzNotInPlace
+(__TEXT,__text) external _MsoWzToSzSimple
+(__TEXT,__text) external _MsoWzToSzSimpleInPlace
+(__TEXT,__text) external _MsoWzToWtz
+(__TEXT,__text) external _MsoWzToken
+(__TEXT,__text) external _MsoWzUpperCore
+(undefined) external _MultiByteToWideChar (from WLMKernel)
+(undefined) external _NLAssertShipAssertFailedf (from mbuinstrument)
+(undefined) external _NLAssertShipAssertFailedv (from mbuinstrument)
+(undefined) external _NSApplicationDidChangeScreenParametersNotification (from AppKit)
+(undefined) external _NSDefaultRunLoopMode (from CoreFoundation)
+(undefined) external _NSModalPanelRunLoopMode (from AppKit)
+(undefined) external _NSSearchPathForDirectoriesInDomains (from Foundation)
+(undefined) external _NSWindowDidChangeBackingPropertiesNotification (from AppKit)
+(undefined) external _NSWindowDidChangeScreenNotification (from AppKit)
+(undefined) external _OBJC_CLASS_$_MBUUnSafeMainThreadNotificationCenter (from mbukernel)
+(undefined) external _OBJC_CLASS_$_NSArray (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSData (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSDistributedNotificationCenter (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSEnumerator (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSEvent (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSFileManager (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSNotification (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSNotificationCenter (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSNotificationQueue (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSObject (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSOperationQueue (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSScreen (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSValue (from Foundation)
+(undefined) external _OBJC_METACLASS_$_NSEnumerator (from CoreFoundation)
+(undefined) external _OBJC_METACLASS_$_NSObject (from CoreFoundation)
+(undefined) external _OSAtomicAnd32Barrier (from libSystem)
+(undefined) external _OSAtomicOr32Barrier (from libSystem)
+(undefined) external _OSMemoryBarrier (from libSystem)
+(undefined) external _OSSpinLockLock (from libSystem)
+(undefined) external _OSSpinLockUnlock (from libSystem)
+(undefined) external _PathFindNextComponentW (from WLMKernel)
+(undefined) external _PathIsRootW (from WLMKernel)
+(undefined) external _PathRemoveFileSpecW (from WLMKernel)
+(undefined) external _PathSkipRootW (from WLMKernel)
+(undefined) external _PathStripToRootW (from WLMKernel)
+(__TEXT,__text) external _PchStrStrFast
+(undefined) external _PfmFRLCreateDirectory (from mbukernel)
+(undefined) external _PfmFRLCreateFromWz (from mbukernel)
+(undefined) external _PfmFRLDeleteDirectoryContents (from mbukernel)
+(undefined) external _PfmFRLDeleteObject (from mbukernel)
+(undefined) external _PfmFRLRelease (from mbukernel)
+(undefined) external _PfmFRLWlmCreateFile (from WLMKernel)
+(undefined) external _PfmFRLWlmGetTempFileName (from WLMKernel)
+(undefined) external _Private_ULSLoggingSendTraceWithOptions (from mbuinstrument)
+(undefined) external _QueryDepthSList (from WLMKernel)
+(undefined) external _QueryPerformanceCounter (from WLMKernel)
+(undefined) external _QueryPerformanceFrequency (from WLMKernel)
+(undefined) external _ReadFile (from WLMKernel)
+(undefined) external _RegCloseKey (from WLMKernel)
+(undefined) external _RegCreateKeyExA (from WLMKernel)
+(undefined) external _RegCreateKeyExW (from WLMKernel)
+(undefined) external _RegDeleteKeyW (from WLMKernel)
+(undefined) external _RegDeleteTreeW (from WLMKernel)
+(undefined) external _RegDeleteValueW (from WLMKernel)
+(undefined) external _RegEnumKeyExW (from WLMKernel)
+(undefined) external _RegEnumKeyW (from WLMKernel)
+(undefined) external _RegEnumValueW (from WLMKernel)
+(undefined) external _RegGetValueW (from WLMKernel)
+(undefined) external _RegOpenKeyExA (from WLMKernel)
+(undefined) external _RegOpenKeyExW (from WLMKernel)
+(undefined) external _RegQueryInfoKeyW (from WLMKernel)
+(undefined) external _RegQueryValueExW (from WLMKernel)
+(undefined) external _RegQueryValueW (from WLMKernel)
+(undefined) external _RegSetValueExW (from WLMKernel)
+(undefined) external _ReleaseSRWLockExclusive (from WLMKernel)
+(undefined) external _ReleaseSRWLockShared (from WLMKernel)
+(undefined) external _ReleaseSemaphore (from WLMKernel)
+(undefined) external _ReplaceFileW (from WLMKernel)
+(undefined) external _ResetEvent (from WLMKernel)
+(undefined) external _SCDynamicStoreCopyProxies (from SystemConfiguration)
+(undefined) external _SCNetworkReachabilityCreateWithAddress (from SystemConfiguration)
+(undefined) external _SCNetworkReachabilityGetFlags (from SystemConfiguration)
+(undefined) external _SHGetFolderPathW (from WLMKernel)
+(undefined) external _SetEndOfFile (from WLMKernel)
+(undefined) external _SetEvent (from WLMKernel)
+(undefined) external _SetFileAttributesW (from WLMKernel)
+(undefined) external _SetFilePointer (from WLMKernel)
+(undefined) external _SetFilePointerEx (from WLMKernel)
+(undefined) external _SetFileSecurityW (from WLMKernel)
+(undefined) external _SetFileTime (from WLMKernel)
+(undefined) external _SetLastError (from WinCrypto)
+(__TEXT,__text) external _SetThreadManagerProvider
+(undefined) external _SetThreadPriority (from WLMKernel)
+(undefined) external _SetWaitableTimer (from WLMKernel)
+(__TEXT,__text) external _SgnLCompare
+(__TEXT,__text) external _SgnPtrCompare
+(__TEXT,__text) external _SidFromCharClass
+(__TEXT,__text) external _SidFromWch
+(undefined) external _SleepEx (from WLMKernel)
+(undefined) external _StgCreateDocfile (from OLE)
+(undefined) external _StgCreateDocfileOnILockBytes (from OLE)
+(undefined) external _StgOpenStorage (from OLE)
+(undefined) external _StgOpenStorageOnILockBytes (from OLE)
+(undefined) external _StringFromGUID2 (from COMBase)
+(undefined) external _StringFromIID (from COMBase)
+(undefined) external _SysAllocString (from OLEAutomation)
+(undefined) external _SysFreeString (from OLEAutomation)
+(undefined) external _SystemTimeToFileTime (from WLMKernel)
+(undefined) external _TlsAlloc (from WLMKernel)
+(undefined) external _TlsFree (from WLMKernel)
+(undefined) external _TlsGetValue (from WLMKernel)
+(undefined) external _TlsSetValue (from WLMKernel)
+(__TEXT,__text) external _TpHrCreateEventPool
+(__TEXT,__text) external _TpHrCreateExclusiveLock
+(__TEXT,__text) external _TpHrCreatePM
+(__TEXT,__text) external _TpHrCreateSRWLock
+(__TEXT,__text) external _TpHrCreateTM
+(__TEXT,__text) external _TpHrGetTM
+(__TEXT,__text) external _TpHrInitTM
+(__TEXT,__text) external _TpHrRunCallbackOnThreadTag
+(__TEXT,__text) external _TpLdrEvent
+(__TEXT,__text) external _TpUninitTM
+(__TEXT,__text) external _TpUninitTMCore
+(undefined) external _TryEnterCriticalSection (from WLMKernel)
+(undefined) external _ULSLoggingCopySessionID (from mbuinstrument)
+(undefined) external _ULSLoggingShouldLog (from mbuinstrument)
+(__TEXT,__text) external _UTF8ToUnicode
+(__TEXT,__text) external _UnicodeToUTF8Core
+(__TEXT,__text) external _UsbToUsr
+(__TEXT,__text) external _UsrToUsb
+(__TEXT,__text) external _ValHexDigitWch
+(undefined) external _VariantClear (from OLEAutomation)
+(undefined) external _VariantCopy (from OLEAutomation)
+(undefined) external _VariantInit (from OLEAutomation)
+(undefined) external _WaitForMultipleObjects (from WLMKernel)
+(undefined) external _WaitForMultipleObjectsEx (from WLMKernel)
+(undefined) external _WaitForSingleObject (from WLMKernel)
+(undefined) external _WaitForSingleObjectEx (from WLMKernel)
+(undefined) external _WideCharToMultiByte (from WLMKernel)
+(__TEXT,__text) external _WinHttpGetIEProxyConfigForCurrentUser
+(undefined) external _WlmGetGUIDFromCFUUID (from WLMKernel)
+(undefined) external _WlmGetGUIDFromNSUUID (from WLMKernel)
+(undefined) external _WlmTimevalToFiletime (from WLMKernel)
+(undefined) external _WriteFile (from WLMKernel)
+(undefined) external _WriteFmtUserTypeStg (from OLE)
+(__TEXT,__text) external _WzCngAlgFromAlgid
+(__TEXT,__text) external _WzGetFileExtension
+(__TEXT,__text) external _WzGetFileLeafFromPath
+(undefined) external __Block_object_assign (from libSystem)
+(undefined) external __Block_object_dispose (from libSystem)
+(undefined) external __DefaultRuneLocale (from libSystem)
+(undefined) external __Exit (from libSystem)
+(__TEXT,__text) external __MsoSendStructuredTraceTagv
+(undefined) external __NSConcreteGlobalBlock (from libSystem)
+(undefined) external __NSConcreteStackBlock (from libSystem)
+(undefined) external __Unwind_Resume (from libSystem)
+(__TEXT,__text) external LogLevelSet(logging::logLevel, bool, bool)
+(__TEXT,__text) external MsoSetTimer(unsigned long long, unsigned int, void (*)(HWND__*, unsigned int, unsigned long long, unsigned int))
+(__TEXT,__text) external FInFContinue()
+(__TEXT,__text) external MsoKillTimer(unsigned long long)
+(__TEXT,__text) external FSzFromWzCore(unsigned int, wchar_t const*, char**, unsigned int, IMsoMemHeap*)
+(__TEXT,__text) external MsoFIsThaiChar(wchar_t)
+(__TEXT,__text) external FChIsTerminator(wchar_t, int)
+(__TEXT,__text) external _MsoCchInsertWz(wchar_t*, wchar_t const*, wchar_t const*, wchar_t const* const*)
+(__TEXT,__text) external IDigitValueOfWch(wchar_t)
+(undefined) external MBUThreadRunOnce(_opaque_pthread_once_t*, void (*)()) (from mbukernel)
+(__TEXT,__text) external GetCurrentLogLevel()
+(__TEXT,__text) external MsoGetWaitableTimer(MsoTimeoutInterval const&)
+(__TEXT,__text) external FWchInRgwchAscending(wchar_t, wchar_t const*, int)
+(__TEXT,__text) external MsoGetStreamContents(IStream&, IMsoString&)
+(undefined) external MBUThreadIsMainThread() (from mbukernel)
+(__TEXT,__text) external MsoCreateStringStream(wchar_t const*)
+(__TEXT,__text) external MsoGetIdleTaskManager(Mso::TCntPtr<IMsoIdleTaskManager>&)
+(__TEXT,__text) external MsoWaitForSingleObject(void*, MsoTimeoutInterval const&, bool)
+(__TEXT,__text) external MsoHrAddFuncToIdleQueue(long long*, bool (&)(MsoFunctionIdleTask&, void*), void*, unsigned int, wchar_t const*, MsoIdlePriority, MsoIdleScheduler, unsigned int, MsoTimeoutInterval const&)
+(__TEXT,__text) external MsoHrAddTaskToIdleQueue(MsoIdleTaskNoRefCount*)
+(__TEXT,__text) external MsoReleaseWaitableTimer(void*)
+(__TEXT,__text) external MsoHrChangeIdleTaskProps(MsoIdleTaskNoRefCount*, unsigned int, MsoIdlePriority, MsoIdleScheduler, unsigned int, MsoTimeoutInterval const&)
+(__TEXT,__text) external MsoFExpandSpecialCharsWtz(wchar_t const*, wchar_t*, int, wchar_t)
+(__TEXT,__text) external MsoWaitForMultipleObjects(unsigned int, void* const*, bool, MsoTimeoutInterval const&, bool)
+(__TEXT,__text) external MsoHrRemoveTaskFromIdleQueue(MsoIdleTaskNoRefCount*)
+(__TEXT,__text) external MsoHrRemoveTaskFromIdleQueue(long long)
+(__TEXT,__text) external LogFile(std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&)
+(__TEXT,__text) external MsoSleep(MsoTimeoutInterval const&, bool)
+(__TEXT,__text) external ThrowOOM()
+(__TEXT,__text) external CMsoString::FAppendInt(int, int)
+(__TEXT,__text) external CMsoString::FAppendWch(wchar_t)
+(__TEXT,__text) external CMsoString::FCopyRgwch(wchar_t const*, int)
+(__TEXT,__text) external CMsoString::FCopyWzCch(wchar_t const*, int)
+(__TEXT,__text) external CMsoString::FInsertWch(wchar_t, int, int)
+(__TEXT,__text) external CMsoString::FTruncLeft(int)
+(__TEXT,__text) external CMsoString::FTruncRight(int)
+(__TEXT,__text) external CMsoString::FAppendRgwch(wchar_t const*, int)
+(__TEXT,__text) external CMsoString::WzLockBuffer(int)
+(__TEXT,__text) external CMsoString::ReleaseBuffer()
+(__TEXT,__text) external CMsoString::ReplaceWchWithWch(wchar_t, wchar_t, int)
+(__TEXT,__text) external CMsoString::RemoveLeadingSpaces()
+(__TEXT,__text) external CMsoString::RemoveTrailingSpaces()
+(__TEXT,__text) external CMsoString::ReplaceWchWithWchSubstr(wchar_t, wchar_t, int, int)
+(__TEXT,__text) external CMsoString::Empty()
+(__TEXT,__text) external CMsoString::FSetAt(int, wchar_t)
+(__TEXT,__text) external CMsoString::FCopyWz(wchar_t const*)
+(__TEXT,__text) external CMsoString::FTruncAt(int)
+(__TEXT,__text) external CMsoString::HrPrintf(wchar_t const*, ...)
+(__TEXT,__text) external CMsoString::FAppendWz(wchar_t const*)
+(__TEXT,__text) external CMsoString::FInsertWz(wchar_t const*, int, int)
+(__TEXT,__text) external CMsoString::FRemoveAt(int, int)
+(__TEXT,__text) external CMsoString::CMsoString(IMsoMemHeap*)
+(__TEXT,__text) external CMsoString::CMsoString()
+(__TEXT,__text) external CMsoString::~CMsoString()
+(__TEXT,__text) external MsoIdleMgr::FContinueIdle()
+(__TEXT,__text) external CZlibHelper::Setup(DCM, DCTune, bool)
+(__TEXT,__text) external CZlibHelper::SetZSS(ZSS, unsigned long long)
+(__TEXT,__text) external CZlibHelper::CZlibHelper(DCM, DCTune, bool)
+(__TEXT,__text) external CZlibHelper::CZlibHelper()
+(__TEXT,__text) external CZlibHelper::~CZlibHelper()
+(__TEXT,__text) external XmlCharacter::isNameChar(wchar_t)
+(__TEXT,__text) external XmlCharacter::isWhitespace(wchar_t)
+(__TEXT,__text) external XmlCharacter::isStartNameChar(wchar_t)
+(__TEXT,__text) external CBase64Binary::DecodeInternal(char const*, unsigned int, unsigned char*, unsigned int*)
+(__TEXT,__text) external CBase64Binary::CbMinEncodeBufSize(unsigned int)
+(__TEXT,__text) external CBase64Binary::Encode(void const*, unsigned int, unsigned char*, unsigned int, unsigned int*)
+(__TEXT,__text) external CMsoUrlSimple::QueryInterface(_GUID const&, void**)
+(__TEXT,__text) external CMsoUrlSimple::HrSetRelativity(MSOURLRELATIVITY)
+(__TEXT,__text) external CMsoUrlSimple::HrSetFromUserRgwch(wchar_t const*, int, unsigned int, IMsoUrl const*, unsigned long long)
+(__TEXT,__text) external CMsoUrlSimple::FRemoveDefaultPorts()
+(__TEXT,__text) external CMsoUrlSimple::HrSetFromCanonicalUrl(wchar_t const*, unsigned int, IMsoUrl const*)
+(__TEXT,__text) external CMsoUrlSimple::AddRef()
+(__TEXT,__text) external CMsoUrlSimple::Release()
+(__TEXT,__text) external CMsoUrlSimple::HrRebase(IMsoUrl const*)
+(__TEXT,__text) external CMsoUrlSimple::CMsoUrlSimple(IMsoMemHeap*)
+(__TEXT,__text) external CMsoUrlSimple::CMsoUrlSimple()
+(__TEXT,__text) external CMsoUrlSimple::CMsoUrlSimple(IMsoMemHeap*)
+(__TEXT,__text) external CMsoUrlSimple::~CMsoUrlSimple()
+(__TEXT,__text) external CMsoUrlSimple::~CMsoUrlSimple()
+(__TEXT,__text) external CTpObjectPool::HrCreate(unsigned long, unsigned short, ITpUserDataManager*, CTpObjectPool**)
+(__TEXT,__text) external DynamicMsorid::InitForKey(_msoreg const&, wchar_t const*, unsigned long)
+(__TEXT,__text) external DynamicMsorid::InitForValue(_msoreg const&, wchar_t const*, unsigned long, RegValueType)
+(__TEXT,__text) external CProcessMsoUrl::HrInitPath()
+(__TEXT,__text) external CProcessMsoUrl::HrInitServer()
+(__TEXT,__text) external CProcessMsoUrl::InitFullServer()
+(__TEXT,__text) external CProcessMsoUrl::HrInitExtendedPath()
+(__TEXT,__text) external CProcessMsoUrl::HrInitCanonicalForm()
+(__TEXT,__text) external CProcessMsoUrl::InitFullServerAndDir()
+(__TEXT,__text) external CProcessMsoUrl::HrInitDir()
+(__TEXT,__text) external CSingletonBase::ReleaseAllResources()
+(__TEXT,__text) external CSingletonBase::CSingletonBase(bool, bool)
+(__TEXT,__text) external CSingletonBase::~CSingletonBase()
+(__TEXT,__text) external CProgressHelper::HrContinueCore()
+(__DATA,__common) external CProgressHelper::g_tcLastUpdate
+(__TEXT,__text) external CWinInetCookies::FInitialize()
+(undefined) external WLMThreadDecorator::WLMThreadDecorator() (from WLMKernel)
+(undefined) external WLMThreadDecorator::~WLMThreadDecorator() (from WLMKernel)
+(__TEXT,__text) external MsoIdleTaskNoRefCount::SetDelay(MsoTimeoutInterval const&)
+(__TEXT,__text) external MsoIdleTaskNoRefCount::MsoIdleTaskNoRefCount(unsigned int, MsoIdlePriority, MsoIdleScheduler, unsigned int, MsoTimeoutInterval const&)
+(__TEXT,__text) external CReadOnlyStreamLimiter::CreateLimiter(unsigned int, IMsoMemHeap*)
+(__TEXT,__text) external IMsoForegroundDispatcher::Create(void*)
+(__DATA,__data) external et::exceptionTypeName
+(undefined) external Mbu::AB::LowLevel::IABTreatmentProvider::RegisterInstance(Mbu::AB::LowLevel::IABTreatmentProvider*) (from mbuinstrument)
+(undefined) external Mbu::Http::IsTimeoutError(Mbu::Http::Result) (from mbukernel)
+(undefined) external Mbu::Http::MbuCreateHttpRequest(Mbu::Http::IRequest**) (from mbukernel)
+(undefined) external Mbu::Http::IsSSLCertificateError(Mbu::Http::Result) (from mbukernel)
+(undefined) external Mbu::Http::MbuCreateHttpRequest_v2(Mbu::Http::IRequest**) (from mbukernel)
+(undefined) external Mbu::Http::MbuCreateCookieEnumerator(Mbu::Http::IRequestContext*, wchar_t const*, Mbu::Http::ICookieEnumerator**) (from mbukernel)
+(undefined) external Mbu::Http::IsNetworkConnectivityError(Mbu::Http::Result) (from mbukernel)
+(undefined) external Mbu::Http::MbuCreateHttpRequestContext(wchar_t const*, Mbu::Http::IRequestContext**) (from mbukernel)
+(undefined) external Mbu::Http::MbuCreateHttpRequest_legacy(Mbu::Http::IRequest**) (from mbukernel)
+(undefined) external Mbu::Http::MbuCreateHttpRequestSettings(Mbu::Http::IRequestSettings**) (from mbukernel)
+(undefined) external Mbu::Http::MbuCreateHttpRequestContext_v2(wchar_t const*, Mbu::Http::IRequestContext**) (from mbukernel)
+(undefined) external Mbu::Http::MbuCreateHttpRequestContext_legacy(wchar_t const*, Mbu::Http::IRequestContext**) (from mbukernel)
+(undefined) external Mbu::Logging::Details::SetApi(Mbu::Logging::Details::IMbuLoggingApi*) (from mbuinstrument)
+(__TEXT,__text) external Mso::Experiment::ReadSettings(Mso::Experiment::Settings&)
+(__TEXT,__text) external Mso::Experiment::SaveUsername(std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&)
+(__TEXT,__text) external Mso::Experiment::AddTriggerLog(std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&, std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&, std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&, unsigned char)
+(__TEXT,__text) external Mso::Experiment::GetFlightName(wchar_t const*, std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> >&)
+(__TEXT,__text) external Mso::Experiment::WriteSettings(Mso::Experiment::Settings const&)
+(__TEXT,__text) external Mso::Experiment::GetIndexForFlight(wchar_t const*, Mso::Experiment::Scope)
+(__TEXT,__text) external Mso::Experiment::SaveCustomChannel(std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&)
+(__TEXT,__text) external Mso::Experiment::PopulateFeatureName(std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&, std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&)
+(__TEXT,__text) external Mso::Experiment::SaveCustomAudiences(std::__1::vector<std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> >, std::__1::allocator<std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > > > const&)
+(__TEXT,__text) external Mso::Experiment::SaveFeatureOverrides(std::__1::vector<Mso::Experiment::FeatureFlightValue, std::__1::allocator<Mso::Experiment::FeatureFlightValue> > const&)
+(__TEXT,__text) external Mso::Experiment::ShowExperimentSettings()
+(__TEXT,__text) external Mso::Experiment::IsExperimentationInited()
+(__TEXT,__text) external Mso::Experiment::RemoveAllFeatureOverrides()
+(__TEXT,__text) external Mso::Experiment::IF(Mso::Experiment::Scope)
+(__TEXT,__text) external Mso::Experiment::RemoveSelectedFeatureOverrides(std::__1::vector<std::__1::pair<std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> >, int>, std::__1::allocator<std::__1::pair<std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> >, int> > > const&)
+(__TEXT,__text) external Mso::Experiment::RegisterFlightChangeNotification(std::__1::function<void ()> const&&)
+(__TEXT,__text) external Mso::Experiment::Test::ResetFlight(wchar_t const*)
+(__TEXT,__text) external Mso::Experiment::Test::SetFlight(wchar_t const*, int)
+(__TEXT,__text) external Mso::Experiment::Future::ABMetadata::TryDeserialize(Mso::Experiment::Future::ABMetadata&, std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&)
+(__TEXT,__text) external Mso::Experiment::Future::CountryRegion(wchar_t const*)
+(__TEXT,__text) external Mso::Experiment::Future::App(wchar_t const*)
+(__DATA,__common) external Mso::Experiment::Future::Arch::arm
+(__DATA,__common) external Mso::Experiment::Future::Arch::x64
+(__DATA,__common) external Mso::Experiment::Future::Arch::x86
+(__DATA,__common) external Mso::Experiment::Future::Arch::droidarm
+(__DATA,__common) external Mso::Experiment::Future::Arch::droidx86
+(__TEXT,__text) external Mso::Experiment::Future::Lang(wchar_t const*)
+(__DATA,__common) external Mso::Experiment::Future::Plat::iOS
+(__DATA,__common) external Mso::Experiment::Future::Plat::MacOS
+(__DATA,__common) external Mso::Experiment::Future::Plat::Win32
+(__DATA,__common) external Mso::Experiment::Future::Plat::WinMo
+(__DATA,__common) external Mso::Experiment::Future::Plat::WinRT
+(__DATA,__common) external Mso::Experiment::Future::Plat::Server
+(__DATA,__common) external Mso::Experiment::Future::Plat::Android
+(__DATA,__common) external Mso::Experiment::Future::Plat::Universal
+(__TEXT,__text) external Mso::Experiment::Future::Team(wchar_t const*)
+(__TEXT,__text) external Mso::Experiment::Future::Test::FHasOverrides()
+(__TEXT,__text) external Mso::Experiment::Future::Test::ResetOverride(std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&)
+(__TEXT,__text) external Mso::Experiment::Future::Test::ResetOverride()
+(__TEXT,__text) external Mso::Experiment::Future::Test::Details::SetOverride(wchar_t const*, Mso::AnyType const&)
+(__DATA,__common) external Mso::Experiment::Future::Build::ship
+(__DATA,__common) external Mso::Experiment::Future::Build::debug
+(__TEXT,__text) external Mso::Experiment::Future::Detail::StringToScope(wchar_t const*)
+(__TEXT,__text) external Mso::Experiment::Future::Region(wchar_t const*)
+(__DATA,__common) external Mso::Experiment::Future::Channel::CurrentChannel
+(__DATA,__common) external Mso::Experiment::Future::Channel::DeferredChannel
+(__DATA,__common) external Mso::Experiment::Future::Channel::EnterpriseChannel
+(__DATA,__common) external Mso::Experiment::Future::Channel::FRDeferredChannel
+(__DATA,__common) external Mso::Experiment::Future::Channel::DeferredChannelExt
+(__DATA,__common) external Mso::Experiment::Future::Channel::DevMain
+(__DATA,__common) external Mso::Experiment::Future::License::Subscription
+(__DATA,__common) external Mso::Experiment::Future::Version::Build
+(__DATA,__common) external Mso::Experiment::Future::Version::Major
+(__DATA,__common) external Mso::Experiment::Future::Version::Minor
+(__DATA,__common) external Mso::Experiment::Future::Version::dev15
+(__DATA,__common) external Mso::Experiment::Future::Version::dev16
+(__DATA,__common) external Mso::Experiment::Future::Version::dev17
+(__DATA,__common) external Mso::Experiment::Future::Version::dev15X
+(__DATA,__common) external Mso::Experiment::Future::Version::dev16X
+(__DATA,__common) external Mso::Experiment::Future::Version::dev17X
+(__DATA,__common) external Mso::Experiment::Future::Version::Revision
+(__DATA,__common) external Mso::Experiment::Future::Audience::Automation
+(__DATA,__common) external Mso::Experiment::Future::Audience::Production
+(__DATA,__common) external Mso::Experiment::Future::Audience::None
+(__DATA,__common) external Mso::Experiment::Future::Audience::Team
+(__DATA,__common) external Mso::Experiment::Future::Audience::Dogfood
+(__DATA,__common) external Mso::Experiment::Future::Audience::Insiders
+(__DATA,__common) external Mso::Experiment::Future::Audience::Microsoft
+(__TEXT,__text) external Mso::Experiment::Private::automation()
+(__TEXT,__text) external Mso::Experiment::Private::enterprise()
+(__TEXT,__text) external Mso::Experiment::Private::production()
+(__TEXT,__text) external Mso::Experiment::Private::subscription()
+(__TEXT,__text) external Mso::Experiment::Private::enterpriseChannel()
+(__TEXT,__text) external Mso::Experiment::Private::cc()
+(__TEXT,__text) external Mso::Experiment::Private::dc()
+(__TEXT,__text) external Mso::Experiment::Private::arm()
+(__TEXT,__text) external Mso::Experiment::Private::ios()
+(__TEXT,__text) external Mso::Experiment::Private::x64()
+(__TEXT,__text) external Mso::Experiment::Private::x86()
+(__TEXT,__text) external Mso::Experiment::Private::frdc()
+(__TEXT,__text) external Mso::Experiment::Private::none()
+(__TEXT,__text) external Mso::Experiment::Private::ship()
+(__TEXT,__text) external Mso::Experiment::Private::team()
+(__TEXT,__text) external Mso::Experiment::Private::build()
+(__TEXT,__text) external Mso::Experiment::Private::dcext()
+(__TEXT,__text) external Mso::Experiment::Private::debug()
+(__TEXT,__text) external Mso::Experiment::Private::dev15()
+(__TEXT,__text) external Mso::Experiment::Private::dev16()
+(__TEXT,__text) external Mso::Experiment::Private::dev17()
+(__TEXT,__text) external Mso::Experiment::Private::macos()
+(__TEXT,__text) external Mso::Experiment::Private::major()
+(__TEXT,__text) external Mso::Experiment::Private::minor()
+(__TEXT,__text) external Mso::Experiment::Private::win32()
+(__TEXT,__text) external Mso::Experiment::Private::winmo()
+(__TEXT,__text) external Mso::Experiment::Private::winrt()
+(__TEXT,__text) external Mso::Experiment::Private::dev15X()
+(__TEXT,__text) external Mso::Experiment::Private::dev16X()
+(__TEXT,__text) external Mso::Experiment::Private::dev17X()
+(__TEXT,__text) external Mso::Experiment::Private::server()
+(__TEXT,__text) external Mso::Experiment::Private::android()
+(__TEXT,__text) external Mso::Experiment::Private::devmain()
+(__TEXT,__text) external Mso::Experiment::Private::dogfood()
+(__TEXT,__text) external Mso::Experiment::Private::droidarm()
+(__TEXT,__text) external Mso::Experiment::Private::droidx86()
+(__TEXT,__text) external Mso::Experiment::Private::insiders()
+(__TEXT,__text) external Mso::Experiment::Private::revision()
+(__TEXT,__text) external Mso::Experiment::Private::microsoft()
+(__TEXT,__text) external Mso::Experiment::Private::universal()
+(__TEXT,__text) external Mso::StringCore::PwchLowerCultureTag(wchar_t*, int, wchar_t const*)
+(__TEXT,__text) external Mso::StringCore::PwchUpperCultureTag(wchar_t*, int, wchar_t const*)
+(__TEXT,__text) external Mso::StringCore::WchToLowerCultureTag(wchar_t, wchar_t const*)
+(__TEXT,__text) external Mso::StringCore::WchToUpperCultureTag(wchar_t, wchar_t const*, unsigned short)
+(__TEXT,__text) external Mso::Threadpool::IsMainThread()
+(__TEXT,__text) external Mso::Threadpool::SetMainThread()
+(__TEXT,__text) external Mso::Threadpool::ClearMainThread()
+(__TEXT,__text) external Mso::AudienceApi::GetChannel()
+(__TEXT,__text) external Mso::AudienceApi::GetAudience()
+(__TEXT,__text) external Mso::AudienceApi::GetAllChannels(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+(__TEXT,__text) external Mso::AudienceApi::GetAudienceGroup()
+(__TEXT,__text) external Mso::AudienceApi::GetInstallMethod()
+(__TEXT,__text) external Mso::AudienceApi::GetPreviousBuild()
+(__TEXT,__text) external Mso::AudienceApi::GetAllAudienceGroups()
+(__TEXT,__text) external Mso::Deserialize(std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&)
+(__TEXT,__text) external Mso::MemoryState::IAppMemoryState::GetInstance()
+(__TEXT,__text) external Mso::ShellFolder::HrGetShellFolderEx(wchar_t*, int, int, bool)
+(__TEXT,__text) external Mso::ShellFolder::HrGetAppDataFolderRoot(wchar_t*, int, AppDataFolderType)
+(__TEXT,__text) external Mso::StringAscii::SgnCompareWz(void const*, void const*)
+(__TEXT,__text) external Mso::StringAscii::Find(wchar_t const*, int, wchar_t const*, int)
+(__TEXT,__text) external Mso::StringAscii::Compare(char const*, char const*)
+(__TEXT,__text) external Mso::StringAscii::Compare(char const*, int, char const*, int)
+(__TEXT,__text) external Mso::StringAscii::Compare(char const*, unsigned int, wchar_t const*, unsigned int)
+(__TEXT,__text) external Mso::StringAscii::Compare(wchar_t const*, wchar_t const*)
+(__TEXT,__text) external Mso::StringAscii::Compare(wchar_t const*, int, wchar_t const*, int)
+(__TEXT,__text) external Mso::StringAscii::EndsWith(wchar_t const*, int, wchar_t const*, int)
+(__TEXT,__text) external Mso::StringExact::SgnCompareWz(void const*, void const*)
+(__TEXT,__text) external Mso::StringExact::Find(wchar_t const*, int, wchar_t const*, int)
+(__TEXT,__text) external Mso::StringExact::Compare(char const*, int, char const*, int)
+(__TEXT,__text) external Mso::StringExact::Compare(char const*, unsigned int, wchar_t const*, unsigned int)
+(__TEXT,__text) external Mso::StringExact::Compare(wchar_t const*, int, wchar_t const*, int)
+(__TEXT,__text) external Mso::LogOperation::Details::GetLogOperationFactory()
+(__TEXT,__text) external Mso::PerfScenario::HrEndScenario(Mso::PerfScenario::MsoPerfScenarioId const*)
+(__TEXT,__text) external Mso::PerfScenario::HrGetScenario(Mso::PerfScenario::MsoPerfScenarioId const*, Mso::PerfScenario::IMsoPerfScenario**)
+(__TEXT,__text) external Mso::PerfScenario::HrBeginScenario(Mso::PerfScenario::MsoPerfScenarioId const*)
+(__TEXT,__text) external Mso::StringTraits::MsoIsSurrogateVariationSelector(wchar_t const*, int const&)
+(__TEXT,__text) external Mso::ActivityScope::ScopeHolder::ScopeHolder(Mso::ActivityScope::ScopeHolder&&)
+(__TEXT,__text) external Mso::ActivityScope::ScopeHolder::ScopeHolder(unsigned int, Mso::Logging::Category, wchar_t const*, std::__1::shared_ptr<Mso::ActivityScope::IMsoLoggingScope> const&, std::__1::shared_ptr<Mso::ActivityScope::IMsoLoggingScenario> const&, bool)
+(__TEXT,__text) external Mso::ActivityScope::ScopeHolder::ScopeHolder(unsigned int, wchar_t const*, std::__1::shared_ptr<Mso::ActivityScope::IMsoLoggingScope> const&, std::__1::shared_ptr<Mso::ActivityScope::IMsoLoggingScenario> const&, bool)
+(__TEXT,__text) external Mso::ActivityScope::ScopeHolder::ScopeHolder(unsigned int, wchar_t const*, std::__1::shared_ptr<Mso::ActivityScope::IMsoLoggingScope> const&, bool)
+(__TEXT,__text) external Mso::ActivityScope::ScopeHolder::ScopeHolder(unsigned int, wchar_t const*, bool)
+(__TEXT,__text) external Mso::ActivityScope::ScopeHolder::ScopeHolder(Mso::ActivityScope::ScopeHolder&&)
+(__TEXT,__text) external Mso::ActivityScope::ScopeHolder::ScopeHolder(unsigned int, wchar_t const*, std::__1::shared_ptr<Mso::ActivityScope::IMsoLoggingScope> const&, std::__1::shared_ptr<Mso::ActivityScope::IMsoLoggingScenario> const&, bool)
+(__TEXT,__text) external Mso::ActivityScope::ScopeHolder::ScopeHolder(unsigned int, wchar_t const*, std::__1::shared_ptr<Mso::ActivityScope::IMsoLoggingScope> const&, bool)
+(__TEXT,__text) external Mso::ActivityScope::ScopeHolder::ScopeHolder(unsigned int, wchar_t const*, bool)
+(__TEXT,__text) external Mso::ActivityScope::ScopeHolder::~ScopeHolder()
+(__TEXT,__text) external Mso::ActivityScope::ScopeHolder::~ScopeHolder()
+(__TEXT,__text) external Mso::ActivityScope::ScenarioHolder::ScenarioHolder(unsigned int, wchar_t const*)
+(__TEXT,__text) external Mso::ActivityScope::ScenarioHolder::~ScenarioHolder()
+(__TEXT,__text) external Mso::ActivityScope::ActivityContext()
+(__TEXT,__text) external Mso::ActivityScope::MsoShouldMonitor(Mso::ActivityScope::Resource)
+(__TEXT,__text) external Mso::ActivityScope::UserActionContext::UserActionContext()
+(__TEXT,__text) external Mso::ActivityScope::UserActionContext::~UserActionContext()
+(__TEXT,__text) external Mso::ActivityScope::GetCurrentThreadScope()
+(__TEXT,__text) external Mso::ActivityScope::GetCurrentUserActionId()
+(__TEXT,__text) external Mso::ActivityScope::GetCurrentThreadScopeId()
+(__TEXT,__text) external Mso::ActivityScope::Details::AddContextToCurrentScope(Mso::Logging::IStructuredTrace const&)
+(__TEXT,__text) external Mso::HCryptProvObj::FAcquireContext(wchar_t const*, unsigned int, unsigned int)
+(__TEXT,__text) external Mso::SequentialIdle::RegisterTask(char const*, Mso::Functor<Mso::Async::Future<void> ()>&&)
+(__TEXT,__text) external Mso::StringInvariant::ToUpperChar(wchar_t)
+(__TEXT,__text) external Mso::StringInvariant::Compare(char const*, char const*)
+(__TEXT,__text) external Mso::StringInvariant::Compare(wchar_t const*, wchar_t const*)
+(__TEXT,__text) external Mso::StringInvariant::Compare(wchar_t const*, int, wchar_t const*, int)
+(__TEXT,__text) external Mso::Synchronization::MsoWaitForSingleObject(void*, MsoTimeoutInterval const&, bool, bool)
+(__TEXT,__text) external Mso::Synchronization::MsoWaitForSingleObject(void*, unsigned int, bool, bool)
+(__TEXT,__text) external Mso::Synchronization::MsoWaitForMultipleObjects(unsigned int, void* const*, bool, MsoTimeoutInterval const&, bool, bool)
+(__TEXT,__text) external Mso::ApplicationModel::VerifyUIThread(Mso::ApplicationModel::IExecutionContext const*)
+(__TEXT,__text) external Mso::ApplicationModel::VerifyAppThread(Mso::ApplicationModel::IExecutionContext const*)
+(__TEXT,__text) external Mso::ApplicationModel::GetMultiContextMode()
+(__TEXT,__text) external Mso::ApplicationModel::SetMultiContextMode(Mso::ApplicationModel::MultiContextMode)
+(__TEXT,__text) external Mso::ApplicationModel::CreateExecutionContext(FastModel::Context&)
+(__TEXT,__text) external Mso::ApplicationModel::GetCurrentExecutionContext()
+(__TEXT,__text) external Mso::ApplicationModel::UseCurrentExecutionContext()
+(__TEXT,__text) external Mso::ApplicationModel::DoNotUse_GetDefaultExecutionContext()
+(__TEXT,__text) external Mso::ApplicationModel::DoNotUse_SetDefaultExecutionContext(Mso::TCntPtr<Mso::ApplicationModel::IExecutionContext> const&)
+(__TEXT,__text) external Mso::ApplicationModel::GetCurrentExecutionContext_NoDefault()
+(__TEXT,__text) external Mso::ApplicationModel::UIBatch()
+(__TEXT,__text) external Mso::ApplicationModel::AppBatch()
+(__TEXT,__text) external Mso::CancellationToken::Swap(Mso::CancellationToken&)
+(__TEXT,__text) external Mso::CancellationToken::Clear()
+(__TEXT,__text) external Mso::CancellationToken::CancellationToken(Mso::CancellationToken&&)
+(__TEXT,__text) external Mso::CancellationToken::CancellationToken(Mso::CancellationToken const&)
+(__TEXT,__text) external Mso::CancellationToken::CancellationToken(Mso::CancellationToken&&)
+(__TEXT,__text) external Mso::CancellationToken::CancellationToken(Mso::CancellationToken const&)
+(__TEXT,__text) external Mso::CancellationToken::operator=(Mso::CancellationToken&&)
+(__TEXT,__text) external Mso::CancellationToken::operator=(Mso::CancellationToken const&)
+(__TEXT,__text) external Mso::InsiderManagement::GetAllInsiderLevels()
+(__TEXT,__text) external Mso::InsiderManagement::GetCurrentInsiderLevel()
+(__TEXT,__text) external Mso::InsiderManagement::SetCurrentInsiderLevel(Mso::InsiderManagement::InsiderLevel)
+(__TEXT,__text) external Mso::PLMBackgroundTask::RegisterTask()
+(__TEXT,__text) external Mso::PLMBackgroundTask::UnregisterTask()
+(__TEXT,__text) external Mso::SystemInformation::GetProcessorSpeed()
+(__TEXT,__text) external Mso::SystemInformation::GetSysDiskSpaceInfo(Mso::SystemInformation::DiskSpaceInfo&)
+(__TEXT,__text) external Mso::SystemInformation::GetMachineFriendlyIdentifier()
+(__TEXT,__text) external Mso::SystemInformation::DoNotUse::MsoFIsOnMobile()
+(__TEXT,__text) external Mso::ServerReachability::GetAPI()
+(__TEXT,__text) external Mso::ServerReachability::SetAPI(Mso::ServerReachability::IServerReachability*)
+(__TEXT,__text) external Mso::DataExchangePrivate::DataExchange::WatcherLock()
+(__TEXT,__text) external Mso::DataExchangePrivate::DataExchange::CreateHandle(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+(__TEXT,__text) external Mso::DataExchangePrivate::DataExchange::ListnerMapLock()
+(__TEXT,__text) external Mso::DataExchangePrivate::DataExchange::NotifyWatchers(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+(__TEXT,__text) external Mso::DataExchangePrivate::DataExchange::Store()
+(__TEXT,__text) external Mso::DataExchangePrivate::DataExchange::StoreW()
+(__TEXT,__text) external Mso::DataExchangePrivate::DataExchange::Watchers()
+(__TEXT,__text) external Mso::DataExchangePrivate::DataExchange::Listeners()
+(__TEXT,__text) external Mso::DataExchangePrivate::DataExchange::StoreLock()
+(__TEXT,__text) external Mso::OfficeWebServiceApi::GetAPI()
+(__TEXT,__text) external Mso::OfficeWebServiceApi::SetAPI(Mso::OfficeWebServiceApi::IOfficeWebServiceApi*)
+(__TEXT,__text) external Mso::TimeoutErrorProvider()
+(__TEXT,__text) external Mso::CancellationTokenSource::Swap(Mso::CancellationTokenSource&)
+(__TEXT,__text) external Mso::CancellationTokenSource::Clear()
+(__TEXT,__text) external Mso::CancellationTokenSource::CancellationTokenSource(Mso::CancellationTokenSource&&)
+(__TEXT,__text) external Mso::CancellationTokenSource::CancellationTokenSource(Mso::CancellationTokenSource const&)
+(__TEXT,__text) external Mso::CancellationTokenSource::CancellationTokenSource()
+(__TEXT,__text) external Mso::CancellationTokenSource::CancellationTokenSource(Mso::CancellationTokenSource&&)
+(__TEXT,__text) external Mso::CancellationTokenSource::CancellationTokenSource(Mso::CancellationTokenSource const&)
+(__TEXT,__text) external Mso::CancellationTokenSource::CancellationTokenSource()
+(__TEXT,__text) external Mso::CancellationTokenSource::operator=(Mso::CancellationTokenSource&&)
+(__TEXT,__text) external Mso::CancellationTokenSource::operator=(Mso::CancellationTokenSource const&)
+(__TEXT,__text) external Mso::DisplayClassInformation::GetScreenInformation(Mso::ApplicationModel::IExecutionContext const&)
+(__TEXT,__text) external Mso::DisplayClassInformation::UseDisplayClassInformation(Mso::ApplicationModel::IExecutionContext const&)
+(__TEXT,__text) external Mso::DisplayClassInformation::InitializeScreenInformation(Mso::ApplicationModel::IExecutionContext&)
+(__TEXT,__text) external Mso::DisplayClassInformation::InitializeDisplayClassInformation(Mso::ApplicationModel::IExecutionContext&)
+(__TEXT,__text) external Mso::DisplayClassInformation::Deprecated_GetMainScreenScreenInformation()
+(__TEXT,__text) external Mso::DisplayClassInformation::Deprecated_GetPlatformDefaultScreenInformation()
+(__TEXT,__text) external Mso::DisplayClassInformation::Details::SilhouetteUsingSmallScreenUX(Mso::DisplayClassInformation::DisplayClass)
+(__TEXT,__text) external Mso::MsoGetSystemScaleFactor()
+(__TEXT,__text) external Mso::CancellationErrorProvider()
+(__TEXT,__text) external Mso::MsoGetPixelsPerInchForSystem()
+(__TEXT,__text) external Mso::App::ShutdownStarted()
+(__TEXT,__text) external Mso::App::FinalUninitStarted()
+(__TEXT,__text) external Mso::App::SetShutdownStarted()
+(__TEXT,__text) external Mso::App::SetFinalUninitStarted()
+(__TEXT,__text) external Mso::Url::IsWindowsPath(wchar_t const*, int, wchar_t)
+(__TEXT,__text) external Mso::Url::AllowAutoLogon(IMsoUrl const&)
+(__TEXT,__text) external Mso::Url::FLocalZoneServerUrl(IMsoUrl const&, int)
+(__TEXT,__text) external Mso::Url::ExtractServiceIdFromWopiUrl(Mso::TCntPtr<IMsoUrl const> const&, std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> >&)
+(__TEXT,__text) external Mso::Url::EncodeUrl(wchar_t const*, wchar_t*, unsigned long, char const*)
+(__TEXT,__text) external Mso::Url::IsWopiUrl(wchar_t const*, bool&)
+(__TEXT,__text) external Mso::File::MsoGetFileSize(void*, _LARGE_INTEGER*)
+(__TEXT,__text) external Mso::File::MsoGetFileTime(void*, _FILETIME*, _FILETIME*, _FILETIME*)
+(__TEXT,__text) external Mso::File::MsoSetFileTime(void*, _FILETIME const*, _FILETIME const*, _FILETIME const*)
+(__TEXT,__text) external Mso::File::MsoSetFilePointer(void*, _LARGE_INTEGER, _LARGE_INTEGER*, unsigned int)
+(__TEXT,__text) external Mso::File::MsoGetOverlappedResult(void*, _OVERLAPPED&, unsigned int*, bool)
+(__TEXT,__text) external Mso::Http::IsTimeoutError(Mso::Http::Result)
+(__TEXT,__text) external Mso::Http::MsoCreateHttpRequest(Mso::Http::IRequest**)
+(__TEXT,__text) external Mso::Http::IsSSLCertificateError(Mso::Http::Result)
+(__TEXT,__text) external Mso::Http::GetCurrentUserAgentInfo(_GUID*, wchar_t const**, wchar_t const**)
+(__TEXT,__text) external Mso::Http::MsoCreateHttpRequest_v2(Mso::Http::IRequest**)
+(__TEXT,__text) external Mso::Http::GetSecurityAutoLogonLevel(IMsoUrl const&, Mso::Http::AutoLogonLevel)
+(__TEXT,__text) external Mso::Http::MsoCreateAsyncHttpRequest(Mso::Http::IRequest**)
+(__TEXT,__text) external Mso::Http::IsNetworkConnectivityError(Mso::Http::Result)
+(__TEXT,__text) external Mso::Http::IsServerUnreachableHrError(int)
+(__TEXT,__text) external Mso::Http::MsoCreateHttpRequestContext(wchar_t const*, Mso::Http::IRequestContext**)
+(__TEXT,__text) external Mso::Http::MsoCreateHttpRequestSettings(Mso::Http::IRequestSettings**)
+(__TEXT,__text) external Mso::Http::WzGetCurrentUserAgentAppName()
+(__TEXT,__text) external Mso::Http::MsoCreateHttpRequestContext_v2(wchar_t const*, Mso::Http::IRequestContext**)
+(__TEXT,__text) external Mso::Http::WzGetUserAgentForActiveCsiApplication(wchar_t const*, wchar_t*, unsigned int*)
+(__TEXT,__text) external Mso::Http::MbuRequestContextFromMsoRequestContext(Mso::Http::IRequestContext*)
+(__TEXT,__text) external Mso::Http::GetAPI()
+(__TEXT,__text) external Mso::Json::ArrayScope::ArrayScope(Mso::Json::IJsonWriter&)
+(__TEXT,__text) external Mso::Json::ArrayScope::ArrayScope(Mso::Json::IJsonWriter&)
+(__TEXT,__text) external Mso::Json::ArrayScope::~ArrayScope()
+(__TEXT,__text) external Mso::Json::ArrayScope::~ArrayScope()
+(__TEXT,__text) external Mso::Json::ObjectScope::ObjectScope(Mso::Json::IJsonWriter&)
+(__TEXT,__text) external Mso::Json::ObjectScope::ObjectScope(Mso::Json::IJsonWriter&)
+(__TEXT,__text) external Mso::Json::ObjectScope::~ObjectScope()
+(__TEXT,__text) external Mso::Json::ObjectScope::~ObjectScope()
+(__TEXT,__text) external Mso::Json::CreateJsonDom(wchar_t const*)
+(__TEXT,__text) external Mso::Json::CreateJsonReader(wchar_t const*, unsigned long)
+(__TEXT,__text) external Mso::Json::CreateJsonReader(ISequentialStream&)
+(__TEXT,__text) external Mso::Json::CreateJsonWriter()
+(__TEXT,__text) external Mso::Json::GetGuidResultErrorProvider()
+(__TEXT,__text) external Mso::Json::CreatePrettyPrintingJsonWriter()
+(__TEXT,__text) external Mso::Json::value::GetArrayItemIndex(Mso::Json::value, std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&, std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&, int&)
+(__TEXT,__text) external Mso::Json::value::array(std::__1::vector<std::__1::pair<Mso::Json::value, Mso::Json::value>, std::__1::allocator<std::__1::pair<Mso::Json::value, Mso::Json::value> > > const&)
+(__TEXT,__text) external Mso::Json::value::array(unsigned long)
+(__TEXT,__text) external Mso::Json::value::array()
+(__TEXT,__text) external Mso::Json::value::parse(std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&)
+(__TEXT,__text) external Mso::Json::value::parse(std::__1::basic_istream<char, std::__1::char_traits<char> >&)
+(__TEXT,__text) external Mso::Json::value::parse(std::__1::basic_istream<wchar_t, wc16::wchar16_traits>&)
+(__TEXT,__text) external Mso::Json::value::number(double)
+(__TEXT,__text) external Mso::Json::value::number(int)
+(__TEXT,__text) external Mso::Json::value::object(std::__1::vector<std::__1::pair<Mso::Json::value, Mso::Json::value>, std::__1::allocator<std::__1::pair<Mso::Json::value, Mso::Json::value> > > const&)
+(__TEXT,__text) external Mso::Json::value::object()
+(__TEXT,__text) external Mso::Json::value::string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+(__TEXT,__text) external Mso::Json::value::string(std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&)
+(__TEXT,__text) external Mso::Json::value::boolean(bool)
+(__TEXT,__text) external Mso::Json::value::nullvalue()
+(__TEXT,__text) external Mso::Json::value::value(Mso::Json::value&&)
+(__TEXT,__text) external Mso::Json::value::value(wchar_t const*)
+(__TEXT,__text) external Mso::Json::value::value(std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&)
+(__TEXT,__text) external Mso::Json::value::value(Mso::Json::value const&)
+(__TEXT,__text) external Mso::Json::value::value(bool)
+(__TEXT,__text) external Mso::Json::value::value(double)
+(__TEXT,__text) external Mso::Json::value::value(int)
+(__TEXT,__text) external Mso::Json::value::value()
+(__TEXT,__text) external Mso::Json::value::value(Mso::Json::value&&)
+(__TEXT,__text) external Mso::Json::value::value(wchar_t const*)
+(__TEXT,__text) external Mso::Json::value::value(std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&)
+(__TEXT,__text) external Mso::Json::value::value(Mso::Json::value const&)
+(__TEXT,__text) external Mso::Json::value::value(bool)
+(__TEXT,__text) external Mso::Json::value::value(double)
+(__TEXT,__text) external Mso::Json::value::value(int)
+(__TEXT,__text) external Mso::Json::value::value()
+(__TEXT,__text) external Mso::Json::value::operator=(Mso::Json::value&&)
+(__TEXT,__text) external Mso::Json::value::operator=(Mso::Json::value const&)
+(__TEXT,__text) external Mso::Json::value::operator[](std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&)
+(__TEXT,__text) external Mso::Json::value::operator[](unsigned long)
+(__TEXT,__text) external Mso::Json::GetGuid(Mso::Json::IJsonReader&)
+(__TEXT,__text) external Mso::Json::utility::conversions::to_utf8string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+(__TEXT,__text) external Mso::Json::utility::conversions::to_utf8string(std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&)
+(__TEXT,__text) external Mso::Json::utility::conversions::to_utf16string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+(__TEXT,__text) external Mso::Json::utility::conversions::to_utf16string(std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&)
+(__TEXT,__text) external Mso::Json::WriteGuid(Mso::Json::IJsonWriter&, _GUID const&)
+(__TEXT,__text) external Mso::Json::operator<<(std::__1::basic_ostream<wchar_t, wc16::wchar16_traits>&, Mso::Json::value const&)
+(__TEXT,__text) external Mso::Json::operator>>(std::__1::basic_istream<wchar_t, wc16::wchar16_traits>&, Mso::Json::value&)
+(__TEXT,__text) external Mso::Path::Combine(wchar_t const*, Mso::PathType::Enum, wchar_t const*, wchar_t*, int)
+(__TEXT,__text) external Mso::Async::MakeFuture(Mso::Async::FutureTraits const&, unsigned long, Mso::Async::ArrayView<unsigned char>*)
+(__TEXT,__text) external Mso::Async::CreateBatch(Mso::Async::IDispatchQueue&, Mso::Async::IDispatchQueue&, bool, unsigned int)
+(__TEXT,__text) external Mso::Async::CurrentQueue()
+(__TEXT,__text) external Mso::Async::ConcurrentQueue()
+(__TEXT,__text) external Mso::Async::CreateUIScheduler()
+(__TEXT,__text) external Mso::Async::CurrentTimerObject()
+(__TEXT,__text) external Mso::Async::IsBlockingShutdown()
+(__TEXT,__text) external Mso::Async::PostIdleNoThrottle(Mso::Async::IDispatchQueue*, Mso::Functor<void ()>&&)
+(__TEXT,__text) external Mso::Async::ConcurrentIdleQueue()
+(__TEXT,__text) external Mso::Async::CreateSingletonTask(Mso::Async::IDispatchQueue&, Mso::Async::ISingletonCallback&)
+(__TEXT,__text) external Mso::Async::CurrentWaiterObject()
+(__TEXT,__text) external Mso::Async::CurrentWorkerObject()
+(__TEXT,__text) external Mso::Async::GlobalIdleThrottler()
+(__TEXT,__text) external Mso::Async::ConcurrentQueueMixin::NotifyCanceled(std::__1::vector<Mso::Async::CallbackQueueEntry, std::__1::allocator<Mso::Async::CallbackQueueEntry> >&)
+(__TEXT,__text) external Mso::Async::CreateLooperScheduler(Mso::Async::IDispatchQueue*)
+(__TEXT,__text) external Mso::Async::InvokeInCallbackContext(Mso::Functor<void ()>&&, Mso::Async::IDispatchQueue*, Mso::Async::Details::IIdleDispatchQueue*, bool)
+(__TEXT,__text) external Mso::Async::MakeDispatchQueueForwarder(Mso::Async::IDispatchQueue*, Mso::Swarm&, char const*)
+(__TEXT,__text) external Mso::Async::CreateBlockingDispatchQueue(Mso::Async::IDispatchQueue&, Mso::Swarm&)
+(__TEXT,__text) external Mso::Async::CreateConcurrentDispatchQueue(unsigned int)
+(__TEXT,__text) external Mso::Async::SetDefaultCurrentDispatchQueue(Mso::Async::IDispatchQueue*)
+(__TEXT,__text) external Mso::Async::CreateBackgroundSequentialDispatchQueue(Mso::Async::IDispatchQueue*)
+(__TEXT,__text) external Mso::Async::Details::NotifyCanceled(Mso::Functor<void ()> const&, Mso::Async::CancellationReason)
+(__TEXT,__text) external Mso::Async::Details::PostWorkerObject(Mso::TCntPtr<Mso::Async::IWorkerObject>*, Mso::Async::IDispatchQueue*, Mso::Functor<void ()>&&)
+(__TEXT,__text) external Mso::Async::Details::GetCurrentWorkerObject()
+(__TEXT,__text) external Mso::Async::Details::AsIdle(Mso::Async::IDispatchQueue*)
+(__TEXT,__text) external Mso::Async::Details::PostTimer(Mso::TCntPtr<Mso::Async::ITimerObject>*, bool, unsigned int, Mso::Async::IDispatchQueue*, Mso::Functor<void ()>&&)
+(__TEXT,__text) external Mso::Orapi::GetKeyNames(_msoreg const&)
+(__TEXT,__text) external Mso::Orapi::FRegGetInt64(_msoreg const*, long long*)
+(__TEXT,__text) external Mso::Orapi::FRegGetInt64(_msoreg const*, unsigned long long*)
+(__TEXT,__text) external Mso::Orapi::FRegSetInt64(_msoreg const*, long long)
+(__TEXT,__text) external Mso::Orapi::GetValueNames(_msoreg const&)
+(__TEXT,__text) external Mso::Orapi::RegDeleteValues(_msoreg const*)
+(__TEXT,__text) external Mso::Orapi::RegDeleteSubkeys(_msoreg const*)
+(__TEXT,__text) external bool Mso::Orapi::OverrideOrapiValue<__CFString const*>(_msoreg const&, __CFString const*, Mso::Orapi::OverrideBehavior)
+(__TEXT,__text) external Mso::Orapi::IsInited()
+(__TEXT,__text) external Mso::Orapi::CreateKey(_msoreg const&)
+(__TEXT,__text) external Mso::Base64::BinaryToString(unsigned char const*, unsigned int, wchar_t*, unsigned int*)
+(__TEXT,__text) external Mso::Base64::BinaryToString(unsigned char const*, unsigned int, Mso::MemoryPtr<wchar_t, 0u>&, unsigned int&)
+(__TEXT,__text) external Mso::Base64::StringToBinary(wchar_t const*, unsigned int, Mso::MemoryPtr<unsigned char, 0u>&, unsigned int&)
+(__TEXT,__text) external Mso::Base64::BinaryToStlString(unsigned char const*, unsigned int)
+(__TEXT,__text) external Mso::Config::IsWindows10OrLater()
+(__TEXT,__text) external Mso::Config::ComputeUserInitials(std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&)
+(__TEXT,__text) external Mso::Config::MemoryUseLowResourceMode()
+(__TEXT,__text) external Mso::Config::GetOSEnvironmentTelemetry()
+(__TEXT,__text) external Mso::Config::GetOSVersionInfoExForTelemetry(_OSVERSIONINFOEXW&)
+(__TEXT,__text) external Mso::Crypto::HrHashStream(Mso::IHashObj&, IStream&, Mso::MemoryPtr<unsigned char, 0u>&, unsigned int*)
+(__TEXT,__text) external Mso::Crypto::CreateSecureRandomObj(IMsoMemHeap*)
+(__TEXT,__text) external Mso::Crypto::GenerateFastRandomData(unsigned char*, unsigned int)
+(__TEXT,__text) external Mso::Crypto::HashBytes(unsigned char const*, unsigned long, std::__1::vector<unsigned char, std::__1::allocator<unsigned char> >&)
+(__TEXT,__text) external Mso::Memory::AllocateEx(unsigned long, unsigned int)
+(__TEXT,__text) external Mso::Memory::Reallocate(void**, unsigned long)
+(__TEXT,__text) external Mso::Memory::GetMsoMemHeap()
+(__TEXT,__text) external Mso::Memory::AllocationSize(void const*)
+(__TEXT,__text) external Mso::Memory::Free(void*)
+(__TEXT,__text) external Mso::Stream::CopyStream(IStream const&, IStream&)
+(__TEXT,__text) external Mso::Stream::CopyToHelper(IByteStream&, IByteStream&, unsigned long long, unsigned long long, unsigned long long, unsigned long long*, IMetroProgress*, ICopyToCallback*)
+(__TEXT,__text) external Mso::Stream::GetStreamLength(IStream const&)
+(__TEXT,__text) external Mso::Stream::GetStreamPosition(IStream const&)
+(__TEXT,__text) external Mso::Stream::SetStreamPosition(IStream&, unsigned long long)
+(__TEXT,__text) external Mso::Stream::CreateByteStreamOnBuffer(unsigned char const*, unsigned int, IMsoMemHeap*)
+(__TEXT,__text) external Mso::Stream::CreateExternalByteStream(Mso::Stream::IExternalByteStreamSource&)
+(__TEXT,__text) external Mso::Stream::CreateExternalByteStream(Mso::Stream::IExternalByteStreamSource&, unsigned int, unsigned int)
+(__TEXT,__text) external Mso::Stream::GetAppDataFileByteStream(wchar_t const*, unsigned int, IMsoMemHeap*, int*)
+(__TEXT,__text) external Mso::Stream::GetMaxDataBeforeXmlCallback()
+(__TEXT,__text) external Mso::Stream::CreateBlockCachingByteStream(IByteStream&, unsigned int, unsigned int)
+(__TEXT,__text) external Mso::Logging::MsoShouldTrace(Mso::Logging::Category, Mso::Logging::Severity)
+(__TEXT,__text) external Mso::Logging::MsoShouldTrace(unsigned int, Mso::Logging::Category, Mso::Logging::Severity)
+(__TEXT,__text) external Mso::Logging::MsoSendTraceTag(unsigned int, Mso::Logging::Category, Mso::Logging::Severity, Mso::Logging::Options, wchar_t const*)
+(__TEXT,__text) external Mso::Logging::MsoSendTraceTag(unsigned int, Mso::Logging::Category, Mso::Logging::Severity, wchar_t const*)
+(__TEXT,__text) external Mso::Logging::GetAreaLogString()
+(__TEXT,__text) external Mso::Logging::IsTREPortEnabled()
+(__TEXT,__text) external Mso::Logging::StartCorrelation(_GUID const&)
+(__TEXT,__text) external Mso::Logging::StartCorrelation()
+(__TEXT,__text) external Mso::Logging::RegisterLogWriter(Mso::Logging::ILogWriter&)
+(__TEXT,__text) external Mso::Logging::StructuredCFError::StructuredCFError(wchar_t const*, __CFError* const&)
+(__TEXT,__text) external Mso::Logging::StructuredCFError::StructuredCFError(Mso::Logging::StructuredCFError const&)
+(__TEXT,__text) external Mso::Logging::StructuredCFError::StructuredCFError(wchar_t const*, __CFError* const&)
+(__TEXT,__text) external Mso::Logging::StructuredCFError::~StructuredCFError()
+(__TEXT,__text) external Mso::Logging::StructuredCFError::~StructuredCFError()
+(__TEXT,__text) external Mso::Logging::StructuredCFError::operator=(Mso::Logging::StructuredCFError&&)
+(__TEXT,__text) external Mso::Logging::StructuredCFError::operator=(Mso::Logging::StructuredCFError const&)
+(__TEXT,__text) external Mso::Logging::StructuredCFString::CFStringToWzCache::~CFStringToWzCache()
+(__TEXT,__text) external Mso::Logging::StructuredCFString::StructuredCFString(wchar_t const*, __CFString const* const&)
+(__TEXT,__text) external Mso::Logging::StructuredCFString::StructuredCFString(wchar_t const*, __CFString const* const&)
+(__TEXT,__text) external Mso::Logging::StructuredCFString::~StructuredCFString()
+(__TEXT,__text) external Mso::Logging::StructuredCFString::~StructuredCFString()
+(__TEXT,__text) external Mso::Logging::GetProcessLogString()
+(__TEXT,__text) external Mso::Logging::UnregisterLogWriter(Mso::Logging::ILogWriter&)
+(__TEXT,__text) external Mso::Logging::GetDefaultThrottling()
+(__TEXT,__text) external Mso::Logging::EndCurrentCorrelation()
+(__TEXT,__text) external Mso::Logging::GetCurrentCorrelation()
+(__TEXT,__text) external Mso::Logging::MsoShouldFormatMessage(unsigned int, Mso::Logging::Category, Mso::Logging::Severity)
+(__TEXT,__text) external Mso::Logging::GetStructuredTraceHolder(Mso::Logging::IStructuredTrace const&)
+(__TEXT,__text) external Mso::Logging::LinkToCurrentCorrelation(_GUID const&)
+(__TEXT,__text) external Mso::Logging::MbuToMsoSendTraceStartup()
+(__TEXT,__text) external Mso::Logging::MbuToMsoSendTraceShutdown()
+(__TEXT,__text) external Mso::Logging::MsoSendStructuredTraceTag(unsigned int, Mso::Logging::Category, Mso::Logging::Severity, Mso::Logging::Options, wchar_t const*)
+(__TEXT,__text) external Mso::Logging::MsoSendStructuredTraceTag(unsigned int, Mso::Logging::Category, Mso::Logging::Severity, Mso::Logging::Options, wchar_t const*, Mso::Logging::IStructuredTrace const&)
+(__TEXT,__text) external Mso::Logging::MsoSendStructuredTraceTag(unsigned int, Mso::Logging::Category, Mso::Logging::Severity, wchar_t const*)
+(__TEXT,__text) external Mso::Logging::MsoSendStructuredTraceTag(unsigned int, Mso::Logging::Category, Mso::Logging::Severity, wchar_t const*, Mso::Logging::IStructuredTrace const&)
+(__TEXT,__text) external Mso::Logging::DirtyShouldTraceFastFilter()
+(__TEXT,__text) external Mso::Logging::StartUlsFileLoggingSession(wchar_t const*)
+(__TEXT,__text) external Mso::Logging::CreateStructuredTraceCollection()
+(__TEXT,__text) external Mso::Logging::Private::GetCurrentCorrelationAsString()
+(__TEXT,__text) external Mso::Process::GetAppName()
+(__TEXT,__text) external Mso::Process::GetAppPath()
+(__TEXT,__text) external Mso::Process::GetVersion()
+(__TEXT,__text) external Mso::Process::SetExeName(wchar_t const*)
+(__TEXT,__text) external Mso::Process::GetAppFolder()
+(__TEXT,__text) external Mso::Process::GetSuiteName()
+(__TEXT,__text) external Mso::Process::SetSuiteName(wchar_t const*)
+(__TEXT,__text) external Mso::Process::GetExeVersion()
+(__TEXT,__text) external Mso::Process::WriteMajMinVer(VersionNumbers const&, wchar_t*, int)
+(__TEXT,__text) external Mso::Process::GetAppShortName()
+(__TEXT,__text) external Mso::Process::SetAppShortName(wchar_t const*)
+(__TEXT,__text) external Mso::Process::GetModuleVersion(void const*)
+(__TEXT,__text) external Mso::Process::GetProcessExeName(void*, wchar_t*, int)
+(__TEXT,__text) external Mso::Process::IsOfficeSuiteName(wchar_t const*)
+(__TEXT,__text) external Mso::Process::WriteMajMinVerRev(VersionNumbers const&, wchar_t*, int)
+(__TEXT,__text) external Mso::Process::GetSharedSessionId()
+(__TEXT,__text) external Mso::Process::GetPrivateSessionId()
+(__TEXT,__text) external Mso::Process::GetProcessIdentifier()
+(__TEXT,__text) external Mso::Process::GetAppCreationFileTime(void*, _FILETIME&)
+(__TEXT,__text) external Mso::Process::GetProcessStartTickCount()
+(__TEXT,__text) external Mso::Process::MsoTerminateCurrentProcess()
+(__TEXT,__text) external Mso::Process::WriteMajMinVerWithNoParanthesis(VersionNumbers const&, wchar_t*, int)
+(__TEXT,__text) external Mso::Process::WriteMajMinVerRevWithNoParanthesis(VersionNumbers const&, wchar_t*, int)
+(__TEXT,__text) external Mso::DateTime::FileTimeToISO8601(_FILETIME const&)
+(__TEXT,__text) external Mso::Instance::AddInstance(MSOINST**)
+(__TEXT,__text) external Mso::Instance::GetListHead()
+(__TEXT,__text) external Mso::Instance::RemoveInstance(MSOINST*)
+(__TEXT,__text) external Mso::Instance::GetFirstInstance()
+(__TEXT,__text) external Mso::Instance::GetInstanceCount()
+(__TEXT,__text) external Mso::Instance::GetSku()
+(__TEXT,__text) external Mso::Instance::SetSku(Mso::Instance::SKU)
+(__TEXT,__text) external Mso::Platform::MsoSetRect(tagRECT*, int, int, int, int)
+(__TEXT,__text) external Mso::Platform::MsoSleepEx(unsigned int, int)
+(__TEXT,__text) external Mso::Platform::MsoCopyRect(tagRECT*, tagRECT const*)
+(__TEXT,__text) external Mso::Platform::MsoPtInRect(tagRECT const*, tagPOINT)
+(__TEXT,__text) external Mso::Platform::MsoEqualRect(tagRECT const*, tagRECT const*)
+(__TEXT,__text) external Mso::Platform::MsoUnionRect(tagRECT*, tagRECT const*, tagRECT const*)
+(__TEXT,__text) external Mso::Platform::MsoOffsetRect(tagRECT*, int, int)
+(__TEXT,__text) external Mso::Platform::MsoCreateMutex(_SECURITY_ATTRIBUTES*, int, wchar_t const*)
+(__TEXT,__text) external Mso::Platform::MsoInflateRect(tagRECT*, int, int)
+(__TEXT,__text) external Mso::Platform::MsoIsRectEmpty(tagRECT const*)
+(__TEXT,__text) external Mso::Platform::MsoSetRectEmpty(tagRECT*)
+(__TEXT,__text) external Mso::Platform::MsoCreateMutexEx(_SECURITY_ATTRIBUTES*, wchar_t const*, unsigned int, unsigned int)
+(__TEXT,__text) external Mso::Platform::MsoIntersectRect(tagRECT*, tagRECT const*, tagRECT const*)
+(__TEXT,__text) external Mso::Platform::MsoWriteFmtUserTypeStg(IStorage*, unsigned short, wchar_t*)
+(__TEXT,__text) external Mso::Platform::MsoFileTimeToLocalFileTime(_FILETIME const&, _FILETIME&)
+(__TEXT,__text) external Mso::Platform::MsoLocalFileTimeToFileTime(_FILETIME const&, _FILETIME&)
+(__TEXT,__text) external Mso::Platform::MsoInternetTimeToSystemTime(wchar_t const*, _SYSTEMTIME*)
+(__TEXT,__text) external Mso::Platform::MsoSleep(unsigned int)
+(__TEXT,__text) external Mso::Platform::MsoGetACP()
+(__TEXT,__text) external Mso::Platform::MsoPrcSet(tagRECT*, int, int, int, int)
+(__TEXT,__text) external Mso::Security::DecryptBytes(unsigned char const*, unsigned int, unsigned int&)
+(__TEXT,__text) external Mso::Security::EncryptBytes(unsigned char const*, unsigned int, unsigned int&)
+(__TEXT,__text) external Mso::UserName::GetDisplayName()
+(__TEXT,__text) external Mso::UserName::GetPrincipalName()
+(__TEXT,__text) external Mso::UserName::IsUserDomainMicrosoftInternal()
+(__TEXT,__text) external Mso::UserName::SetIsUserDomainMicrosoftInternal(bool)
+(__TEXT,__text) external Mso::Directory::DeleteTree(wchar_t const*)
+(__TEXT,__text) external Mso::Directory::DeleteContents(wchar_t const*)
+(__TEXT,__text) external Mso::Directory::MsoGetTempPath(unsigned int, wchar_t*)
+(__TEXT,__text) external Mso::ErrorCode::ErrorCode(Mso::ErrorCode&&)
+(__TEXT,__text) external Mso::ErrorCode::ErrorCode(Mso::ErrorCode const&)
+(__TEXT,__text) external Mso::ErrorCode::~ErrorCode()
+(__TEXT,__text) external Mso::LibletAPI::InitSimple(IMsoMemHeap*)
+(__TEXT,__text) external Mso::LibletAPI::InitLiblets(Mso::LibletAPI::InitData&, Mso::LibletAPI::InitIteration)
+(__TEXT,__text) external Mso::LibletAPI::UninitSimple()
+(__TEXT,__text) external Mso::LibletAPI::ResumeLiblets()
+(__TEXT,__text) external Mso::LibletAPI::UninitLiblets(Mso::LibletAPI::UninitData&, Mso::LibletAPI::InitIteration)
+(__TEXT,__text) external Mso::LibletAPI::SuspendLiblets()
+(__TEXT,__text) external Mso::LibletAPI::CurrentInitData()
+(__TEXT,__text) external Mso::LibletAPI::RegisteredLiblet::RegisteredLiblet(Mso::LibletAPI::LibletId, Mso::LibletAPI::ILiblet&)
+(__TEXT,__text) external Mso::LibletAPI::CurrentUninitData()
+(__TEXT,__text) external Mso::NetStatus::IsDomainNetwork()
+(__TEXT,__text) external Mso::NetStatus::FPermitNetworkUse()
+(__TEXT,__text) external Mso::NetStatus::IsLocalHostServer(wchar_t const*)
+(__TEXT,__text) external Mso::NetStatus::HasInternetConnectivity()
+(__TEXT,__text) external Mso::NetStatus::HasInternetConnectivityViaWWAN()
+(__TEXT,__text) external std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > Mso::Serialize<Mso::Experiment::Future::ABMetadata>(Mso::Experiment::Future::ABMetadata const&)
+(__TEXT,__text) external Mso::SysConfig::MsoSetErrorMode(unsigned int)
+(__TEXT,__text) external Mso::Telemetry::ForceUpload()
+(__TEXT,__text) external Mso::Telemetry::AtFunctionEnd::AtFunctionEnd(std::__1::function<void ()> const&)
+(__TEXT,__text) external Mso::Telemetry::AtFunctionEnd::AtFunctionEnd(std::__1::function<void ()> const&)
+(__TEXT,__text) external Mso::Telemetry::AtFunctionEnd::~AtFunctionEnd()
+(__TEXT,__text) external Mso::Telemetry::CopyDataField(Mso::Telemetry::IDataField const&)
+(__TEXT,__text) external Mso::Telemetry::CopyDataField(Mso::Telemetry::ISingleDataField const&)
+(__TEXT,__text) external Mso::Telemetry::Extensibility::EventQuarantine::ClearQuarantine()
+(__TEXT,__text) external Mso::Telemetry::Extensibility::EventQuarantine::QuarantineEvent(Mso::Telemetry::TelemetryEvent const&, Mso::Telemetry::Details::EventValidationError)
+(__TEXT,__text) external Mso::Telemetry::Extensibility::EventQuarantine::QuarantineEvent(Mso::Telemetry::EventName const&, Mso::Telemetry::Details::EventValidationError)
+(__TEXT,__text) external Mso::Telemetry::Extensibility::EventQuarantine::EventQuarantine()
+(__TEXT,__text) external Mso::Telemetry::Extensibility::EventQuarantine::EventQuarantine()
+(__TEXT,__text) external Mso::Telemetry::Extensibility::RegisterIEventSink(std::__1::unique_ptr<Mso::Telemetry::Extensibility::IEventSink, std::__1::default_delete<Mso::Telemetry::Extensibility::IEventSink> >)
+(__TEXT,__text) external Mso::Telemetry::Extensibility::UnregisterAllSinks()
+(__TEXT,__text) external Mso::Telemetry::Extensibility::MayNotReceiveAlwaysOnMetadata::RegisterUnbufferedEventSink(std::__1::unique_ptr<Mso::Telemetry::Extensibility::IEventSink, std::__1::default_delete<Mso::Telemetry::Extensibility::IEventSink> >)
+(__TEXT,__text) external Mso::Telemetry::CopyEventContract(std::__1::shared_ptr<Mso::Telemetry::EventContract> const&)
+(__TEXT,__text) external Mso::Telemetry::CorrelationVector::UseRoot()
+(__TEXT,__text) external Mso::Telemetry::CorrelationVector::Construct(char const*, unsigned long)
+(__TEXT,__text) external Mso::Telemetry::IActivityParenter::Deserialize(unsigned char const*, unsigned long)
+(__TEXT,__text) external Mso::Telemetry::IActivityParenter::UseRoot()
+(__TEXT,__text) external Mso::Telemetry::TelemetryInitLock::RegisterListener(Mso::Telemetry::ITelemetryInitListener*)
+(__TEXT,__text) external Mso::Telemetry::TelemetryInitLock::UnregisterListener(Mso::Telemetry::ITelemetryInitListener const*)
+(__TEXT,__text) external Mso::Telemetry::TelemetryInitLock::Release()
+(__TEXT,__text) external Mso::Telemetry::TelemetryInitLock::TelemetryInitLock()
+(__TEXT,__text) external Mso::Telemetry::TelemetryInitLock::TelemetryInitLock()
+(__TEXT,__text) external Mso::Telemetry::TelemetryInitLock::~TelemetryInitLock()
+(__TEXT,__text) external Mso::Telemetry::TelemetryInitLock::~TelemetryInitLock()
+(__TEXT,__text) external Mso::Telemetry::TelemetryInitLock::~TelemetryInitLock()
+(__TEXT,__text) external Mso::Telemetry::RegisterEtwManifests(std::__1::shared_ptr<Mso::Telemetry::ITelemetryClient> const&, std::__1::vector<_GUID, std::__1::allocator<_GUID> > const&)
+(__TEXT,__text) external Mso::Telemetry::SendAggregatedEvents()
+(__TEXT,__text) external Mso::Telemetry::UnregisterEtwManifest(_GUID)
+(__TEXT,__text) external Mso::Telemetry::RegisterRuleResultSink(std::__1::unique_ptr<Mso::Telemetry::IRuleResultSink, std::__1::default_delete<Mso::Telemetry::IRuleResultSink> >&&)
+(__TEXT,__text) external Mso::Telemetry::RegisterStateProviders(std::__1::shared_ptr<Mso::Telemetry::ITelemetryStateClient> const&, std::__1::vector<_GUID, std::__1::allocator<_GUID> > const&)
+(__TEXT,__text) external Mso::Telemetry::MakeDataFieldCollection()
+(__TEXT,__text) external Mso::Telemetry::AddToDataFieldCollection(Mso::Telemetry::IDataFieldCollection&, Mso::Telemetry::IDataField const&)
+(__TEXT,__text) external Mso::Telemetry::AlwaysOnMetadataProvider::Initialize(std::__1::unique_ptr<std::__1::vector<std::__1::shared_ptr<Mso::Telemetry::IDataContract const>, std::__1::allocator<std::__1::shared_ptr<Mso::Telemetry::IDataContract const> > > const, std::__1::default_delete<std::__1::vector<std::__1::shared_ptr<Mso::Telemetry::IDataContract const>, std::__1::allocator<std::__1::shared_ptr<Mso::Telemetry::IDataContract const> > > const> >)
+(__TEXT,__text) external Mso::Telemetry::AlwaysOnMetadataProvider::GetAlwaysOnMetadata()
+(__TEXT,__text) external Mso::Telemetry::GetCurrentProcessMetadata(Mso::Telemetry::PayloadMetadata&)
+(__TEXT,__text) external Mso::Telemetry::CaptureTracesForFutureRules(Mso::Logging::Category, Mso::Logging::Severity)
+(__TEXT,__text) external Mso::Telemetry::RefreshDataCollectorSources()
+(__TEXT,__text) external Mso::Telemetry::RegisterUploadMetadataProvider(std::__1::shared_ptr<Mso::Telemetry::ITelemetryUploadMetadataProvider> const&)
+(__TEXT,__text) external Mso::Telemetry::SetAggregatedActivityScheduler(Mso::Functor<void ()>&&)
+(__TEXT,__text) external Mso::Telemetry::UnregisterUploadMetadataProvider(Mso::Telemetry::MetadataId const&)
+(__TEXT,__text) external Mso::Telemetry::Details::ReplayCachedCalls()
+(__TEXT,__text) external Mso::Telemetry::Details::SendTelemetryEvent(Mso::Telemetry::EventName const&, std::__1::shared_ptr<Office::System::Event> const&, std::__1::shared_ptr<Mso::Telemetry::EventContract> const&, Mso::Telemetry::EventFlags const&, Mso::Telemetry::IDataField const&)
+(__TEXT,__text) external Mso::Telemetry::Details::SetVolumeTrackerEnabled(bool)
+(__TEXT,__text) external Mso::Telemetry::Details::SetDynamicConfigCallback(std::__1::function<Mso::optional<Mso::Telemetry::EventFlags> (Mso::Telemetry::EventName const&, Mso::Telemetry::EventFlags const&)> const&)
+(__TEXT,__text) external Mso::Telemetry::Details::SetEventQuarantineEnabled(bool)
+(__TEXT,__text) external Mso::Telemetry::Details::GetEffectiveDataClassification(Mso::Telemetry::TelemetryEvent const&)
+(__TEXT,__text) external Mso::Telemetry::Details::SetVolumeTrackerTelemetryEnabled(bool)
+(__TEXT,__text) external Mso::Telemetry::Details::SetVolumeTrackerTimeWindowDuration(std::__1::chrono::duration<long long, std::__1::ratio<1l, 1l> >)
+(__TEXT,__text) external Mso::Telemetry::Details::SetVolumeTrackerMaxEventsPerTimeWindow(unsigned short)
+(__TEXT,__text) external Mso::Telemetry::Details::GetVolumeTrackerDefaultTimeWindowDuration()
+(__TEXT,__text) external Mso::Telemetry::Details::GetVolumeTrackerDefaultMaxEventsPerTimeWindow()
+(__TEXT,__text) external Mso::Telemetry::Details::GetApi()
+(__TEXT,__text) external Mso::Telemetry::Details::SetApi(Mso::Telemetry::Details::ITelemetryRuleEngineApi*)
+(__TEXT,__text) external Mso::Telemetry::Private::DisableRule(unsigned int)
+(__TEXT,__text) external Mso::Telemetry::Private::ClearCachedrules()
+(__TEXT,__text) external Mso::Telemetry::Private::DisableTelemetry()
+(__TEXT,__text) external Mso::Telemetry::Private::ShutdownTelemetry()
+(__TEXT,__text) external Mso::Telemetry::Private::DeferInitialization()
+(__TEXT,__text) external Mso::Telemetry::Private::DisableNonCriticalRules()
+(__TEXT,__text) external Mso::Telemetry::Activity::DataFields()
+(__TEXT,__text) external Mso::Telemetry::Activity::ThreadCurrent()
+(__TEXT,__text) external Mso::Telemetry::Activity::AddDeferredDataField(Mso::Functor<void (Mso::Telemetry::IDataFieldVisitor&)>&&)
+(__TEXT,__text) external Mso::Telemetry::Activity::Flags()
+(__TEXT,__text) external Mso::Telemetry::Activity::Detach()
+(__TEXT,__text) external Mso::Telemetry::Activity::EndNow()
+(__TEXT,__text) external Mso::Telemetry::Activity::Result()
+(__TEXT,__text) external Mso::Telemetry::Activity::Success()
+(__TEXT,__text) external Mso::Telemetry::Activity::Activity(Mso::Telemetry::IDetachedActivity const&)
+(__TEXT,__text) external Mso::Telemetry::Activity::Activity(Mso::Telemetry::TelemetryNamespace const&, char const*, Mso::Telemetry::IActivityParenter const&)
+(__TEXT,__text) external Mso::Telemetry::Activity::Activity(Mso::Telemetry::EventName const&, Mso::Telemetry::IActivityParenter const&, Mso::Telemetry::ActivityAggregationMode, Mso::Telemetry::EventFlags const&)
+(__TEXT,__text) external Mso::Telemetry::Activity::Activity(Mso::Telemetry::EventName const&, Mso::Telemetry::IActivityParenter const&, Mso::Telemetry::ActivityAggregationMode, std::__1::chrono::time_point<Mso::Chrono::filetime_clock, std::__1::chrono::duration<long long, std::__1::ratio<1l, 10000000l> > > const&, Mso::Telemetry::EventFlags const&)
+(__TEXT,__text) external Mso::Telemetry::Activity::Activity(Mso::Telemetry::IDetachedActivity const&)
+(__TEXT,__text) external Mso::Telemetry::Activity::Activity(Mso::Telemetry::TelemetryNamespace const&, char const*, Mso::Telemetry::IActivityParenter const&)
+(__TEXT,__text) external Mso::Telemetry::Activity::Activity(Mso::Telemetry::EventName const&, Mso::Telemetry::IActivityParenter const&, Mso::Telemetry::ActivityAggregationMode, Mso::Telemetry::EventFlags const&)
+(__TEXT,__text) external Mso::Telemetry::Activity::Activity(Mso::Telemetry::EventName const&, Mso::Telemetry::IActivityParenter const&, Mso::Telemetry::ActivityAggregationMode, std::__1::chrono::time_point<Mso::Chrono::filetime_clock, std::__1::chrono::duration<long long, std::__1::ratio<1l, 10000000l> > > const&, Mso::Telemetry::EventFlags const&)
+(__TEXT,__text) external Mso::Telemetry::Activity::~Activity()
+(__TEXT,__text) external Mso::Telemetry::Activity::~Activity()
+(__TEXT,__text) external Mso::Telemetry::IsEnabled(Mso::Telemetry::TelemetryNamespace const&)
+(__TEXT,__text) external Mso::Threading::ThreadNameHolder::ThreadNameHolder(char const*)
+(__TEXT,__text) external Mso::Threading::ThreadNameHolder::ThreadNameHolder(char const*)
+(__TEXT,__text) external Mso::Threading::ThreadNameHolder::~ThreadNameHolder()
+(__TEXT,__text) external Mso::Threading::ThreadNameHolder::~ThreadNameHolder()
+(__TEXT,__text) external Mso::operator==(std::nullptr_t, Mso::CancellationToken const&)
+(__TEXT,__text) external Mso::operator==(std::nullptr_t, Mso::CancellationTokenSource const&)
+(__TEXT,__text) external Mso::operator==(Mso::CancellationToken const&, std::nullptr_t)
+(__TEXT,__text) external Mso::operator==(Mso::CancellationToken const&, Mso::CancellationToken const&)
+(__TEXT,__text) external Mso::operator==(Mso::CancellationTokenSource const&, std::nullptr_t)
+(__TEXT,__text) external Mso::operator==(Mso::CancellationTokenSource const&, Mso::CancellationTokenSource const&)
+(__TEXT,__text) external Mso::operator!=(std::nullptr_t, Mso::CancellationToken const&)
+(__TEXT,__text) external Mso::operator!=(std::nullptr_t, Mso::CancellationTokenSource const&)
+(__TEXT,__text) external Mso::operator!=(Mso::CancellationToken const&, std::nullptr_t)
+(__TEXT,__text) external Mso::operator!=(Mso::CancellationToken const&, Mso::CancellationToken const&)
+(__TEXT,__text) external Mso::operator!=(Mso::CancellationTokenSource const&, std::nullptr_t)
+(__TEXT,__text) external Mso::operator!=(Mso::CancellationTokenSource const&, Mso::CancellationTokenSource const&)
+(__TEXT,__text) external MsoReoccurringIdleTaskNoRefCountDeprecated::HrActivate()
+(__TEXT,__text) external MsoReoccurringIdleTaskNoRefCountDeprecated::SetRelease(unsigned int)
+(__TEXT,__text) external MsoReoccurringIdleTaskNoRefCountDeprecated::HrDeactivate()
+(__TEXT,__text) external MsoReoccurringIdleTaskNoRefCountDeprecated::Run()
+(undefined) external wc16::wcschr(wchar_t const*, wchar_t) (from mbukernel)
+(undefined) external wc16::wcscmp(wchar_t const*, wchar_t const*) (from mbukernel)
+(undefined) external wc16::wcslen(wchar_t const*) (from mbukernel)
+(undefined) external wc16::wcsstr(wchar_t const*, wchar_t const*) (from mbukernel)
+(undefined) external wc16::wcstod(wchar_t const*, wchar_t**) (from mbukernel)
+(undefined) external wc16::wcstol(wchar_t const*, wchar_t**, int) (from mbukernel)
+(undefined) external wc16::wcscspn(wchar_t const*, wchar_t const*) (from mbukernel)
+(undefined) external wc16::wcsncmp(wchar_t const*, wchar_t const*, unsigned long) (from mbukernel)
+(undefined) external wc16::wcsrchr(wchar_t const*, wchar_t) (from mbukernel)
+(undefined) external wc16::wcstoul(wchar_t const*, wchar_t**, int) (from mbukernel)
+(__TEXT,__text) external OGuid::Create(_GUID&)
+(__TEXT,__text) external OGuid::Create(std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> >&, bool)
+(__TEXT,__text) external OGuid::ToString(_GUID const&, bool)
+(__TEXT,__text) external Office::Experimentation::GetNamespace()
+(__TEXT,__text) external Office::Experimentation::ExpEndpointInfo::Accept(Office::Experimentation::ExpEndpointInfo const&, Mso::Telemetry::IDataFieldVisitor&)
+(__TEXT,__text) external Office::Experimentation::RandomizationInfo::Accept(Office::Experimentation::RandomizationInfo const&, Mso::Telemetry::IDataFieldVisitor&)
+(__TEXT,__text) external Office::Experimentation::RandomizationHashingError::Accept(Office::Experimentation::RandomizationHashingError const&, Mso::Telemetry::IDataFieldVisitor&)
+(__TEXT,__text) external Office::Docs::LogOperation::GetNamespace()
+(__TEXT,__text) external Office::Legacy::CommandUsage::CommandUsage(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::CommandUsage::CommandUsage(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::Connectivity::Connectivity(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::Connectivity::Connectivity(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::GetNamespace()
+(__TEXT,__text) external Office::Legacy::FeatureTrigger::FeatureTrigger(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::FeatureTrigger::FeatureTrigger(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::ActivityFailure::ActivityFailure(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::ActivityFailure::ActivityFailure(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::ActivitySuccess::ActivitySuccess(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::ActivitySuccess::ActivitySuccess(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::ScenarioFailure::ScenarioFailure(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::ScenarioFailure::ScenarioFailure(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::ScenarioSuccess::ScenarioSuccess(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::ScenarioSuccess::ScenarioSuccess(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::ActivityInstance::ActivityInstance(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::ActivityInstance::ActivityInstance(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::ExperimentationCustomData::ExperimentationCustomData(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::ExperimentationCustomData::ExperimentationCustomData(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::Crash::Crash(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::Crash::Crash(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::Error::Error(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::Error::Error(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::Event::Event(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::Event::Event(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::Usage::Usage(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::Usage::Usage(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::Metadata::Metadata(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::Metadata::Metadata(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::Lifecycle::Lifecycle(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::Legacy::Lifecycle::Lifecycle(Mso::optional<bool>&&)
+(__TEXT,__text) external Office::System::GetNamespace()
+(__TEXT,__text) external Office::System::Accessibility::Accept(Office::System::Accessibility const&, Mso::Telemetry::IDataFieldVisitor&)
+(__TEXT,__text) external Office::System::App::Accept(Office::System::App const&, Mso::Telemetry::IDataFieldVisitor&)
+(__TEXT,__text) external Office::System::User::Accept(Office::System::User const&, Mso::Telemetry::IDataFieldVisitor&)
+(__TEXT,__text) external Office::System::Event::Accept(Office::System::Event const&, Mso::Telemetry::IDataFieldVisitor&)
+(__TEXT,__text) external Office::System::Nexus::Accept(Office::System::Nexus const&, Mso::Telemetry::IDataFieldVisitor&)
+(__TEXT,__text) external Office::System::Client::Accept(Office::System::Client const&, Mso::Telemetry::IDataFieldVisitor&)
+(__TEXT,__text) external Office::System::Device::Accept(Office::System::Device const&, Mso::Telemetry::IDataFieldVisitor&)
+(__TEXT,__text) external Office::System::Legacy::Accept(Office::System::Legacy const&, Mso::Telemetry::IDataFieldVisitor&)
+(__TEXT,__text) external Office::System::Result::Accept(Office::System::Result const&, Mso::Telemetry::IDataFieldVisitor&)
+(__TEXT,__text) external Office::System::Culture::Accept(Office::System::Culture const&, Mso::Telemetry::IDataFieldVisitor&)
+(__TEXT,__text) external Office::System::License::Accept(Office::System::License const&, Mso::Telemetry::IDataFieldVisitor&)
+(__TEXT,__text) external Office::System::Release::Accept(Office::System::Release const&, Mso::Telemetry::IDataFieldVisitor&)
+(__TEXT,__text) external Office::System::Session::Accept(Office::System::Session const&, Mso::Telemetry::IDataFieldVisitor&)
+(__TEXT,__text) external Office::System::Activity::Activity(Mso::optional<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >&&, unsigned long long, unsigned long long, unsigned char, Mso::optional<bool>&&, Mso::optional<Office::System::Result>&&)
+(__TEXT,__text) external Office::System::Activity::Activity(Mso::optional<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >&&, unsigned long long, unsigned long long, unsigned char, Mso::optional<bool>&&, Mso::optional<Office::System::Result>&&)
+(__TEXT,__text) external Office::System::Marketing::Accept(Office::System::Marketing const&, Mso::Telemetry::IDataFieldVisitor&)
+(__TEXT,__text) external Office::Security::GetNamespace()
+(__TEXT,__text) external Office::Security::DllSideloadingDetection::GetNamespace()
+(__TEXT,__text) external Office::Security::Clp::GetNamespace()
+(__TEXT,__text) external Office::Telemetry::GetNamespace()
+(__TEXT,__text) external CTpQueue::FPop(void**)
+(__TEXT,__text) external CTpQueue::FPush(void*)
+(__TEXT,__text) external CTpQueue::HrInit(CTpFreeList*)
+(__TEXT,__text) external CTpQueue::CTpQueue(bool, bool, IEventPool*)
+(__TEXT,__text) external CTpQueue::~CTpQueue()
+(undefined) external MBUTimer::StartTimer(__CFString const*) (from mbukernel)
+(undefined) external MBUTimer::StartTimer() (from mbukernel)
+(undefined) external MBUTimer::SetInterval(double) (from mbukernel)
+(undefined) external MBUTimer::StopTimer() (from mbukernel)
+(undefined) external MBUTimer::~MBUTimer() (from mbukernel)
+(__TEXT,__text) external FastModel::IsFMThread()
+(__TEXT,__text) external FastModel::CreateUIThread(wchar_t const*, Mso::TCntPtr<Mso::Async::IDispatchQueue>, std::__1::function<void ()> const&, std::__1::function<void ()> const&)
+(__TEXT,__text) external FastModel::UseCurrentThread()
+(__TEXT,__text) external FastModel::GetCurrentContext()
+(__TEXT,__text) external FastModel::UseCurrentContext()
+(__TEXT,__text) external FastModel::CurrentContextHolder::CurrentContextHolder(FastModel::Context&, bool)
+(__TEXT,__text) external FastModel::CurrentContextHolder::~CurrentContextHolder()
+(__TEXT,__text) external FastModel::CreateFastModelThread(wchar_t const*, Mso::TCntPtr<Mso::Async::IDispatchQueue>, std::__1::function<void ()> const&, std::__1::function<void ()> const&)
+(__TEXT,__text) external FastModel::CreateContextPairForThreads(FastModel::Thread&, FastModel::Thread&, Mso::TCntPtr<FastModel::Context>&, Mso::TCntPtr<FastModel::Context>&)
+(__TEXT,__text) external FastModel::CreateSynchronousContextPair(FastModel::Thread&, Mso::TCntPtr<FastModel::Context>&, Mso::TCntPtr<FastModel::Context>&)
+(__TEXT,__text) external FastModel::Details::StringPropertyStorage::StringPropertyStorage()
+(__TEXT,__text) external CMsoString::IchFindWch(wchar_t, int, int) const
+(__TEXT,__text) external CMsoString::WzGetValue() const
+(__TEXT,__text) external CMsoString::FIsNotEmpty() const
+(__TEXT,__text) external CMsoString::CchGetLength() const
+(__TEXT,__text) external CMsoString::FEqualWzTail(wchar_t const*, int) const
+(__TEXT,__text) external CMsoString::FEqualWzSubstr(wchar_t const*, int, int) const
+(__TEXT,__text) external CMsoString::IchFindWzSubstr(wchar_t const*, int, int, int) const
+(__TEXT,__text) external CMsoString::IchFindWchSubstrReverse(wchar_t, int, int, int) const
+(__TEXT,__text) external CMsoString::FEqualWz(wchar_t const*, int) const
+(__TEXT,__text) external CMsoString::FGetData(wchar_t*, int*) const
+(__TEXT,__text) external CMsoString::FIsEmpty() const
+(__TEXT,__text) external CMsoString::WchGetAt(int) const
+(__TEXT,__text) external CMsoString::IchFindWz(wchar_t const*, int, int) const
+(__TEXT,__text) external CMsoUrlSimple::HrGetQuery(wchar_t*, int*) const
+(__TEXT,__text) external CMsoUrlSimple::RgwchQuery(int*) const
+(__TEXT,__text) external CMsoUrlSimple::HrGetScheme(wchar_t*, int*) const
+(__TEXT,__text) external CMsoUrlSimple::HrGetServer(wchar_t*, int*) const
+(__TEXT,__text) external CMsoUrlSimple::RgwchScheme(int*) const
+(__TEXT,__text) external CMsoUrlSimple::RgwchServer(int*) const
+(__TEXT,__text) external CMsoUrlSimple::FIsShellPath() const
+(__TEXT,__text) external CMsoUrlSimple::HrGetFileExt(wchar_t*, int*) const
+(__TEXT,__text) external CMsoUrlSimple::RgwchFileExt(int*) const
+(__TEXT,__text) external CMsoUrlSimple::HrGetFileLeaf(wchar_t*, int*) const
+(__TEXT,__text) external CMsoUrlSimple::HrGetFileName(wchar_t*, int*) const
+(__TEXT,__text) external CMsoUrlSimple::HrGetFragment(wchar_t*, int*) const
+(__TEXT,__text) external CMsoUrlSimple::HrGetPassword(wchar_t*, int*) const
+(__TEXT,__text) external CMsoUrlSimple::HrGetUserName(wchar_t*, int*) const
+(__TEXT,__text) external CMsoUrlSimple::RgwchFileLeaf(int*) const
+(__TEXT,__text) external CMsoUrlSimple::RgwchFileName(int*) const
+(__TEXT,__text) external CMsoUrlSimple::RgwchFragment(int*) const
+(__TEXT,__text) external CMsoUrlSimple::RgwchPassword(int*) const
+(__TEXT,__text) external CMsoUrlSimple::RgwchUserName(int*) const
+(__TEXT,__text) external CMsoUrlSimple::UrlsGetScheme() const
+(__TEXT,__text) external CMsoUrlSimple::HrGetAuthority(wchar_t*, int*) const
+(__TEXT,__text) external CMsoUrlSimple::HrGetLocalPath(wchar_t*, int*) const
+(__TEXT,__text) external CMsoUrlSimple::RgwchAuthority(int*) const
+(__TEXT,__text) external CMsoUrlSimple::GetInternetPort() const
+(__TEXT,__text) external CMsoUrlSimple::HrCloneInternal(CMsoUrlSimple*) const
+(__TEXT,__text) external CMsoUrlSimple::HrGetCustomForm(unsigned int, wchar_t*, int*, unsigned int) const
+(__TEXT,__text) external CMsoUrlSimple::HrGetDisplayForm(wchar_t*, int*, unsigned int) const
+(__TEXT,__text) external CMsoUrlSimple::FDomainSubsumedBy(wchar_t const*) const
+(__TEXT,__text) external CMsoUrlSimple::FHasUnicodeServer() const
+(__TEXT,__text) external CMsoUrlSimple::FIdnConvertServer(wchar_t*, int, unsigned int) const
+(__TEXT,__text) external CMsoUrlSimple::UrlrGetRelativity() const
+(__TEXT,__text) external CMsoUrlSimple::HrGetCanonicalForm(wchar_t*, int*) const
+(__TEXT,__text) external CMsoUrlSimple::HrGetCustomFormStr(IMsoUrl const*, unsigned int, CMsoString*, int, unsigned int) const
+(__TEXT,__text) external CMsoUrlSimple::FComponentsAreEqual(unsigned int, IMsoUrl const*) const
+(__TEXT,__text) external CMsoUrlSimple::FHasIdnEncodedServer() const
+(__TEXT,__text) external CMsoUrlSimple::WzMhtmlCanonicalForm() const
+(__TEXT,__text) external CMsoUrlSimple::CchMhtmlCanonicalForm() const
+(__TEXT,__text) external CMsoUrlSimple::FIsFtp() const
+(__TEXT,__text) external CMsoUrlSimple::FIsUNC() const
+(__TEXT,__text) external CMsoUrlSimple::FIsHttp() const
+(__TEXT,__text) external CMsoUrlSimple::FIsODMA() const
+(__TEXT,__text) external CMsoUrlSimple::FIsLocal() const
+(__TEXT,__text) external CMsoUrlSimple::FIsMhtml() const
+(__TEXT,__text) external CMsoUrlSimple::HrGetDir(wchar_t*, int*) const
+(__TEXT,__text) external CMsoUrlSimple::RgwchDir(int*) const
+(__TEXT,__text) external CMsoUrlSimple::FIsGroove() const
+(__TEXT,__text) external CMsoUrlSimple::FSubsumes(IMsoUrl const*) const
+(__TEXT,__text) external CMsoUrlSimple::HrGetBase(IMsoUrl const**) const
+(__TEXT,__text) external CMsoUrlSimple::HrGetPath(wchar_t*, int*) const
+(__TEXT,__text) external CMsoUrlSimple::HrGetPort(wchar_t*, int*) const
+(__TEXT,__text) external CMsoUrlSimple::HrResolve(IMsoUrl**) const
+(__TEXT,__text) external CMsoUrlSimple::RgwchPath(int*) const
+(__TEXT,__text) external CMsoUrlSimple::RgwchPort(int*) const
+(__TEXT,__text) external CProcessMsoUrl::HasPath() const
+(__TEXT,__text) external MsoIdleTaskNoRefCount::FContinueIdle() const
+(__TEXT,__text) external Mso::Experiment::Future::ABBase::GetValue(std::type_info const&) const
+(__TEXT,__text) external Mso::CancellationToken::IsCanceled() const
+(__TEXT,__text) external Mso::CancellationToken::WhenChanged() const
+(__TEXT,__text) external Mso::CancellationToken::WhenCanceled(Mso::Functor<void ()>&&) const
+(__TEXT,__text) external Mso::CancellationToken::operator bool() const
+(__TEXT,__text) external Mso::CancellationTokenSource::Cancel() const
+(__TEXT,__text) external Mso::CancellationTokenSource::Abandon() const
+(__TEXT,__text) external Mso::CancellationTokenSource::GetToken() const
+(__TEXT,__text) external Mso::CancellationTokenSource::operator bool() const
+(__TEXT,__text) external Mso::Json::value::as_integer() const
+(__TEXT,__text) external Mso::Json::value::type() const
+(__TEXT,__text) external Mso::Json::value::as_bool() const
+(__TEXT,__text) external Mso::Json::value::as_double() const
+(__TEXT,__text) external Mso::Json::value::as_string() const
+(__TEXT,__text) external Mso::Json::value::serialize(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) const
+(__TEXT,__text) external Mso::Json::value::serialize(std::__1::basic_ostream<wchar_t, wc16::wchar16_traits>&) const
+(__TEXT,__text) external Mso::Json::value::to_string() const
+(__TEXT,__text) external Mso::Json::value::operator==(Mso::Json::value const&) const
+(__TEXT,__text) external Mso::Json::value::operator[](std::__1::basic_string<wchar_t, wc16::wchar16_traits, std::__1::allocator<wchar_t> > const&) const
+(__TEXT,__text) external Mso::Json::value::operator[](unsigned long) const
+(__TEXT,__text) external Mso::Logging::StructuredCFError::Accept(Mso::Logging::IStructuredTracingVisitor&) const
+(__TEXT,__text) external Mso::Logging::StructuredCFNumber::Accept(Mso::Logging::IStructuredTracingVisitor&) const
+(__TEXT,__text) external Mso::Logging::StructuredCFString::Accept(Mso::Logging::IStructuredTracingVisitor&) const
+(__TEXT,__text) external Mso::Logging::StructuredCFBoolean::Accept(Mso::Logging::IStructuredTracingVisitor&) const
+(__TEXT,__text) external Mso::Logging::StructuredCFAbsoluteTime::Accept(Mso::Logging::IStructuredTracingVisitor&) const
+(__TEXT,__text) external Mso::Telemetry::Extensibility::EventQuarantine::IsEventQuarantined(Mso::Telemetry::TelemetryEvent const&) const
+(__TEXT,__text) external Mso::Telemetry::Extensibility::EventQuarantine::IsEventQuarantined(Mso::Telemetry::EventName const&) const
+(__TEXT,__text) external Mso::Telemetry::Extensibility::EventQuarantine::GetQuarantineReasonForEvent(Mso::Telemetry::TelemetryEvent const&) const
+(__TEXT,__text) external Mso::Telemetry::Extensibility::EventQuarantine::GetQuarantineReasonForEvent(Mso::Telemetry::EventName const&) const
+(__TEXT,__text) external Mso::Telemetry::CorrelationVector::NewChild() const
+(__TEXT,__text) external Mso::Telemetry::TelemetryNamespace::GetFullName() const
+(__TEXT,__text) external Mso::Telemetry::Activity::UseParenter() const
+(__TEXT,__text) external Mso::Telemetry::Activity::UseCorrelationVector() const
+(__TEXT,__text) external Office::Experimentation::ExpEndpointInfo::IsEqual(Office::Experimentation::ExpEndpointInfo const&) const
+(__TEXT,__text) external Office::Experimentation::RandomizationInfo::IsEqual(Office::Experimentation::RandomizationInfo const&) const
+(__TEXT,__text) external Office::Experimentation::RandomizationHashingError::IsEqual(Office::Experimentation::RandomizationHashingError const&) const
+(__TEXT,__text) external Office::Legacy::CommandUsage::Accept(Mso::Telemetry::IDataFieldVisitor&) const
+(__TEXT,__text) external Office::Legacy::CommandUsage::IsEqual(Office::Legacy::CommandUsage const&) const
+(__TEXT,__text) external Office::Legacy::Connectivity::Accept(Mso::Telemetry::IDataFieldVisitor&) const
+(__TEXT,__text) external Office::Legacy::Connectivity::IsEqual(Office::Legacy::Connectivity const&) const
+(__TEXT,__text) external Office::Legacy::FeatureTrigger::Accept(Mso::Telemetry::IDataFieldVisitor&) const
+(__TEXT,__text) external Office::Legacy::FeatureTrigger::IsEqual(Office::Legacy::FeatureTrigger const&) const
+(__TEXT,__text) external Office::Legacy::ActivityFailure::Accept(Mso::Telemetry::IDataFieldVisitor&) const
+(__TEXT,__text) external Office::Legacy::ActivityFailure::IsEqual(Office::Legacy::ActivityFailure const&) const
+(__TEXT,__text) external Office::Legacy::ActivitySuccess::Accept(Mso::Telemetry::IDataFieldVisitor&) const
+(__TEXT,__text) external Office::Legacy::ActivitySuccess::IsEqual(Office::Legacy::ActivitySuccess const&) const
+(__TEXT,__text) external Office::Legacy::ScenarioFailure::Accept(Mso::Telemetry::IDataFieldVisitor&) const
+(__TEXT,__text) external Office::Legacy::ScenarioFailure::IsEqual(Office::Legacy::ScenarioFailure const&) const
+(__TEXT,__text) external Office::Legacy::ScenarioSuccess::Accept(Mso::Telemetry::IDataFieldVisitor&) const
+(__TEXT,__text) external Office::Legacy::ScenarioSuccess::IsEqual(Office::Legacy::ScenarioSuccess const&) const
+(__TEXT,__text) external Office::Legacy::ActivityInstance::Accept(Mso::Telemetry::IDataFieldVisitor&) const
+(__TEXT,__text) external Office::Legacy::ActivityInstance::IsEqual(Office::Legacy::ActivityInstance const&) const
+(__TEXT,__text) external Office::Legacy::ExperimentationCustomData::Accept(Mso::Telemetry::IDataFieldVisitor&) const
+(__TEXT,__text) external Office::Legacy::ExperimentationCustomData::IsEqual(Office::Legacy::ExperimentationCustomData const&) const
+(__TEXT,__text) external Office::Legacy::Crash::Accept(Mso::Telemetry::IDataFieldVisitor&) const
+(__TEXT,__text) external Office::Legacy::Crash::IsEqual(Office::Legacy::Crash const&) const
+(__TEXT,__text) external Office::Legacy::Error::Accept(Mso::Telemetry::IDataFieldVisitor&) const
+(__TEXT,__text) external Office::Legacy::Error::IsEqual(Office::Legacy::Error const&) const
+(__TEXT,__text) external Office::Legacy::Event::Accept(Mso::Telemetry::IDataFieldVisitor&) const
+(__TEXT,__text) external Office::Legacy::Event::IsEqual(Office::Legacy::Event const&) const
+(__TEXT,__text) external Office::Legacy::Usage::Accept(Mso::Telemetry::IDataFieldVisitor&) const
+(__TEXT,__text) external Office::Legacy::Usage::IsEqual(Office::Legacy::Usage const&) const
+(__TEXT,__text) external Office::Legacy::Metadata::Accept(Mso::Telemetry::IDataFieldVisitor&) const
+(__TEXT,__text) external Office::Legacy::Metadata::IsEqual(Office::Legacy::Metadata const&) const
+(__TEXT,__text) external Office::Legacy::Lifecycle::Accept(Mso::Telemetry::IDataFieldVisitor&) const
+(__TEXT,__text) external Office::Legacy::Lifecycle::IsEqual(Office::Legacy::Lifecycle const&) const
+(__TEXT,__text) external Office::System::Accessibility::IsEqual(Office::System::Accessibility const&) const
+(__TEXT,__text) external Office::System::App::IsEqual(Office::System::App const&) const
+(__TEXT,__text) external Office::System::User::IsEqual(Office::System::User const&) const
+(__TEXT,__text) external Office::System::Event::IsEqual(Office::System::Event const&) const
+(__TEXT,__text) external Office::System::Nexus::IsEqual(Office::System::Nexus const&) const
+(__TEXT,__text) external Office::System::Client::IsEqual(Office::System::Client const&) const
+(__TEXT,__text) external Office::System::Device::IsEqual(Office::System::Device const&) const
+(__TEXT,__text) external Office::System::Legacy::IsEqual(Office::System::Legacy const&) const
+(__TEXT,__text) external Office::System::Result::IsEqual(Office::System::Result const&) const
+(__TEXT,__text) external Office::System::Culture::IsEqual(Office::System::Culture const&) const
+(__TEXT,__text) external Office::System::License::IsEqual(Office::System::License const&) const
+(__TEXT,__text) external Office::System::Release::IsEqual(Office::System::Release const&) const
+(__TEXT,__text) external Office::System::Session::IsEqual(Office::System::Session const&) const
+(__TEXT,__text) external Office::System::Activity::Accept(Mso::Telemetry::IDataFieldVisitor&) const
+(__TEXT,__text) external Office::System::Activity::IsEqual(Office::System::Activity const&) const
+(__TEXT,__text) external Office::System::Marketing::IsEqual(Office::System::Marketing const&) const
+(undefined) external std::runtime_error::what() const (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::compare(char const*) const (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::compare(unsigned long, unsigned long, char const*, unsigned long) const (from libc++)
+(undefined) external std::__1::__shared_weak_count::__get_deleter(std::type_info const&) const (from libc++)
+(undefined) external std::__1::__vector_base_common<true>::__throw_length_error() const (from libc++)
+(undefined) external std::__1::__basic_string_common<true>::__throw_length_error() const (from libc++)
+(undefined) external std::__1::__basic_string_common<true>::__throw_out_of_range() const (from libc++)
+(undefined) external std::__1::locale::use_facet(std::__1::locale::id&) const (from libc++)
+(undefined) external std::__1::ios_base::getloc() const (from libc++)
+(undefined) external std::exception::what() const (from libc++)
+(undefined) external std::logic_error::logic_error(char const*) (from libc++)
+(undefined) external std::length_error::~length_error() (from libc++)
+(undefined) external std::out_of_range::~out_of_range() (from libc++)
+(undefined) external std::exception_ptr::exception_ptr(std::exception_ptr const&) (from libc++)
+(undefined) external std::exception_ptr::~exception_ptr() (from libc++)
+(undefined) external std::runtime_error::runtime_error(char const*) (from libc++)
+(undefined) external std::runtime_error::runtime_error(char const*) (from libc++)
+(undefined) external std::runtime_error::runtime_error(std::runtime_error const&) (from libc++)
+(undefined) external std::runtime_error::~runtime_error() (from libc++)
+(undefined) external std::runtime_error::~runtime_error() (from libc++)
+(undefined) external std::invalid_argument::~invalid_argument() (from libc++)
+(undefined) external std::__1::__call_once(unsigned long volatile&, void*, void (*)(void*)) (from libc++)
+(undefined) external std::__1::this_thread::sleep_for(std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000000l> > const&) (from libc++)
+(undefined) external std::__1::__next_prime(unsigned long) (from libc++)
+(undefined) external std::__1::bad_weak_ptr::~bad_weak_ptr() (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::append(char const*) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::append(char const*, unsigned long) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::assign(char const*) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::insert(unsigned long, char const*, unsigned long) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::resize(unsigned long, char) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::reserve(unsigned long) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__grow_by(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::push_back(char) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::~basic_string() (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) (from libc++)
+(undefined) external std::__1::basic_istream<char, std::__1::char_traits<char> >::~basic_istream() (from libc++)
+(undefined) external std::__1::basic_istream<char, std::__1::char_traits<char> >::~basic_istream() (from libc++)
+(undefined) external std::__1::basic_istream<char, std::__1::char_traits<char> >::~basic_istream() (from libc++)
+(undefined) external std::__1::basic_ostream<char, std::__1::char_traits<char> >::sentry::sentry(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) (from libc++)
+(undefined) external std::__1::basic_ostream<char, std::__1::char_traits<char> >::sentry::~sentry() (from libc++)
+(undefined) external std::__1::basic_ostream<char, std::__1::char_traits<char> >::~basic_ostream() (from libc++)
+(undefined) external std::__1::basic_ostream<char, std::__1::char_traits<char> >::~basic_ostream() (from libc++)
+(undefined) external std::__1::basic_ostream<char, std::__1::char_traits<char> >::~basic_ostream() (from libc++)
+(undefined) external std::__1::basic_ostream<char, std::__1::char_traits<char> >::operator<<(double) (from libc++)
+(undefined) external std::__1::basic_ostream<char, std::__1::char_traits<char> >::operator<<(int) (from libc++)
+(undefined) external std::__1::basic_ostream<char, std::__1::char_traits<char> >::operator<<(unsigned short) (from libc++)
+(__TEXT,__text) external std::__1::basic_ostream<wchar_t, wc16::wchar16_traits>::operator<<(int)
+(undefined) external std::__1::basic_iostream<char, std::__1::char_traits<char> >::~basic_iostream() (from libc++)
+(undefined) external std::__1::basic_iostream<char, std::__1::char_traits<char> >::~basic_iostream() (from libc++)
+(undefined) external std::__1::basic_iostream<char, std::__1::char_traits<char> >::~basic_iostream() (from libc++)
+(undefined) external std::__1::basic_streambuf<char, std::__1::char_traits<char> >::sync() (from libc++)
+(undefined) external std::__1::basic_streambuf<char, std::__1::char_traits<char> >::imbue(std::__1::locale const&) (from libc++)
+(undefined) external std::__1::basic_streambuf<char, std::__1::char_traits<char> >::uflow() (from libc++)
+(undefined) external std::__1::basic_streambuf<char, std::__1::char_traits<char> >::setbuf(char*, long) (from libc++)
+(undefined) external std::__1::basic_streambuf<char, std::__1::char_traits<char> >::xsgetn(char*, long) (from libc++)
+(undefined) external std::__1::basic_streambuf<char, std::__1::char_traits<char> >::xsputn(char const*, long) (from libc++)
+(undefined) external std::__1::basic_streambuf<char, std::__1::char_traits<char> >::showmanyc() (from libc++)
+(undefined) external std::__1::basic_streambuf<char, std::__1::char_traits<char> >::basic_streambuf() (from libc++)
+(undefined) external std::__1::basic_streambuf<char, std::__1::char_traits<char> >::~basic_streambuf() (from libc++)
+(undefined) external std::__1::recursive_mutex::lock() (from libc++)
+(undefined) external std::__1::recursive_mutex::unlock() (from libc++)
+(undefined) external std::__1::recursive_mutex::recursive_mutex() (from libc++)
+(undefined) external std::__1::recursive_mutex::~recursive_mutex() (from libc++)
+(undefined) external std::__1::condition_variable::notify_one() (from libc++)
+(undefined) external std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&) (from libc++)
+(undefined) external std::__1::condition_variable::~condition_variable() (from libc++)
+(undefined) external std::__1::__shared_weak_count::__add_weak() (from libc++)
+(undefined) external std::__1::__shared_weak_count::__add_shared() (from libc++)
+(undefined) external std::__1::__shared_weak_count::__release_weak() (from libc++)
+(undefined) external std::__1::__shared_weak_count::__release_shared() (from libc++)
+(undefined) external std::__1::__shared_weak_count::lock() (from libc++)
+(undefined) external std::__1::__shared_weak_count::~__shared_weak_count() (from libc++)
+(undefined) external std::__1::stod(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned long*) (from libc++)
+(undefined) external std::__1::ctype<char>::id (from libc++)
+(undefined) external std::__1::ctype<wchar_t>::id (from libc++)
+(undefined) external std::__1::mutex::lock() (from libc++)
+(undefined) external std::__1::mutex::unlock() (from libc++)
+(undefined) external std::__1::mutex::~mutex() (from libc++)
+(undefined) external std::__1::chrono::steady_clock::now() (from libc++)
+(undefined) external std::__1::chrono::system_clock::now() (from libc++)
+(undefined) external std::__1::chrono::system_clock::to_time_t(std::__1::chrono::time_point<std::__1::chrono::system_clock, std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000l> > > const&) (from libc++)
+(undefined) external std::__1::locale::locale() (from libc++)
+(undefined) external std::__1::locale::~locale() (from libc++)
+(undefined) external std::__1::ios_base::__set_badbit_and_consider_rethrow() (from libc++)
+(undefined) external std::__1::ios_base::init(void*) (from libc++)
+(undefined) external std::__1::ios_base::clear(unsigned int) (from libc++)
+(undefined) external std::__1::ios_base::~ios_base() (from libc++)
+(undefined) external std::__1::basic_ios<char, std::__1::char_traits<char> >::~basic_ios() (from libc++)
+(undefined) external std::bad_cast::bad_cast() (from libc++)
+(undefined) external std::bad_cast::~bad_cast() (from libc++)
+(undefined) external std::bad_alloc::bad_alloc() (from libc++)
+(undefined) external std::bad_alloc::~bad_alloc() (from libc++)
+(undefined) external std::exception::~exception() (from libc++)
+(undefined) external std::exception::~exception() (from libc++)
+(undefined) external std::__throw_bad_alloc() (from libc++)
+(undefined) external std::current_exception() (from libc++)
+(undefined) external std::rethrow_exception(std::exception_ptr) (from libc++)
+(undefined) external std::uncaught_exception() (from libc++)
+(undefined) external std::nothrow (from libc++)
+(undefined) external std::terminate() (from libc++)
+(__DATA,__const) external typeinfo for CMsoUrlSimple
+(__DATA,__const) external typeinfo for MsoReoccurringIdleTaskNoRefCountDeprecated
+(undefined) external typeinfo for MBUTimer (from mbukernel)
+(__DATA,__const) external typeinfo for Mso::Logging::StructuredCFError
+(__DATA,__const) external typeinfo for Mso::Logging::StructuredCFString
+(__DATA,__const) external typeinfo for Mso::Logging::StructuredCFBoolean
+(__DATA,__const) external typeinfo for Mso::Logging::StructuredCFAbsoluteTime
+(undefined) external typeinfo for std::__1::bad_weak_ptr (from libc++)
+(undefined) external typeinfo for std::__1::basic_istream<char, std::__1::char_traits<char> > (from libc++)
+(undefined) external typeinfo for std::__1::basic_ostream<char, std::__1::char_traits<char> > (from libc++)
+(undefined) external typeinfo for std::__1::basic_iostream<char, std::__1::char_traits<char> > (from libc++)
+(undefined) external typeinfo for std::__1::basic_streambuf<char, std::__1::char_traits<char> > (from libc++)
+(undefined) external typeinfo for std::__1::__shared_weak_count (from libc++)
+(undefined) external typeinfo for std::__1::ios_base (from libc++)
+(undefined) external typeinfo for wchar_t const* (from libc++)
+(undefined) weak external typeinfo for std::length_error (from libc++)
+(undefined) weak external typeinfo for std::out_of_range (from libc++)
+(undefined) external typeinfo for std::runtime_error (from libc++)
+(undefined) weak external typeinfo for std::invalid_argument (from libc++)
+(undefined) external typeinfo for std::bad_cast (from libc++)
+(undefined) external typeinfo for std::bad_alloc (from libc++)
+(undefined) external typeinfo for std::exception (from libc++)
+(undefined) external typeinfo for signed char (from libc++)
+(undefined) external typeinfo for bool (from libc++)
+(undefined) external typeinfo for char (from libc++)
+(undefined) external typeinfo for unsigned char (from libc++)
+(undefined) external typeinfo for int (from libc++)
+(undefined) external typeinfo for unsigned int (from libc++)
+(undefined) external typeinfo for long (from libc++)
+(undefined) external typeinfo for short (from libc++)
+(undefined) external typeinfo for unsigned short (from libc++)
+(undefined) external typeinfo for wchar_t (from libc++)
+(undefined) external typeinfo for long long (from libc++)
+(undefined) external typeinfo for unsigned long long (from libc++)
+(__TEXT,__const) external typeinfo name for MsoReoccurringIdleTaskNoRefCountDeprecated
+(__DATA,__const) external vtable for MsoReoccurringIdleTaskNoRefCountDeprecated
+(undefined) external vtable for __cxxabiv1::__enum_type_info (from libc++)
+(undefined) external vtable for __cxxabiv1::__class_type_info (from libc++)
+(undefined) external vtable for __cxxabiv1::__pointer_type_info (from libc++)
+(undefined) external vtable for __cxxabiv1::__function_type_info (from libc++)
+(undefined) external vtable for __cxxabiv1::__si_class_type_info (from libc++)
+(undefined) external vtable for __cxxabiv1::__vmi_class_type_info (from libc++)
+(__DATA,__const) external vtable for Mso::Logging::StructuredCFUUID
+(__DATA,__const) external vtable for Mso::Logging::StructuredCFString
+(__DATA,__const) external vtable for Mso::Logging::StructuredCFAbsoluteTime
+(undefined) external vtable for std::__1::bad_weak_ptr (from libc++)
+(undefined) external vtable for std::length_error (from libc++)
+(undefined) external vtable for std::out_of_range (from libc++)
+(undefined) external vtable for std::invalid_argument (from libc++)
+(undefined) external vtable for std::bad_alloc (from libc++)
+(undefined) external vtable for std::exception (from libc++)
+(__TEXT,__text) external non-virtual thunk to CMsoUrlSimple::QueryInterface(_GUID const&, void**)
+(__TEXT,__text) external non-virtual thunk to CMsoUrlSimple::AddRef()
+(__TEXT,__text) external non-virtual thunk to CMsoUrlSimple::Release()
+(undefined) external non-virtual thunk to std::__1::basic_iostream<char, std::__1::char_traits<char> >::~basic_iostream() (from libc++)
+(undefined) external non-virtual thunk to std::__1::basic_iostream<char, std::__1::char_traits<char> >::~basic_iostream() (from libc++)
+(__TEXT,__text) external non-virtual thunk to CMsoUrlSimple::QueryInterface(_GUID const&, void**)
+(__TEXT,__text) external non-virtual thunk to CMsoUrlSimple::AddRef()
+(__TEXT,__text) external non-virtual thunk to CMsoUrlSimple::Release()
+(__TEXT,__text) external non-virtual thunk to CMsoUrlSimple::HrGetCustomFormStr(IMsoUrl const*, unsigned int, CMsoString*, int, unsigned int) const
+(undefined) external virtual thunk to std::__1::basic_istream<char, std::__1::char_traits<char> >::~basic_istream() (from libc++)
+(undefined) external virtual thunk to std::__1::basic_istream<char, std::__1::char_traits<char> >::~basic_istream() (from libc++)
+(undefined) external virtual thunk to std::__1::basic_ostream<char, std::__1::char_traits<char> >::~basic_ostream() (from libc++)
+(undefined) external virtual thunk to std::__1::basic_ostream<char, std::__1::char_traits<char> >::~basic_ostream() (from libc++)
+(undefined) external virtual thunk to std::__1::basic_iostream<char, std::__1::char_traits<char> >::~basic_iostream() (from libc++)
+(undefined) external virtual thunk to std::__1::basic_iostream<char, std::__1::char_traits<char> >::~basic_iostream() (from libc++)
+(undefined) weak external operator delete[](void*) (from libc++)
+(__TEXT,__text) external operator delete[](void*, Mso::Memory::NoThrow::MarkingLeak_t const&)
+(undefined) weak external operator delete(void*) (from libc++)
+(__TEXT,__text) external operator delete(void*, Mso::Memory::NoThrow::MarkingLeak_t const&)
+(undefined) weak external operator new[](unsigned long) (from libc++)
+(__TEXT,__text) external operator new[](unsigned long, Mso::Memory::NoThrow::MarkingLeak_t const&)
+(undefined) weak external operator new(unsigned long) (from libc++)
+(__TEXT,__text) external operator new(unsigned long, Mso::Memory::NoThrow::MarkingLeak_t const&)
+(undefined) weak external operator new(unsigned long, std::nothrow_t const&) (from libc++)
+(undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+(undefined) external ___assert_rtn (from libSystem)
+(undefined) external ___bzero (from libSystem)
+(undefined) external ___cxa_allocate_exception (from libc++)
+(undefined) external ___cxa_atexit (from libSystem)
+(undefined) external ___cxa_begin_catch (from libc++)
+(undefined) external ___cxa_call_unexpected (from libc++)
+(undefined) external ___cxa_end_catch (from libc++)
+(undefined) external ___cxa_free_exception (from libc++)
+(undefined) external ___cxa_get_exception_ptr (from libc++)
+(undefined) external ___cxa_guard_abort (from libc++)
+(undefined) external ___cxa_guard_acquire (from libc++)
+(undefined) external ___cxa_guard_release (from libc++)
+(undefined) external ___cxa_pure_virtual (from libc++)
+(undefined) external ___cxa_rethrow (from libc++)
+(undefined) external ___cxa_throw (from libc++)
+(undefined) external ___dynamic_cast (from libc++)
+(undefined) external ___error (from libSystem)
+(undefined) external ___gxx_personality_v0 (from libc++)
+(undefined) external ___maskrune (from libSystem)
+(undefined) external ___snprintf_chk (from libSystem)
+(undefined) external ___stack_chk_fail (from libSystem)
+(undefined) external ___stack_chk_guard (from libSystem)
+(undefined) external ___tolower (from libSystem)
+(undefined) external __dispatch_main_q (from libSystem)
+(undefined) external __dispatch_source_type_timer (from libSystem)
+(undefined) external __objc_empty_cache (from libobjc)
+(undefined) external __stricmp (from WLMKernel)
+(undefined) external __wcsicmp (from WLMKernel)
+(undefined) external __wcstoui64 (from WLMKernel)
+(undefined) external __wtoi (from WLMKernel)
+(undefined) external _abort (from libSystem)
+(undefined) external _adler32 (from libz)
+(undefined) external _arc4random_buf (from libSystem)
+(undefined) external _atoll (from libSystem)
+(undefined) external _bsd_signal (from libSystem)
+(undefined) external _bzero (from libSystem)
+(undefined) external _calloc (from libSystem)
+(undefined) external _ceilf (from libSystem)
+(undefined) external _chmod (from libSystem)
+(undefined) external _crc32 (from libz)
+(undefined) external _deflate (from libz)
+(undefined) external _deflateEnd (from libz)
+(undefined) external _deflateInit2_ (from libz)
+(undefined) external _deflateParams (from libz)
+(undefined) external _deflateTune (from libz)
+(undefined) external _dispatch_get_global_queue (from libSystem)
+(undefined) external _dispatch_once (from libSystem)
+(undefined) external _dispatch_queue_create (from libSystem)
+(undefined) external _dispatch_release (from libSystem)
+(undefined) external _dispatch_resume (from libSystem)
+(undefined) external _dispatch_source_cancel (from libSystem)
+(undefined) external _dispatch_source_create (from libSystem)
+(undefined) external _dispatch_source_set_event_handler (from libSystem)
+(undefined) external _dispatch_source_set_timer (from libSystem)
+(undefined) external _dispatch_suspend (from libSystem)
+(undefined) external _dispatch_time (from libSystem)
+(__DATA,__common) external _empty_wstring
+(undefined) external _expf (from libSystem)
+(undefined) external _free (from libSystem)
+(undefined) external _freeaddrinfo (from libSystem)
+(undefined) external _getaddrinfo (from libSystem)
+(undefined) external _getnameinfo (from libSystem)
+(undefined) external _host_info (from libSystem)
+(undefined) external _inflate (from libz)
+(undefined) external _inflateEnd (from libz)
+(undefined) external _inflateInit2_ (from libz)
+(undefined) external _kCFAllocatorDefault (from CoreFoundation)
+(undefined) external _kCFAllocatorNull (from CoreFoundation)
+(undefined) external _kCFBooleanFalse (from CoreFoundation)
+(undefined) external _kCFBooleanTrue (from CoreFoundation)
+(undefined) external _kCFBundleNameKey (from CoreFoundation)
+(undefined) external _kCFCopyStringDictionaryKeyCallBacks (from CoreFoundation)
+(undefined) external _kCFPreferencesCurrentApplication (from CoreFoundation)
+(undefined) external _kCFRunLoopDefaultMode (from CoreFoundation)
+(undefined) external _kCFTypeArrayCallBacks (from CoreFoundation)
+(undefined) external _kCFTypeDictionaryValueCallBacks (from CoreFoundation)
+(undefined) external _kMBUSpinLockInit (from mbukernel)
+(undefined) external _kSCPropNetProxiesExceptionsList (from SystemConfiguration)
+(undefined) external _kSCPropNetProxiesHTTPEnable (from SystemConfiguration)
+(undefined) external _kSCPropNetProxiesHTTPPort (from SystemConfiguration)
+(undefined) external _kSCPropNetProxiesHTTPProxy (from SystemConfiguration)
+(undefined) external _kSCPropNetProxiesProxyAutoConfigEnable (from SystemConfiguration)
+(undefined) external _kSCPropNetProxiesProxyAutoConfigURLString (from SystemConfiguration)
+(undefined) external _kSCPropNetProxiesProxyAutoDiscoveryEnable (from SystemConfiguration)
+(__DATA,__const) external _kWM_MSO_BROADCASTCHANGE_LParam_Key
+(__DATA,__const) external _kWM_MSO_BROADCASTCHANGE_Notification
+(__DATA,__const) external _kWM_MSO_BROADCASTCHANGE_WParam_Key
+(undefined) external _localeconv (from libSystem)
+(undefined) external _logf (from libSystem)
+(undefined) external _lstat$INODE64 (from libSystem)
+(undefined) external _mach_host_self (from libSystem)
+(undefined) external _mach_task_self_ (from libSystem)
+(undefined) external _malloc (from libSystem)
+(undefined) external _malloc_size (from libSystem)
+(undefined) external _mbu_dispatch_async_main (from mbukernel)
+(undefined) external _memchr (from libSystem)
+(undefined) external _memcmp (from libSystem)
+(undefined) external _memcpy (from libSystem)
+(undefined) external _memmove (from libSystem)
+(undefined) external _memset (from libSystem)
+(undefined) external _memset_pattern16 (from libSystem)
+(undefined) external _mktime (from libSystem)
+(__TEXT,__const) weak external _mpwchConv1250
+(__TEXT,__const) weak external _mpwchConv1251
+(__TEXT,__const) weak external _mpwchConv1252
+(__TEXT,__const) weak external _mpwchConv1253
+(__TEXT,__const) weak external _mpwchConv1254
+(__TEXT,__const) weak external _mpwchConv1255
+(__TEXT,__const) weak external _mpwchConv1256
+(__TEXT,__const) weak external _mpwchConv1257
+(__TEXT,__const) weak external _mpwchConv1258
+(__TEXT,__const) weak external _mpwchConv20866
+(__TEXT,__const) weak external _mpwchConv28591
+(__TEXT,__const) weak external _mpwchConv28592
+(__TEXT,__const) weak external _mpwchConv28593
+(__TEXT,__const) weak external _mpwchConv28594
+(__TEXT,__const) weak external _mpwchConv28595
+(__TEXT,__const) weak external _mpwchConv28596
+(__TEXT,__const) weak external _mpwchConv28597
+(__TEXT,__const) weak external _mpwchConv28598
+(__TEXT,__const) weak external _mpwchConv28599
+(__TEXT,__const) weak external _mpwchConv28605
+(__DATA,__data) weak external _msoperfidOfficeOneNoteCobaltSync
+(__DATA,__data) weak external _msoperfidOfficeOneNoteLaunchOleObject
+(__DATA,__data) weak external _msoperfidOfficeOneNoteSortTable
+(__DATA,__data) weak external _msoperfidOfficeOneNoteSortTableRows
+(__DATA,__data) weak external _msoperfidOfficeOneNoteTableCellSelectIpDrag
+(__DATA,__data) weak external _msoperfidOfficeOneNoteTableCellSelectKeyboard
+(__DATA,__data) weak external _msoridEnableWriteRulesResultToTelemetryEvent
+(__DATA,__data) weak external _msoridExperimentAudienceImpersonated
+(__DATA,__data) weak external _msoridExperimentAudienceList
+(__DATA,__data) weak external _msoridExperimentBBAutomationAudience
+(__DATA,__data) weak external _msoridExperimentBuildNumber
+(__DATA,__data) weak external _msoridExperimentDogfood
+(__DATA,__data) weak external _msoridExperimentEcsOverrides
+(__DATA,__data) weak external _msoridExperimentEcsRequestPending
+(__DATA,__data) weak external _msoridExperimentEcsUserIdMapping
+(__DATA,__data) weak external _msoridExperimentEdgeRequestPending
+(__DATA,__data) weak external _msoridExperimentEnterpriseLicenseInfo
+(__DATA,__data) weak external _msoridExperimentFeatureFlightMapping
+(__DATA,__data) weak external _msoridExperimentFeatureOverrides
+(__DATA,__data) weak external _msoridExperimentFlights
+(__DATA,__data) weak external _msoridExperimentFlightsNumberlineInformation
+(__DATA,__data) weak external _msoridExperimentInMS
+(__DATA,__data) weak external _msoridExperimentInMSTimestamp
+(__DATA,__data) weak external _msoridExperimentLanguage
+(__DATA,__data) weak external _msoridExperimentSubscriptionLicenseInfo
+(__DATA,__data) weak external _msoridExperimentUIChannel
+(__DATA,__data) weak external _msoridExportRealTabs
+(undefined) external _objc_autoreleasePoolPop (from libobjc)
+(undefined) external _objc_autoreleasePoolPush (from libobjc)
+(undefined) external _objc_enumerationMutation (from libobjc)
+(undefined) external _objc_getProperty (from libobjc)
+(undefined) external _objc_msgSend (from libobjc)
+(undefined) external _objc_msgSendSuper2 (from libobjc)
+(undefined) external _objc_msgSend_stret (from libobjc)
+(undefined) external _objc_sync_enter (from libobjc)
+(undefined) external _objc_sync_exit (from libobjc)
+(undefined) external _pow (from libSystem)
+(undefined) external _pthread_equal (from libSystem)
+(undefined) external _pthread_get_stackaddr_np (from libSystem)
+(undefined) external _pthread_get_stacksize_np (from libSystem)
+(undefined) external _pthread_getspecific (from libSystem)
+(undefined) external _pthread_key_create (from libSystem)
+(undefined) external _pthread_key_delete (from libSystem)
+(undefined) external _pthread_mutex_destroy (from libSystem)
+(undefined) external _pthread_mutex_init (from libSystem)
+(undefined) external _pthread_mutex_lock (from libSystem)
+(undefined) external _pthread_mutex_unlock (from libSystem)
+(undefined) external _pthread_mutexattr_destroy (from libSystem)
+(undefined) external _pthread_mutexattr_init (from libSystem)
+(undefined) external _pthread_mutexattr_settype (from libSystem)
+(undefined) external _pthread_self (from libSystem)
+(undefined) external _pthread_setspecific (from libSystem)
+(undefined) external _pthread_sigmask (from libSystem)
+(undefined) external _realloc (from libSystem)
+(undefined) external _siglongjmp (from libSystem)
+(undefined) external _sigprocmask (from libSystem)
+(undefined) external _sigsetjmp (from libSystem)
+(undefined) external _sleep (from libSystem)
+(undefined) external _strchr (from libSystem)
+(undefined) external _strcmp (from libSystem)
+(undefined) external _strlen (from libSystem)
+(undefined) external _strrchr (from libSystem)
+(undefined) external _strtod (from libSystem)
+(undefined) external _strtof (from libSystem)
+(undefined) external _sysctlbyname (from libSystem)
+(undefined) external _task_info (from libSystem)
+(undefined) external _time (from libSystem)
+(undefined) external _trunc (from libSystem)
+(undefined) external _utime (from libSystem)
+(__DATA,__data) external _vlcidCur
+(__DATA,__data) weak external _vmsoridCUTrustCenterExperimentation
+(__DATA,__data) weak external _vmsoridExperimentAudienceImpersonated
+(__DATA,__data) weak external _vmsoridExperimentAudienceList
+(__DATA,__data) weak external _vmsoridExperimentBBAutomationAudience
+(__DATA,__data) weak external _vmsoridExperimentBuildNumber
+(__DATA,__data) weak external _vmsoridExperimentDogfood
+(__DATA,__data) weak external _vmsoridExperimentEcs
+(__DATA,__data) weak external _vmsoridExperimentEcsOverrides
+(__DATA,__data) weak external _vmsoridExperimentEcsRequestPending
+(__DATA,__data) weak external _vmsoridExperimentEdgeRequestPending
+(__DATA,__data) weak external _vmsoridExperimentEnterpriseLicenseInfo
+(__DATA,__data) weak external _vmsoridExperimentFeatureFlightMapping
+(__DATA,__data) weak external _vmsoridExperimentFeatureOverrides
+(__DATA,__data) weak external _vmsoridExperimentFlights
+(__DATA,__data) weak external _vmsoridExperimentFlightsNumberlineInformation
+(__DATA,__data) weak external _vmsoridExperimentInMS
+(__DATA,__data) weak external _vmsoridExperimentInMSTimestamp
+(__DATA,__data) weak external _vmsoridExperimentLanguage
+(__DATA,__data) weak external _vmsoridExperimentSubscriptionLicenseInfo
+(__DATA,__data) weak external _vmsoridExperimentTas
+(__DATA,__data) weak external _vmsoridFlightUpdateTime
+(__DATA,__data) weak external _vmsoridOnlinePollTime
+(undefined) external _wc16_wcslen (from mbukernel)
+(undefined) external _wlm_dispatch_after (from WLMKernel)
+(undefined) external _wlm_dispatch_async (from WLMKernel)
+(undefined) external _wlm_dispatch_async_f (from WLMKernel)
+(undefined) external dyld_stub_binder (from libSystem)

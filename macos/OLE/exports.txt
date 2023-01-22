@@ -1,25 +1,3 @@
-(undefined) external .objc_class_name_NSApplication (from AppKit)
-(undefined) external .objc_class_name_NSArray (from CoreFoundation)
-(undefined) external .objc_class_name_NSAutoreleasePool (from Foundation)
-(undefined) external .objc_class_name_NSBundle (from Foundation)
-(undefined) external .objc_class_name_NSData (from CoreFoundation)
-(undefined) external .objc_class_name_NSDictionary (from CoreFoundation)
-(undefined) external .objc_class_name_NSEvent (from AppKit)
-(undefined) external .objc_class_name_NSException (from CoreFoundation)
-(undefined) external .objc_class_name_NSFont (from AppKit)
-(undefined) external .objc_class_name_NSGraphicsContext (from AppKit)
-(undefined) external .objc_class_name_NSImage (from AppKit)
-(undefined) external .objc_class_name_NSImageView (from AppKit)
-(undefined) external .objc_class_name_NSMutableArray (from CoreFoundation)
-(undefined) external .objc_class_name_NSMutableData (from CoreFoundation)
-(undefined) external .objc_class_name_NSObject (from CoreFoundation)
-(undefined) external .objc_class_name_NSPasteboard (from AppKit)
-(undefined) external .objc_class_name_NSPasteboardItem (from AppKit)
-(undefined) external .objc_class_name_NSString (from Foundation)
-(undefined) external .objc_class_name_NSTextField (from AppKit)
-(undefined) external .objc_class_name_NSURL (from CoreFoundation)
-(undefined) external .objc_class_name_NSView (from AppKit)
-(__OBJC,__class) external .objc_class_name_OleDragAndDropView
 (undefined) external _AfxGetCurrentProcess (from WLMKernel)
 (undefined) external _AfxGetFileSize (from WLMKernel)
 (undefined) external _AfxSleep (from WLMKernel)
@@ -37,17 +15,24 @@
 (undefined) external _CFRelease (from CoreFoundation)
 (undefined) external _CFRetain (from CoreFoundation)
 (undefined) external _CFStringConvertEncodingToNSStringEncoding (from CoreFoundation)
+(undefined) external _CFStringCreateExternalRepresentation (from CoreFoundation)
 (undefined) external _CFStringCreateWithBytes (from CoreFoundation)
+(undefined) external _CFStringCreateWithCharactersNoCopy (from CoreFoundation)
 (undefined) external _CFStringGetCharacters (from CoreFoundation)
 (undefined) external _CFStringGetLength (from CoreFoundation)
-(undefined) external _CFStringGetSystemEncoding (from CoreFoundation)
 (undefined) external _CFStringGetTypeID (from CoreFoundation)
 (undefined) external _CFURLCopyFileSystemPath (from CoreFoundation)
 (undefined) external _CFURLCreateWithBytes (from CoreFoundation)
+(undefined) external _CGBitmapContextCreate (from CoreGraphics)
+(undefined) external _CGBitmapContextCreateImage (from CoreGraphics)
+(undefined) external _CGColorSpaceCreateDeviceRGB (from CoreGraphics)
+(undefined) external _CGContextClearRect (from CoreGraphics)
 (undefined) external _CGContextDrawImage (from CoreGraphics)
+(undefined) external _CGContextRelease (from CoreGraphics)
 (undefined) external _CGContextRestoreGState (from CoreGraphics)
 (undefined) external _CGContextSaveGState (from CoreGraphics)
 (undefined) external _CGContextScaleCTM (from CoreGraphics)
+(undefined) external _CGContextTranslateCTM (from CoreGraphics)
 (undefined) external _CGImageGetHeight (from CoreGraphics)
 (undefined) external _CGImageGetWidth (from CoreGraphics)
 (undefined) external _CGImageRelease (from CoreGraphics)
@@ -111,6 +96,7 @@
 (__TEXT,__text) external _DestroyRunningObjectTable
 (__TEXT,__text) external _DoDragDrop
 (undefined) external _DocfileUseLegacyNtfsFlags (from COMBase)
+(__TEXT,__text) external _DragFinish
 (__TEXT,__text) external _DragQueryFileW
 (undefined) external _DuplicateHandle (from WLMKernel)
 (undefined) external _EnterCriticalSection (from WLMKernel)
@@ -171,10 +157,6 @@
 (undefined) external _GlobalUnlock (from WLMKernel)
 (undefined) external _IID_IUnwrappableDataObject (from COMBase)
 (undefined) external _InitializeCriticalSection (from WLMKernel)
-(undefined) external _InterlockedCompareExchangePointer (from WLMKernel)
-(undefined) external _InterlockedDecrement (from WLMKernel)
-(undefined) external _InterlockedExchange (from WLMKernel)
-(undefined) external _InterlockedIncrement (from WLMKernel)
 (undefined) external _InternalCoRegisterDisconnectCallback (from COMBase)
 (undefined) external _InternalCoStdMarshalObject (from COMBase)
 (undefined) external _InternalCoUnregisterDisconnectCallback (from COMBase)
@@ -195,20 +177,66 @@
 (undefined) external _LeaveCriticalSection (from WLMKernel)
 (undefined) external _LoadRegTypeLib (from OLEAutomation)
 (undefined) external _LockFile (from WLMKernel)
+(undefined) external _MBUAtomicCompareAndSwapPointer (from mbukernel)
 (undefined) external _MbuCreatePDFDataFromPICTData (from mbukernel)
+(undefined) external _MbuFIsOperatingSystemAtLeastVersion (from mbukernel)
+(undefined) external _MbuGetPreferredTextEncoding (from mbulocale)
 (__TEXT,__text) external _MkParseDisplayName
 (__TEXT,__text) external _MonikerCommonPrefixWith
 (__TEXT,__text) external _MonikerRelativePathTo
 (undefined) external _MulDiv (from WLMKernel)
 (undefined) external _MultiByteToWideChar (from WLMKernel)
 (undefined) external _NSApp (from AppKit)
+(undefined) external _NSDocumentTypeDocumentAttribute (from AppKit)
 (undefined) external _NSDragPboard (from AppKit)
+(undefined) external _NSHTMLTextDocumentType (from AppKit)
 (undefined) external _NSPointInRect (from Foundation)
+(undefined) external _NSRTFDTextDocumentType (from AppKit)
+(undefined) external _NSRTFTextDocumentType (from AppKit)
+(undefined) external _NSTemporaryDirectory (from Foundation)
 (undefined) external _NSURLEffectiveIconKey (from CoreFoundation)
 (undefined) external _NSURLLocalizedNameKey (from CoreFoundation)
 (undefined) external _NSURLLocalizedTypeDescriptionKey (from CoreFoundation)
+(undefined) external _NSWebArchiveTextDocumentType (from AppKit)
 (undefined) external _NSZeroSize (from Foundation)
 (undefined) external _NtCurrentTeb (from WLMKernel)
+(undefined) external _OBJC_CLASS_$_NSApplication (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSArray (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSAttributedString (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSAutoreleasePool (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSBundle (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSCharacterSet (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSData (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSEvent (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSFileManager (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSFont (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSGraphicsContext (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSImage (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSImageView (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSMutableData (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSMutableSet (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSMutableString (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSObject (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSPasteboard (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSPasteboardItem (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSPropertyListSerialization (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSRegularExpression (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSTextField (from AppKit)
+(undefined) external _OBJC_CLASS_$_NSURL (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSUUID (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSView (from AppKit)
+(__DATA,__objc_data) external _OBJC_CLASS_$_OleDragAndDropView
+(undefined) external _OBJC_CLASS_$_WlmDragDropView (from WLMKernel)
+(undefined) external _OBJC_EHTYPE_$_NSException (from CoreFoundation)
+(undefined) external _OBJC_EHTYPE_id (from libobjc)
+(undefined) external _OBJC_METACLASS_$_NSObject (from CoreFoundation)
+(__DATA,__objc_data) external _OBJC_METACLASS_$_OleDragAndDropView
+(undefined) external _OBJC_METACLASS_$_WlmDragDropView (from WLMKernel)
 (undefined) external _OaDeleteCriticalSection (from OLEAutomation)
 (undefined) external _OaInitializeCriticalSectionAndSpinCount (from OLEAutomation)
 (undefined) external _OffsetViewportOrgEx (from WLMGraphicsDevice)
@@ -217,10 +245,12 @@
 (__TEXT,__text) external _OleConvertIStorageToOLESTREAM
 (__TEXT,__text) external _OleConvertIStorageToOLESTREAMEx
 (__TEXT,__text) external _OleConvertOLESTREAMToIStorage
+(__TEXT,__text) external _OleCopyHtmlStringFromWebArchiveData
 (__TEXT,__text) external _OleCopyIconCGImageAndTitleOfClass
 (__TEXT,__text) external _OleCopyIconCGImageAndTitleOfFile
 (__TEXT,__text) external _OleCopyIconNSImageAndTitleOfClass
 (__TEXT,__text) external _OleCopyIconNSImageAndTitleOfFile
+(__TEXT,__text) external _OleCopyWebArchiveDataFromHtmlString
 (__TEXT,__text) external _OleCreate
 (__TEXT,__text) external _OleCreateDefaultHandler
 (__TEXT,__text) external _OleCreateEmbeddingHelper
@@ -231,6 +261,15 @@
 (__TEXT,__text) external _OleCreateLinkFromData
 (__TEXT,__text) external _OleCreateLinkToFile
 (__TEXT,__text) external _OleCreateStaticFromData
+(__TEXT,__text) external _OleDragConcludeDragOperation
+(__TEXT,__text) external _OleDragDraggingEnded
+(__TEXT,__text) external _OleDragDraggingEntered
+(__TEXT,__text) external _OleDragDraggingExited
+(__TEXT,__text) external _OleDragDraggingUpdated
+(__TEXT,__text) external _OleDragPerformDragOperation
+(__TEXT,__text) external _OleDragPrepareForDragOperation
+(__TEXT,__text) external _OleDragUpdateDraggingItemsForDrag
+(__TEXT,__text) external _OleDragWantsPeriodicDraggingUpdates
 (__TEXT,__text) external _OleDraw
 (__TEXT,__text) external _OleDuplicateData
 (__TEXT,__text) external _OleFlushClipboard
@@ -239,12 +278,14 @@
 (__TEXT,__text) external _OleGetClipboard
 (__TEXT,__text) external _OleGetIconOfClass
 (__TEXT,__text) external _OleGetIconOfFile
+(__TEXT,__text) external _OleHasCurrentPasteboardChangedSinceLastCopy
 (__TEXT,__text) external _OleInitialize
 (__TEXT,__text) external _OleIsCurrentClipboard
 (__TEXT,__text) external _OleIsRunning
 (__TEXT,__text) external _OleLoad
 (__TEXT,__text) external _OleLoadFromStream
 (__TEXT,__text) external _OleLockRunning
+(__TEXT,__text) external _OlePasteboardDisableSyntheticFlavorGeneration
 (__TEXT,__text) external _OleQueryCreateFromData
 (__TEXT,__text) external _OleQueryLinkFromData
 (__TEXT,__text) external _OleRegEnumFormatEtc
@@ -262,10 +303,6 @@
 (undefined) external _OpenClassesRootKeyW (from OLEAutomation)
 (undefined) external _OpenEventW (from WLMKernel)
 (undefined) external _OpenProcess (from WLMKernel)
-(undefined) external _PfmFRLCreateFromWz (from mbukernel)
-(undefined) external _PfmFRLGetFileHFSCreator (from mbukernel)
-(undefined) external _PfmFRLGetFileHFSType (from mbukernel)
-(undefined) external _PfmFRLRelease (from mbukernel)
 (undefined) external _ProgIDFromCLSID (from COMBase)
 (undefined) external _PropVariantClear (from COMBase)
 (undefined) external _PropVariantCopy (from COMBase)
@@ -279,7 +316,6 @@
 (undefined) external _RegOpenKeyExW (from WLMKernel)
 (undefined) external _RegQueryInfoKeyW (from WLMKernel)
 (undefined) external _RegQueryValueExW (from WLMKernel)
-(undefined) external _RegQueryValueW (from WLMKernel)
 (__TEXT,__text) external _RegisterActiveObjectExt
 (undefined) external _RegisterClipboardFormatA (from WLMKernel)
 (undefined) external _RegisterClipboardFormatW (from WLMKernel)
@@ -325,6 +361,7 @@
 (__TEXT,__text) external _StgCreateDocfileOnILockBytes
 (__TEXT,__text) external _StgCreateStorageEx
 (__TEXT,__text) external _StgIsStorageFile
+(__TEXT,__text) external _StgIsStorageILockBytes
 (__TEXT,__text) external _StgOpenStorage
 (__TEXT,__text) external _StgOpenStorageEx
 (__TEXT,__text) external _StgOpenStorageOnILockBytes
@@ -339,6 +376,8 @@
 (undefined) external _SysStringByteLen (from OLEAutomation)
 (undefined) external _SystemTimeToFileTime (from WLMKernel)
 (undefined) external _UTTypeConformsTo (from CoreServices)
+(undefined) external _UTTypeCopyPreferredTagWithClass (from CoreServices)
+(undefined) external _UTTypeCreatePreferredIdentifierForTag (from CoreServices)
 (undefined) external _UTTypeEqual (from CoreServices)
 (undefined) external _UnlockFile (from WLMKernel)
 (undefined) external _VariantChangeType (from OLEAutomation)
@@ -347,6 +386,7 @@
 (undefined) external _VariantInit (from OLEAutomation)
 (undefined) external _WLMFreeHandleAndDetachData (from WLMKernel)
 (undefined) external _WaitForSingleObject (from WLMKernel)
+(undefined) external _WebArchivePboardType (from WebKit)
 (undefined) external _WideCharToMultiByte (from WLMKernel)
 (undefined) external _WlmConvertFilePathHFSToPosix (from WLMKernel)
 (undefined) external _WlmConvertFilePathPosixToWin (from WLMKernel)
@@ -359,7 +399,7 @@
 (undefined) external _WlmGetPathStyle (from WLMKernel)
 (undefined) external _WlmGetPdfDataFromEnhMetafile (from WLMGraphicsDevice)
 (undefined) external _WlmGetPdfDataFromMetafile (from WLMGraphicsDevice)
-(undefined) external _WlmRegisterDllMain (from WLMKernel)
+(undefined) external _WlmIsPointerToAnyObjectiveCObject (from WLMKernel)
 (__TEXT,__text) external _WriteClassStg
 (__TEXT,__text) external _WriteClassStm
 (undefined) external _WriteFile (from WLMKernel)
@@ -367,15 +407,17 @@
 (undefined) external __DefaultRuneLocale (from libSystem)
 (undefined) external __Unwind_Resume (from libSystem)
 (undefined) external UtDupString(wchar_t const*) (from COMBase)
-(undefined) external BuildRotData(IBindCtx*, IMoniker*, unsigned char*, unsigned long, unsigned long*) (from COMBase)
+(undefined) external BuildRotData(IBindCtx*, IMoniker*, unsigned char*, unsigned int, unsigned int*) (from COMBase)
 (undefined) external CharPrevStub(wchar_t const*, wchar_t const*) (from COMBase)
+(__TEXT,__text) external IsValidPtrIn(void const*, unsigned long)
+(__TEXT,__text) external IsValidPtrOut(void*, unsigned long)
 (undefined) external wRegGetClassExt(wchar_t const*, _GUID*) (from COMBase)
 (undefined) external wStringFromUUID(_GUID const&, wchar_t*) (from COMBase)
 (undefined) external wUUIDFromString(wchar_t const*, _GUID*) (from COMBase)
-(undefined) external CreateFileMonikerComparisonBuffer(wchar_t*, unsigned char*, unsigned long, unsigned long*) (from COMBase)
-(undefined) external UtDupPtr(void*, unsigned long) (from COMBase)
-(undefined) external CHashTable::Add(unsigned long, SHashChain*) (from COMBase)
-(undefined) external CHashTable::Lookup(unsigned long, void const*) (from COMBase)
+(undefined) external CreateFileMonikerComparisonBuffer(wchar_t*, unsigned char*, unsigned int, unsigned int*) (from COMBase)
+(undefined) external UtDupPtr(void*, unsigned int) (from COMBase)
+(undefined) external CHashTable::Add(unsigned int, SHashChain*) (from COMBase)
+(undefined) external CHashTable::Lookup(unsigned int, void const*) (from COMBase)
 (undefined) external CMutexSem2::FInit() (from COMBase)
 (undefined) external CMutexSem2::Release() (from COMBase)
 (undefined) external CMutexSem2::Request() (from COMBase)
@@ -383,28 +425,28 @@
 (undefined) external CMutexSem2::~CMutexSem2() (from COMBase)
 (undefined) external CExtHashTable::Hash(wchar_t const*) (from COMBase)
 (undefined) external CPageAllocator::AllocEntry(int) (from COMBase)
-(undefined) external CPageAllocator::Initialize(unsigned long, unsigned short, COleStaticMutexSem*, unsigned long) (from COMBase)
+(undefined) external CPageAllocator::Initialize(unsigned long long, unsigned short, COleStaticMutexSem*, unsigned int) (from COMBase)
 (undefined) external CPageAllocator::CPageAllocator() (from COMBase)
 (undefined) external CPageAllocator::~CPageAllocator() (from COMBase)
 (undefined) external CProcessSecret::GetProcessSecret(_GUID*) (from COMBase)
 (undefined) external COleStaticMutexSem::Release() (from COMBase)
-(undefined) external COleStaticMutexSem::Request(char const*, unsigned long, char const*) (from COMBase)
+(undefined) external COleStaticMutexSem::Request(char const*, unsigned int, char const*) (from COMBase)
 (undefined) external COleStaticMutexSem::~COleStaticMutexSem() (from COMBase)
-(undefined) external CRandomNumberGenerator::GenerateRandomNumber(unsigned char*, unsigned long) (from COMBase)
+(undefined) external CRandomNumberGenerator::GenerateRandomNumber(unsigned char*, unsigned int) (from COMBase)
+(undefined) external WlmRegisterDllMainObject::s_head (from WLMKernel)
 (__TEXT,__text) external Apex::DuplicateHDROP(void*)
 (__DATA,__common) external Apex::g_OleautRegistration
 (undefined) external Apex::OleautCanGetClassObject(_GUID const&) (from OLEAutomation)
 (__TEXT,__text) external Apex::CreateCFURLArrayFromHDROP(void*)
-(undefined) external Apex::RegisterDllGetClassObjectWithPreflightProc(long (*)(_GUID const&, _GUID const&, void**), int (*)(_GUID const&)) (from COMBase)
-(__TEXT,__text) external Apex::FreeHDROP(void*)
+(undefined) external Apex::RegisterDllGetClassObjectWithPreflightProc(int (*)(_GUID const&, _GUID const&, void**), int (*)(_GUID const&)) (from COMBase)
 (undefined) external wc16::wcscmp(wchar_t const*, wchar_t const*) (from mbukernel)
 (undefined) external wc16::wcslen(wchar_t const*) (from mbukernel)
 (undefined) external std::nothrow (from libc++)
 (undefined) external std::terminate() (from libc++)
 (__DATA,__data) weak external typeinfo for _EXCEPTION_POINTERS
 (__DATA,__data) weak external typeinfo for CppStructuredException
+(undefined) external typeinfo for int (from libc++)
 (undefined) external vtable for CExtHashTable (from COMBase)
-(undefined) external vtable for CAbstractStream (from COMBase)
 (undefined) external vtable for CWriteInterfaceDataMarshalingStream (from COMBase)
 (undefined) external vtable for CBaseMInterfacePointerMarshalingStream (from COMBase)
 (undefined) external vtable for CReadInterfaceDataFromInternalSourceMarshalingStream (from COMBase)
@@ -426,23 +468,26 @@
 (undefined) external ___cxa_begin_catch (from libc++)
 (undefined) external ___cxa_call_unexpected (from libc++)
 (undefined) external ___cxa_end_catch (from libc++)
+(undefined) external ___cxa_free_exception (from libc++)
+(undefined) external ___cxa_guard_abort (from libc++)
+(undefined) external ___cxa_guard_acquire (from libc++)
+(undefined) external ___cxa_guard_release (from libc++)
 (undefined) external ___cxa_pure_virtual (from libc++)
 (undefined) external ___cxa_rethrow (from libc++)
 (undefined) external ___cxa_throw (from libc++)
 (undefined) external ___error (from libSystem)
-(undefined) external ___fixunsdfdi (from libSystem)
 (undefined) external ___gxx_personality_v0 (from libc++)
+(undefined) external ___objc_personality_v0 (from libobjc)
 (undefined) external ___snprintf_chk (from libSystem)
 (undefined) external ___stack_chk_fail (from libSystem)
 (undefined) external ___stack_chk_guard (from libSystem)
 (undefined) external ___toupper (from libSystem)
-(undefined) external ___udivdi3 (from libSystem)
-(undefined) external ___umoddi3 (from libSystem)
-(undefined) external __setjmp (from libSystem)
+(undefined) external __objc_empty_cache (from libobjc)
 (undefined) external __wcsicmp (from WLMKernel)
 (undefined) external __wcslwr (from WLMKernel)
 (undefined) external __wcsnicmp (from WLMKernel)
 (undefined) external __wcsupr (from WLMKernel)
+(undefined) external _calloc (from libSystem)
 (undefined) external _fmod (from libSystem)
 (undefined) external _free (from libSystem)
 (undefined) external _gProcessSecret (from COMBase)
@@ -450,15 +495,21 @@
 (undefined) external _g_mxsSingleThreadOle (from COMBase)
 (undefined) external _getpid (from libSystem)
 (undefined) external _kCFAllocatorDefault (from CoreFoundation)
+(undefined) external _kCFAllocatorNull (from CoreFoundation)
 (undefined) external _kCFTypeArrayCallBacks (from CoreFoundation)
-(undefined) external _kUTTypeContent (from CoreServices)
-(undefined) external _kUTTypeData (from CoreServices)
+(undefined) external _kUTTagClassFilenameExtension (from CoreServices)
+(undefined) external _kUTTagClassMIMEType (from CoreServices)
 (undefined) external _kUTTypeFileURL (from CoreServices)
-(undefined) external _kUTTypeItem (from CoreServices)
+(undefined) external _kUTTypeFlatRTFD (from CoreServices)
+(undefined) external _kUTTypeHTML (from CoreServices)
 (undefined) external _kUTTypePlainText (from CoreServices)
+(undefined) external _kUTTypeRTF (from CoreServices)
+(undefined) external _kUTTypeRTFD (from CoreServices)
 (undefined) external _kUTTypeText (from CoreServices)
+(undefined) external _kUTTypeUTF16ExternalPlainText (from CoreServices)
 (undefined) external _kUTTypeUTF16PlainText (from CoreServices)
 (undefined) external _kUTTypeUTF8PlainText (from CoreServices)
+(undefined) external _kUTTypeWebArchive (from CoreServices)
 (undefined) external _lstrcmpW (from WLMKernel)
 (undefined) external _lstrlenA (from mbukernel)
 (undefined) external _lstrlenW (from mbukernel)
@@ -468,18 +519,18 @@
 (undefined) external _memmove (from libSystem)
 (undefined) external _memset (from libSystem)
 (undefined) external _memset_pattern16 (from libSystem)
-(undefined) external _objc_exception_extract (from libobjc)
-(undefined) external _objc_exception_match (from libobjc)
-(undefined) external _objc_exception_throw (from libobjc)
-(undefined) external _objc_exception_try_enter (from libobjc)
-(undefined) external _objc_exception_try_exit (from libobjc)
+(undefined) external _objc_autoreleasePoolPop (from libobjc)
+(undefined) external _objc_autoreleasePoolPush (from libobjc)
+(undefined) external _objc_begin_catch (from libobjc)
+(undefined) external _objc_end_catch (from libobjc)
+(undefined) external _objc_enumerationMutation (from libobjc)
 (undefined) external _objc_msgSend (from libobjc)
-(undefined) external _objc_msgSendSuper (from libobjc)
+(undefined) external _objc_msgSendSuper2 (from libobjc)
 (undefined) external _objc_msgSend_stret (from libobjc)
-(undefined) external _objc_setProperty (from libobjc)
+(undefined) external _objc_setProperty_nonatomic (from libobjc)
 (undefined) external _pthread_main_np (from libSystem)
 (undefined) external _qsort (from libSystem)
-(undefined) external _roundf (from libSystem)
+(undefined) external _round (from libSystem)
 (undefined) external _strcmp (from libSystem)
 (undefined) external _strlen (from libSystem)
 (undefined) external _wRegQueryValue (from COMBase)
