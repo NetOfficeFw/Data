@@ -491,7 +491,7 @@
 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
 (undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
-(undefined) external _OBJC_CLASS_$_NSObject (from CoreFoundation)
+(undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
 (undefined) external _OBJC_CLASS_$_NSOperation (from Foundation)
 (undefined) external _OBJC_CLASS_$_NSPasteboard (from AppKit)
 (undefined) external _OBJC_CLASS_$_NSPredicate (from Foundation)
@@ -505,7 +505,7 @@
 (__DATA,__objc_data) external _OBJC_CLASS_$_WLMNSOperation
 (__DATA,__objc_data) external _OBJC_CLASS_$_WlmDragDropView
 (undefined) external _OBJC_EHTYPE_$_NSException (from CoreFoundation)
-(undefined) external _OBJC_METACLASS_$_NSObject (from CoreFoundation)
+(undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
 (undefined) external _OBJC_METACLASS_$_NSOperation (from Foundation)
 (undefined) external _OBJC_METACLASS_$_NSThread (from Foundation)
 (undefined) external _OBJC_METACLASS_$_NSView (from AppKit)
