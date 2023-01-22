@@ -1,0 +1,670 @@
+(undefined) external .objc_class_name_NSAutoreleasePool (from Foundation)
+(undefined) external .objc_class_name_NSBundle (from Foundation)
+(undefined) external .objc_class_name_NSFileManager (from Foundation)
+(undefined) external .objc_class_name_NSMutableDictionary (from CoreFoundation)
+(undefined) external .objc_class_name_NSNumber (from Foundation)
+(undefined) external .objc_class_name_NSString (from Foundation)
+(undefined) external .objc_class_name_NSURL (from CoreFoundation)
+(undefined) external .objc_class_name_NSWorkspace (from AppKit)
+(__TEXT,__text) external _BSTR_UserFree
+(__TEXT,__text) external _BSTR_UserMarshal
+(__TEXT,__text) external _BSTR_UserSize
+(__TEXT,__text) external _BSTR_UserUnmarshal
+(__TEXT,__text) external _BstrFromVector
+(undefined) external _CFBundleCopyResourceURL (from CoreFoundation)
+(undefined) external _CFBundleGetBundleWithIdentifier (from CoreFoundation)
+(undefined) external _CFRelease (from CoreFoundation)
+(undefined) external _CFStringCompare (from CoreFoundation)
+(undefined) external _CFStringCreateWithCString (from CoreFoundation)
+(undefined) external _CFStringCreateWithCharactersNoCopy (from CoreFoundation)
+(undefined) external _CFStringGetCharacters (from CoreFoundation)
+(undefined) external _CFStringGetLength (from CoreFoundation)
+(undefined) external _CFURLCopyAbsoluteURL (from CoreFoundation)
+(undefined) external _CFURLCopyFileSystemPath (from CoreFoundation)
+(undefined) external _CFURLCopyLastPathComponent (from CoreFoundation)
+(undefined) external _CFURLCreateCopyAppendingPathComponent (from CoreFoundation)
+(undefined) external _CFURLCreateCopyAppendingPathExtension (from CoreFoundation)
+(undefined) external _CFURLCreateCopyDeletingLastPathComponent (from CoreFoundation)
+(undefined) external _CFURLCreateCopyDeletingPathExtension (from CoreFoundation)
+(undefined) external _CFURLCreateWithFileSystemPath (from CoreFoundation)
+(undefined) external _CFURLResourceIsReachable (from CoreFoundation)
+(undefined) weak external _CLIPFORMAT_UserFreeExt (from OLE)
+(undefined) weak external _CLIPFORMAT_UserMarshalExt (from OLE)
+(undefined) weak external _CLIPFORMAT_UserSizeExt (from OLE)
+(undefined) weak external _CLIPFORMAT_UserUnmarshalExt (from OLE)
+(undefined) weak external _CLSIDFromString (from COMBase)
+(undefined) external _CStdStubBuffer_AddRef (from rpcrt4)
+(undefined) external _CStdStubBuffer_Connect (from rpcrt4)
+(undefined) external _CStdStubBuffer_CountRefs (from rpcrt4)
+(undefined) external _CStdStubBuffer_DebugServerQueryInterface (from rpcrt4)
+(undefined) external _CStdStubBuffer_DebugServerRelease (from rpcrt4)
+(undefined) external _CStdStubBuffer_Disconnect (from rpcrt4)
+(undefined) external _CStdStubBuffer_Invoke (from rpcrt4)
+(undefined) external _CStdStubBuffer_IsIIDSupported (from rpcrt4)
+(undefined) external _CStdStubBuffer_QueryInterface (from rpcrt4)
+(__TEXT,__text) external _ClearCustData
+(undefined) external _CloseHandle (from WLMKernel)
+(undefined) weak external _CoCreateErrorInfo (from COMBase)
+(undefined) weak external _CoCreateInstance (from COMBase)
+(undefined) weak external _CoGetClassObject (from COMBase)
+(undefined) weak external _CoGetErrorInfo (from COMBase)
+(undefined) weak external _CoGetMalloc (from COMBase)
+(undefined) weak external _CoMarshalHresult (from COMBase)
+(undefined) weak external _CoMarshalInterface (from COMBase)
+(undefined) weak external _CoReleaseMarshalData (from COMBase)
+(undefined) weak external _CoSetErrorInfo (from COMBase)
+(undefined) weak external _CoUnmarshalHresult (from COMBase)
+(undefined) weak external _CoUnmarshalInterface (from COMBase)
+(undefined) external _CompareStringA (from WLMKernel)
+(undefined) external _CompareStringW (from WLMKernel)
+(__TEXT,__text) external _CreateDispTypeInfo
+(__TEXT,__text) external _CreateErrorInfo
+(undefined) external _CreateFileW (from WLMKernel)
+(undefined) external _CreateProxyFromTypeInfo (from rpcrt4)
+(undefined) external _CreateStubFromTypeInfo (from rpcrt4)
+(__TEXT,__text) external _CreateTypeLib
+(__TEXT,__text) external _CreateTypeLib2
+(undefined) weak external _DcomChannelSetHResult (from COMBase)
+(undefined) external _DeleteCriticalSection (from WLMKernel)
+(__TEXT,__text) external _DispCallFunc
+(__TEXT,__text) external _DispGetIDsOfNames
+(__TEXT,__text) external _DispGetParam
+(__TEXT,__text) external _DispInvoke
+(__TEXT,__text) external _DosDateTimeToVariantTime
+(undefined) external _EnterCriticalSection (from WLMKernel)
+(undefined) external _FreeLibrary (from WLMKernel)
+(__TEXT,__text) external _GetActiveObject
+(undefined) weak external _GetActiveObjectExt (from OLE)
+(__TEXT,__text) external _GetAltMonthNames
+(undefined) external _GetCurrencyFormatW (from WLMKernel)
+(undefined) external _GetDateFormatW (from WLMKernel)
+(undefined) external _GetDriveTypeW (from WLMKernel)
+(__TEXT,__text) external _GetErrorInfo
+(undefined) external _GetLastError (from WLMKernel)
+(undefined) external _GetLocalTime (from WLMKernel)
+(undefined) external _GetLocaleInfoW (from WLMKernel)
+(undefined) external _GetNumberFormatW (from WLMKernel)
+(undefined) external _GetProcAddress (from WLMKernel)
+(__TEXT,__text) external _GetRecordInfoFromTypeInfo
+(undefined) external _GetStringTypeExW (from WLMKernel)
+(undefined) external _GetSystemDefaultLCID (from WLMKernel)
+(undefined) external _GetTimeFormatW (from WLMKernel)
+(undefined) external _GetUserDefaultLCID (from WLMKernel)
+(__TEXT,__text) external _GetVarConversionLocaleSetting
+(undefined) weak external _HPALETTE_UserFreeExt (from OLE)
+(undefined) weak external _HPALETTE_UserMarshalExt (from OLE)
+(undefined) weak external _HPALETTE_UserSizeExt (from OLE)
+(undefined) weak external _HPALETTE_UserUnmarshalExt (from OLE)
+(undefined) weak external _HWND_UserFreeExt (from OLE)
+(undefined) weak external _HWND_UserMarshalExt (from OLE)
+(undefined) weak external _HWND_UserSizeExt (from OLE)
+(undefined) weak external _HWND_UserUnmarshalExt (from OLE)
+(undefined) external _IUnknown_AddRef_Proxy (from rpcrt4)
+(undefined) external _IUnknown_QueryInterface_Proxy (from rpcrt4)
+(undefined) external _IUnknown_Release_Proxy (from rpcrt4)
+(undefined) external _InitializeCriticalSectionAndSpinCount (from WLMKernel)
+(undefined) external _InterlockedDecrement (from WLMKernel)
+(undefined) external _InterlockedIncrement (from WLMKernel)
+(undefined) external _LCMapStringW (from WLMKernel)
+(__TEXT,__text) external _LHashValOfNameSys
+(__TEXT,__text) external _LHashValOfNameSysA
+(__TEXT,__text) external _LPSAFEARRAY_Marshal
+(__TEXT,__text) external _LPSAFEARRAY_Size
+(__TEXT,__text) external _LPSAFEARRAY_Unmarshal
+(__TEXT,__text) external _LPSAFEARRAY_UserFree
+(__TEXT,__text) external _LPSAFEARRAY_UserMarshal
+(__TEXT,__text) external _LPSAFEARRAY_UserSize
+(__TEXT,__text) external _LPSAFEARRAY_UserUnmarshal
+(undefined) external _LeaveCriticalSection (from WLMKernel)
+(undefined) external _LoadLibraryExW (from WLMKernel)
+(__TEXT,__text) external _LoadRegTypeLib
+(__TEXT,__text) external _LoadTypeLib
+(__TEXT,__text) external _LoadTypeLibEx
+(undefined) weak external _MonikerLoadTypeLib (from OLE)
+(undefined) external _MultiByteToWideChar (from WLMKernel)
+(undefined) external _NSHomeDirectory (from Foundation)
+(undefined) external _NSTemporaryDirectory (from Foundation)
+(undefined) external _NdrCStdStubBuffer2_Release (from rpcrt4)
+(undefined) external _NdrCStdStubBuffer_Release (from rpcrt4)
+(undefined) external _NdrClientCall2 (from rpcrt4)
+(undefined) external _NdrDllGetClassObject (from rpcrt4)
+(undefined) external _NdrGetUserMarshalInfo (from rpcrt4)
+(undefined) external _NdrOleAllocate (from rpcrt4)
+(undefined) external _NdrOleFree (from rpcrt4)
+(undefined) weak external _NdrProxyForwardingFunction10 (from COMBase)
+(undefined) weak external _NdrProxyForwardingFunction11 (from COMBase)
+(undefined) weak external _NdrProxyForwardingFunction12 (from COMBase)
+(undefined) weak external _NdrProxyForwardingFunction13 (from COMBase)
+(undefined) weak external _NdrProxyForwardingFunction14 (from COMBase)
+(undefined) weak external _NdrProxyForwardingFunction3 (from COMBase)
+(undefined) weak external _NdrProxyForwardingFunction4 (from COMBase)
+(undefined) weak external _NdrProxyForwardingFunction5 (from COMBase)
+(undefined) weak external _NdrProxyForwardingFunction6 (from COMBase)
+(undefined) weak external _NdrProxyForwardingFunction7 (from COMBase)
+(undefined) weak external _NdrProxyForwardingFunction8 (from COMBase)
+(undefined) weak external _NdrProxyForwardingFunction9 (from COMBase)
+(undefined) external _NdrStubCall2 (from rpcrt4)
+(undefined) external _NdrStubForwardingFunction (from rpcrt4)
+(__TEXT,__text) external _OACleanup
+(__TEXT,__text) external _OACreateTypeLib2
+(__TEXT,__text) external _OaBuildVersion
+(__TEXT,__text) external _OaDeleteCriticalSection
+(__TEXT,__text) external _OaEnablePerUserTLibRegistration
+(__TEXT,__text) external _OaInitializeCriticalSectionAndSpinCount
+(undefined) weak external _ObjectStublessClient10 (from COMBase)
+(undefined) weak external _ObjectStublessClient11 (from COMBase)
+(undefined) weak external _ObjectStublessClient12 (from COMBase)
+(undefined) weak external _ObjectStublessClient13 (from COMBase)
+(undefined) weak external _ObjectStublessClient14 (from COMBase)
+(undefined) weak external _ObjectStublessClient15 (from COMBase)
+(undefined) weak external _ObjectStublessClient16 (from COMBase)
+(undefined) weak external _ObjectStublessClient17 (from COMBase)
+(undefined) weak external _ObjectStublessClient18 (from COMBase)
+(undefined) weak external _ObjectStublessClient19 (from COMBase)
+(undefined) weak external _ObjectStublessClient20 (from COMBase)
+(undefined) weak external _ObjectStublessClient21 (from COMBase)
+(undefined) weak external _ObjectStublessClient22 (from COMBase)
+(undefined) weak external _ObjectStublessClient23 (from COMBase)
+(undefined) weak external _ObjectStublessClient24 (from COMBase)
+(undefined) weak external _ObjectStublessClient25 (from COMBase)
+(undefined) weak external _ObjectStublessClient26 (from COMBase)
+(undefined) weak external _ObjectStublessClient27 (from COMBase)
+(undefined) weak external _ObjectStublessClient28 (from COMBase)
+(undefined) weak external _ObjectStublessClient29 (from COMBase)
+(undefined) weak external _ObjectStublessClient3 (from COMBase)
+(undefined) weak external _ObjectStublessClient4 (from COMBase)
+(undefined) weak external _ObjectStublessClient5 (from COMBase)
+(undefined) weak external _ObjectStublessClient6 (from COMBase)
+(undefined) weak external _ObjectStublessClient7 (from COMBase)
+(undefined) weak external _ObjectStublessClient8 (from COMBase)
+(undefined) weak external _ObjectStublessClient9 (from COMBase)
+(__TEXT,__text) external _OleCreateFontIndirect
+(undefined) weak external _OleCreateFontIndirectExt (from OLE)
+(__TEXT,__text) external _OleCreatePictureIndirect
+(undefined) weak external _OleCreatePictureIndirectExt (from OLE)
+(__TEXT,__text) external _OleCreatePropertyFrame
+(__TEXT,__text) external _OleCreatePropertyFrameIndirect
+(undefined) weak external _OleCreatePropertyFrameIndirectExt (from OLE)
+(__TEXT,__text) external _OleIconToCursor
+(undefined) weak external _OleIconToCursorExt (from OLE)
+(__TEXT,__text) external _OleLoadPicture
+(__TEXT,__text) external _OleLoadPictureEx
+(undefined) weak external _OleLoadPictureExt (from OLE)
+(__TEXT,__text) external _OleLoadPictureFile
+(__TEXT,__text) external _OleLoadPictureFileEx
+(undefined) weak external _OleLoadPictureFileExt (from OLE)
+(__TEXT,__text) external _OleLoadPicturePath
+(undefined) weak external _OleLoadPicturePathExt (from OLE)
+(__TEXT,__text) external _OleSavePictureFile
+(undefined) weak external _OleSavePictureFileExt (from OLE)
+(__TEXT,__text) external _OleTranslateColor
+(undefined) weak external _OleTranslateColorExt (from OLE)
+(__TEXT,__text) external _OleautDllGetClassObject
+(__TEXT,__text) external _OleautDllMain
+(__TEXT,__text) external _OpenClassesRootKeyExW
+(__TEXT,__text) external _OpenClassesRootKeyW
+(__TEXT,__text) external _QueryClassesRootValueW
+(__TEXT,__text) external _QueryPathOfRegTypeLib
+(undefined) external _ReadFile (from WLMKernel)
+(undefined) weak external _ReadStorageProperties (from OLE)
+(undefined) external _RegCloseKey (from WLMKernel)
+(undefined) external _RegCreateKeyExW (from WLMKernel)
+(undefined) external _RegDeleteKeyExW (from WLMKernel)
+(undefined) external _RegEnumKeyExW (from WLMKernel)
+(__TEXT,__text) external _RegGetOtherView
+(undefined) external _RegGetValueW (from WLMKernel)
+(undefined) external _RegOpenKeyExA (from WLMKernel)
+(undefined) external _RegOpenKeyExW (from WLMKernel)
+(undefined) external _RegOpenUserClassesRoot (from WLMKernel)
+(undefined) external _RegQueryInfoKeyW (from WLMKernel)
+(undefined) external _RegQueryValueExA (from WLMKernel)
+(undefined) external _RegQueryValueExW (from WLMKernel)
+(undefined) external _RegSetValueExW (from WLMKernel)
+(__TEXT,__text) external _RegisterActiveObject
+(undefined) weak external _RegisterActiveObjectExt (from OLE)
+(__TEXT,__text) external _RegisterTypeLib
+(__TEXT,__text) external _RegisterTypeLibForUser
+(__TEXT,__text) external _RevokeActiveObject
+(undefined) weak external _RevokeActiveObjectExt (from OLE)
+(undefined) external _RpcRaiseException (from rpcrt4)
+(undefined) weak external _STGMEDIUM_UserFreeExt (from OLE)
+(undefined) weak external _STGMEDIUM_UserMarshalExt (from OLE)
+(undefined) weak external _STGMEDIUM_UserSizeExt (from OLE)
+(undefined) weak external _STGMEDIUM_UserUnmarshalExt (from OLE)
+(__TEXT,__text) external _SafeArrayAccessData
+(__TEXT,__text) external _SafeArrayAllocData
+(__TEXT,__text) external _SafeArrayAllocDescriptor
+(__TEXT,__text) external _SafeArrayAllocDescriptorEx
+(__TEXT,__text) external _SafeArrayCopy
+(__TEXT,__text) external _SafeArrayCopyData
+(__TEXT,__text) external _SafeArrayCreate
+(__TEXT,__text) external _SafeArrayCreateEx
+(__TEXT,__text) external _SafeArrayCreateVector
+(__TEXT,__text) external _SafeArrayCreateVectorEx
+(__TEXT,__text) external _SafeArrayDestroy
+(__TEXT,__text) external _SafeArrayDestroyData
+(__TEXT,__text) external _SafeArrayDestroyDescriptor
+(__TEXT,__text) external _SafeArrayGetDim
+(__TEXT,__text) external _SafeArrayGetElement
+(__TEXT,__text) external _SafeArrayGetElemsize
+(__TEXT,__text) external _SafeArrayGetIID
+(__TEXT,__text) external _SafeArrayGetLBound
+(__TEXT,__text) external _SafeArrayGetRecordInfo
+(__TEXT,__text) external _SafeArrayGetUBound
+(__TEXT,__text) external _SafeArrayGetVartype
+(__TEXT,__text) external _SafeArrayLock
+(__TEXT,__text) external _SafeArrayPtrOfIndex
+(__TEXT,__text) external _SafeArrayPutElement
+(__TEXT,__text) external _SafeArrayRedim
+(__TEXT,__text) external _SafeArraySetIID
+(__TEXT,__text) external _SafeArraySetRecordInfo
+(__TEXT,__text) external _SafeArrayUnaccessData
+(__TEXT,__text) external _SafeArrayUnlock
+(__TEXT,__text) external _SetErrorInfo
+(undefined) external _SetFilePointer (from WLMKernel)
+(undefined) external _SetLastError (from WLMKernel)
+(__TEXT,__text) external _SetOaNoCache
+(__TEXT,__text) external _SetVarConversionLocaleSetting
+(undefined) weak external _StdTypesGetClassObject (from OLE)
+(undefined) weak external _StringFromGUID2 (from COMBase)
+(__TEXT,__text) external _SysAllocString
+(__TEXT,__text) external _SysAllocStringByteLen
+(__TEXT,__text) external _SysAllocStringLen
+(__TEXT,__text) external _SysFreeString
+(__TEXT,__text) external _SysReAllocString
+(__TEXT,__text) external _SysReAllocStringLen
+(__TEXT,__text) external _SysStringByteLen
+(__TEXT,__text) external _SysStringLen
+(__TEXT,__text) external _SystemTimeToVariantTime
+(undefined) external _TlsAlloc (from WLMKernel)
+(undefined) external _TlsFree (from WLMKernel)
+(undefined) external _TlsGetValue (from WLMKernel)
+(undefined) external _TlsSetValue (from WLMKernel)
+(__TEXT,__text) external _UnRegisterTypeLib
+(__TEXT,__text) external _UnRegisterTypeLibForUser
+(__TEXT,__text) external _VARIANT_UserFree
+(__TEXT,__text) external _VARIANT_UserMarshal
+(__TEXT,__text) external _VARIANT_UserSize
+(__TEXT,__text) external _VARIANT_UserUnmarshal
+(__TEXT,__text) external _VarAbs
+(__TEXT,__text) external _VarAdd
+(__TEXT,__text) external _VarAnd
+(__TEXT,__text) external _VarBoolFromCy
+(__TEXT,__text) external _VarBoolFromDate
+(__TEXT,__text) external _VarBoolFromDec
+(__TEXT,__text) external _VarBoolFromDisp
+(__TEXT,__text) external _VarBoolFromI1
+(__TEXT,__text) external _VarBoolFromI2
+(__TEXT,__text) external _VarBoolFromI4
+(__TEXT,__text) external _VarBoolFromI8
+(__TEXT,__text) external _VarBoolFromR4
+(__TEXT,__text) external _VarBoolFromR8
+(__TEXT,__text) external _VarBoolFromStr
+(__TEXT,__text) external _VarBoolFromUI1
+(__TEXT,__text) external _VarBoolFromUI2
+(__TEXT,__text) external _VarBoolFromUI4
+(__TEXT,__text) external _VarBoolFromUI8
+(__TEXT,__text) external _VarBstrCat
+(__TEXT,__text) external _VarBstrCmp
+(__TEXT,__text) external _VarBstrFromBool
+(__TEXT,__text) external _VarBstrFromCy
+(__TEXT,__text) external _VarBstrFromDate
+(__TEXT,__text) external _VarBstrFromDec
+(__TEXT,__text) external _VarBstrFromDisp
+(__TEXT,__text) external _VarBstrFromI1
+(__TEXT,__text) external _VarBstrFromI2
+(__TEXT,__text) external _VarBstrFromI4
+(__TEXT,__text) external _VarBstrFromI8
+(__TEXT,__text) external _VarBstrFromR4
+(__TEXT,__text) external _VarBstrFromR8
+(__TEXT,__text) external _VarBstrFromUI1
+(__TEXT,__text) external _VarBstrFromUI2
+(__TEXT,__text) external _VarBstrFromUI4
+(__TEXT,__text) external _VarBstrFromUI8
+(__TEXT,__text) external _VarCat
+(__TEXT,__text) external _VarCmp
+(__TEXT,__text) external _VarCyAbs
+(__TEXT,__text) external _VarCyAdd
+(__TEXT,__text) external _VarCyCmp
+(__TEXT,__text) external _VarCyCmpR8
+(__TEXT,__text) external _VarCyFix
+(__TEXT,__text) external _VarCyFromBool
+(__TEXT,__text) external _VarCyFromDate
+(__TEXT,__text) external _VarCyFromDec
+(__TEXT,__text) external _VarCyFromDisp
+(__TEXT,__text) external _VarCyFromI1
+(__TEXT,__text) external _VarCyFromI2
+(__TEXT,__text) external _VarCyFromI4
+(__TEXT,__text) external _VarCyFromI8
+(__TEXT,__text) external _VarCyFromR4
+(__TEXT,__text) external _VarCyFromR8
+(__TEXT,__text) external _VarCyFromStr
+(__TEXT,__text) external _VarCyFromUI1
+(__TEXT,__text) external _VarCyFromUI2
+(__TEXT,__text) external _VarCyFromUI4
+(__TEXT,__text) external _VarCyFromUI8
+(__TEXT,__text) external _VarCyInt
+(__TEXT,__text) external _VarCyMul
+(__TEXT,__text) external _VarCyMulI4
+(__TEXT,__text) external _VarCyMulI8
+(__TEXT,__text) external _VarCyNeg
+(__TEXT,__text) external _VarCyRound
+(__TEXT,__text) external _VarCySub
+(__TEXT,__text) external _VarDateFromBool
+(__TEXT,__text) external _VarDateFromCy
+(__TEXT,__text) external _VarDateFromDec
+(__TEXT,__text) external _VarDateFromDisp
+(__TEXT,__text) external _VarDateFromI1
+(__TEXT,__text) external _VarDateFromI2
+(__TEXT,__text) external _VarDateFromI4
+(__TEXT,__text) external _VarDateFromI8
+(__TEXT,__text) external _VarDateFromR4
+(__TEXT,__text) external _VarDateFromR8
+(__TEXT,__text) external _VarDateFromStr
+(__TEXT,__text) external _VarDateFromUI1
+(__TEXT,__text) external _VarDateFromUI2
+(__TEXT,__text) external _VarDateFromUI4
+(__TEXT,__text) external _VarDateFromUI8
+(__TEXT,__text) external _VarDateFromUdate
+(__TEXT,__text) external _VarDateFromUdateEx
+(__TEXT,__text) external _VarDecAbs
+(__TEXT,__text) external _VarDecAdd
+(__TEXT,__text) external _VarDecCmp
+(__TEXT,__text) external _VarDecCmpR8
+(__TEXT,__text) external _VarDecDiv
+(__TEXT,__text) external _VarDecFix
+(__TEXT,__text) external _VarDecFromBool
+(__TEXT,__text) external _VarDecFromCy
+(__TEXT,__text) external _VarDecFromDate
+(__TEXT,__text) external _VarDecFromDisp
+(__TEXT,__text) external _VarDecFromI1
+(__TEXT,__text) external _VarDecFromI2
+(__TEXT,__text) external _VarDecFromI4
+(__TEXT,__text) external _VarDecFromI8
+(__TEXT,__text) external _VarDecFromR4
+(__TEXT,__text) external _VarDecFromR8
+(__TEXT,__text) external _VarDecFromStr
+(__TEXT,__text) external _VarDecFromUI1
+(__TEXT,__text) external _VarDecFromUI2
+(__TEXT,__text) external _VarDecFromUI4
+(__TEXT,__text) external _VarDecFromUI8
+(__TEXT,__text) external _VarDecInt
+(__TEXT,__text) external _VarDecMul
+(__TEXT,__text) external _VarDecNeg
+(__TEXT,__text) external _VarDecRound
+(__TEXT,__text) external _VarDecSub
+(__TEXT,__text) external _VarDiv
+(__TEXT,__text) external _VarEqv
+(__TEXT,__text) external _VarFix
+(__TEXT,__text) external _VarFormat
+(__TEXT,__text) external _VarFormatCurrency
+(__TEXT,__text) external _VarFormatDateTime
+(__TEXT,__text) external _VarFormatFromTokens
+(__TEXT,__text) external _VarFormatNumber
+(__TEXT,__text) external _VarFormatPercent
+(__TEXT,__text) external _VarI1FromBool
+(__TEXT,__text) external _VarI1FromCy
+(__TEXT,__text) external _VarI1FromDate
+(__TEXT,__text) external _VarI1FromDec
+(__TEXT,__text) external _VarI1FromDisp
+(__TEXT,__text) external _VarI1FromI2
+(__TEXT,__text) external _VarI1FromI4
+(__TEXT,__text) external _VarI1FromI8
+(__TEXT,__text) external _VarI1FromR4
+(__TEXT,__text) external _VarI1FromR8
+(__TEXT,__text) external _VarI1FromStr
+(__TEXT,__text) external _VarI1FromUI1
+(__TEXT,__text) external _VarI1FromUI2
+(__TEXT,__text) external _VarI1FromUI4
+(__TEXT,__text) external _VarI1FromUI8
+(__TEXT,__text) external _VarI2FromBool
+(__TEXT,__text) external _VarI2FromCy
+(__TEXT,__text) external _VarI2FromDate
+(__TEXT,__text) external _VarI2FromDec
+(__TEXT,__text) external _VarI2FromDisp
+(__TEXT,__text) external _VarI2FromI1
+(__TEXT,__text) external _VarI2FromI4
+(__TEXT,__text) external _VarI2FromI8
+(__TEXT,__text) external _VarI2FromR4
+(__TEXT,__text) external _VarI2FromR8
+(__TEXT,__text) external _VarI2FromStr
+(__TEXT,__text) external _VarI2FromUI1
+(__TEXT,__text) external _VarI2FromUI2
+(__TEXT,__text) external _VarI2FromUI4
+(__TEXT,__text) external _VarI2FromUI8
+(__TEXT,__text) external _VarI4FromBool
+(__TEXT,__text) external _VarI4FromCy
+(__TEXT,__text) external _VarI4FromDate
+(__TEXT,__text) external _VarI4FromDec
+(__TEXT,__text) external _VarI4FromDisp
+(__TEXT,__text) external _VarI4FromI1
+(__TEXT,__text) external _VarI4FromI2
+(__TEXT,__text) external _VarI4FromI8
+(__TEXT,__text) external _VarI4FromR4
+(__TEXT,__text) external _VarI4FromR8
+(__TEXT,__text) external _VarI4FromStr
+(__TEXT,__text) external _VarI4FromUI1
+(__TEXT,__text) external _VarI4FromUI2
+(__TEXT,__text) external _VarI4FromUI4
+(__TEXT,__text) external _VarI4FromUI8
+(__TEXT,__text) external _VarI8FromBool
+(__TEXT,__text) external _VarI8FromCy
+(__TEXT,__text) external _VarI8FromDate
+(__TEXT,__text) external _VarI8FromDec
+(__TEXT,__text) external _VarI8FromDisp
+(__TEXT,__text) external _VarI8FromI1
+(__TEXT,__text) external _VarI8FromI2
+(__TEXT,__text) external _VarI8FromR4
+(__TEXT,__text) external _VarI8FromR8
+(__TEXT,__text) external _VarI8FromStr
+(__TEXT,__text) external _VarI8FromUI1
+(__TEXT,__text) external _VarI8FromUI2
+(__TEXT,__text) external _VarI8FromUI4
+(__TEXT,__text) external _VarI8FromUI8
+(__TEXT,__text) external _VarIdiv
+(__TEXT,__text) external _VarImp
+(__TEXT,__text) external _VarInt
+(__TEXT,__text) external _VarMod
+(__TEXT,__text) external _VarMonthName
+(__TEXT,__text) external _VarMul
+(__TEXT,__text) external _VarNeg
+(__TEXT,__text) external _VarNot
+(__TEXT,__text) external _VarNumFromParseNum
+(__TEXT,__text) external _VarOr
+(__TEXT,__text) external _VarParseNumFromStr
+(__TEXT,__text) external _VarPow
+(__TEXT,__text) external _VarR4CmpR8
+(__TEXT,__text) external _VarR4FromBool
+(__TEXT,__text) external _VarR4FromCy
+(__TEXT,__text) external _VarR4FromDate
+(__TEXT,__text) external _VarR4FromDec
+(__TEXT,__text) external _VarR4FromDisp
+(__TEXT,__text) external _VarR4FromI1
+(__TEXT,__text) external _VarR4FromI2
+(__TEXT,__text) external _VarR4FromI4
+(__TEXT,__text) external _VarR4FromI8
+(__TEXT,__text) external _VarR4FromR8
+(__TEXT,__text) external _VarR4FromStr
+(__TEXT,__text) external _VarR4FromUI1
+(__TEXT,__text) external _VarR4FromUI2
+(__TEXT,__text) external _VarR4FromUI4
+(__TEXT,__text) external _VarR4FromUI8
+(__TEXT,__text) external _VarR8FromBool
+(__TEXT,__text) external _VarR8FromCy
+(__TEXT,__text) external _VarR8FromDate
+(__TEXT,__text) external _VarR8FromDec
+(__TEXT,__text) external _VarR8FromDisp
+(__TEXT,__text) external _VarR8FromI1
+(__TEXT,__text) external _VarR8FromI2
+(__TEXT,__text) external _VarR8FromI4
+(__TEXT,__text) external _VarR8FromI8
+(__TEXT,__text) external _VarR8FromR4
+(__TEXT,__text) external _VarR8FromStr
+(__TEXT,__text) external _VarR8FromUI1
+(__TEXT,__text) external _VarR8FromUI2
+(__TEXT,__text) external _VarR8FromUI4
+(__TEXT,__text) external _VarR8FromUI8
+(__TEXT,__text) external _VarR8Pow
+(__TEXT,__text) external _VarR8Round
+(__TEXT,__text) external _VarRound
+(__TEXT,__text) external _VarSub
+(__TEXT,__text) external _VarTokenizeFormatString
+(__TEXT,__text) external _VarUI1FromBool
+(__TEXT,__text) external _VarUI1FromCy
+(__TEXT,__text) external _VarUI1FromDate
+(__TEXT,__text) external _VarUI1FromDec
+(__TEXT,__text) external _VarUI1FromDisp
+(__TEXT,__text) external _VarUI1FromI1
+(__TEXT,__text) external _VarUI1FromI2
+(__TEXT,__text) external _VarUI1FromI4
+(__TEXT,__text) external _VarUI1FromI8
+(__TEXT,__text) external _VarUI1FromR4
+(__TEXT,__text) external _VarUI1FromR8
+(__TEXT,__text) external _VarUI1FromStr
+(__TEXT,__text) external _VarUI1FromUI2
+(__TEXT,__text) external _VarUI1FromUI4
+(__TEXT,__text) external _VarUI1FromUI8
+(__TEXT,__text) external _VarUI2FromBool
+(__TEXT,__text) external _VarUI2FromCy
+(__TEXT,__text) external _VarUI2FromDate
+(__TEXT,__text) external _VarUI2FromDec
+(__TEXT,__text) external _VarUI2FromDisp
+(__TEXT,__text) external _VarUI2FromI1
+(__TEXT,__text) external _VarUI2FromI2
+(__TEXT,__text) external _VarUI2FromI4
+(__TEXT,__text) external _VarUI2FromI8
+(__TEXT,__text) external _VarUI2FromR4
+(__TEXT,__text) external _VarUI2FromR8
+(__TEXT,__text) external _VarUI2FromStr
+(__TEXT,__text) external _VarUI2FromUI1
+(__TEXT,__text) external _VarUI2FromUI4
+(__TEXT,__text) external _VarUI2FromUI8
+(__TEXT,__text) external _VarUI4FromBool
+(__TEXT,__text) external _VarUI4FromCy
+(__TEXT,__text) external _VarUI4FromDate
+(__TEXT,__text) external _VarUI4FromDec
+(__TEXT,__text) external _VarUI4FromDisp
+(__TEXT,__text) external _VarUI4FromI1
+(__TEXT,__text) external _VarUI4FromI2
+(__TEXT,__text) external _VarUI4FromI4
+(__TEXT,__text) external _VarUI4FromI8
+(__TEXT,__text) external _VarUI4FromR4
+(__TEXT,__text) external _VarUI4FromR8
+(__TEXT,__text) external _VarUI4FromStr
+(__TEXT,__text) external _VarUI4FromUI1
+(__TEXT,__text) external _VarUI4FromUI2
+(__TEXT,__text) external _VarUI4FromUI8
+(__TEXT,__text) external _VarUI8FromBool
+(__TEXT,__text) external _VarUI8FromCy
+(__TEXT,__text) external _VarUI8FromDate
+(__TEXT,__text) external _VarUI8FromDec
+(__TEXT,__text) external _VarUI8FromDisp
+(__TEXT,__text) external _VarUI8FromI1
+(__TEXT,__text) external _VarUI8FromI2
+(__TEXT,__text) external _VarUI8FromI8
+(__TEXT,__text) external _VarUI8FromR4
+(__TEXT,__text) external _VarUI8FromR8
+(__TEXT,__text) external _VarUI8FromStr
+(__TEXT,__text) external _VarUI8FromUI1
+(__TEXT,__text) external _VarUI8FromUI2
+(__TEXT,__text) external _VarUI8FromUI4
+(__TEXT,__text) external _VarUdateFromDate
+(__TEXT,__text) external _VarWeekdayName
+(__TEXT,__text) external _VarXor
+(__TEXT,__text) external _VariantChangeType
+(__TEXT,__text) external _VariantChangeTypeEx
+(__TEXT,__text) external _VariantClear
+(__TEXT,__text) external _VariantCopy
+(__TEXT,__text) external _VariantCopyInd
+(__TEXT,__text) external _VariantInit
+(__TEXT,__text) external _VariantTimeToDosDateTime
+(__TEXT,__text) external _VariantTimeToSystemTime
+(__TEXT,__text) external _VectorFromBstr
+(undefined) weak external _WdtpInterfacePointer_UserMarshal (from COMBase)
+(undefined) weak external _WdtpInterfacePointer_UserSize (from COMBase)
+(undefined) weak external _WdtpInterfacePointer_UserUnmarshal (from COMBase)
+(undefined) external _WideCharToMultiByte (from WLMKernel)
+(undefined) external _WlmRegisterDllMain (from WLMKernel)
+(undefined) external _WriteFile (from WLMKernel)
+(undefined) weak external _WriteStorageProperties (from OLE)
+(undefined) external __DefaultRuneLocale (from libSystem)
+(undefined) external __NSConcreteGlobalBlock (from libSystem)
+(undefined) external __Unwind_Resume (from libSystem)
+(__TEXT,__text) external ApexFindTypeLibrary(wchar_t const*, wchar_t*, unsigned long)
+(__TEXT,__text) external Apex::OleautCanGetClassObject(_GUID const&)
+(undefined) weak external Apex::RegisterProxyFilesWithClassID(tagProxyFileInfo const**, _GUID const*) (from COMBase)
+(undefined) external wc16::wcscmp(wchar_t const*, wchar_t const*) (from mbukernel)
+(undefined) external std::nothrow (from libc++)
+(undefined) external std::terminate() (from libc++)
+(undefined) external vtable for __cxxabiv1::__class_type_info (from libc++)
+(undefined) external vtable for __cxxabiv1::__si_class_type_info (from libc++)
+(undefined) external vtable for __cxxabiv1::__vmi_class_type_info (from libc++)
+(undefined) weak external operator delete[](void*) (from libc++)
+(undefined) weak external operator delete(void*) (from libc++)
+(undefined) weak external operator new[](unsigned long) (from libc++)
+(undefined) weak external operator new(unsigned long) (from libc++)
+(undefined) weak external operator new(unsigned long, std::nothrow_t const&) (from libc++)
+(undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+(undefined) external ___bzero (from libSystem)
+(undefined) external ___cxa_begin_catch (from libc++)
+(undefined) external ___cxa_end_catch (from libc++)
+(undefined) external ___cxa_guard_acquire (from libc++)
+(undefined) external ___cxa_guard_release (from libc++)
+(undefined) external ___cxa_pure_virtual (from libc++)
+(undefined) external ___cxa_rethrow (from libc++)
+(undefined) external ___divdi3 (from libSystem)
+(undefined) external ___error (from libSystem)
+(undefined) external ___fixunsdfdi (from libSystem)
+(undefined) external ___gxx_personality_v0 (from libc++)
+(undefined) external ___maskrune (from libSystem)
+(undefined) external ___moddi3 (from libSystem)
+(undefined) external ___snprintf_chk (from libSystem)
+(undefined) external ___stack_chk_fail (from libSystem)
+(undefined) external ___stack_chk_guard (from libSystem)
+(undefined) external ___udivdi3 (from libSystem)
+(undefined) external ___umoddi3 (from libSystem)
+(undefined) external __mbscmp (from WLMKernel)
+(undefined) external __wcsicmp (from WLMKernel)
+(undefined) external __wcsnicmp (from WLMKernel)
+(undefined) external _access (from libSystem)
+(undefined) external _ceil (from libSystem)
+(undefined) external _dispatch_once (from libSystem)
+(undefined) external _feclearexcept (from libSystem)
+(undefined) external _floor (from libSystem)
+(undefined) external _floorf (from libSystem)
+(undefined) external _fmod (from libSystem)
+(__DATA,__common) external _gRegisterOleautDLL
+(undefined) external _getenv (from libSystem)
+(undefined) external _getpwuid_r (from libSystem)
+(undefined) external _getuid (from libSystem)
+(undefined) external _kCFAllocatorDefault (from CoreFoundation)
+(undefined) external _kCFAllocatorNull (from CoreFoundation)
+(undefined) external _memcmp (from libSystem)
+(undefined) external _memcpy (from libSystem)
+(undefined) external _memmove (from libSystem)
+(undefined) external _memset (from libSystem)
+(undefined) external _memset_pattern16 (from libSystem)
+(undefined) external _modf (from libSystem)
+(undefined) external _objc_msgSend (from libobjc)
+(undefined) external _pow (from libSystem)
+(undefined) external _pthread_mutex_init (from libSystem)
+(undefined) external _pthread_mutex_lock (from libSystem)
+(undefined) external _pthread_mutex_unlock (from libSystem)
+(undefined) external _pthread_mutexattr_destroy$UNIX2003 (from libSystem)
+(undefined) external _pthread_mutexattr_init (from libSystem)
+(undefined) external _pthread_mutexattr_settype (from libSystem)
+(undefined) external _remove (from libSystem)
+(undefined) external _strcmp (from libSystem)
+(undefined) external _strlen (from libSystem)
+(undefined) external _sysconf (from libSystem)
+(undefined) external _wc16_wcschr (from mbukernel)
+(undefined) external _wc16_wcscmp (from mbukernel)
+(undefined) external _wc16_wcslen (from mbukernel)
+(undefined) external _wc16_wcsncmp (from mbukernel)
+(undefined) external _wc16_wcsrchr (from mbukernel)
+(undefined) external _wc16_wcstol (from mbukernel)
+(undefined) external _wc16_wcstoul (from mbukernel)
+(undefined) external _wc16_wmemchr (from mbukernel)
+(undefined) external _wc16_wmemcmp (from mbukernel)
+(undefined) external _wc16_wmemset (from mbukernel)
+(undefined) external dyld_stub_binder (from libSystem)

@@ -1,0 +1,3 @@
+CFBundleVersion=15.19.1
+MicrosoftBuildNumber=160212
+CFBundleShortVersionString=15.19.1

@@ -1,0 +1,518 @@
+(undefined) external _AcquireSRWLockExclusive (from WLMKernel)
+(undefined) external _AfxGetCurrentProcess (from WLMKernel)
+(undefined) external _AfxGetCurrentThread (from WLMKernel)
+(undefined) external _AfxSleep (from WLMKernel)
+(undefined) external _BSTR_UserFree (from OLEAutomation)
+(undefined) external _BSTR_UserMarshal (from OLEAutomation)
+(undefined) external _BSTR_UserSize (from OLEAutomation)
+(undefined) external _BSTR_UserUnmarshal (from OLEAutomation)
+(undefined) external _CFBundleCopyBundleURL (from CoreFoundation)
+(undefined) external _CFBundleGetMainBundle (from CoreFoundation)
+(undefined) external _CFRelease (from CoreFoundation)
+(undefined) external _CFRetain (from CoreFoundation)
+(undefined) external _CFRunLoopGetCurrent (from CoreFoundation)
+(undefined) external _CFRunLoopPerformBlock (from CoreFoundation)
+(undefined) external _CFRunLoopRunInMode (from CoreFoundation)
+(undefined) external _CFRunLoopWakeUp (from CoreFoundation)
+(undefined) external _CFStringCreateWithCStringNoCopy (from CoreFoundation)
+(undefined) external _CFStringCreateWithCharacters (from CoreFoundation)
+(undefined) external _CFStringHasPrefix (from CoreFoundation)
+(undefined) external _CFURLCopyAbsoluteURL (from CoreFoundation)
+(undefined) external _CFURLCreateCopyAppendingPathComponent (from CoreFoundation)
+(undefined) external _CFURLCreateCopyDeletingLastPathComponent (from CoreFoundation)
+(undefined) external _CFURLCreateWithFileSystemPathRelativeToBase (from CoreFoundation)
+(undefined) external _CFURLGetFileSystemRepresentation (from CoreFoundation)
+(undefined) external _CFURLResourceIsReachable (from CoreFoundation)
+(__TEXT,__text) external _CLSIDFromOle1Class
+(__TEXT,__text) external _CLSIDFromProgID
+(__TEXT,__text) external _CLSIDFromString
+(undefined) weak external _CleanROTForApartment (from OLE)
+(__TEXT,__text) external _ClearCleanupFlag
+(undefined) external _CloseHandle (from WLMKernel)
+(__TEXT,__text) external _CoCreateErrorInfo
+(__TEXT,__text) external _CoCreateFreeThreadedMarshaler
+(__TEXT,__text) external _CoCreateGuid
+(__TEXT,__text) external _CoCreateInstance
+(__TEXT,__text) external _CoCreateInstanceEx
+(__TEXT,__text) external _CoDisconnectObject
+(__TEXT,__text) external _CoFileTimeNow
+(__TEXT,__text) external _CoGetCallerTID
+(__TEXT,__text) external _CoGetClassObject
+(__TEXT,__text) external _CoGetCurrentProcess
+(__TEXT,__text) external _CoGetErrorInfo
+(__TEXT,__text) external _CoGetInstanceFromFile
+(__TEXT,__text) external _CoGetMalloc
+(__TEXT,__text) external _CoGetMarshalSizeMax
+(__TEXT,__text) external _CoGetStandardMarshal
+(__TEXT,__text) external _CoGetTreatAsClass
+(__TEXT,__text) external _CoInitializeEx
+(__TEXT,__text) external _CoIsHandlerConnected
+(__TEXT,__text) external _CoIsOle1Class
+(__TEXT,__text) external _CoLockObjectExternal
+(__TEXT,__text) external _CoMarshalHresult
+(__TEXT,__text) external _CoMarshalInterface
+(__TEXT,__text) external _CoOpenClassKey
+(__TEXT,__text) external _CoRegisterClassObject
+(__TEXT,__text) external _CoRegisterMessageFilter
+(__TEXT,__text) external _CoRegisterPSClsid
+(__TEXT,__text) external _CoReleaseMarshalData
+(__TEXT,__text) external _CoRevokeClassObject
+(__TEXT,__text) external _CoSetErrorInfo
+(__TEXT,__text) external _CoTaskMemAlloc
+(__TEXT,__text) external _CoTaskMemFree
+(__TEXT,__text) external _CoTaskMemRealloc
+(__TEXT,__text) external _CoTreatAsClass
+(__TEXT,__text) external _CoUninitialize
+(__TEXT,__text) external _CoUnmarshalHresult
+(__TEXT,__text) external _CoUnmarshalInterface
+(__TEXT,__text) external _CombaseDllMain
+(undefined) external _CompareStringW (from WLMKernel)
+(undefined) weak external _CreateBindCtx (from OLE)
+(undefined) external _CreateEventA (from WLMKernel)
+(undefined) external _CreateEventW (from WLMKernel)
+(undefined) external _CreateMutexW (from WLMKernel)
+(__TEXT,__text) external _CreateStreamOnHGlobal
+(undefined) external _CreateThread (from WLMKernel)
+(undefined) external _CryptAcquireContextW (from WinCrypto)
+(undefined) external _CryptGenRandom (from WinCrypto)
+(undefined) external _CryptReleaseContext (from WinCrypto)
+(__TEXT,__text) external _DcomChannelSetHResult
+(__TEXT,__text) external _DecodePointer
+(undefined) external _DeleteCriticalSection (from WLMKernel)
+(undefined) external _DeleteEnhMetaFile (from WLMGraphicsDevice)
+(undefined) external _DeleteMetaFile (from WLMGraphicsDevice)
+(undefined) weak external _DestroyRunningObjectTable (from OLE)
+(__TEXT,__text) external _DocfileUseLegacyNtfsFlags
+(undefined) weak external _DragDropSetFDT (from OLE)
+(undefined) external _DuplicateHandle (from WLMKernel)
+(__TEXT,__text) external _EncodePointer
+(undefined) external _EnterCriticalSection (from WLMKernel)
+(undefined) external _ExitThread (from WLMKernel)
+(undefined) external _FreeLibrary (from WLMKernel)
+(__TEXT,__text) external _FreePropVariantArrayWorker
+(__TEXT,__text) external _GUIDFromString
+(undefined) weak external _GetClassFile (from OLE)
+(undefined) external _GetClipboardFormatNameW (from WLMKernel)
+(undefined) external _GetCurrentProcessId (from WLMKernel)
+(undefined) external _GetCurrentThreadId (from WLMKernel)
+(undefined) external _GetEnhMetaFileBits (from WLMGraphicsDevice)
+(__TEXT,__text) external _GetHGlobalFromStream
+(undefined) external _GetLastError (from WLMKernel)
+(undefined) external _GetMetaFileBitsEx (from WLMGraphicsDevice)
+(undefined) external _GetModuleFileNameW (from WLMKernel)
+(undefined) external _GetModuleHandleW (from WLMKernel)
+(undefined) weak external _GetObjectFromRotByPath (from OLE)
+(__TEXT,__text) external _GetPSFactory
+(undefined) external _GetProcAddress (from WLMKernel)
+(undefined) external _GetProcessHeap (from WLMKernel)
+(undefined) external _GetStringTypeW (from WLMKernel)
+(undefined) external _GetSystemTime (from WLMKernel)
+(undefined) external _GetSystemTimeAsFileTime (from WLMKernel)
+(undefined) external _GetTickCount (from WLMKernel)
+(undefined) external _GetTickCount64 (from WLMKernel)
+(undefined) external _GlobalAlloc (from WLMKernel)
+(undefined) external _GlobalFree (from WLMKernel)
+(undefined) external _GlobalLock (from WLMKernel)
+(undefined) external _GlobalReAlloc (from WLMKernel)
+(undefined) external _GlobalSize (from WLMKernel)
+(undefined) external _GlobalUnlock (from WLMKernel)
+(__TEXT,__text) external _HWND_UserFree
+(__TEXT,__text) external _HWND_UserMarshal
+(__TEXT,__text) external _HWND_UserSize
+(__TEXT,__text) external _HWND_UserUnmarshal
+(undefined) external _HeapAlloc (from WLMKernel)
+(undefined) external _HeapFree (from WLMKernel)
+(undefined) external _HeapReAlloc (from WLMKernel)
+(undefined) external _HeapSize (from WLMKernel)
+(undefined) external _HeapValidate (from WLMKernel)
+(__TEXT,__text) external _IIDFromString
+(__TEXT,__const) external _IID_IUnwrappableDataObject
+(undefined) external _I_RpcAllocate (from rpcrt4)
+(undefined) external _I_RpcAsyncAbortCall (from rpcrt4)
+(undefined) external _I_RpcAsyncSetHandle (from rpcrt4)
+(undefined) external _I_RpcBCacheAllocate (from rpcrt4)
+(undefined) external _I_RpcBCacheFree (from rpcrt4)
+(undefined) external _I_RpcBindingInqLocalClientPID (from rpcrt4)
+(undefined) external _I_RpcBindingInqTransportType (from rpcrt4)
+(undefined) external _I_RpcClearMutex (from rpcrt4)
+(undefined) external _I_RpcExceptionFilter (from rpcrt4)
+(undefined) external _I_RpcFree (from rpcrt4)
+(undefined) external _I_RpcFreeBuffer (from rpcrt4)
+(undefined) external _I_RpcGetBuffer (from rpcrt4)
+(undefined) external _I_RpcGetBufferWithObject (from rpcrt4)
+(undefined) external _I_RpcInitNdrImports (from rpcrt4)
+(undefined) external _I_RpcReceive (from rpcrt4)
+(undefined) external _I_RpcRequestMutex (from rpcrt4)
+(undefined) external _I_RpcSend (from rpcrt4)
+(undefined) external _I_RpcSendReceive (from rpcrt4)
+(undefined) external _I_RpcSetDCOMAppId (from rpcrt4)
+(undefined) external _InitializeCriticalSection (from WLMKernel)
+(undefined) external _InitializeCriticalSectionAndSpinCount (from WLMKernel)
+(undefined) external _InitializeSListHead (from WLMKernel)
+(undefined) external _InitializeSRWLock (from WLMKernel)
+(undefined) external _InterlockedCompareExchange (from WLMKernel)
+(undefined) external _InterlockedCompareExchangePointer (from WLMKernel)
+(undefined) external _InterlockedDecrement (from WLMKernel)
+(undefined) external _InterlockedExchange (from WLMKernel)
+(undefined) external _InterlockedExchangeAdd (from WLMKernel)
+(undefined) external _InterlockedIncrement (from WLMKernel)
+(undefined) external _InterlockedPopEntrySList (from WLMKernel)
+(undefined) external _InterlockedPushEntrySList (from WLMKernel)
+(__TEXT,__text) external _InternalCoRegisterDisconnectCallback
+(__TEXT,__text) external _InternalCoStdMarshalObject
+(__TEXT,__text) external _InternalCoUnregisterDisconnectCallback
+(__TEXT,__text) external _InternalCreateCAggId
+(__TEXT,__text) external _InternalCreateIdentityHandler
+(__TEXT,__text) external _InternalIrotGetObject
+(__TEXT,__text) external _InternalIrotGetTimeOfLastChange
+(__TEXT,__text) external _InternalIrotIsRunning
+(__TEXT,__text) external _InternalIrotNoteChangeTime
+(__TEXT,__text) external _InternalIrotRegister
+(__TEXT,__text) external _InternalIrotRevoke
+(__TEXT,__text) external _InternalIsApartmentInitialized
+(__TEXT,__text) external _InternalIsProcessInitialized
+(__TEXT,__text) external _InternalTlsAllocData
+(__TEXT,__text) external _IsValidInterface
+(undefined) external _LPSAFEARRAY_Marshal (from OLEAutomation)
+(undefined) external _LPSAFEARRAY_Size (from OLEAutomation)
+(undefined) external _LPSAFEARRAY_Unmarshal (from OLEAutomation)
+(undefined) external _LPSAFEARRAY_UserFree (from OLEAutomation)
+(undefined) external _LPSAFEARRAY_UserMarshal (from OLEAutomation)
+(undefined) external _LPSAFEARRAY_UserSize (from OLEAutomation)
+(undefined) external _LPSAFEARRAY_UserUnmarshal (from OLEAutomation)
+(undefined) external _LeaveCriticalSection (from WLMKernel)
+(undefined) external _LoadLibraryExW (from WLMKernel)
+(undefined) external _LocalAlloc (from WLMKernel)
+(undefined) external _LocalFree (from WLMKernel)
+(undefined) external _MbuCreateCFURLRefDirt (from mbukernel)
+(undefined) external _MbuLaunchApplicationURLWithConfig (from mbukernel)
+(undefined) external _MesDecodeBufferHandleCreate (from rpcrt4)
+(undefined) external _MesEncodeFixedBufferHandleCreate (from rpcrt4)
+(undefined) external _MesHandleFree (from rpcrt4)
+(undefined) external _MsgWaitForMultipleObjectsEx (from WLMKernel)
+(undefined) external _NdrAsyncClientCall (from rpcrt4)
+(undefined) external _NdrAsyncServerCall (from rpcrt4)
+(undefined) external _NdrClearOutParameters (from rpcrt4)
+(undefined) external _NdrClientCall (from rpcrt4)
+(undefined) external _NdrClientCall2 (from rpcrt4)
+(undefined) external _NdrClientInitializeNew (from rpcrt4)
+(undefined) external _NdrConvert2 (from rpcrt4)
+(undefined) external _NdrCorrelationFree (from rpcrt4)
+(undefined) external _NdrCorrelationInitialize (from rpcrt4)
+(undefined) external _NdrDllGetClassObject (from rpcrt4)
+(undefined) external _NdrFullPointerXlatFree (from rpcrt4)
+(undefined) external _NdrFullPointerXlatInit (from rpcrt4)
+(undefined) external _NdrGetTypeFlags (from rpcrt4)
+(undefined) external _NdrGetUserMarshalInfo (from rpcrt4)
+(undefined) external _NdrMesTypeAlignSize2 (from rpcrt4)
+(undefined) external _NdrMesTypeDecode2 (from rpcrt4)
+(undefined) external _NdrMesTypeEncode2 (from rpcrt4)
+(undefined) external _NdrOleAllocate (from rpcrt4)
+(__TEXT,__text) external _NdrOleDllGetClassObject
+(undefined) external _NdrOleFree (from rpcrt4)
+(__TEXT,__text) external _NdrOleInitializeExtension
+(__TEXT,__text) external _NdrProxyForwardingFunction10
+(__TEXT,__text) external _NdrProxyForwardingFunction11
+(__TEXT,__text) external _NdrProxyForwardingFunction12
+(__TEXT,__text) external _NdrProxyForwardingFunction13
+(__TEXT,__text) external _NdrProxyForwardingFunction14
+(__TEXT,__text) external _NdrProxyForwardingFunction3
+(__TEXT,__text) external _NdrProxyForwardingFunction4
+(__TEXT,__text) external _NdrProxyForwardingFunction5
+(__TEXT,__text) external _NdrProxyForwardingFunction6
+(__TEXT,__text) external _NdrProxyForwardingFunction7
+(__TEXT,__text) external _NdrProxyForwardingFunction8
+(__TEXT,__text) external _NdrProxyForwardingFunction9
+(undefined) external _NdrServerCall2 (from rpcrt4)
+(undefined) external _NdrServerInitialize (from rpcrt4)
+(undefined) external _NdrStubCall (from rpcrt4)
+(undefined) external _NdrStubCall2 (from rpcrt4)
+(__TEXT,__text) external _NdrpOleAllocate
+(__TEXT,__text) external _NdrpOleFree
+(undefined) external _NtCurrentTeb (from WLMKernel)
+(undefined) external _OACleanup (from OLEAutomation)
+(undefined) external _OSMemoryBarrier (from libSystem)
+(__TEXT,__text) external _ObjectStublessClient10
+(__TEXT,__text) external _ObjectStublessClient11
+(__TEXT,__text) external _ObjectStublessClient12
+(__TEXT,__text) external _ObjectStublessClient13
+(__TEXT,__text) external _ObjectStublessClient14
+(__TEXT,__text) external _ObjectStublessClient15
+(__TEXT,__text) external _ObjectStublessClient16
+(__TEXT,__text) external _ObjectStublessClient17
+(__TEXT,__text) external _ObjectStublessClient18
+(__TEXT,__text) external _ObjectStublessClient19
+(__TEXT,__text) external _ObjectStublessClient20
+(__TEXT,__text) external _ObjectStublessClient21
+(__TEXT,__text) external _ObjectStublessClient22
+(__TEXT,__text) external _ObjectStublessClient23
+(__TEXT,__text) external _ObjectStublessClient24
+(__TEXT,__text) external _ObjectStublessClient25
+(__TEXT,__text) external _ObjectStublessClient26
+(__TEXT,__text) external _ObjectStublessClient27
+(__TEXT,__text) external _ObjectStublessClient28
+(__TEXT,__text) external _ObjectStublessClient29
+(__TEXT,__text) external _ObjectStublessClient3
+(__TEXT,__text) external _ObjectStublessClient4
+(__TEXT,__text) external _ObjectStublessClient5
+(__TEXT,__text) external _ObjectStublessClient6
+(__TEXT,__text) external _ObjectStublessClient7
+(__TEXT,__text) external _ObjectStublessClient8
+(__TEXT,__text) external _ObjectStublessClient9
+(undefined) weak external _Ole32DllGetClassObject (from OLE)
+(undefined) weak external _OleGetAutoConvert (from OLE)
+(undefined) weak external _OleUninitialize (from OLE)
+(undefined) external _OpenClassesRootKeyExW (from OLEAutomation)
+(undefined) external _OpenClassesRootKeyW (from OLEAutomation)
+(undefined) external _OutputDebugStringW (from WLMKernel)
+(undefined) external _PfmFRLCreateDirectory (from mbukernel)
+(undefined) external _PfmFRLCreateFromCFURL (from mbukernel)
+(undefined) external _PfmFRLRelease (from mbukernel)
+(__TEXT,__text) external _ProgIDFromCLSID
+(__TEXT,__text) external _PropVariantClear
+(__TEXT,__text) external _PropVariantCopy
+(undefined) external _QueueUserWorkItem (from WLMKernel)
+(undefined) external _RegCloseKey (from WLMKernel)
+(undefined) external _RegCreateKeyExA (from WLMKernel)
+(undefined) external _RegCreateKeyExW (from WLMKernel)
+(undefined) external _RegDeleteKeyExW (from WLMKernel)
+(undefined) external _RegGetOtherView (from OLEAutomation)
+(undefined) external _RegGetValueW (from WLMKernel)
+(undefined) external _RegOpenKeyExW (from WLMKernel)
+(undefined) external _RegQueryValueExW (from WLMKernel)
+(undefined) external _RegSetValueExW (from WLMKernel)
+(undefined) external _RegisterClipboardFormatW (from WLMKernel)
+(__TEXT,__text) external _ReleaseMemStm
+(undefined) external _ReleaseMutex (from WLMKernel)
+(undefined) external _ReleaseSRWLockExclusive (from WLMKernel)
+(undefined) weak external _ReleaseStgMedium (from OLE)
+(undefined) external _ResetEvent (from WLMKernel)
+(undefined) external _RpcAsyncCancelCall (from rpcrt4)
+(undefined) external _RpcAsyncCompleteCall (from rpcrt4)
+(undefined) external _RpcAsyncGetCallStatus (from rpcrt4)
+(undefined) external _RpcAsyncInitializeHandle (from rpcrt4)
+(undefined) external _RpcBindingBind (from rpcrt4)
+(undefined) external _RpcBindingCopy (from rpcrt4)
+(undefined) external _RpcBindingCreateW (from rpcrt4)
+(undefined) external _RpcBindingFree (from rpcrt4)
+(undefined) external _RpcBindingFromStringBindingW (from rpcrt4)
+(undefined) external _RpcBindingInqAuthClientW (from rpcrt4)
+(undefined) external _RpcBindingInqObject (from rpcrt4)
+(undefined) external _RpcBindingReset (from rpcrt4)
+(undefined) external _RpcBindingSetObject (from rpcrt4)
+(undefined) external _RpcBindingSetOption (from rpcrt4)
+(undefined) external _RpcBindingToStringBindingW (from rpcrt4)
+(undefined) external _RpcBindingUnbind (from rpcrt4)
+(undefined) external _RpcBindingVectorFree (from rpcrt4)
+(undefined) external _RpcCancelThreadEx (from rpcrt4)
+(undefined) external _RpcErrorAddRecord (from rpcrt4)
+(undefined) external _RpcErrorEndEnumeration (from rpcrt4)
+(undefined) external _RpcErrorGetNextRecord (from rpcrt4)
+(undefined) external _RpcErrorStartEnumeration (from rpcrt4)
+(undefined) external _RpcMgmtInqComTimeout (from rpcrt4)
+(undefined) external _RpcMgmtSetCancelTimeout (from rpcrt4)
+(undefined) external _RpcRaiseException (from rpcrt4)
+(undefined) external _RpcServerInqBindings (from rpcrt4)
+(undefined) external _RpcServerInqCallAttributesW (from rpcrt4)
+(undefined) external _RpcServerRegisterIf3 (from rpcrt4)
+(undefined) external _RpcServerTestCancel (from rpcrt4)
+(undefined) external _RpcServerUnregisterIf (from rpcrt4)
+(undefined) external _RpcServerUseProtseqEpExW (from rpcrt4)
+(undefined) external _RpcServerUseProtseqEpW (from rpcrt4)
+(undefined) external _RpcServerUseProtseqExW (from rpcrt4)
+(undefined) external _RpcServerUseProtseqW (from rpcrt4)
+(undefined) external _RpcSmDestroyClientContext (from rpcrt4)
+(undefined) external _RpcStringBindingParseW (from rpcrt4)
+(undefined) external _RpcStringFreeW (from rpcrt4)
+(__TEXT,__text) external _SetCleanupFlag
+(undefined) external _SetEnhMetaFileBits (from WLMGraphicsDevice)
+(undefined) external _SetEvent (from WLMKernel)
+(undefined) external _SetLastError (from WLMKernel)
+(undefined) external _SetMetaFileBitsEx (from WLMGraphicsDevice)
+(undefined) external _SimpleTypeAlignment (from rpcrt4)
+(undefined) external _SimpleTypeBufferSize (from rpcrt4)
+(undefined) external _SimpleTypeMemorySize (from rpcrt4)
+(undefined) external _SleepEx (from WLMKernel)
+(__TEXT,__text) external _StringFromCLSID
+(__TEXT,__text) external _StringFromGUID2
+(__TEXT,__text) external _StringFromIID
+(undefined) external _SwitchToThread (from WLMKernel)
+(undefined) external _SysAllocString (from OLEAutomation)
+(undefined) external _SysFreeString (from OLEAutomation)
+(undefined) external _SystemTimeToFileTime (from WLMKernel)
+(undefined) external _UuidCreate (from rpcrt4)
+(undefined) external _VARIANT_UserFree (from OLEAutomation)
+(undefined) external _VARIANT_UserMarshal (from OLEAutomation)
+(undefined) external _VARIANT_UserSize (from OLEAutomation)
+(undefined) external _VARIANT_UserUnmarshal (from OLEAutomation)
+(undefined) external _VariantClear (from OLEAutomation)
+(undefined) external _VariantCopy (from OLEAutomation)
+(undefined) external _VirtualAlloc (from WLMKernel)
+(undefined) external _VirtualFree (from WLMKernel)
+(undefined) external _WaitForMultipleObjectsEx (from WLMKernel)
+(undefined) external _WaitForSingleObject (from WLMKernel)
+(undefined) external _WaitForSingleObjectEx (from WLMKernel)
+(__TEXT,__text) external _WdtpInterfacePointer_UserMarshal
+(__TEXT,__text) external _WdtpInterfacePointer_UserSize
+(__TEXT,__text) external _WdtpInterfacePointer_UserUnmarshal
+(undefined) external _WlmRegisterDllMain (from WLMKernel)
+(undefined) external __Block_object_assign (from libSystem)
+(undefined) external __Block_object_dispose (from libSystem)
+(undefined) external __NSConcreteGlobalBlock (from libSystem)
+(undefined) external __NSConcreteStackBlock (from libSystem)
+(undefined) external __Unwind_Resume (from libSystem)
+(__TEXT,__text) external UtDupString(wchar_t const*)
+(__TEXT,__text) external BuildRotData(IBindCtx*, IMoniker*, unsigned char*, unsigned long, unsigned long*)
+(__TEXT,__text) external CharPrevStub(wchar_t const*, wchar_t const*)
+(__TEXT,__text) external UtDupStringA(char const*)
+(__TEXT,__text) external wRegGetClassExt(wchar_t const*, _GUID*)
+(__TEXT,__text) external wStringFromUUID(_GUID const&, wchar_t*)
+(__TEXT,__text) external wUUIDFromString(wchar_t const*, _GUID*)
+(__TEXT,__text) external wRegOpenClassKey(_GUID const&, unsigned long, HKEY__**)
+(__TEXT,__text) external TLSLookupThreadId(unsigned long)
+(__TEXT,__text) external NdrExtGetComProtocolVersion(_MIDL_STUB_MESSAGE*, _RPC_VERSION*)
+(__TEXT,__text) external CreateFileMonikerComparisonBuffer(wchar_t*, unsigned char*, unsigned long, unsigned long*)
+(__TEXT,__text) external UtDupPtr(void*, unsigned long)
+(__TEXT,__text) external CHashTable::Add(unsigned long, SHashChain*)
+(__TEXT,__text) external CHashTable::Lookup(unsigned long, void const*)
+(__TEXT,__text) external CMutexSem2::FInit()
+(__TEXT,__text) external CMutexSem2::Release()
+(__TEXT,__text) external CMutexSem2::Request()
+(__TEXT,__text) external CMutexSem2::CMutexSem2()
+(__TEXT,__text) external CMutexSem2::~CMutexSem2()
+(__TEXT,__text) external CExtHashTable::Hash(wchar_t const*)
+(__TEXT,__text) external CPageAllocator::AllocEntry(int)
+(__TEXT,__text) external CPageAllocator::Initialize(unsigned long, unsigned short, COleStaticMutexSem*, unsigned long)
+(__TEXT,__text) external CPageAllocator::CPageAllocator()
+(__TEXT,__text) external CPageAllocator::~CPageAllocator()
+(__TEXT,__text) external CProcessSecret::GetProcessSecret(_GUID*)
+(__TEXT,__text) external CAbstractStream::LockRegion(_ULARGE_INTEGER, _ULARGE_INTEGER, unsigned long)
+(__TEXT,__text) external CAbstractStream::UnlockRegion(_ULARGE_INTEGER, _ULARGE_INTEGER, unsigned long)
+(__TEXT,__text) external CAbstractStream::Stat(tagSTATSTG*, unsigned long)
+(__TEXT,__text) external CAbstractStream::Clone(IStream**)
+(__TEXT,__text) external CAbstractStream::AddRef()
+(__TEXT,__text) external CAbstractStream::Commit(unsigned long)
+(__TEXT,__text) external CAbstractStream::CopyTo(IStream*, _ULARGE_INTEGER, _ULARGE_INTEGER*, _ULARGE_INTEGER*)
+(__TEXT,__text) external CAbstractStream::Revert()
+(__TEXT,__text) external CAbstractStream::Release()
+(__TEXT,__text) external COleStaticMutexSem::Release()
+(__TEXT,__text) external COleStaticMutexSem::Request(char const*, unsigned long, char const*)
+(__TEXT,__text) external COleStaticMutexSem::~COleStaticMutexSem()
+(__TEXT,__text) external CRandomNumberGenerator::GenerateRandomNumber(unsigned char*, unsigned long)
+(__TEXT,__text) external CAbstractMarshalingStream::QueryInterface(_GUID const&, void**)
+(__TEXT,__text) external CBaseMInterfacePointerMarshalingStream::Read(void*, unsigned long, unsigned long*)
+(__TEXT,__text) external CBaseMInterfacePointerMarshalingStream::Seek(_LARGE_INTEGER, unsigned long, _ULARGE_INTEGER*)
+(__TEXT,__text) external CBaseMInterfacePointerMarshalingStream::Write(void const*, unsigned long, unsigned long*)
+(__TEXT,__text) external CBaseMInterfacePointerMarshalingStream::SetSize(_ULARGE_INTEGER)
+(undefined) external Mbu::Logging::MbuShouldTrace(unsigned int, Mbu::Logging::Category, Mbu::Logging::Severity) (from mbuinstrument)
+(undefined) external Mbu::Logging::MbuSendStructuredTraceTag(unsigned int, Mbu::Logging::Category, Mbu::Logging::Severity, wchar_t const*, Mbu::Logging::IStructuredTrace const&) (from mbuinstrument)
+(__TEXT,__text) external Apex::RegisterProxyFilesWithClassID(tagProxyFileInfo const**, _GUID const*)
+(__TEXT,__text) external Apex::RegisterDllGetClassObjectWithClassIDs(long (*)(_GUID const&, _GUID const&, void**), _GUID const**)
+(__TEXT,__text) external Apex::RegisterDllGetClassObjectWithPreflightProc(long (*)(_GUID const&, _GUID const&, void**), int (*)(_GUID const&))
+(undefined) external wc16::wcschr(wchar_t const*, wchar_t) (from mbukernel)
+(undefined) external wc16::wcscmp(wchar_t const*, wchar_t const*) (from mbukernel)
+(undefined) external wc16::wcslen(wchar_t const*) (from mbukernel)
+(undefined) external MBULock::Acquire() (from mbukernel)
+(undefined) external MBULock::Release() (from mbukernel)
+(undefined) external MBULock::MBULock(char const*, bool) (from mbukernel)
+(undefined) external MBULock::~MBULock() (from mbukernel)
+(undefined) external std::__1::__vector_base_common<true>::__throw_length_error() const (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__init(char const*, unsigned long) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::~basic_string() (from libc++)
+(undefined) external std::nothrow (from libc++)
+(undefined) external std::terminate() (from libc++)
+(__DATA,__data) weak external typeinfo for _EXCEPTION_POINTERS
+(__DATA,__data) weak external typeinfo for CppStructuredException
+(__DATA,__const) external typeinfo for CBaseMInterfacePointerMarshalingStream
+(__DATA,__const) external vtable for CHashTable
+(__DATA,__const) external vtable for CExtHashTable
+(__DATA,__const) external vtable for GenericStream
+(__DATA,__const) external vtable for CAbstractStream
+(__DATA,__const) external vtable for CAbstractMarshalingStream
+(__DATA,__const) external vtable for CWriteInterfaceDataMarshalingStream
+(__DATA,__const) external vtable for CBaseMInterfacePointerMarshalingStream
+(__DATA,__const) external vtable for CReadInterfaceDataFromInternalSourceMarshalingStream
+(__DATA,__const) external vtable for CReadInterfaceDataWithSourceAttributesMarshalingStream
+(undefined) external vtable for __cxxabiv1::__class_type_info (from libc++)
+(undefined) external vtable for __cxxabiv1::__si_class_type_info (from libc++)
+(undefined) external vtable for __cxxabiv1::__vmi_class_type_info (from libc++)
+(undefined) weak external operator delete[](void*) (from libc++)
+(undefined) weak external operator delete(void*) (from libc++)
+(undefined) weak external operator new[](unsigned long) (from libc++)
+(undefined) weak external operator new(unsigned long) (from libc++)
+(undefined) weak external operator new(unsigned long, std::nothrow_t const&) (from libc++)
+(undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+(undefined) external ___bzero (from libSystem)
+(undefined) external ___cxa_allocate_exception (from libc++)
+(undefined) external ___cxa_atexit (from libSystem)
+(undefined) external ___cxa_begin_catch (from libc++)
+(undefined) external ___cxa_call_unexpected (from libc++)
+(undefined) external ___cxa_end_catch (from libc++)
+(undefined) external ___cxa_pure_virtual (from libc++)
+(undefined) external ___cxa_rethrow (from libc++)
+(undefined) external ___cxa_throw (from libc++)
+(undefined) external ___dynamic_cast (from libc++)
+(undefined) external ___error (from libSystem)
+(undefined) external ___gxx_personality_v0 (from libc++)
+(undefined) external ___snprintf_chk (from libSystem)
+(undefined) external ___stack_chk_fail (from libSystem)
+(undefined) external ___stack_chk_guard (from libSystem)
+(undefined) external ___udivdi3 (from libSystem)
+(undefined) external ___umoddi3 (from libSystem)
+(undefined) external __wcsicmp (from WLMKernel)
+(undefined) external __wcsupr (from WLMKernel)
+(undefined) external __wtoi (from WLMKernel)
+(undefined) external __wtol (from WLMKernel)
+(undefined) external _dispatch_once (from libSystem)
+(undefined) external _dispatch_queue_create (from libSystem)
+(undefined) external _dispatch_sync (from libSystem)
+(undefined) external _exit (from libSystem)
+(undefined) external _free (from libSystem)
+(__DATA,__common) external _gProcessSecret
+(__DATA,__common) external _gRNG
+(__DATA,__common) external _gRegisterCombaseDLL
+(__DATA,__common) external _g_mxsSingleThreadOle
+(undefined) external _getpid (from libSystem)
+(undefined) external _kCFAllocatorDefault (from CoreFoundation)
+(undefined) external _kCFAllocatorNull (from CoreFoundation)
+(undefined) external _kCFRunLoopCommonModes (from CoreFoundation)
+(undefined) external _lstrcmpW (from WLMKernel)
+(undefined) external _lstrlenW (from mbukernel)
+(undefined) external _malloc (from libSystem)
+(undefined) external _memcmp (from libSystem)
+(undefined) external _memcpy (from libSystem)
+(undefined) external _memmove (from libSystem)
+(undefined) external _memset (from libSystem)
+(undefined) external _random (from libSystem)
+(undefined) external _sqlite3_bind_blob (from libsqlite3)
+(undefined) external _sqlite3_bind_double (from libsqlite3)
+(undefined) external _sqlite3_bind_int64 (from libsqlite3)
+(undefined) external _sqlite3_bind_null (from libsqlite3)
+(undefined) external _sqlite3_bind_text16 (from libsqlite3)
+(undefined) external _sqlite3_busy_timeout (from libsqlite3)
+(undefined) external _sqlite3_close (from libsqlite3)
+(undefined) external _sqlite3_column_blob (from libsqlite3)
+(undefined) external _sqlite3_column_bytes (from libsqlite3)
+(undefined) external _sqlite3_column_bytes16 (from libsqlite3)
+(undefined) external _sqlite3_column_double (from libsqlite3)
+(undefined) external _sqlite3_column_int (from libsqlite3)
+(undefined) external _sqlite3_column_int64 (from libsqlite3)
+(undefined) external _sqlite3_column_text16 (from libsqlite3)
+(undefined) external _sqlite3_errmsg (from libsqlite3)
+(undefined) external _sqlite3_exec (from libsqlite3)
+(undefined) external _sqlite3_extended_result_codes (from libsqlite3)
+(undefined) external _sqlite3_finalize (from libsqlite3)
+(undefined) external _sqlite3_free (from libsqlite3)
+(undefined) external _sqlite3_last_insert_rowid (from libsqlite3)
+(undefined) external _sqlite3_open_v2 (from libsqlite3)
+(undefined) external _sqlite3_prepare_v2 (from libsqlite3)
+(undefined) external _sqlite3_reset (from libsqlite3)
+(undefined) external _sqlite3_step (from libsqlite3)
+(undefined) external _strlen (from libSystem)
+(undefined) external _sysctl (from libSystem)
+(undefined) external _usleep$UNIX2003 (from libSystem)
+(__TEXT,__text) external _wRegQueryValue
+(__TEXT,__text) external _wRegSetValue
+(undefined) external _wc16_wcscmp (from mbukernel)
+(undefined) external _wc16_wcslen (from mbukernel)
+(undefined) external dyld_stub_binder (from libSystem)
