@@ -70,6 +70,7 @@
 (__TEXT,__text) external _CoUninitialize
 (__TEXT,__text) external _CoUnmarshalHresult
 (__TEXT,__text) external _CoUnmarshalInterface
+(__TEXT,__text) external _CoWaitForMultipleHandles
 (__TEXT,__text) external _CombaseDllMain
 (undefined) external _CompareStringW (from WLMKernel)
 (undefined) weak external _CreateBindCtx (from OLE)
@@ -237,7 +238,9 @@
 (__TEXT,__text) external _NdrpOleAllocate
 (__TEXT,__text) external _NdrpOleFree
 (undefined) external _NtCurrentTeb (from WLMKernel)
+(undefined) external _NtTerminateProcess (from WLMKernel)
 (undefined) external _OACleanup (from OLEAutomation)
+(undefined) external _OBJC_CLASS_$_NSString (from Foundation)
 (undefined) external _OSMemoryBarrier (from libSystem)
 (__TEXT,__text) external _ObjectStublessClient10
 (__TEXT,__text) external _ObjectStublessClient11
@@ -260,6 +263,7 @@
 (__TEXT,__text) external _ObjectStublessClient28
 (__TEXT,__text) external _ObjectStublessClient29
 (__TEXT,__text) external _ObjectStublessClient3
+(__TEXT,__text) external _ObjectStublessClient30
 (__TEXT,__text) external _ObjectStublessClient4
 (__TEXT,__text) external _ObjectStublessClient5
 (__TEXT,__text) external _ObjectStublessClient6
@@ -364,6 +368,9 @@
 (__TEXT,__text) external _WdtpInterfacePointer_UserSize64
 (__TEXT,__text) external _WdtpInterfacePointer_UserUnmarshal
 (__TEXT,__text) external _WdtpInterfacePointer_UserUnmarshal64
+(undefined) external _WlmDllShutdownInProgress (from WLMKernel)
+(undefined) external _WlmKernel_SynchronizeWithFrameworkTermBegin (from WLMKernel)
+(undefined) external _WlmKernel_SynchronizeWithFrameworkTermEnd (from WLMKernel)
 (undefined) external __Block_object_assign (from libSystem)
 (undefined) external __Block_object_dispose (from libSystem)
 (undefined) external __NSConcreteGlobalBlock (from libSystem)
@@ -500,7 +507,11 @@
 (undefined) external _memcpy (from libSystem)
 (undefined) external _memmove (from libSystem)
 (undefined) external _memset (from libSystem)
+(undefined) external _objc_autoreleasePoolPop (from libobjc)
+(undefined) external _objc_autoreleasePoolPush (from libobjc)
+(undefined) external _objc_msgSend (from libobjc)
 (undefined) external _random (from libSystem)
+(undefined) external _sleep (from libSystem)
 (undefined) external _sqlite3_bind_blob (from libsqlite3)
 (undefined) external _sqlite3_bind_double (from libsqlite3)
 (undefined) external _sqlite3_bind_int64 (from libsqlite3)

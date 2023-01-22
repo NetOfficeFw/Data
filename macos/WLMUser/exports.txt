@@ -178,6 +178,11 @@
 (undefined) external _CTLineDraw (from CoreText)
 (undefined) external _CTLineGetTypographicBounds (from CoreText)
 (undefined) external _CTParagraphStyleCreate (from CoreText)
+(undefined) external _CUIAlertCreate (from CocoaUI)
+(undefined) external _CUIAlertRelease (from CocoaUI)
+(undefined) external _CUIAlertRunModal (from CocoaUI)
+(undefined) external _CUIAlertSetCriticalAlertStyle (from CocoaUI)
+(undefined) external _CUIAlertSetInformationalAlertStyle (from CocoaUI)
 (undefined) external _CUICreateDisabledImageForCGImage (from CocoaUI)
 (undefined) external _CUIDrawThreePartCGImage (from CocoaUI)
 (undefined) external _CUIScreenScale (from CocoaUI)
@@ -268,7 +273,6 @@
 (undefined) external _ExtTextOutW (from WLMGraphicsDevice)
 (__TEXT,__text) external _ExtractIconA
 (__TEXT,__text) external _FCurrentLocaleIsRTL
-(__TEXT,__text) external _FInVBHostedModalLoop
 (__TEXT,__text) external _FillSystemFont
 (__TEXT,__text) external _FindFirstFileA
 (__TEXT,__text) external _FindNextFileA
@@ -423,6 +427,7 @@
 (__TEXT,__text) external _IsChild
 (undefined) external _IsClipboardFormatAvailable (from WLMKernel)
 (__TEXT,__text) external _IsDialogMessageA
+(__TEXT,__text) external _IsDialogWindow
 (__TEXT,__text) external _IsDlgButtonChecked
 (__TEXT,__text) external _IsIconic
 (undefined) external _IsRectEmpty (from WLMGraphicsDevice)
@@ -537,13 +542,8 @@
 (__TEXT,__text) external _NSViewForHWND
 (__TEXT,__text) external _NSViewGetBoundsRECT
 (undefined) external _NSWindowDidChangeBackingPropertiesNotification (from AppKit)
-(undefined) external _NSWindowDidDeminiaturizeNotification (from AppKit)
 (undefined) external _NSWindowDidMoveNotification (from AppKit)
 (__TEXT,__text) external _NSWindowGetHWND
-(undefined) external _NSWindowWillCloseNotification (from AppKit)
-(undefined) external _NSWindowWillMiniaturizeNotification (from AppKit)
-(undefined) external _NSWindowWillMoveNotification (from AppKit)
-(undefined) external _NSWorkspaceActiveSpaceDidChangeNotification (from AppKit)
 (undefined) external _NSZeroPoint (from Foundation)
 (undefined) external _NSZeroRect (from Foundation)
 (undefined) external _NewInstanceFromBundle (from WLMKernel)
@@ -568,7 +568,6 @@
 (undefined) external _OBJC_CLASS_$_NSGraphicsContext (from AppKit)
 (undefined) external _OBJC_CLASS_$_NSImage (from AppKit)
 (undefined) external _OBJC_CLASS_$_NSIndexSet (from Foundation)
-(undefined) external _OBJC_CLASS_$_NSMapTable (from Foundation)
 (undefined) external _OBJC_CLASS_$_NSMenu (from AppKit)
 (undefined) external _OBJC_CLASS_$_NSMenuItem (from AppKit)
 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)

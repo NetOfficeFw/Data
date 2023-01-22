@@ -8,9 +8,15 @@
 (__TEXT,__text) external _AttachWinThreadHandleToCurrentThread
 (undefined) external _CFAbsoluteTimeGetCurrent (from CoreFoundation)
 (undefined) external _CFArrayAppendValue (from CoreFoundation)
+(undefined) external _CFArrayApplyFunction (from CoreFoundation)
+(undefined) external _CFArrayCreate (from CoreFoundation)
 (undefined) external _CFArrayCreateMutable (from CoreFoundation)
+(undefined) external _CFArrayCreateMutableCopy (from CoreFoundation)
 (undefined) external _CFArrayGetCount (from CoreFoundation)
+(undefined) external _CFArrayGetFirstIndexOfValue (from CoreFoundation)
 (undefined) external _CFArrayGetValueAtIndex (from CoreFoundation)
+(undefined) external _CFArrayInsertValueAtIndex (from CoreFoundation)
+(undefined) external _CFArrayRemoveValueAtIndex (from CoreFoundation)
 (undefined) external _CFAutorelease (from CoreFoundation)
 (undefined) external _CFBooleanGetTypeID (from CoreFoundation)
 (undefined) external _CFBooleanGetValue (from CoreFoundation)
@@ -23,9 +29,12 @@
 (undefined) external _CFBundleGetFunctionPointersForNames (from CoreFoundation)
 (undefined) external _CFBundleGetInfoDictionary (from CoreFoundation)
 (undefined) external _CFBundleGetMainBundle (from CoreFoundation)
+(undefined) external _CFCalendarComposeAbsoluteTime (from CoreFoundation)
 (undefined) external _CFCalendarCopyCurrent (from CoreFoundation)
 (undefined) external _CFCalendarCreateWithIdentifier (from CoreFoundation)
+(undefined) external _CFCalendarDecomposeAbsoluteTime (from CoreFoundation)
 (undefined) external _CFCalendarGetFirstWeekday (from CoreFoundation)
+(undefined) external _CFCalendarGetIdentifier (from CoreFoundation)
 (undefined) external _CFCalendarGetOrdinalityOfUnit (from CoreFoundation)
 (undefined) external _CFCalendarSetLocale (from CoreFoundation)
 (undefined) external _CFCharacterSetCreateInvertedSet (from CoreFoundation)
@@ -67,6 +76,8 @@
 (undefined) external _CFLocaleCreate (from CoreFoundation)
 (undefined) external _CFLocaleCreateCanonicalLanguageIdentifierFromString (from CoreFoundation)
 (undefined) external _CFLocaleCreateCanonicalLocaleIdentifierFromString (from CoreFoundation)
+(undefined) external _CFLocaleCreateComponentsFromLocaleIdentifier (from CoreFoundation)
+(undefined) external _CFLocaleCreateLocaleIdentifierFromComponents (from CoreFoundation)
 (undefined) external _CFLocaleCreateLocaleIdentifierFromWindowsLocaleCode (from CoreFoundation)
 (undefined) external _CFLocaleGetIdentifier (from CoreFoundation)
 (undefined) external _CFLocaleGetSystem (from CoreFoundation)
@@ -120,6 +131,7 @@
 (undefined) external _CFStringGetCStringPtr (from CoreFoundation)
 (undefined) external _CFStringGetCharacterAtIndex (from CoreFoundation)
 (undefined) external _CFStringGetCharacters (from CoreFoundation)
+(undefined) external _CFStringGetCharactersPtr (from CoreFoundation)
 (undefined) external _CFStringGetDoubleValue (from CoreFoundation)
 (undefined) external _CFStringGetFileSystemRepresentation (from CoreFoundation)
 (undefined) external _CFStringGetIntValue (from CoreFoundation)
@@ -128,6 +140,7 @@
 (undefined) external _CFStringGetMaximumSizeOfFileSystemRepresentation (from CoreFoundation)
 (undefined) external _CFStringGetSystemEncoding (from CoreFoundation)
 (undefined) external _CFStringGetTypeID (from CoreFoundation)
+(undefined) external _CFStringInsert (from CoreFoundation)
 (undefined) external _CFStringLowercase (from CoreFoundation)
 (undefined) external _CFStringNormalize (from CoreFoundation)
 (undefined) external _CFStringReplace (from CoreFoundation)
@@ -135,7 +148,6 @@
 (undefined) external _CFStringTrim (from CoreFoundation)
 (undefined) external _CFStringUppercase (from CoreFoundation)
 (undefined) external _CFTimeZoneCopyDefault (from CoreFoundation)
-(undefined) external _CFTimeZoneCreateWithTimeIntervalFromGMT (from CoreFoundation)
 (undefined) external _CFTimeZoneGetDaylightSavingTimeOffset (from CoreFoundation)
 (undefined) external _CFTimeZoneGetNextDaylightSavingTimeTransition (from CoreFoundation)
 (undefined) external _CFTimeZoneGetSecondsFromGMT (from CoreFoundation)
@@ -214,6 +226,7 @@
 (__TEXT,__text) external _EnumSystemLocalesEx
 (__TEXT,__text) external _EnumTimeFormatsEx
 (__TEXT,__text) external _EnumTimeFormatsW
+(__TEXT,__text) external _ExitProcess
 (__TEXT,__text) external _ExitThread
 (__TEXT,__const) weak external _FOLDERID_InternetCache
 (__TEXT,__const) weak external _FOLDERID_LocalAppData
@@ -226,10 +239,6 @@
 (__TEXT,__text) external _FindFirstFileExW
 (__TEXT,__text) external _FindFirstFileW
 (__TEXT,__text) external _FindNextFileW
-(__TEXT,__text) external _FlsAlloc
-(__TEXT,__text) external _FlsFree
-(__TEXT,__text) external _FlsGetValue
-(__TEXT,__text) external _FlsSetValue
 (__TEXT,__text) external _FlushFileBuffers
 (__TEXT,__text) external _FoldStringW
 (__TEXT,__text) external _FreeLibrary
@@ -288,7 +297,6 @@
 (__TEXT,__text) external _GetProcAddress
 (__TEXT,__text) external _GetProcessHeap
 (__TEXT,__text) external _GetProcessId
-(__TEXT,__text) external _GetShortPathNameW
 (__TEXT,__text) external _GetStringTypeA
 (__TEXT,__text) external _GetStringTypeExW
 (__TEXT,__text) external _GetStringTypeW
@@ -467,6 +475,7 @@
 (__TEXT,__text) external _NewInstanceFromBundle
 (__TEXT,__text) external _NtClose
 (__TEXT,__text) external _NtCurrentTeb
+(__TEXT,__text) external _NtTerminateProcess
 (undefined) external _OBJC_CLASS_$_NSArray (from CoreFoundation)
 (undefined) external _OBJC_CLASS_$_NSAutoreleasePool (from Foundation)
 (undefined) external _OBJC_CLASS_$_NSBundle (from Foundation)
@@ -732,11 +741,13 @@
 (__TEXT,__text) external _WaitForSingleObject
 (__TEXT,__text) external _WaitForSingleObjectEx
 (__TEXT,__text) external _WideCharToMultiByte
+(__TEXT,__text) external _WinErrorFromOSStatus
 (__TEXT,__text) external _WlGetLegacyFileType
 (__TEXT,__text) external _WlmAttachDynamicallyLoadedLibrary
 (__TEXT,__text) external _WlmBuildPosixObjectName
 (__TEXT,__text) external _WlmBuildPosixObjectNameW
 (__TEXT,__text) external _WlmCFStringCreateFromMultiByte
+(__TEXT,__text) external _WlmCanReadFirstPointerFromAddress_DO_NOT_USE
 (__TEXT,__text) external _WlmConvertFilePathHFSToPosix
 (__TEXT,__text) external _WlmConvertFilePathPosixToHFS
 (__TEXT,__text) external _WlmConvertFilePathPosixToWin
@@ -749,6 +760,7 @@
 (__TEXT,__text) external _WlmCreateNSUUIDFromGUID
 (__TEXT,__text) external _WlmCustomObjectPointer
 (__TEXT,__text) external _WlmDebug
+(__TEXT,__text) external _WlmDllShutdownInProgress
 (__TEXT,__text) external _WlmFindClipboardFormatForPasteboardType
 (__TEXT,__text) external _WlmGetGUIDFromCFUUID
 (__TEXT,__text) external _WlmGetGUIDFromNSUUID
@@ -761,6 +773,8 @@
 (__TEXT,__text) external _WlmKernel_FrameworkInit
 (__TEXT,__text) external _WlmKernel_FrameworkTerm
 (__TEXT,__text) external _WlmKernel_FrameworkTermErr
+(__TEXT,__text) external _WlmKernel_SynchronizeWithFrameworkTermBegin
+(__TEXT,__text) external _WlmKernel_SynchronizeWithFrameworkTermEnd
 (__TEXT,__text) external _WlmMultiByteFromCFString
 (__TEXT,__text) external _WlmRegGetKeyPath
 (__TEXT,__text) external _WlmRestoreNakedPosixThreadAssertOnCurrentThread
@@ -816,8 +830,6 @@
 (undefined) external MBUReaderWriterLock::AcquireWriteLock(unsigned int) (from mbukernel)
 (undefined) external MBUReaderWriterLock::ReleaseWriteLock() (from mbukernel)
 (undefined) external MBUReaderWriterLock::MBUReaderWriterLock(char const*) (from mbukernel)
-(undefined) external MBUReaderWriterLock::MBUReaderWriterLock(char const*) (from mbukernel)
-(undefined) external MBUReaderWriterLock::~MBUReaderWriterLock() (from mbukernel)
 (undefined) external MBUReaderWriterLock::~MBUReaderWriterLock() (from mbukernel)
 (undefined) external MBUSignaledCondition::WaitForDuration(unsigned int) (from mbukernel)
 (undefined) external MBUSignaledCondition::Signal() (from mbukernel)
@@ -854,10 +866,14 @@
 (undefined) external std::exception::what() const (from libc++)
 (undefined) external std::logic_error::logic_error(char const*) (from libc++)
 (undefined) external std::length_error::~length_error() (from libc++)
-(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::append(char const*) (from libc++)
+(undefined) external std::__1::__call_once(unsigned long volatile&, void*, void (*)(void*)) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::append(char const*, unsigned long) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::insert(unsigned long, char const*) (from libc++)
+(undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::reserve(unsigned long) (from libc++)
 (undefined) external std::__1::recursive_mutex::lock() (from libc++)
 (undefined) external std::__1::recursive_mutex::unlock() (from libc++)
 (undefined) external std::__1::recursive_mutex::recursive_mutex() (from libc++)
+(undefined) external std::__1::to_string(unsigned long long) (from libc++)
 (undefined) external std::exception::~exception() (from libc++)
 (undefined) external std::nothrow (from libc++)
 (undefined) external std::terminate() (from libc++)
@@ -872,7 +888,6 @@
 (__DATA,__const) external vtable for WLMThreadDecorator
 (undefined) external vtable for __cxxabiv1::__class_type_info (from libc++)
 (undefined) external vtable for __cxxabiv1::__si_class_type_info (from libc++)
-(undefined) external vtable for __cxxabiv1::__vmi_class_type_info (from libc++)
 (undefined) external vtable for std::length_error (from libc++)
 (undefined) weak external operator delete[](void*) (from libc++)
 (undefined) weak external operator delete(void*) (from libc++)
@@ -1005,6 +1020,7 @@
 (undefined) external _dispatch_sync (from libSystem)
 (undefined) external _dispatch_sync_f (from libSystem)
 (undefined) external _dispatch_time (from libSystem)
+(undefined) external _exit (from libSystem)
 (undefined) external _fcntl (from libSystem)
 (undefined) external _flock (from libSystem)
 (undefined) external _fnmatch (from libSystem)
@@ -1025,6 +1041,7 @@
 (undefined) external _kCFAllocatorMalloc (from CoreFoundation)
 (undefined) external _kCFAllocatorNull (from CoreFoundation)
 (undefined) external _kCFAllocatorSystemDefault (from CoreFoundation)
+(undefined) external _kCFBuddhistCalendar (from CoreFoundation)
 (undefined) external _kCFBundleNameKey (from CoreFoundation)
 (undefined) external _kCFChineseCalendar (from CoreFoundation)
 (undefined) external _kCFCopyStringDictionaryKeyCallBacks (from CoreFoundation)
@@ -1033,13 +1050,14 @@
 (undefined) external _kCFIslamicCalendar (from CoreFoundation)
 (undefined) external _kCFIslamicUmmAlQuraCalendar (from CoreFoundation)
 (undefined) external _kCFJapaneseCalendar (from CoreFoundation)
+(undefined) external _kCFLocaleCalendar (from CoreFoundation)
 (undefined) external _kCFLocaleCalendarIdentifier (from CoreFoundation)
 (undefined) external _kCFLocaleCountryCode (from CoreFoundation)
 (undefined) external _kCFLocaleDecimalSeparator (from CoreFoundation)
 (undefined) external _kCFLocaleGroupingSeparator (from CoreFoundation)
 (undefined) external _kCFLocaleLanguageCode (from CoreFoundation)
-(undefined) external _kCFLocaleMeasurementSystem (from CoreFoundation)
 (undefined) external _kCFLocaleScriptCode (from CoreFoundation)
+(undefined) external _kCFLocaleUsesMetricSystem (from CoreFoundation)
 (undefined) external _kCFNumberFormatterCurrencyCode (from CoreFoundation)
 (undefined) external _kCFNumberFormatterCurrencyDecimalSeparator (from CoreFoundation)
 (undefined) external _kCFNumberFormatterCurrencySymbol (from CoreFoundation)
@@ -1058,6 +1076,7 @@
 (undefined) external _kCFNumberFormatterPercentSymbol (from CoreFoundation)
 (undefined) external _kCFNumberFormatterPlusSign (from CoreFoundation)
 (undefined) external _kCFNumberFormatterSecondaryGroupingSize (from CoreFoundation)
+(undefined) external _kCFPersianCalendar (from CoreFoundation)
 (undefined) external _kCFStringTransformFullwidthHalfwidth (from CoreFoundation)
 (undefined) external _kCFStringTransformHiraganaKatakana (from CoreFoundation)
 (undefined) external _kCFTypeArrayCallBacks (from CoreFoundation)
@@ -1081,6 +1100,7 @@
 (undefined) external _kUTTypePDF (from CoreServices)
 (undefined) external _kUTTypePNG (from CoreServices)
 (undefined) external _kUTTypePlainText (from CoreServices)
+(undefined) external _kUTTypeQuickTimeMovie (from CoreServices)
 (undefined) external _kUTTypeRTF (from CoreServices)
 (undefined) external _kUTTypeRTFD (from CoreServices)
 (undefined) external _kUTTypeTIFF (from CoreServices)
@@ -1132,8 +1152,6 @@
 (undefined) external _objc_sync_exit (from libobjc)
 (undefined) external _object_getClass (from libobjc)
 (undefined) external _open (from libSystem)
-(undefined) external _pthread_get_stackaddr_np (from libSystem)
-(undefined) external _pthread_get_stacksize_np (from libSystem)
 (undefined) external _pthread_getspecific (from libSystem)
 (undefined) external _pthread_key_create (from libSystem)
 (undefined) external _pthread_kill (from libSystem)
@@ -1158,6 +1176,7 @@
 (undefined) external _round (from libSystem)
 (undefined) external _roundf (from libSystem)
 (undefined) external _scandir$INODE64 (from libSystem)
+(undefined) external _sched_yield (from libSystem)
 (undefined) external _sem_close (from libSystem)
 (undefined) external _sem_open (from libSystem)
 (undefined) external _sem_post (from libSystem)
@@ -1206,6 +1225,7 @@
 (undefined) external _usleep (from libSystem)
 (undefined) external _utime (from libSystem)
 (undefined) external _vm_page_mask (from libSystem)
+(undefined) external _vm_page_size (from libSystem)
 (undefined) external _wc16_mbstowcs (from mbukernel)
 (undefined) external _wc16_towlower (from mbukernel)
 (undefined) external _wc16_towupper (from mbukernel)

@@ -296,6 +296,7 @@
 (undefined) external _OBJC_CLASS_$_NSMutableString (from Foundation)
 (undefined) external _OBJC_CLASS_$_NSMutableURLRequest (from Foundation)
 (undefined) external _OBJC_CLASS_$_NSNotificationCenter (from Foundation)
+(undefined) external _OBJC_CLASS_$_NSNull (from CoreFoundation)
 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
 (undefined) external _OBJC_CLASS_$_NSProcessInfo (from Foundation)

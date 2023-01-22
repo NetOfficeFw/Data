@@ -18,6 +18,7 @@
 	@rpath/mbuinstrument.framework/Versions/A/mbuinstrument (compatibility version 0.0.0, current version 0.0.0)
 	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa (compatibility version 1.0.0, current version 22.0.0)
 	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore (compatibility version 1.2.0, current version 1.11.0)
+	@rpath/mso99.framework/Versions/A/mso99 (compatibility version 0.0.0, current version 0.0.0)
 	@rpath/CocoaUI.framework/Versions/A/CocoaUI (compatibility version 0.0.0, current version 0.0.0)
 	/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 400.9.0)
 	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1252.0.0)
