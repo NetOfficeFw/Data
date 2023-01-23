@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>20G165</string>
+	<string>21G83</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -27,6 +27,8 @@
 			<string>Editor</string>
 			<key>DocumentTypeSection</key>
 			<string>Default</string>
+			<key>IsWopiSupportedFileType</key>
+			<true/>
 			<key>LSHandlerRank</key>
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
@@ -235,6 +237,8 @@
 			<string>Editor</string>
 			<key>DocumentTypeSection</key>
 			<string>Specialty</string>
+			<key>IsWopiSupportedFileType</key>
+			<true/>
 			<key>LSHandlerRank</key>
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
@@ -658,14 +662,23 @@
 	<string>6.0</string>
 	<key>CFBundleLocalizations</key>
 	<array>
+		<string>da</string>
+		<string>el</string>
 		<string>en</string>
+		<string>fi</string>
+		<string>ja</string>
+		<string>ko</string>
+		<string>ru</string>
+		<string>sv</string>
+		<string>zh_CN</string>
+		<string>zh_TW</string>
 	</array>
 	<key>CFBundleName</key>
 	<string>PowerPoint</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>16.55</string>
+	<string>16.66.1</string>
 	<key>CFBundleSignature</key>
 	<string>PPT3</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -686,25 +699,25 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>16.55.21111400</string>
+	<string>16.66.22101101</string>
 	<key>CSFlags</key>
 	<integer>65536</integer>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>13A233</string>
+	<string>14A309</string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>11.3</string>
+	<string>12.3</string>
 	<key>DTSDKBuild</key>
-	<string>20E214</string>
+	<string>21E226</string>
 	<key>DTSDKName</key>
-	<string>macosx11.3</string>
+	<string>macosx12.3</string>
 	<key>DTXcode</key>
-	<string>1300</string>
+	<string>1400</string>
 	<key>DTXcodeBuild</key>
-	<string>13A233</string>
+	<string>14A309</string>
 	<key>IntuneMAMSettings</key>
 	<dict>
 		<key>AppGroupIdentifiers</key>
@@ -731,8 +744,10 @@
 		<key>COMBaseRPC</key>
 		<string>2</string>
 	</dict>
+	<key>MicrosoftBuildIncrement</key>
+	<string>1</string>
 	<key>MicrosoftBuildNumber</key>
-	<string>211114</string>
+	<string>221011</string>
 	<key>NSAccentColorName</key>
 	<string>PowerPointOrange</string>
 	<key>NSAppTransportSecurity</key>
@@ -749,11 +764,15 @@
 	<key>NSContactsUsageDescription</key>
 	<string>Microsoft PowerPoint uses your contacts to make it easier to collaborate with others.</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>© 2021 Microsoft Corporation. All rights reserved.</string>
+	<string>© 2022 Microsoft Corporation. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>PowerPoint needs your permission to use the microphone for recording narration or other audio.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This lets you insert photos from your library.</string>
+	<key>NSPrefersDisplaySafeAreaCompatibilityMode</key>
+	<false/>
 	<key>NSPrincipalClass</key>
 	<string>PPTApplication</string>
 	<key>NSSupportsAutomaticGraphicsSwitching</key>
@@ -761,7 +780,14 @@
 	<key>OSAScriptingDefinition</key>
 	<string>PowerPoint.sdef</string>
 	<key>OfficeLegacyVersion</key>
-	<string>16.55.1114.0</string>
+	<string>16.66.1011.1</string>
+	<key>OneAuthConfiguration</key>
+	<dict>
+		<key>OneAuthApplicationID</key>
+		<string>com.microsoft.Office</string>
+		<key>OneAuthApplicationName</key>
+		<string>Microsoft Office</string>
+	</dict>
 	<key>SyncIntegrationAppProtocolVersion</key>
 	<string>10</string>
 	<key>UTExportedTypeDeclarations</key>

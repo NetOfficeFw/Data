@@ -382,6 +382,7 @@
 (__TEXT,__text) external _STGMEDIUM_UserSize64
 (__TEXT,__text) external _STGMEDIUM_UserUnmarshal
 (__TEXT,__text) external _STGMEDIUM_UserUnmarshal64
+(undefined) external _SecRandomCopyBytes (from Security)
 (__TEXT,__text) external _SetCleanupFlag
 (undefined) external _SetEnhMetaFileBits (from WLMGraphicsDevice)
 (undefined) external _SetEvent (from WLMKernel)
@@ -483,24 +484,27 @@
 (undefined) external std::__1::__basic_string_common<true>::__throw_length_error() const (from libc++)
 (undefined) external std::logic_error::logic_error(char const*) (from libc++)
 (undefined) external std::length_error::~length_error() (from libc++)
+(undefined) external std::__1::random_device::random_device(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) (from libc++)
+(undefined) external std::__1::random_device::~random_device() (from libc++)
+(undefined) external std::__1::random_device::operator()() (from libc++)
 (undefined) external std::__1::mutex::lock() (from libc++)
 (undefined) external std::__1::mutex::unlock() (from libc++)
 (undefined) external std::__1::mutex::~mutex() (from libc++)
 (undefined) external std::nothrow (from libc++)
 (undefined) external std::terminate() (from libc++)
-(__DATA,__const) weak external typeinfo for _EXCEPTION_POINTERS
-(__DATA,__const) weak external typeinfo for CppStructuredException
-(__DATA,__const) external typeinfo for CBaseMInterfacePointerMarshalingStream
+(__DATA_CONST,__const) weak external typeinfo for _EXCEPTION_POINTERS
+(__DATA_CONST,__const) weak external typeinfo for CppStructuredException
+(__DATA_CONST,__const) external typeinfo for CBaseMInterfacePointerMarshalingStream
 (undefined) weak external typeinfo for std::length_error (from libc++)
-(__DATA,__const) external vtable for CHashTable
-(__DATA,__const) external vtable for CExtHashTable
-(__DATA,__const) external vtable for GenericStream
-(__DATA,__const) external vtable for CAbstractStream
-(__DATA,__const) external vtable for CAbstractMarshalingStream
-(__DATA,__const) external vtable for CWriteInterfaceDataMarshalingStream
-(__DATA,__const) external vtable for CBaseMInterfacePointerMarshalingStream
-(__DATA,__const) external vtable for CReadInterfaceDataFromInternalSourceMarshalingStream
-(__DATA,__const) external vtable for CReadInterfaceDataWithSourceAttributesMarshalingStream
+(__DATA_CONST,__const) external vtable for CHashTable
+(__DATA_CONST,__const) external vtable for CExtHashTable
+(__DATA_CONST,__const) external vtable for GenericStream
+(__DATA_CONST,__const) external vtable for CAbstractStream
+(__DATA_CONST,__const) external vtable for CAbstractMarshalingStream
+(__DATA_CONST,__const) external vtable for CWriteInterfaceDataMarshalingStream
+(__DATA_CONST,__const) external vtable for CBaseMInterfacePointerMarshalingStream
+(__DATA_CONST,__const) external vtable for CReadInterfaceDataFromInternalSourceMarshalingStream
+(__DATA_CONST,__const) external vtable for CReadInterfaceDataWithSourceAttributesMarshalingStream
 (undefined) external vtable for __cxxabiv1::__class_type_info (from libc++)
 (undefined) external vtable for __cxxabiv1::__si_class_type_info (from libc++)
 (undefined) external vtable for __cxxabiv1::__vmi_class_type_info (from libc++)
@@ -512,7 +516,7 @@
 (undefined) weak external operator new(unsigned long) (from libc++)
 (undefined) weak external operator new(unsigned long, std::nothrow_t const&) (from libc++)
 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
-(undefined) external ___assert_rtn (from libSystem)
+(undefined) external ____chkstk_darwin (from libSystem)
 (undefined) external ___bzero (from libSystem)
 (undefined) external ___cxa_allocate_exception (from libc++)
 (undefined) external ___cxa_atexit (from libSystem)
@@ -534,6 +538,7 @@
 (undefined) external __wtoi (from WLMKernel)
 (undefined) external __wtol (from WLMKernel)
 (undefined) external _backtrace (from libSystem)
+(undefined) external _calloc (from libSystem)
 (undefined) external _dispatch_once (from libSystem)
 (undefined) external _dispatch_queue_create (from libSystem)
 (undefined) external _dispatch_sync (from libSystem)
@@ -552,6 +557,7 @@
 (undefined) external _kCFAllocatorNull (from CoreFoundation)
 (undefined) external _kCFRunLoopCommonModes (from CoreFoundation)
 (undefined) external _kCFRunLoopDefaultMode (from CoreFoundation)
+(undefined) external _kSecRandomDefault (from Security)
 (undefined) external _lstrcmpW (from WLMKernel)
 (undefined) external _lstrlenW (from mbukernel)
 (undefined) external _malloc (from libSystem)
@@ -560,11 +566,13 @@
 (undefined) external _memmove (from libSystem)
 (undefined) external _memset (from libSystem)
 (undefined) external _objc_alloc (from libobjc)
-(undefined) external _objc_autorelease (from libobjc)
 (undefined) external _objc_autoreleasePoolPop (from libobjc)
 (undefined) external _objc_autoreleasePoolPush (from libobjc)
+(undefined) external _objc_autoreleaseReturnValue (from libobjc)
 (undefined) external _objc_msgSend (from libobjc)
+(undefined) external _objc_release (from libobjc)
 (undefined) external _objc_retain (from libobjc)
+(undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
 (undefined) external _pthread_cond_broadcast (from libSystem)
 (undefined) external _pthread_cond_init (from libSystem)
 (undefined) external _pthread_cond_timedwait (from libSystem)
@@ -576,7 +584,6 @@
 (undefined) external _pthread_mutexattr_destroy (from libSystem)
 (undefined) external _pthread_mutexattr_init (from libSystem)
 (undefined) external _pthread_mutexattr_settype (from libSystem)
-(undefined) external _random (from libSystem)
 (undefined) external _sleep (from libSystem)
 (undefined) external _snprintf (from libSystem)
 (undefined) external _sqlite3_bind_blob (from libsqlite3)

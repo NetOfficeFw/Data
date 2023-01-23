@@ -213,8 +213,8 @@
 (undefined) external _IsValidInterface (from COMBase)
 (undefined) external _LeaveCriticalSection (from WLMKernel)
 (undefined) external _MbuCreatePDFDataFromPICTData (from mbukernel)
-(undefined) external _MbuFIsOperatingSystemAtLeastVersion (from mbukernel)
 (undefined) external _MbuGetPreferredTextEncoding (from mbulocale)
+(undefined) external _MbudirtGetNSURL (from mbukernel)
 (undefined) external _MerpCxaThrowIntercept (from merp)
 (undefined) external _MerpSetHostMetadataValue (from merp)
 (__TEXT,__text) external _MkParseDisplayName
@@ -231,7 +231,6 @@
 (undefined) external _NSRTFDTextDocumentType (from AppKit)
 (undefined) external _NSRTFTextDocumentType (from AppKit)
 (undefined) external _NSStringFromClass (from Foundation)
-(undefined) external _NSTemporaryDirectory (from Foundation)
 (undefined) external _NSURLEffectiveIconKey (from CoreFoundation)
 (undefined) external _NSURLLocalizedNameKey (from CoreFoundation)
 (undefined) external _NSURLLocalizedTypeDescriptionKey (from CoreFoundation)
@@ -494,8 +493,8 @@
 (undefined) external std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) (from libc++)
 (undefined) external std::nothrow (from libc++)
 (undefined) external std::terminate() (from libc++)
-(__DATA,__const) weak external typeinfo for _EXCEPTION_POINTERS
-(__DATA,__const) weak external typeinfo for CppStructuredException
+(__DATA_CONST,__const) weak external typeinfo for _EXCEPTION_POINTERS
+(__DATA_CONST,__const) weak external typeinfo for CppStructuredException
 (undefined) external typeinfo for int (from libc++)
 (undefined) external vtable for CExtHashTable (from COMBase)
 (undefined) external vtable for CWriteInterfaceDataMarshalingStream (from COMBase)
@@ -513,7 +512,7 @@
 (undefined) weak external operator new(unsigned long) (from libc++)
 (undefined) weak external operator new(unsigned long, std::nothrow_t const&) (from libc++)
 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
-(undefined) external ___assert_rtn (from libSystem)
+(undefined) external ____chkstk_darwin (from libSystem)
 (undefined) external ___bzero (from libSystem)
 (undefined) external ___cxa_allocate_exception (from libc++)
 (undefined) external ___cxa_atexit (from libSystem)
@@ -577,6 +576,7 @@
 (undefined) external _memset (from libSystem)
 (undefined) external _memset_pattern16 (from libSystem)
 (undefined) external _objc_alloc (from libobjc)
+(undefined) external _objc_alloc_init (from libobjc)
 (undefined) external _objc_autorelease (from libobjc)
 (undefined) external _objc_autoreleasePoolPop (from libobjc)
 (undefined) external _objc_autoreleasePoolPush (from libobjc)
@@ -586,6 +586,9 @@
 (undefined) external _objc_msgSend (from libobjc)
 (undefined) external _objc_msgSendSuper2 (from libobjc)
 (undefined) external _objc_msgSend_stret (from libobjc)
+(undefined) external _objc_opt_class (from libobjc)
+(undefined) external _objc_opt_isKindOfClass (from libobjc)
+(undefined) external _objc_opt_new (from libobjc)
 (undefined) external _objc_release (from libobjc)
 (undefined) external _objc_retain (from libobjc)
 (undefined) external _objc_setProperty_nonatomic (from libobjc)
