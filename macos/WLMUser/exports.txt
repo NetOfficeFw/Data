@@ -882,7 +882,6 @@
 (undefined) external _objc_unsafeClaimAutoreleasedReturnValue (from libobjc)
 (undefined) external _pthread_self (from libSystem)
 (undefined) external _realloc (from libSystem)
-(undefined) external _round (from libSystem)
 (undefined) external _snprintf (from libSystem)
 (undefined) external _strcmp (from libSystem)
 (undefined) external _strdup (from libSystem)

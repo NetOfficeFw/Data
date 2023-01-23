@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19G2021</string>
+	<string>20G165</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -656,12 +656,16 @@
 	<string>com.microsoft.Powerpoint</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+	</array>
 	<key>CFBundleName</key>
 	<string>PowerPoint</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>16.43</string>
+	<string>16.55</string>
 	<key>CFBundleSignature</key>
 	<string>PPT3</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -682,25 +686,25 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>16.43.20110804</string>
+	<string>16.55.21111400</string>
 	<key>CSFlags</key>
 	<integer>65536</integer>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>12A7209</string>
+	<string>13A233</string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>10.15.6</string>
+	<string>11.3</string>
 	<key>DTSDKBuild</key>
-	<string>19G68</string>
+	<string>20E214</string>
 	<key>DTSDKName</key>
-	<string>macosx10.15</string>
+	<string>macosx11.3</string>
 	<key>DTXcode</key>
-	<string>1200</string>
+	<string>1300</string>
 	<key>DTXcodeBuild</key>
-	<string>12A7209</string>
+	<string>13A233</string>
 	<key>IntuneMAMSettings</key>
 	<dict>
 		<key>AppGroupIdentifiers</key>
@@ -717,7 +721,7 @@
 	<key>LSHasLocalizedDisplayName</key>
 	<true/>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.13</string>
+	<string>10.15</string>
 	<key>MSEnableBootTimeFontPreviewCacheGeneration</key>
 	<true/>
 	<key>MSOfeedbackAppID</key>
@@ -727,10 +731,8 @@
 		<key>COMBaseRPC</key>
 		<string>2</string>
 	</dict>
-	<key>MicrosoftBuildIncrement</key>
-	<string>4</string>
 	<key>MicrosoftBuildNumber</key>
-	<string>201108</string>
+	<string>211114</string>
 	<key>NSAccentColorName</key>
 	<string>PowerPointOrange</string>
 	<key>NSAppTransportSecurity</key>
@@ -747,7 +749,7 @@
 	<key>NSContactsUsageDescription</key>
 	<string>Microsoft PowerPoint uses your contacts to make it easier to collaborate with others.</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>© 2020 Microsoft Corporation. All rights reserved.</string>
+	<string>© 2021 Microsoft Corporation. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSMicrophoneUsageDescription</key>
@@ -759,7 +761,7 @@
 	<key>OSAScriptingDefinition</key>
 	<string>PowerPoint.sdef</string>
 	<key>OfficeLegacyVersion</key>
-	<string>16.43.1108.0</string>
+	<string>16.55.1114.0</string>
 	<key>SyncIntegrationAppProtocolVersion</key>
 	<string>10</string>
 	<key>UTExportedTypeDeclarations</key>

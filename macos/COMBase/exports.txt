@@ -471,7 +471,7 @@
 (__TEXT,__text) external CBaseMInterfacePointerMarshalingStream::SetSize(_ULARGE_INTEGER)
 (undefined) external Mbu::Logging::MbuShouldTrace(unsigned int, Mbu::Logging::Category, Mbu::Logging::Severity) (from mbuinstrument)
 (undefined) external Mbu::Logging::MbuSendStructuredTraceTag(unsigned int, Mbu::Logging::Category, Mbu::Logging::Severity, wchar_t const*, Mbu::Logging::IStructuredTrace const&) (from mbuinstrument)
-(__TEXT,__text) external __ZN4Apex26RegisterHostWaitForRpcProcEPDoFbvE
+(__TEXT,__text) external Apex::RegisterHostWaitForRpcProc(bool (*)() noexcept)
 (__TEXT,__text) external Apex::RegisterProxyFilesWithClassID(tagProxyFileInfo const**, _GUID const*)
 (__TEXT,__text) external Apex::RegisterDllGetClassObjectWithClassIDs(int (*)(_GUID const&, _GUID const&, void**), _GUID const**)
 (__TEXT,__text) external Apex::RegisterDllGetClassObjectWithPreflightProc(int (*)(_GUID const&, _GUID const&, void**), int (*)(_GUID const&))
@@ -533,7 +533,6 @@
 (undefined) external __wcsupr (from WLMKernel)
 (undefined) external __wtoi (from WLMKernel)
 (undefined) external __wtol (from WLMKernel)
-(undefined) external _abort (from libSystem)
 (undefined) external _backtrace (from libSystem)
 (undefined) external _dispatch_once (from libSystem)
 (undefined) external _dispatch_queue_create (from libSystem)

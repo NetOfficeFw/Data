@@ -684,7 +684,6 @@
 (undefined) external ___stack_chk_guard (from libSystem)
 (undefined) external __wcsicmp (from WLMKernel)
 (undefined) external __wcsnicmp (from WLMKernel)
-(undefined) external _abort (from libSystem)
 (undefined) external _access (from libSystem)
 (undefined) external _backtrace (from libSystem)
 (undefined) external _dispatch_once (from libSystem)

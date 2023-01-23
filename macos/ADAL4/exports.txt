@@ -357,6 +357,7 @@
 (__DATA,__const) external _OAuth2_Bearer
 (__DATA,__const) external _OAuth2_Resource_Id
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADALFrameworkUtils
+(__DATA,__objc_data) external _OBJC_CLASS_$_ADALLogger
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADAcquireTokenSilentHandler
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADAggregatedDispatcher
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADAuthenticationContext
@@ -375,7 +376,6 @@
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADDrsDiscoveryRequest
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADEnrollmentGateway
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADHelpers
-(__DATA,__objc_data) external _OBJC_CLASS_$_ADLogger
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADMSIDContext
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADMSIDDataSourceWrapper
 (__DATA,__objc_data) external _OBJC_CLASS_$_ADRequestParameters
@@ -721,6 +721,7 @@
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDTelemetryBaseEvent._propertyMap
 (__DATA,__objc_ivar) external _OBJC_IVAR_$_MSIDURLFormObject._urlForm
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADALFrameworkUtils
+(__DATA,__objc_data) external _OBJC_METACLASS_$_ADALLogger
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADAcquireTokenSilentHandler
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADAggregatedDispatcher
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADAuthenticationContext
@@ -739,7 +740,6 @@
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADDrsDiscoveryRequest
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADEnrollmentGateway
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADHelpers
-(__DATA,__objc_data) external _OBJC_METACLASS_$_ADLogger
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADMSIDContext
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADMSIDDataSourceWrapper
 (__DATA,__objc_data) external _OBJC_METACLASS_$_ADRequestParameters
@@ -922,6 +922,7 @@
 (undefined) external __Unwind_Resume (from libSystem)
 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
 (undefined) external ___NSArray0__ (from CoreFoundation)
+(undefined) external ___NSDictionary0__ (from CoreFoundation)
 (undefined) external ___assert_rtn (from libSystem)
 (undefined) external ___gss_krb5_mechanism_oid_desc (from GSS)
 (undefined) external ___objc_personality_v0 (from libobjc)
@@ -1023,7 +1024,6 @@
 (undefined) external _pthread_threadid_np (from libSystem)
 (__TEXT,__const) external _queryStringSeparator
 (undefined) external _rewind (from libSystem)
-(undefined) external _round (from libSystem)
 (__DATA,__common) external _s_brokerAppVersion
 (__DATA,__common) external _s_brokerProtocolVersion
 (undefined) external _sscanf (from libSystem)
